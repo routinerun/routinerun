@@ -8,9 +8,9 @@ Everything the app does is in Free. What Free limits is how many routines you ke
 - **Runs without a count.** Start a routine as often as you like. A run is not a routine and is never counted.
 - **Your history, all of it.** Nothing about a run is hidden or deleted because of a plan.
 
-## While the beta runs
+## If you were in the beta
 
-Everything is free in the beta, with no limit. Pro arrives with the launch, and the limit with it. Purchases made in TestFlight are free and do not carry over to the App Store.
+Routine Run came out on the App Store on 25 October 2026, and the limit came with it. A build from the TestFlight beta still has no limit, and anything bought there is free and does not carry over to the App Store.
 
 ## If you pass 3 later
 

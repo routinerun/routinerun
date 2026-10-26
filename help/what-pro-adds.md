@@ -10,11 +10,11 @@ More routines. That is the whole difference: Pro holds as many as you like, and 
 | **Pro, yearly** | $49.99 a year, which is $4.17 a month |
 | **Lifetime** | $119.99 once, in the launch window only |
 
-Prices are in US dollars. The App Store shows yours in your own currency. Pro arrives with the launch; in the beta everything is free.
+Prices are in US dollars. The App Store shows yours in your own currency.
 
 ## The launch window
 
-For the first eight weeks after the app is released, two things are on offer and then come off by the calendar:
+From the release on 25 October 2026 until 1 December 2026, two things are on offer and then come off by the calendar:
 
 - **The first year of Pro is $34.99** instead of $49.99. It renews at $49.99 after that.
 - **Lifetime is $119.99**, paid once. When the window closes it stops being sold, and everybody who bought it keeps it for as long as the app exists.

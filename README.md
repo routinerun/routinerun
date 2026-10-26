@@ -2,8 +2,8 @@
 
 An iPhone and Apple Watch app that walks you through a routine one step at a time.
 Describe what you do in a sentence and it writes the routine, then puts the next step on
-your Lock Screen and your wrist. No account. **[routinerun.com](https://routinerun.com)** ·
-in public beta: [join on TestFlight](https://testflight.apple.com/join/5wyDu7sA)
+your Lock Screen and your wrist. No account. **[On the App Store](https://apps.apple.com/app/id6812338054)** ·
+[routinerun.com](https://routinerun.com) · [LinkedIn](https://www.linkedin.com/company/routinerun/) · [Facebook](https://www.facebook.com/routinerun)
 
 ## See it
 
