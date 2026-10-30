@@ -4,7 +4,8 @@
   "author": {
     "name": "Routine Run"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://routinerun.com",
+  "privacyPolicyUrl": "https://routinerun.com/privacy",
   "license": "MIT"
 }
