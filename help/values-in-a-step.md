@@ -2,7 +2,7 @@
 
 A step can name a value it does not know yet. Write "Go to window" and add the value **window** after it, and the step reads "Go to window …" until somebody says which window. Once the run is told 7, it reads "Go to window 7" everywhere: on the run's page, the Lock Screen, the Dynamic Island, the watch and the widgets.
 
-The routine is written once. Each run fills in its own value.
+The routine keeps one wording. Each run fills in its own value.
 
 ## Putting a value in
 

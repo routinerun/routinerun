@@ -19,6 +19,8 @@ they describe; a page that is wrong is a bug, and an issue is the way to say so.
 | [Not now and Pause](pause-later-last.md) | How do I put something off without losing it? |
 | [Again and rounds](again-and-rounds.md) | How do I go round a step again, or several times? |
 | [Values in a step's name](values-in-a-step.md) | How does a step say a number it only learns on the day? |
+| [Sharing a link or a number into a run](share-into-it.md) | How do I turn a shared link or phone number into a button? |
+| [Dates](dates.md) | How do I count things from a trip, so moving it moves everything? |
 | [What the band counts](what-the-band-counts.md) | What is the orange number at the top of a run? |
 
 ## Triggers and check-ins

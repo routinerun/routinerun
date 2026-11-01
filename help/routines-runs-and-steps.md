@@ -1,6 +1,6 @@
 # Routines, runs and steps
 
-A routine is the list, written once. A run is one time through it. Steps are the items on the list. A run reads its steps from its routine, and anything you change during a run belongs to that run until you say otherwise.
+A routine is the list you keep. A run is one time through it. Steps are the items on the list. A run reads its steps from its routine, and anything you change during a run belongs to that run until you say otherwise.
 
 ## Three shapes
 

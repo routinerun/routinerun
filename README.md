@@ -1,8 +1,12 @@
 # Routine Run
 
-An iPhone and Apple Watch app that walks you through a routine one step at a time.
-Describe what you do in a sentence and it writes the routine, then puts the next step on
-your Lock Screen and your wrist. No account. **[On the App Store](https://apps.apple.com/app/id6812338054)** ·
+**Say what you do. Run it. Keep what works.** Your head is for decisions, not for
+remembering steps.
+
+An iPhone and Apple Watch app that walks you through a routine one step at a time. Start
+from a few words, a list you paste, one of the starters, or with no routine at all: the next
+step is on your Lock Screen and your wrist, and what you change can be kept for next time.
+No account. **[On the App Store](https://apps.apple.com/app/id6812338054)** ·
 [routinerun.com](https://routinerun.com) · [LinkedIn](https://www.linkedin.com/company/routinerun/) · [Facebook](https://www.facebook.com/routinerun)
 
 ## See it
@@ -19,7 +23,7 @@ Filmed on a real phone and watch. The videos, and what each needs: [scenarios](s
 |---|---|---|---|---|
 | <img src="media/screens/describe.webp" width="150" alt="Ask an AI to write it: one sentence, written by Apple's cloud, with Start it and Keep it"> | <img src="media/screens/lock-screen.webp" width="150" alt="The runbook's step on the Lock Screen, with Next on the card"> | <img src="media/screens/in-hand.webp" width="150" alt="In hand: a step whose time passed and a routine Claude suggested, with Drop, Save and Run"> | <img src="media/screens/connections.webp" width="150" alt="Settings, Connections: Claude, PagerDuty and Home Assistant"> | <img src="media/screens/watch.webp" width="150" alt="The step and its controls on Apple Watch"> |
 
-**Say what's next. It's already running.** Describe what you do in one sentence. Apple's cloud model on iOS 27, the phone's own model, or the assistant you already use writes the routine, and a run of it starts at once, its first step on the Lock Screen. If it worked, **Keep it as a routine**; if not, it leaves nothing behind. [How it works](https://routinerun.com/help/describe-it)
+**Say it, paste it, or just start.** Describe what you do in a sentence, or paste a list. Apple's cloud model on iOS 27, the phone's own model, or the assistant you already use writes the routine, and a run of it starts at once, its first step on the Lock Screen. If it worked, **Keep it as a routine**; if not, it leaves nothing behind. [How it works](https://routinerun.com/help/describe-it)
 
 **It starts by itself. From anything.** A routine can start at a time, when you arrive somewhere, when a Focus comes on, from a calendar event or a reminder going off, from another app's notification, from a webhook or the API, or from an NFC tag — in the background, with step one already on the Lock Screen. [How it works](https://routinerun.com/help/connect-an-app)
 

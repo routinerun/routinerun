@@ -28,13 +28,13 @@ Then:
 
 The routine itself, packed into the address. It is not a pointer to a copy somewhere else. So it works with no account and no server, and it keeps working for as long as the app can read it.
 
-It also means anyone who has the link can read the routine, the same as any message. It carries what you wrote in the routine, the date you exported it, and the kind of device, such as iPhone. Nothing else identifies you.
+It also means anyone who has the link can read the routine, the same as any message. It carries what you wrote in the routine and nothing that identifies you.
 
-A routine carrying many messages, forms or entries is too long for a link. The page then offers the file alone.
+A link carries the steps, what they say and do, their buttons and times, and when the routine offers to start. Its messages, forms, entries and the links to its shortcuts travel in the file. A routine too long for a link gets the file alone.
 
 ## Opening one
 
-Tap the link or the file on an iPhone with Routine Run. The **Import** page shows what came, what it would reach, and which shortcuts you will need. Where you already have that routine from an earlier copy, choose **Replace mine** or **Keep both**. A different routine with the same name gets a new name instead. Then **Add it** (or **Replace it**). Nothing is written before that.
+Tap the link or the file on an iPhone with Routine Run. The **Import** page shows what came, what it would reach, and which shortcuts you will need. A link always arrives as a routine of its own. Where a file is a routine you already have from an earlier copy, choose **Replace mine** or **Keep both**. A different routine with the same name gets a new name instead. Then **Add it** (or **Replace it**). Nothing is written before that.
 
 On a Mac or an Android phone the link opens a web page that says to open it on the iPhone.
 

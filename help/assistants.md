@@ -73,6 +73,18 @@ A new routine or a change arrives as a notification, and waits under **Suggested
 
 An assistant does not see a run's notes and values unless you turn on **Read notes and values** on its page in **Settings › Connections**.
 
+## Webhooks on runs it starts
+
+A webhook an assistant writes does nothing until you open it on the step and press **Allow**. On a run it starts for you, a button whose webhook goes somewhere a rule can name — https, an address written out in full — also offers **Allow from Claude from now on**. Press it once, and the buttons on runs Claude starts that send the same request arrive allowed: the same address to the letter, the same method, and no secret but the ones it carried when you allowed it.
+
+A button can also say **Next presses it too**, on its page under **When it runs**. Pressing **Next** on that step then presses the button as well, once: if you pressed it already, Next leaves it alone. That is for the button at the end of a run that asks for the next one, so finishing the step is enough. Only your own Next presses it, from the app, the Lock Screen, a notification, the watch or Siri. A timer running out, the step's time passing, or the assistant moving the run on does not, and an allowed rule covers such a button exactly as it covers any other.
+
+Everything else still waits for you: a new address, a new secret, another method, a webhook that would go the moment the step is reached rather than when you press it, and anything another assistant or connection writes. The rule is for runs it starts, never for routines you keep, so keeping one of those runs as a routine asks once more.
+
+The rules are listed under **Webhooks it may send** on the assistant's page in **Settings › Connections**. Swipe one away to take it back: its buttons ask again, on the runs going now too. Removing the assistant takes all of them with it.
+
+A script that starts runs through an **Any system** address gets the same answer, under its own name. See [Connections](connections.md).
+
 To skip the review, turn on **Save without asking** on the assistant's page in **Settings › Connections**. New routines are then saved as they arrive and can be deleted like any other; a change keeps the routine as it was in **Earlier versions**. Starting, pausing, stopping and moving runs never ask either way.
 
 ## When it goes wrong

@@ -1,0 +1,53 @@
+{
+  "catalogue": 1,
+  "licence": "CC-BY-4.0",
+  "depends_on": [],
+  "description": "Started by the Apple Pay connection for a payment over the sum you set, and named after the merchant. On its own it is a list you run after anything you are not sure of.",
+  "first_shelf": false,
+  "glyph": "creditcard",
+  "group": "home",
+  "group_line": "The errands a week repeats, and nobody enjoys holding.",
+  "group_name": "Home and everyday",
+  "link_web": "https://routinerun.com/r?v=1&d=7ZdLb-M2EID_CqEeepECybJkx5dCDwsN2u4GbbALdJEDLY0tIhIpkCM7wiL_vUNZVpNddI9BDxYMmyI5w-E3L_irA8-d0ghVgs7GWfiL2PNvvUX04Pub8fO34857Cq1a2qVVj0KC7uVNSROus1e65fgJtBFKOpvAdaRCMM7my6PrdA0vL2MNpdLV5eWsxtl8dXjTqJP5o29QdA3cSYNcjkKoe3AdrstaHMF8rkHmyorseWNooQLkoiGT_kJuDWS7gWENLOlIDbvnAyuVlFAi2cXISsZZx4cWJDJ1BD3uNX3LBtUzA-gyLismeUua-B6nDS3Q8VziDfsomUDD1Mn-MmFIXSMMjuJEY5LhcsBayMM4zTUwgkGn0EDtb4hWrdTThEBUZHu8DdIgWySeT4-3tF-5_fIvTxiEJCbMx_1-vnlDPBK611HgkCmJWjXGkjQ1gUwOXMgLvHEm5eXTm4kcSlHBm6kP8IxvJu6_UXLf42iCnXohHxMnMj-roXyyYHuLyQCZ2nFNa8TCmvQySf_-yuJZLUJnUVAEjD6asMxuvdtbeC4rKUBGX8i-3RFi8qZ929GtCOo4Lrkm16mTy3ZAnoZ_3QAE7CxBHrP-sk4YyUeLdVD4RewFKeGPgiz2buMs8uJoGRVpFidBtPiOvJI58Kq5RO5ru3l1nOJ22quhFbIyM7JvwaDAxjL8zI2NKAqYX5wX979onH1WMVQVH1x2qgUFub27Buy1ZCc6S51sXKoO5BjLIyX1bOcMCoIoJKEA1gkoYeawLKLbuFhnXrGKUy9appGXroutt8ziMNwGcRak23fh8BtAZ0FQphog82loffwDJgnraoXKRgFt5jYlbe2Z_U1p6TKjpnzdq17OReKS1z-bMeVZw8mgmcmq2C7DIlt5hb_NvChPQy9N8tDL03xd5EGWxmn6fkzOXi5BdPgDGA9jHiAclB7sjQ8KDKMbU8aQ3ym6NNv11cEWupMWiDZILLEjb3pgYj9WrCd7HsXITGId5OlikcTeKvRXXrQNEm9t48RfLMPED_Jt5t--C4nCxrsgAI9T5UihUfLwoLa8rP_s5azQDO1ONR_O9anUUAm05YGMRH64yyc7qPngr_BMW34K_dTPVnZdi8NhPPjL48vcoqYSdW1S1yZ1bVLXJnVtUtcm9b9pUvaYsoaWTwJUxjSWPV5ekc__xEjvZQRt17xaeK3wHw",
+  "name": "Check a purchase",
+  "release": 8,
+  "shortcuts": [],
+  "slug": "check-a-purchase",
+  "starts_by_itself": false,
+  "starts_by_itself_line": null,
+  "steps": [
+    {
+      "asks_first": false,
+      "detail": "If not, call the number on the back of the card now, before anything else on this list.",
+      "does_itself": false,
+      "does_itself_line": null,
+      "duration_seconds": null,
+      "title": "Was it you?"
+    },
+    {
+      "asks_first": false,
+      "detail": "Decided today, while the return window is open and the box is still in one piece.",
+      "does_itself": false,
+      "does_itself_line": null,
+      "duration_seconds": null,
+      "title": "Keep it or send it back"
+    },
+    {
+      "asks_first": false,
+      "detail": "A photo of it as a note on this run, so it is found by the merchant's name later.",
+      "does_itself": false,
+      "does_itself_line": null,
+      "duration_seconds": null,
+      "title": "Keep the receipt"
+    },
+    {
+      "asks_first": false,
+      "detail": "The category it goes under in your budget, written as a value if you keep one.",
+      "does_itself": false,
+      "does_itself_line": null,
+      "duration_seconds": null,
+      "title": "File it"
+    }
+  ],
+  "tint": "#30B0C7"
+}

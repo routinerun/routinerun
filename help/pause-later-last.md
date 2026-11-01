@@ -37,6 +37,20 @@ Pick **In an hour**, **This evening**, **Tomorrow**, **Next week**, or your own 
 
 A time brings it back then, or the next time the app is awake. A place needs **Know when I am at one** (Data → More → Set up → Places) and Always access to your location, and is noticed once you have stayed a while. See [Place and Focus](place-and-focus.md).
 
+## Your own answers
+
+A wait you make again and again — a follow-up in two working days at ten, back sooner if the reply arrives — can be saved. Set it up in **Come back to it…** and press **Save as preset…**: name it, and choose whether it is offered on this step, on this routine, or everywhere. It is then the first answer under **Not now…**, one tap, and the first button in **Come back to it…**.
+
+A follow-up puts aside only the step it is pressed on: the letter goes to the end and the rest of the run goes on, and the step comes back at its moment or as soon as the reply arrives. Choose **Puts down: The whole run** in the preset when nothing after that step can happen without the answer. "The reply arrives" means a notification the bridge hands over, a shortcut's Handle Event or a connection sending an event, with the word in its app, name or title; the text inside a message is not read.
+
+A step can carry its own follow-up, usually written by an assistant. Both kinds are under **Data → More → Set up → Wait presets**, where you change or remove them. On the watch, a step's own follow-up is the first answer in **Come back to it**.
+
+## When a time has passed
+
+A step with a time to be done by that has gone says **Overdue** on the run's page. Tap that line for **Time passed**: **Do it now**, **Change the time…** or **Take the time off**. Where several steps of the run are late, **From tomorrow**, **From next week** or **Choose when the first is due…** moves all of them and keeps the gaps between them. **Count them from a date…** counts them from a date instead, so the next slip is one date moved. See [Dates](dates.md).
+
+In **In hand → Time passed**, swipe a row for **Change the time…** and **Take the time off**. A run with several late steps has one row of its own with **Move all…**. All of these change this run only, and the bar that comes up undoes them.
+
 ## iOS 26
 
 All of this works on iOS 26.1. There, a Lock Screen button pressed after the system closed the app starts it first, which can take a few seconds.

@@ -10,8 +10,8 @@ A routine's page, the ellipsis, **Publish for a code**. Nothing is published unt
 
 Only the steps, as somebody at a counter would walk them:
 
-- **Goes:** the routine's name and description, and each step's name, description, duration, mark and the time of day it is set to.
-- **Stays on your phone:** actions and web addresses, triggers, values, notes, places, tags, any calendar date a step is set to, and every step you turned off.
+- **Goes:** the routine's name and description, and each step's name, description, duration, mark and the time of day it is set to. With them go the buttons a visitor can press: a web page to open (a payment page, a form), a number to call or text, an email address, words to copy. On the App Clip they are buttons on the step, and in the app for somebody who has it; a web page opens over the steps in both, so paying does not leave the walk. On the page for a browser they are links.
+- **Stays on your phone:** every other action (shortcuts, webhooks, Home, Health, alarms), any address with a value in it, triggers, values, notes, places, tags, any calendar date a step is set to, and every step you turned off.
 
 So publish a routine you would put on a sign.
 
@@ -25,6 +25,7 @@ You need to be signed in to iCloud on the phone. iCloud sync does not need to be
 
 It looks like `routinerun.com/c/ab23cd45`: eight letters and digits, with no 0, 1, i, l or o so it can be read off a sign. The page shows it as a QR, with **Share the link** and **Copy the link**. The link is short enough for any QR, an NFC tag or an App Clip Code.
 
+- **Style the code…** chooses how the QR looks: its colour (the routine's by default; a pale one is darkened until a camera can read it), the routine's mark, two initials or a logo from Photos in the middle, square or round dots, and a line under it. Nothing is uploaded: the mark and the initials are drawn on the phone, and a logo is kept on this phone only, never synced or published. The code on screen, the poster and the PDF all use it.
 - **Print a poster** prints a page with the QR and every step written out, for visitors whose phone the code does not open. Letter in the US and Canada, A4 elsewhere.
 - **Write to an NFC tag** puts the link on a sticker. An iPhone held to it opens the same steps, with no app running. NTAG213 stickers hold it many times over.
 
@@ -40,6 +41,7 @@ Put them on your site so the page opens at an address like `https://your-site/rr
 ## Update and Unpublish
 
 - **Update** sends the routine as it is now, under the same code. Printed copies keep working.
+- **Point this code at another routine…** keeps the code and changes what it opens: the summer menu for the winter one, this year's documents for last year's. Every poster, sticker and tag with the code opens the new routine from the next scan. Only routines without a code of their own are offered, and the old routine can be published again under a new code.
 - **Unpublish** takes it down for everybody, and asks first, because every printed copy stops working. Publishing again makes a new code.
 
 The code is remembered on the phone you published from. If you delete the app or lose that phone, write to support@routinerun.com with the code and we will take it down.

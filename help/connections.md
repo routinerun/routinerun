@@ -19,10 +19,19 @@ The first connection registers this phone with the relay, once. That needs a rea
 
 - Hand over an event, the way an automation does with **Handle Event**: your Sources decide which routine it starts.
 - Start a routine, by its name or its id.
+- Start a run of steps it writes itself, the way an assistant does.
 - Move a run on, add a note to it, or set a value on it.
 - Add a step to a list that stays open, such as **To read**.
 
 Every request is answered with a command id at once. When the phone has done it, the relay can tell you what became of it: done, refused, too old, the run had moved, or not found. The [developer page](https://routinerun.com/developers) has the requests.
+
+## Webhooks on the runs it writes
+
+A webhook in a run a script writes arrives switched off, the same as one an assistant writes. Open it on the step and press **Allow** for this run. A button going somewhere a rule can name, https and an address written out in full, also offers **Allow from** and the connection's name **from now on**. Press it once and the buttons on runs this address starts that send the same request arrive allowed: the same address to the letter, the same method, and no secret but the ones it carried. Everything else still asks, and so does a webhook set to go the moment its step is reached.
+
+The rules are listed under **Webhooks it may send** on the connection's page. Swipe one away to take it back, on the runs going now too. Give the script that writes runs an address of its own, not one Home Assistant or another service also holds: a rule covers everything that has the secret. If the secret gets out, **Remove** the connection. Its rules go with it.
+
+PagerDuty connections don't offer this. What they send is a page, not a run.
 
 ## Connecting an assistant
 
@@ -45,7 +54,7 @@ A start that waits more than an hour is not done, and a **Next** that waits more
 
 ## What our relay keeps
 
-The address, the name you gave it, when it was last used, a token Apple gives us for sending to this phone, and a fingerprint of the secret, not the secret itself. What the other system sends is passed to your phone and not kept; Apple holds it until the phone is reachable, a day at most. The phone's answer — one word — is kept for about an hour so the sender can read it.
+The address, the name you gave it, when it was last used, a token Apple gives us for sending to this phone, and a fingerprint of the secret, not the secret itself. What the other system sends is passed to your phone and not kept; Apple holds it until the phone is reachable, a day at most. A command too long for one notification waits on the relay sealed under a key that goes only to your phone, until the phone takes it or the command expires: an hour for a run, a day for anything else. The phone's answer — one word — is kept for about an hour so the sender can read it.
 
 **Remove** on a connection's page stops its address at once, and removing the last one makes the relay forget this phone. **Turn all off** in the **…** menu does both in one go. Neither can be undone: a new connection gets a new address.
 

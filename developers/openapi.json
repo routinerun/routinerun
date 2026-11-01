@@ -25,24 +25,37 @@
     "/events": {
       "post": {
         "summary": "Hand over an event",
-        "description": "What Handle Event does in Shortcuts: the person's Sources decide which routine starts.",
+        "description": "What Handle Event does in Shortcuts: the person's Sources decide which routine starts. A generic webhook's own words are read too: with no title, the first line of body, message, msg, text or content is the title and the rest the body. A body that is not JSON, sent without a JSON content type, is those words. Up to 64 KB is read; what reaches the phone is cut to fit a push.",
         "requestBody": {
           "required": true,
           "content": {
             "application/json": {
               "schema": {
                 "type": "object",
-                "required": [
-                  "title"
-                ],
                 "properties": {
                   "title": {
                     "type": "string",
-                    "description": "What happened."
+                    "description": "What happened. If left out, the first line of the words below."
                   },
                   "body": {
                     "type": "string",
                     "description": "More of it."
+                  },
+                  "message": {
+                    "type": "string",
+                    "description": "Read as body when body is not given."
+                  },
+                  "msg": {
+                    "type": "string",
+                    "description": "Read as body when body is not given."
+                  },
+                  "text": {
+                    "type": "string",
+                    "description": "Read as body when body is not given."
+                  },
+                  "content": {
+                    "type": "string",
+                    "description": "Read as body when body is not given."
                   },
                   "source": {
                     "type": "string",
@@ -63,6 +76,12 @@
                     }
                   }
                 }
+              }
+            },
+            "text/plain": {
+              "schema": {
+                "type": "string",
+                "description": "The words: the first line is the title."
               }
             }
           }
@@ -480,6 +499,352 @@
             "$ref": "#/components/responses/Error"
           }
         }
+      }
+    },
+    "/alertmanager": {
+      "post": {
+        "summary": "Take an Alertmanager notification",
+        "description": "Alertmanager's webhook (version 4), as sent, with the secret in http_config's authorization. One firing group becomes one event: the title is [FIRING:n] and the alert name, the body the summary and description annotations, the event's id the group's labels, and a routine annotation or label names the routine to start. A notification of a cleared group is answered 202 with sent false and not passed on. Up to 64 KB.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "status",
+                  "alerts"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Handed to Apple for the phone, or, for a cleared group, heard and not sent (sent: false).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Accepted"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/Error"
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "409": {
+            "$ref": "#/components/responses/Error"
+          },
+          "410": {
+            "$ref": "#/components/responses/Error"
+          },
+          "413": {
+            "$ref": "#/components/responses/Error"
+          },
+          "429": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/grafana": {
+      "post": {
+        "summary": "Take a Grafana alert notification",
+        "description": "Grafana's webhook contact point, as sent, with the secret as its Authorization credentials. Read as Alertmanager's, with Grafana's own title and, where there are no annotations, its message.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "status",
+                  "alerts"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Handed to Apple for the phone, or, for a cleared group, heard and not sent (sent: false).",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Accepted"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/Error"
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "409": {
+            "$ref": "#/components/responses/Error"
+          },
+          "410": {
+            "$ref": "#/components/responses/Error"
+          },
+          "413": {
+            "$ref": "#/components/responses/Error"
+          },
+          "429": {
+            "$ref": "#/components/responses/Error"
+          }
+        }
+      }
+    },
+    "/v2/enqueue": {
+      "post": {
+        "summary": "Take an Events API v2 event",
+        "description": "PagerDuty's Events API v2 format, for any tool that lets you change its address: Alertmanager, Grafana, Uptime Kuma, Zabbix. The secret goes in routing_key, or in an Authorization header. A trigger becomes an event: payload.summary is the title, custom_details the body, dedup_key the event's id, and custom_details.routine names the routine to start. acknowledge and resolve are answered and not passed on.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "event_action"
+                ],
+                "properties": {
+                  "routing_key": {
+                    "type": "string",
+                    "description": "The connection's secret, rr_\u2026"
+                  },
+                  "event_action": {
+                    "type": "string",
+                    "enum": [
+                      "trigger",
+                      "acknowledge",
+                      "resolve"
+                    ]
+                  },
+                  "dedup_key": {
+                    "type": "string"
+                  },
+                  "payload": {
+                    "type": "object",
+                    "properties": {
+                      "summary": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "severity": {
+                        "type": "string"
+                      },
+                      "component": {
+                        "type": "string"
+                      },
+                      "group": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "custom_details": {}
+                    }
+                  },
+                  "client": {
+                    "type": "string"
+                  },
+                  "client_url": {
+                    "type": "string"
+                  },
+                  "links": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Answered as the Events API answers; command is there when something was sent to the phone.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    },
+                    "dedup_key": {
+                      "type": "string"
+                    },
+                    "command": {
+                      "type": "string",
+                      "format": "uuid"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/Error"
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "409": {
+            "$ref": "#/components/responses/Error"
+          },
+          "410": {
+            "$ref": "#/components/responses/Error"
+          },
+          "413": {
+            "$ref": "#/components/responses/Error"
+          },
+          "429": {
+            "$ref": "#/components/responses/Error"
+          }
+        },
+        "security": [
+          {
+            "secret": []
+          },
+          {}
+        ]
+      }
+    },
+    "/enqueue": {
+      "post": {
+        "summary": "Take an Events API v2 event (the same, without /v2)",
+        "description": "PagerDuty's Events API v2 format, for any tool that lets you change its address: Alertmanager, Grafana, Uptime Kuma, Zabbix. The secret goes in routing_key, or in an Authorization header. A trigger becomes an event: payload.summary is the title, custom_details the body, dedup_key the event's id, and custom_details.routine names the routine to start. acknowledge and resolve are answered and not passed on.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "event_action"
+                ],
+                "properties": {
+                  "routing_key": {
+                    "type": "string",
+                    "description": "The connection's secret, rr_\u2026"
+                  },
+                  "event_action": {
+                    "type": "string",
+                    "enum": [
+                      "trigger",
+                      "acknowledge",
+                      "resolve"
+                    ]
+                  },
+                  "dedup_key": {
+                    "type": "string"
+                  },
+                  "payload": {
+                    "type": "object",
+                    "properties": {
+                      "summary": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "severity": {
+                        "type": "string"
+                      },
+                      "component": {
+                        "type": "string"
+                      },
+                      "group": {
+                        "type": "string"
+                      },
+                      "class": {
+                        "type": "string"
+                      },
+                      "custom_details": {}
+                    }
+                  },
+                  "client": {
+                    "type": "string"
+                  },
+                  "client_url": {
+                    "type": "string"
+                  },
+                  "links": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Answered as the Events API answers; command is there when something was sent to the phone.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    },
+                    "dedup_key": {
+                      "type": "string"
+                    },
+                    "command": {
+                      "type": "string",
+                      "format": "uuid"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/Error"
+          },
+          "401": {
+            "$ref": "#/components/responses/Error"
+          },
+          "409": {
+            "$ref": "#/components/responses/Error"
+          },
+          "410": {
+            "$ref": "#/components/responses/Error"
+          },
+          "413": {
+            "$ref": "#/components/responses/Error"
+          },
+          "429": {
+            "$ref": "#/components/responses/Error"
+          }
+        },
+        "security": [
+          {
+            "secret": []
+          },
+          {}
+        ]
       }
     },
     "/commands/{command}": {

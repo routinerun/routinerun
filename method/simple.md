@@ -2,7 +2,7 @@
 
 [The full method](method.md)
 
-**Your head is for decisions, not for remembering the order of steps.**
+**Your head is for decisions, not for remembering steps.**
 
 You do the same things again and again: a morning, leaving the house, closing a deal, a
 Friday review. Routine Run holds how you do them, walks you through them, and gets a little
@@ -10,7 +10,7 @@ better every time you do.
 
 ## Five words
 
-- **Routine**: how you do something. Written once, used many times. *"Morning."*
+- **Routine**: how you do something. Used many times, a little better each time. *"Morning."*
 - **Run**: one time you do it. *"This morning's morning."* One routine can have many runs,
   even several at once.
 - **Step**: one thing to do next. Not a box to tick, just the next thing.

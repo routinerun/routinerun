@@ -1,6 +1,6 @@
 # The Routine Run method
 
-**Your head is for decisions, not for remembering the order of steps.**
+**Your head is for decisions, not for remembering steps.**
 
 *Start with what you can do now. Then keep what should happen again.*
 

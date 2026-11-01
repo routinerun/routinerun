@@ -1,0 +1,45 @@
+{
+  "id": "applepay",
+  "app": "Apple Pay",
+  "kind": "money",
+  "listensTo": "payments",
+  "shortcut": "19f24923cef34942a2a9b6d82f20d9d3",
+  "summary": "A payment of 100 or more with Apple Pay starts Check a purchase, named after the merchant. Smaller ones pass.",
+  "rules": [
+    {
+      "when": {
+        "atLeast": 100
+      },
+      "in": "body",
+      "does": {
+        "start": "6E1B1C2A-0000-4000-D000-000000000313"
+      }
+    },
+    {
+      "when": "anything",
+      "does": "ignore"
+    }
+  ],
+  "starter": "6E1B1C2A-0000-4000-D000-000000000313",
+  "samples": [
+    {
+      "title": "Apple Store",
+      "body": "$1,299.00",
+      "expect": "started",
+      "routine": "Check a purchase"
+    },
+    {
+      "title": "MediaMarkt",
+      "body": "1.049,00 €",
+      "expect": "started",
+      "routine": "Check a purchase"
+    },
+    {
+      "title": "Blue Bottle Coffee",
+      "body": "$6.50",
+      "expect": "suppressed"
+    }
+  ],
+  "inApp": [],
+  "verified": false
+}
