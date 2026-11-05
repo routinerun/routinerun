@@ -14,7 +14,7 @@ The bridge automation is off or asks before running. In Shortcuts → Automation
 and set it to run immediately. **Cancel** takes the question back.
 
 **The answer came back but shows an orange sentence.**
-The model wrote something the app cannot read. Tap **Copy this for your assistant**, paste
+The model wrote something the app cannot read. Tap **Try again**, and the app sends the model what was wrong and what it wrote. If the answer came from a chat, tap **Copy this for your assistant**, paste
 it back to the assistant, and paste its new answer.
 
 **On this phone is not in the list.**

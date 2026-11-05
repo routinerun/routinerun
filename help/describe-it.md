@@ -47,8 +47,9 @@ The answer is never shown as code. You see what it made:
   the answers**.
 - **Triggers:** each trigger it wrote, to add one by one.
 
-If the answer cannot be read, the page says why in a sentence, with **Copy this for your
-assistant** so you can paste the reason back to it.
+If the answer cannot be read, the page says why in a sentence. **Try again** sends the model
+the reason and what it wrote. **Copy this for your assistant** is for an answer from a chat,
+so you can paste the reason back to it.
 
 ## What an assistant can and cannot put on a step
 
