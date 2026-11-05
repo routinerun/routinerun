@@ -10,9 +10,9 @@ Export turns one or more routines into a file, and usually a link too, that anyb
 
 ## The Export page
 
-It shows what will travel before anything is sent:
+It opens on what is going and the ways to send it. **What goes with it**, a row under them, opens everything else, and an orange line says when a shortcut still needs a word from you:
 
-- **Travels with it:** the steps, and the notifications, forms, statuses and notes the routines use.
+- **What travels:** the steps, and the notifications, forms, statuses and notes the routines use.
 - **Entries it names:** an entry is yours, so by default it stays. For each, choose **Leave it here**, **Send it empty**, or **Send it as it is**.
 - **Shortcuts it calls:** iOS lets nothing install a shortcut for somebody. Give each one an iCloud link, or say what it should do, so the other person can make it.
 - **How it has been started:** automations live in Shortcuts and cannot travel, so this is the list of what to set up again.

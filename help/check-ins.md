@@ -20,10 +20,7 @@ Press **Check in**.
 
 ## Answering
 
-Press an answer on the card, or in In hand. **Not yet** is always there too — a button on the card, and in In hand behind the ⋯ beside the question:
-
-- On the card, it asks again at its next time.
-- In In hand, it hides until then, and an interval starts counting again.
+Press an answer on the card, or in In hand. **Not yet** is always there too — a button on the card, and in In hand behind the ⋯ beside the question. Wherever you press it, the question hides and comes back after the whole interval, counted from that press. With **Only between**, it comes back at the first time inside those hours after that.
 
 ![A step's check-in waiting in In hand, with its answers underneath.](check-in)
 
