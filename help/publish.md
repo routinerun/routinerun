@@ -10,10 +10,22 @@ A routine's page, the ellipsis, **Publish for a code**. Nothing is published unt
 
 Only the steps, as somebody at a counter would walk them:
 
-- **Goes:** the routine's name and description, and each step's name, description, duration, mark and the time of day it is set to. With them go the buttons a visitor can press: a web page to open (a payment page, a form), a number to call or text, an email address, words to copy. On the App Clip they are buttons on the step, and in the app for somebody who has it; a web page opens over the steps in both, so paying does not leave the walk. On the page for a browser they are links.
+- **Goes:** the routine's name and description, and each step's name, description, duration, mark and the time of day it is set to. With them go the buttons a visitor can press: a web page to open (a payment page, a form), a number to call or text, an email address, words to copy. On the App Clip they are buttons on the step, and in the app for somebody who has it; a web page opens over the steps in both, so paying does not leave the walk. A video, a map, an App Store page or a Turo trip opens in its own app instead, where the visitor has it. On the page for a browser they are links.
 - **Stays on your phone:** every other action (shortcuts, webhooks, Home, Health, alarms), any address with a value in it, triggers, values, notes, places, tags, any calendar date a step is set to, and every step you turned off.
 
 So publish a routine you would put on a sign.
+
+A description is drawn as it is written, lists included. A picture in one, written as `![what it shows](https://routinerun.com/…)`, is drawn only when it is on routinerun.com: fetching a picture tells whoever serves it that somebody opened the code, and from our own site that is nobody new. A picture from anywhere else is shown as its words.
+
+## In order, or one at a time
+
+On the routine's **Settings**, **Steps** says how freely somebody walking it may move about, and it goes with the routine when it is published:
+
+- **Any order:** any step can be read ahead of time, and Later puts the one in hand at the end. What every routine does unless you say otherwise.
+- **In order:** every step is listed, but only the one in hand opens, and there is no Later.
+- **One at a time:** only the steps done and the one in hand are shown, with how many are left.
+
+A step with a length can also say **Next waits until the time is up**, in its own settings: for photos of a car before it is driven, five minutes that should not go in five seconds. The App Clip keeps all of this. A run started in the app for somebody who has it does not yet.
 
 ## Where it is kept
 
@@ -27,7 +39,10 @@ It looks like `routinerun.com/c/ab23cd45`: eight letters and digits, with no 0, 
 
 - **Style the code…** chooses how the QR looks: its colour (the routine's by default; a pale one is darkened until a camera can read it), the routine's mark, two initials or a logo from Photos in the middle, square or round dots, and a line under it. Nothing is uploaded: the mark and the initials are drawn on the phone, and a logo is kept on this phone only, never synced or published. The code on screen, the poster and the PDF all use it.
 - **Print a poster** prints a page with the QR and every step written out, for visitors whose phone the code does not open. Letter in the US and Canada, A4 elsewhere.
-- **Write to an NFC tag** puts the link on a sticker. An iPhone held to it opens the same steps, with no app running. NTAG213 stickers hold it many times over.
+- **Write to an NFC tag** puts the link on a sticker. An iPhone held to it opens the same steps, with no app running. NTAG213 stickers hold it many times over. **After writing** says what guards the tag, because a tag strangers tap and nobody guarded can be written over by anybody with a phone, with a link that only looks like yours:
+  - **Password**, the default: the tag gets a password that guards writing and leaves reading open. Strangers cannot change it; your own devices can write it again, for another code or another routine. The password is made on your phone the first time, kept in your iCloud Keychain, and never shown, published or sent. It needs an NTAG213, 215 or 216, which is what is sold as an NFC sticker almost everywhere.
+  - **Lock for good:** the tag can never be changed again, by you or anybody. Asked each time.
+  - **Leave it open:** anybody can write over it.
 
 ## On your own website instead
 

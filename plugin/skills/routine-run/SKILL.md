@@ -41,6 +41,8 @@ THE FORM (version 1):
 - "warnHours": optional, how many hours ahead to tell me as well — 24 for the day before, 0 for never. Left out, anything more than a day off is said the day before.
 - "rounds": optional, for steps that repeat as a group: {"from": 2, "through": 3, "times": 4}, counting steps from 1. Leave "times" out to go round until I stop.
 - "times": optional, when it should offer to start: [{"at": "07:00", "days": ["mon", "fri"]}]. Days are mon, tue, wed, thu, fri, sat, sun; leave "days" out for every day.
+- "order": optional, for a routine somebody else walks from a code — a car handed over, a visit to a counter: "inOrder" lists every step but opens only the one in hand, with no Later; "oneAtATime" shows only what is done and the step in hand. Leave it out for anything I walk myself.
+- "waitsOut": true on a step with "minutes" when Next should wait until they are up — photos that have to be taken, a mask left on. Leave it out everywhere else.
 - "severalAtOnce": true only if two runs of it can sensibly be going at once.
 - "once": true if this happens once — a plan for today, a one-off job, a trip. When its run is finished it goes to the archive rather than staying among my routines. Leave it out for anything I will do again.
 - "staysOpen": true for a list that is never done — things to read later, to watch, an inbox. It waits when it is empty instead of finishing, and I send things to it from the share sheet. It can have no steps at all: its steps are what I send it.

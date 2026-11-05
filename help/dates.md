@@ -8,7 +8,7 @@ Make the trip a date: **Data → More → Set up → Dates → New date…**, na
 |---|---|
 | A routine starting | **Triggers → +**, **Before or after a date**: the date, how many days before or after, and a time of day if you want one. |
 | A step's time | The step's **Settings → By a time**, **Counted on → Before or after a date**: the date, the day, and the time on it. |
-| A run coming back | **Not now… → Come back to it… → Before or after**, then pick the date under **From**. |
+| A run coming back | **Not now… → Come back to it… → Before or after**, then pick the date under **From**. A date with no hour on it lands at 9:00 that day, and **At** changes it. |
 | A planned run | **Plan a run**, then **Before or after** and the date. |
 
 Each of those lists your dates, and **New date…** makes one without leaving the page.
