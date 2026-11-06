@@ -29,7 +29,7 @@ They all open the same page.
    here. When it answers, copy the whole answer and come back.
 4. **Or paste.** **Paste its answer** takes what you copied, words around it and all. When
    you come back with something new copied, the button says **Paste what you just
-   copied**. **Type the steps yourself…** opens a box for a list, one step a line.
+   copied**. To type a list of steps yourself, use **Run something new…** instead.
 
 ![Describe changes on a routine, before anything is written.](describe)
 

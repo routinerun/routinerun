@@ -31,7 +31,7 @@ The first time a run finishes, a screen says what you did and how long it took. 
 ## Starting any other routine
 
 - Open the routine and press **Start**, then **Start now**. The run opens.
-- Or press the plus on **Runs**, or the one in the middle of the tab bar, then **Start a routine…**.
+- Or press the plus on **Runs**, then **Start a routine…**.
 
 See [Routines, runs and steps](routines-runs-and-steps.md).
 
