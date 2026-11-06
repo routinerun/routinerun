@@ -22,9 +22,9 @@ A routine and each of its steps has a page, and so does a run and each of its st
 
 ## Where they live
 
-Three tabs at the foot, either side of the plus. **Routines** is what you have written down. **Runs** is what is going, planned or finished. **Steps** is every step of every going run in one list. **More** holds Triggers, Data, History and the settings.
+Three tabs at the foot, either side of the plus. **Routines** is what you have written down. **Runs** is what is going, planned or finished. **Steps** is the step in hand of every going run in one list; **The steps coming up too**, at its foot, adds the rest. **More** holds Triggers, Data, History and the settings.
 
-Press **Steps** while a run is open and the list scrolls to that run's step in hand.
+Press **Steps** while a run is open and that run's step in hand is lit for a moment. Press **Routines** there and its routine opens.
 
 ## A run follows its routine
 
