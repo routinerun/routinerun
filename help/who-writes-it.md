@@ -14,6 +14,10 @@ cloud unless you change it (the model on your iPhone where there is no cloud). C
 | **ChatGPT** | OpenAI, through Shortcuts | The shortcut, and the ChatGPT extension on in Settings → Apple Intelligence | If you prefer ChatGPT |
 | **ChatGPT, talk it through** | OpenAI, through Shortcuts, as a chat | The same | Working it out in a conversation first |
 
+The three that go through Shortcuts are listed once the Routine Run Ask shortcut has
+run on this iPhone. Before that the app has no way to know it is there, so they stay
+out of the list; get it from **More → Assistants → ChatGPT and the web**.
+
 **On this phone** writes new routines only. Asked to change one, it mixed up steps in
 ways that were hard to notice, so changes go to a bigger model.
 
