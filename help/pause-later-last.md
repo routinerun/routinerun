@@ -35,7 +35,7 @@ Also **Skip, ask me at the end**. About the run: **Pause**, **Come back to it…
 
 Pick **In an hour**, **This evening**, **Tomorrow**, **Next week**, or your own moment or place. Choose **Next** or **Now** for where it returns, then press **Put it off**.
 
-A time brings it back then, or the next time the app is awake. A place needs **Know when I am at one** (Data → More → Set up → Places) and Always access to your location, and is noticed once you have stayed a while. See [Place and Focus](place-and-focus.md).
+A time brings it back then, or the next time the app is awake. A place needs **Know when I am at one** (More → Data → … → Set up → Places) and Always access to your location, and is noticed once you have stayed a while. See [Place and Focus](place-and-focus.md).
 
 ## Your own answers
 
@@ -43,7 +43,7 @@ A wait you make again and again — a follow-up in two working days at ten, back
 
 A follow-up puts aside only the step it is pressed on: the letter goes to the end and the rest of the run goes on, and the step comes back at its moment or as soon as the reply arrives. Choose **Puts down: The whole run** in the preset when nothing after that step can happen without the answer. "The reply arrives" means a notification the bridge hands over, a shortcut's Handle Event or a connection sending an event, with the word in its app, name or title; the text inside a message is not read.
 
-A step can carry its own follow-up, usually written by an assistant. Both kinds are under **Data → More → Set up → Wait presets**, where you change or remove them. On the watch, a step's own follow-up is the first answer in **Come back to it**.
+A step can carry its own follow-up, usually written by an assistant. Both kinds are under **More → Data → … → Set up → Wait presets**, where you change or remove them. On the watch, a step's own follow-up is the first answer in **Come back to it**.
 
 ## When a time has passed
 

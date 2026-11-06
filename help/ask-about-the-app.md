@@ -1,6 +1,6 @@
 # Asking how the app works
 
-**Settings → Ask about Routine Run**, the first thing on the page.
+**More → Ask about Routine Run**, under Triggers and Data.
 
 Type a question, such as "How do I start, if my mornings are a mess?" or "What does
 Keep do?", and tap **Ask**. It answers from the Routine Run method first, then says which

@@ -13,11 +13,11 @@ When it fires, a card goes up with the routine's name and a button. Press it to 
 
 **Needs iOS 27** for a place to start a routine with no tap at all. It goes through [the bridge](in-the-background.md).
 
-Places are named once and used everywhere: **Data → More → Set up → Places**. **Know when I am at one**, on that screen, lets a step come back or a planned run begin when you are at one. It needs Always access too.
+Places are named once and used everywhere: **More → Data → … → Set up → Places**. **Know when I am at one**, on that screen, lets a step come back or a planned run begin when you are at one. It needs Always access too.
 
 ## Focus
 
-A Focus reaches the app only through its Focus filter, and the filter wears a **Focus rule**. Make one in **Data → More → Set up → Focus rules**:
+A Focus reaches the app only through its Focus filter, and the filter wears a **Focus rule**. Make one in **More → Data → … → Set up → Focus rules**:
 
 - **Shown in the app**: which routines the lists show while it is on.
 - **May interrupt**: which routines may still reach you. iOS drops the rest.
@@ -29,6 +29,6 @@ Then put the rule on a Focus. **Put it on a Focus…** asks which one, using a o
 ## When something goes wrong
 
 - **A place never fires.** Check Routine Run in iPhone Settings → Privacy & Security → Location Services.
-- **A Focus does nothing.** Each Focus needs its own filter. Settings in the app says when the filter last ran.
+- **A Focus does nothing.** Each Focus needs its own filter. **More** in the app says when the filter last ran.
 - **A "When a Focus changes" trigger never fires.** It fires only from a Focus rule that ticks it under **Fires**, and only once that rule is on the Focus. A trigger that is off, or has nothing to do, is not offered there.
 - **With iCloud, only one device reacts.** On purpose: see [iCloud sync](icloud-sync.md).

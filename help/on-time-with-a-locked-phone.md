@@ -7,7 +7,7 @@ A going run puts a card on the Lock Screen whose buttons move it without opening
 The card shows the step, its countdown, and buttons such as **Next** (**Finish** on the last step), **Again** and **Decide later**. A paused run shows **Resume**.
 
 - Choose the buttons in the routine's **Settings → Live Activity**, where **Show it on the lock screen** also turns the card off.
-- **Settings → Show runs on the lock screen** turns it off everywhere.
+- **More → Show runs on the lock screen** turns it off everywhere.
 - A card swiped away stays away until that run ends. **Pin**, at the top of the run's page, puts it back. See [Live Activity buttons](live-activity-buttons.md).
 
 ## A step you must not miss
@@ -23,7 +23,7 @@ The reminder is on time. **Move on by itself** happens the next time the app is 
 
 ## Times and dates
 
-A trigger's **Reaches you** offers all four ways. **Settings → Scheduling** sets what a trigger uses when it says nothing.
+A trigger's **Reaches you** offers all four ways. **More → Scheduling** sets what a trigger uses when it says nothing.
 
 | Way | What it does |
 |---|---|
@@ -36,7 +36,7 @@ A trigger's **Reaches you** offers all four ways. **Settings → Scheduling** se
 
 ## Focus
 
-To let a notification through a Focus, open **Triggers → More → Set up → Messages**, pick the wording, and set **Interruption** to **Time sensitive**. See also [Place and Focus](place-and-focus.md).
+To let a notification through a Focus, open **More → Triggers → … → Set up → Messages**, pick the wording, and set **Interruption** to **Time sensitive**. See also [Place and Focus](place-and-focus.md).
 
 ## What needs iOS 27
 
@@ -45,6 +45,6 @@ To let a notification through a Focus, open **Triggers → More → Set up → M
 
 ## When something goes wrong
 
-- **Nothing arrives.** Check notifications in iPhone Settings → Routine Run. **Triggers → More → Set up → What will arrive** shows what iOS holds.
+- **Nothing arrives.** Check notifications in iPhone Settings → Routine Run. **More → Triggers**, then the ellipsis, **Set up → What will arrive**, shows what iOS holds.
 - **No alarm.** Allow alarms in iPhone Settings → Routine Run.
 - More in [Nothing on the Lock Screen](nothing-on-the-lock-screen.md) and [A step did not fire](a-step-did-not-fire.md).

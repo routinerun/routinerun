@@ -17,11 +17,11 @@ iOS lets one app open another only when you ask. So a shortcut usually becomes a
 
 **Needs iOS 27.** A shortcut runs by itself only through the bridge: the Routine Run Bridge shortcut, plus an automation, **When I get a notification from Routine Run**, set to run immediately. See [Answers in the background](in-the-background.md). On iOS 26 a shortcut always waits for your press.
 
-A step calls a shortcut by name, so one renamed or deleted in Shortcuts no longer answers. In the Data tab, the ellipsis, **Set up**, **Shortcuts** lists the ones the app knows, marking any "not on this phone" or "did not run last time".
+A step calls a shortcut by name, so one renamed or deleted in Shortcuts no longer answers. In **More › Data**, the ellipsis, **Set up**, **Shortcuts** lists the ones the app knows, marking any "not on this phone" or "did not run last time".
 
 ## Nothing arrived at all
 
-- **Notifications are off.** **Settings › Diagnostics** in the app says "Not authorised". Turn them on in the Settings app, **Apps › Routine Run › Notifications**.
+- **Notifications are off.** **More › Diagnostics** in the app says "Not authorised". Turn them on in the Settings app, **Apps › Routine Run › Notifications**.
 - **A Focus held it back.** A Focus can silence the app, and Routine Run's own Focus filter can hide routines. See [Place and Focus](place-and-focus.md).
 - **The routine is turned off.** Nothing starts it on its own.
 - **The run is paused.** Nothing moves until you press **Paused** on the run's page.
@@ -34,7 +34,7 @@ Even then, iOS lets no app act at an exact moment. The reminder arrives on time,
 
 ## With iCloud on
 
-Each automatic thing is done by one device. **Settings › iCloud › This device** says whether this one puts up cards at a routine's moments and notices where you are. A run's timers are kept by the device that last moved it. See [iCloud sync](icloud-sync.md).
+Each automatic thing is done by one device. **More › iCloud › This device** says whether this one puts up cards at a routine's moments and notices where you are. A run's timers are kept by the device that last moved it. See [iCloud sync](icloud-sync.md).
 
 ## Anything else
 

@@ -6,7 +6,7 @@ Getting rid of a routine takes three steps, and each can be undone until the las
 
 On the routine's page, press **Archive**. It does not ask, because nothing here is lost: the routine leaves the list and keeps everything — its runs, its history, its notes — and anything of it going right now carries on exactly where it was. Archive says you are not starting it again, not that you are stopping what is in hand.
 
-To find it again, open the ellipsis in the Routines tab and, under **Show**, choose **Archived**. **Take out** on its page puts it back in the list.
+To find it again, open the ellipsis on Routines and, under **Show**, choose **Archived**. **Take out** on its page puts it back in the list.
 
 ## Delete
 
@@ -18,7 +18,7 @@ A run is deleted the same way, once it has ended. In Runs, choose **Ended** the 
 
 ## Recently Deleted
 
-A **Recently Deleted** row appears when there is something in it: under the archived routines, under the ended runs, and in **Settings › Storage**.
+A **Recently Deleted** row appears when there is something in it: under the archived routines, under the ended runs, and in **More › Storage**.
 
 Each row says how long it has left, such as "12 days left" or "Goes today". On each:
 
@@ -44,4 +44,4 @@ Deleting, restoring and Delete Now reach every device. A routine taken for good 
 
 **There is no Recently Deleted row.** Nothing is in it.
 
-**I deleted everything by mistake.** A backup from **Settings › Storage** puts back what is missing. So do the daily copies listed there under **Copies on this phone**.
+**I deleted everything by mistake.** A backup from **More › Storage** puts back what is missing. So do the daily copies listed there under **Copies on this phone**.

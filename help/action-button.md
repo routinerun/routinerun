@@ -36,7 +36,7 @@ In In hand, press and hold an action under **Waiting for you**, then choose **Pu
 | What is true | What happens |
 |---|---|
 | One pinned run, with something marked | It is done. Nothing opens. |
-| Several pinned runs with something marked | Depends on **Settings › Action button** in the app: In hand over the screen, a notification with a button per run, the newest run, or the one closest to its deadline |
+| Several pinned runs with something marked | Depends on **More › Action button** in the app: In hand over the screen, a notification with a button per run, the newest run, or the one closest to its deadline |
 | An action is held from In hand | That action is done, whatever else is marked |
 | Nothing pinned, or nothing marked | The app opens at In hand |
 | The action is a link, or its words use the clipboard | The app opens to finish it |
@@ -51,6 +51,6 @@ Choose **Do the One Thing** for the watch's Action button. It follows the same r
 
 **It did the wrong run.** Only pinned runs are reached. Unpin the ones you are not watching.
 
-**Nothing happened at all.** Press it, then open **Settings › Diagnostics** in the app. **The last press** lists how far the press got. One that finished ends at "answered".
+**Nothing happened at all.** Press it, then open **More › Diagnostics** in the app. **The last press** lists how far the press got. One that finished ends at "answered".
 
 See also [Actions in Shortcuts](actions-in-shortcuts.md) and [Live Activity buttons](live-activity-buttons.md).

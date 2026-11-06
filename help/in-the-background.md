@@ -16,7 +16,7 @@ The bridge is also what runs a step's shortcuts in the background, so you may ha
 already. If you have not:
 
 1. On the Describe page, with ChatGPT chosen, tap **Write in the background**. It appears
-   once Routine Run Ask has run at least once. It is also under **Triggers → … → The
+   once Routine Run Ask has run at least once. It is also under **More → Triggers → … → The
    bridge**.
 2. Follow the page: add the Routine Run Bridge shortcut, then make one automation in
    Shortcuts. **When I get a notification from Routine Run → run Routine Run Bridge**,

@@ -10,7 +10,7 @@ Routine Run Ask is a free shortcut that asks them for the app and brings the ans
 2. It opens in Shortcuts. Tap **Add Shortcut**.
 3. Come back and tap **I've added it: ask now**. What you wrote is still there.
 
-Or get it any time from **Settings → Assistants → ChatGPT and the web → Get the shortcut**.
+Or get it any time from **More → Assistants → ChatGPT and the web → Get the shortcut**.
 
 ## What happens when you ask
 
@@ -33,7 +33,7 @@ Shortcuts and get it again.
 
 ## Building it yourself
 
-**Settings → Assistants → ChatGPT and the web → Build it yourself** lists every action in it.
+**More → Assistants → ChatGPT and the web → Build it yourself** lists every action in it.
 In short:
 
 1. **Get the Question** (Routine Run), with Recipe set to 1.

@@ -7,14 +7,14 @@ is kept.
 
 Every place that can be written by an AI has a **Describe…** item, first in its menu:
 
-- **New routine:** the plus in the middle of the tab bar, then **Ask an AI to write it**.
+- **New routine:** the plus on **Routines** or in the middle of the tab bar, then **Ask an AI to write it**.
 - **Change a routine:** the routine's ellipsis, **Describe changes…**
 - **Change one step:** the step's ellipsis, **Describe changes…**
 - **Add to a routine or a run:** the plus on its page, **Describe it…**
 - **After a run:** the run's ellipsis, **Describe what to change…**
 - **What a run collected:** the review page, **Sort these out**
 - **Notes:** the notes page, **Deal with these notes**
-- **Triggers:** the Triggers tab, **Describe it…**
+- **Triggers:** **More › Triggers**, **Describe it…**
 
 They all open the same page.
 

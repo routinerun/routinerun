@@ -18,11 +18,13 @@ A routine and each of its steps has a page, and so does a run and each of its st
 
 - **A run's page** opens with the step in hand and its buttons, and under them every step it is walking. Between the two is the run's own card: its mark, its name, what it is about, and two corners — **Add or see…** for everything this run holds of its own, and the gear for how it is set up. A routine's page is built the same way. An orange dot on a corner means something behind it is still this run's alone.
 - **A step's page** has no buttons. It says where the step stands, such as In hand, Done or Still to come, and whether the run is waiting on it. The row under that opens the run, or the routine, with this step's card showing. **Next**, **Again** and **Not now…** are on that card.
-- **Press and hold** any routine, run, step or Settings row to see what it holds before opening it.
+- **Press and hold** any routine, run, step or row of More to see what it holds before opening it.
 
 ## Where they live
 
-The Routines tab has three halves. **Routines** is what you have written down. **Runs** is what is going, planned or finished. **Steps** is every step of every going run in one list.
+Three tabs at the foot, either side of the plus. **Routines** is what you have written down. **Runs** is what is going, planned or finished. **Steps** is every step of every going run in one list. **More** holds Triggers, Data and the settings.
+
+Press **Steps** while a run is open and the list scrolls to that run's step in hand.
 
 ## A run follows its routine
 
@@ -43,7 +45,7 @@ The routine's **Settings** has **Allow several at once**.
 
 ## A run with no routine
 
-The plus in the middle of the tab bar, then **Something new…**, starts a run from just a name. Add steps as you go. At the end the band asks one question: whether it was worth keeping. **Keep it as a routine…** turns the run into a routine.
+The plus on **Runs**, or the plus in the middle of the tab bar, then **Run something new…**, starts a run from just a name. Add steps as you go. At the end the band asks one question: whether it was worth keeping. **Keep it as a routine…** turns the run into a routine.
 
 ## When something goes wrong
 

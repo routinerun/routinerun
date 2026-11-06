@@ -2,7 +2,7 @@
 
 Beside **Write it** is the name of who writes. Tap it to choose another for this page.
 
-What every page starts on is in **Settings → Assistants → Write it uses**. It is Apple's
+What every page starts on is in **More → Assistants → Write it uses**. It is Apple's
 cloud unless you change it (the model on your iPhone where there is no cloud). Choose
 **Last used** there, and every page starts on whichever you picked last beside Write it.
 
@@ -33,7 +33,7 @@ this phone and nothing you type is sent anywhere, and the app keeps to that. Whe
 phone's model cannot do something, such as changing a routine, **Write it** goes grey and
 says so, rather than sending it to the cloud. You can still choose Apple's cloud beside
 Write it for that one question, or continue with your own assistant. Change it for good in
-**Settings → Assistants → Write it uses**, or in **Where AI works** from the first run.
+**More → Assistants → Write it uses**, or in **Where AI works** from the first run.
 
 ## Where your words go
 

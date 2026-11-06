@@ -26,12 +26,12 @@ The second step asks you to rename it or write a note on it. That change lands o
 
 ## When it ends
 
-The first time a run finishes, a screen says what you did and how long it took. **Done** closes it. How this works then puts itself away. **Settings → How this works** brings it back and starts it again.
+The first time a run finishes, a screen says what you did and how long it took. **Done** closes it. How this works then puts itself away. **More → How this works** brings it back and starts it again.
 
 ## Starting any other routine
 
 - Open the routine and press **Start**, then **Start now**. The run opens.
-- Or press the plus in the middle of the tab bar, then **Start a routine…**.
+- Or press the plus on **Runs**, or the one in the middle of the tab bar, then **Start a routine…**.
 
 See [Routines, runs and steps](routines-runs-and-steps.md).
 
@@ -40,4 +40,4 @@ See [Routines, runs and steps](routines-runs-and-steps.md).
 - **Next is greyed out.** The run is paused. Press **Paused** at the top of the run's page.
 - **Next does not move on.** The step is waiting for something, and says what above the buttons. **Move on anyway** goes past it.
 - **You said no to notifications.** Turn them on in iPhone Settings → Routine Run → Notifications.
-- **How this works is gone.** It puts itself away at the end. **Settings → How this works** brings it back.
+- **How this works is gone.** It puts itself away at the end. **More → How this works** brings it back.

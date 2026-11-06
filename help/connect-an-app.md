@@ -8,7 +8,7 @@ This needs iOS 27, where a shortcut can start itself when a notification arrives
 
 ## Setting one up
 
-1. In the app, open **Settings › Events from elsewhere › Connect an app**.
+1. In the app, open **More › Events from elsewhere › Connect an app**.
 2. Pick the app. Its page shows the notifications it sends and what each one will do.
 3. Press **Connect**.
 4. Press **Add the shortcut**, then **Add Shortcut** in Shortcuts. The shortcut is called

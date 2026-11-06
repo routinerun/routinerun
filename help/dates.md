@@ -1,12 +1,12 @@
 # How do I count things from a trip, so moving it moves everything?
 
-Make the trip a date: **Data → More → Set up → Dates → New date…**, name it **Departure**, and pick the day. Then count things from it rather than typing their dates: packing three days before, the car the day before, a step done by seven the evening before. Change the date, and everything counted from it moves, cards and alarms included.
+Make the trip a date: **More → Data → … → Set up → Dates → New date…**, name it **Departure**, and pick the day. Then count things from it rather than typing their dates: packing three days before, the car the day before, a step done by seven the evening before. Change the date, and everything counted from it moves, cards and alarms included.
 
 ## What can be counted from a date
 
 | Where | How |
 |---|---|
-| A routine starting | **Triggers → +**, **Before or after a date**: the date, how many days before or after, and a time of day if you want one. |
+| A routine starting | **More → Triggers → +**, **Before or after a date**: the date, how many days before or after, and a time of day if you want one. |
 | A step's time | The step's **Settings → By a time**, **Counted on → Before or after a date**: the date, the day, and the time on it. |
 | A run coming back | **Not now… → Come back to it… → Before or after**, then pick the date under **From**. A date with no hour on it lands at 9:00 that day, and **At** changes it. |
 | A planned run | **Plan a run**, then **Before or after** and the date. |
