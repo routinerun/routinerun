@@ -15,7 +15,7 @@ Only the steps, as somebody at a counter would walk them:
 
 So publish a routine you would put on a sign.
 
-A description is drawn as it is written, lists included. A picture in one, written as `![what it shows](https://routinerun.com/…)`, is drawn only when it is on routinerun.com: fetching a picture tells whoever serves it that somebody opened the code, and from our own site that is nobody new. A picture from anywhere else is shown as its words.
+A description is drawn as it is written, lists included. A picture in one, written as `![what it shows](https://routinerun.com/…)`, is drawn by the App Clip only when it is on routinerun.com: fetching a picture tells whoever serves it that somebody opened the code, from which network and when. On routinerun.com that is us, and we keep no log of it; anywhere else it would be a server the visitor never chose to tell, so a picture from anywhere else is shown as its words.
 
 ## In order, or one at a time
 

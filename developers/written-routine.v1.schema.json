@@ -1298,6 +1298,10 @@
           "description" : "Named values, as \"name\": value — words, a number, true or false, or a link.",
           "type" : "object"
         },
+        "waitsOut" : {
+          "description" : "Next waits until \"minutes\" have run out, for a step whose length is the point rather than an estimate. Ignored on a step with no \"minutes\".",
+          "type" : "boolean"
+        },
         "warnHours" : {
           "minimum" : 0,
           "type" : "number"
@@ -1393,6 +1397,14 @@
     "once" : {
       "description" : "Something that happens once: finishing its run puts it away.",
       "type" : "boolean"
+    },
+    "order" : {
+      "description" : "How freely somebody walking it may move about its steps. \"inOrder\": every step is listed, only the one in hand opens, and there is no Later. \"oneAtATime\": only the steps done and the one in hand are shown. Left out, or \"free\", any step can be read ahead and Later is there.",
+      "enum" : [
+        "free",
+        "inOrder",
+        "oneAtATime"
+      ]
     },
     "rounds" : {
       "description" : "Steps that go round, by number, counting from one. No \"times\" is until I have had enough.",
