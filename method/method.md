@@ -434,7 +434,7 @@ later.
 - From Not now… on the step, Later moves it one place on and At the end after everything
   else. Pause holds the whole run.
 - A step can be put off to a time or a place, and comes back then or there.
-- Decide later moves it to the end with a quiet question on it.
+- Decide later leaves it in its place with a quiet question on it, and the run comes back to it at the end.
 - Nothing is deleted. The record says what happened.
 
 **What the research says**

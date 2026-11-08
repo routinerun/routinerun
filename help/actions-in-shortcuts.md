@@ -17,7 +17,7 @@ Most actions have a **Run** field. Left empty, the action works on the run you s
 | Next Step | Moves to the next step. If the step is not finished, it says why and stays |
 | Repeat | Goes round the step you are on again: its actions run and its timer starts over. Not on a paused run |
 | Put the Step Off | Moves the step later, or last |
-| Decide Later | Sends the step to the end of the run and puts a question about it in In hand |
+| Decide Later | Leaves the step in hand where it is and moves the run on past it, with a question about it in In hand. The run comes back to it at the end |
 | Pause the Run, Resume the Run | Pauses the run where it stands, or picks it up again |
 | Come Back To It | Puts the run down for some minutes, then brings it back |
 | Not Any More | Brings a put-down run back now |

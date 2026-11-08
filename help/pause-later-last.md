@@ -10,7 +10,7 @@ It is on the left of the step's card. About the step:
 |---|---|
 | Later | One place further down. The run moves on. |
 | At the end | After everything else still to come. |
-| Decide later | To the end, with a question about it waiting in In hand. |
+| Decide later | Stays where it is, with a question about it in In hand. The run moves on and comes back to it at the end. |
 | Come back to it… | To the end, and back at a moment or place you name. |
 | Check in on this step… | To the end, asking until you answer. See [Check-ins](check-ins.md). |
 | Skip | Goes round it, and the record says so. |
@@ -21,6 +21,8 @@ It is on the left of the step's card. About the step:
 
 Also **Skip, ask me at the end**. About the run: **Pause**, **Come back to it…**, **Check in on the run…**, your own statuses, and **Stop**.
 
+**Later**, **At the end**, **Decide later**, **Skip** and **Not in this run** each put up a bar with **Undo** for a few seconds. Undo puts the run back as it was: the order, the step it was on, and no question left behind.
+
 ## Pause
 
 **Pause**, at the top of the run's page, does it in one tap and says **Paused** until you press it again. While a run is paused, no clock runs, nothing moves, and the Lock Screen card shows **Resume**.
@@ -29,7 +31,15 @@ Also **Skip, ask me at the end**. About the run: **Pause**, **Come back to it…
 
 - **The run's list of steps.** Swipe a step to the right: **Do it later** and **Do it last**, or for a step still ahead, **Do it now**, **Do it next** and **Do it last**.
 - **The watch.** The ellipsis on the run: **Do it later**, **Do it last**, **Pause**.
-- **The Lock Screen card** has **Decide later** instead: the step goes to the end, and a question about it waits in In hand.
+- **The Lock Screen card** has **Decide later** instead: the step stays where it is, the run moves on, and a question about it waits in In hand.
+
+## Decide later
+
+The step keeps its place. Its bead on the line is hollow with an orange ring, and in the run's list of steps it says **Left for later**. In In hand its question has two answers: **Now** brings the step into your hands straight away, and **Skip** writes it down as skipped.
+
+You do not have to answer. When the run reaches its end with steps left for later, it does not finish. It says how many there are and lists them in their own order. **Next** starts the first; when that is done, **Next** goes to the next one left. **Skip them** ends the run. Their order never changed, so there is nothing to put back.
+
+**Come back to it…** and **Check in on this step…** still move the step to the end, because there you have said where it goes.
 
 ## Come back to it…
 
