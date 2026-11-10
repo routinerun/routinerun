@@ -1,0 +1,20 @@
+{
+  "colour" : "#64D2FF",
+  "name" : "Picking it back up",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Before opening anything else. Mail first and you are working on somebody else's morning.",
+      "title" : "Read what you left yourself"
+    },
+    {
+      "about" : "The reconstruction is most of the cost of an interruption, and it is faster spoken than read.",
+      "title" : "Say out loud where it stopped"
+    },
+    {
+      "about" : "Whatever it is. Being back in it beats being right about where to restart.",
+      "title" : "Do the smallest next thing"
+    }
+  ],
+  "symbol" : "arrow.uturn.backward"
+}

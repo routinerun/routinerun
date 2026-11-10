@@ -1,29 +1,29 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": "Anything to deal with later, sent from the share sheet in Safari, Mail or any other app: choose Routine Run, then Inbox. Go through it when you have a minute; it never closes, and it waits when it is empty.",
-  "first_shelf": false,
-  "glyph": "tray.full",
-  "group": "home",
-  "group_line": "The errands a week repeats, and nobody enjoys holding.",
-  "group_name": "Home and everyday",
-  "link_web": "https://routinerun.com/r?v=1&d=7VbbbtswDP0Vwnu1Aydt0yR7cm5bgPWCttiAFX1QbToWqkiGRKcxivx7KcfJku5hH7AagSBR5BF1DinkLcBNaSxhllAwCnpxrx_Fw6h38RDHo-b3OwgPPnNrVuxlTUVSo610J2VDGOTGrgT9ROuk0cGoGwbaELpg9PgUBqUS6X5uMTU22y92MMHoLRBKmVd3VSmSpcKFdiR0E5QL5TAMhE0LuUb3q0A9NT6m3ciQhFScU6JrKqReAhnIUCh4lVSAEoQ2BIeaIOfkgQoEVwjrR0QCqeFe5MLKEK4YCIwFoWsw7MezshxBWhjjEO52ycJdpUOPomGhn82mA98ML_kqywIkwavfqU0FhVgjCFhJXRF-9Vsa14yZKkZzIZ-SNf5CkttF8Uo6wFVJdYc55WNfWqJkxhfsz7rj7qSXRDF_0bkfpn6I999Zt8dh0t3k-YEexaQlKcm1pHpiNFmjnOfbFUx3shSS1SJbsWdjGYv05cQwxVRmeGK6xg2dGG4_gNxW1KTgTVuuBLFigKBhi_MrhWUDq-Lz2LYhP47SPGCRqN1NiX_ACUtPCFcLuxrdknNcAcwjK0vNyFwKuG-kfq6IjB5BadE55jn8p6gLAmGtrzgQHsefzZrlnDeLxUXlpeQTvHxcdB24baA9Nx9KgKxEr7SXtNFxej6ZjCfxRXSZTCfRRb-bRMN4Po_6cTKYXw7Oh7Pu4C8djZ6iyNS-W47vL7L1aa9Y5KLzPdYK8JFxkqS8IvfIJej7IZfWEXBXgScu2D61XI9RGb18MDORFszQQYd69WzU9U5WsqLu5JVSnDKJ5WLaZsWs0HfcsMeXwWwwG575fSuXyyaNx6ftof1bST8fgM8H4PMB-I8eAH9IWuBKtAFcB5bSivZLEod_EIy7n3F3qKONY8B3",
-  "name": "Inbox",
-  "release": 4,
-  "shortcuts": [],
-  "slug": "inbox",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 4,
+    "shortcuts" : [
+
+    ],
+    "slug" : "inbox",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VbbbtswDP0Vwnu1Aydt0yR7cm5bgPWCttiAFX1QbToWqkiGRKcxivx7KcfJku5hH7AagSBR5BF1DinkLcBNaSxhllAwCnpxrx_Fw6h38RDHo-b3OwgPPnNrVuxlTUVSo610J2VDGOTGrgT9ROuk0cGoGwbaELpg9PgUBqUS6X5uMTU22y92MMHoLRBKmVd3VSmSpcKFdiR0E5QL5TAMhE0LuUb3q0A9NT6m3ciQhFScU6JrKqReAhnIUCh4lVSAEoQ2BIeaIOfkgQoEVwjrR0QCqeFe5MLKEK4YCIwFoWsw7MezshxBWhjjEO52ycJdpUOPomGhn82mA98ML_kqywIkwavfqU0FhVgjCFhJXRF-9Vsa14yZKkZzIZ-SNf5CkttF8Uo6wFVJdYc55WNfWqJkxhfsz7rj7qSXRDF_0bkfpn6I999Zt8dh0t3k-YEexaQlKcm1pHpiNFmjnOfbFUx3shSS1SJbsWdjGYv05cQwxVRmeGK6xg2dGG4_gNxW1KTgTVuuBLFigKBhi_MrhWUDq-Lz2LYhP47SPGCRqN1NiX_ACUtPCFcLuxrdknNcAcwjK0vNyFwKuG-kfq6IjB5BadE55jn8p6gLAmGtrzgQHsefzZrlnDeLxUXlpeQTvHxcdB24baA9Nx9KgKxEr7SXtNFxej6ZjCfxRXSZTCfRRb-bRMN4Po_6cTKYXw7Oh7Pu4C8djZ6iyNS-W47vL7L1aa9Y5KLzPdYK8JFxkqS8IvfIJej7IZfWEXBXgScu2D61XI9RGb18MDORFszQQYd69WzU9U5WsqLu5JVSnDKJ5WLaZsWs0HfcsMeXwWwwG575fSuXyyaNx6ftof1bST8fgM8H4PMB-I8eAH9IWuBKtAFcB5bSivZLEod_EIy7n3F3qKONY8B3"
+  },
+  "colour" : "grey",
+  "description" : "Anything to deal with later, sent from the share sheet in Safari, Mail or any other app: choose Routine Run, then Inbox. Go through it when you have a minute; it never closes, and it waits when it is empty.",
+  "name" : "Inbox",
+  "routineRun" : 2,
+  "staysOpen" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Anywhere there is a Share button: press it, choose Routine Run, then Inbox. It arrives as a step, after whatever is waiting. Press Next when you have tried it.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Send the first one here"
+      "description" : "Anywhere there is a Share button: press it, choose Routine Run, then Inbox. It arrives as a step, after whatever is waiting. Press Next when you have tried it.",
+      "title" : "Send the first one here"
     }
   ],
-  "tint": "#8E8E93"
+  "symbol" : "tray.full"
 }

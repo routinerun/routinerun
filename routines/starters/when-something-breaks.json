@@ -1,61 +1,44 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": null,
-  "first_shelf": false,
-  "glyph": "wrench.and.screwdriver",
-  "group": "home",
-  "group_line": "The errands a week repeats, and nobody enjoys holding.",
-  "group_name": "Home and everyday",
-  "link_web": "https://routinerun.com/r?v=1&d=7Zffb6M4EMf_FYt7hQpIIJB7ggDala691W51K92qDy5MglVjc7YpjVb9329MCGr3dD3pdKruIVHCD2MPMx9_Z0b57sBTL5WBJjPO1gn9MPb81AujW9_fTt_fHXeZUynZ4SwlB8MEqEFc1TjgOnupOmp-A6WZFM42cB0hDWhn--3OdXpO6_O1glqq5nxzMuNsvzuUcznq64Eb1nP4KLShYlpk1ACuQ1XdskfQX1sQhbRL9pRrfNBK-TBbYw16FpdBHuzCzPPx463tobAH__xZ-TH6y_Sv-_1ihKPprDbskZnjTgqjJNfWKd2iT9mBMnH2YxrJaf3waqCAmjXwaugGnsyrgU8_GPk0mMkFO_SMuGiHBhwbH9GyA9MycSD3CiiGhwipwgkG-aJfz7OJX164vdg20FseSBSfSDGzacBQxvEFN3J0yT3gfgGh4ngvmyMxcqhb0ISZK3LbMrzQxLRAkDOeqSHNFJ_GBYQJPSi7NaTmlHVXzszdD1d5sIlWXhSVqRcl68pL0jT1Kn-TBbs0yooo_wt3KQqgDT9L4KXDtHmcBTDPVdAx0egF2I9EDDPcEvzUSiMPivYtxuM8u38H4ivFtUTu9y7p5Xi-pOR-qB8AQVTsye4AyhsD53byz0T3uB-NHUZCoyVTS230AiGP_bwIc9_bZGHhIYjKS7MA8ykp8ZxmqZ-n7wLhi5E9hk8OYIx1d5RKwxswrmUD3CUaFKN4Hq0KcTlVCiXWXJEPlO8RkFWFRt2gdrRhnJNBNEiOkhFnUmGORMhJURyzEhoy9Auaalcmm6AqvTKNSy-Kw8rL1lnspXG8WVerdVylxbugqXDWae8wQGY13RBMJiJ58wagL_SIi1jd2gwBTIg9xVJl12PtmAgzYwVHMLHwNyjSYR1pT-aNxanAlsFJO8Zm3kiPC5ywygIksPLCdY66ScrIS1bJyiviuAp2m2gTJMG7wDkVsi3Zsyd39hhcgiHZCnmO8Q1Mt7LBsCZEfwwwwISDEqMolo8eXyeFZdYBxSqCAmGCjAAPJ0xY8pXRJ_Ed5UAUwloQ7TI_yH0UTBgWOy_aJKWXruLAWwd5sorX62odJ--C6Jo-wFQda2xZFs0E6VQvFWaD83w3V-EcuBSHW1nSuv08iOVN-tjdS35zKvijAoGqwvivdK1gbGzGKYzE0MPHYnYWc9h8gCec_lNSYi1Z2eeKHQ6Td9_unpdWOpf-SzO9NNP_QuyXZnppppdm-i_hXJrpPyL6XzZT-0os4R2dF2B7UKYezPnW0OWfLdo9X0HX8xcPXhr8Ew",
-  "name": "When something breaks",
-  "release": 2,
-  "shortcuts": [],
-  "slug": "when-something-breaks",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 2,
+    "shortcuts" : [
+
+    ],
+    "slug" : "when-something-breaks",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Zffb6M4EMf_FYt7hQpIIJB7ggDala691W51K92qDy5MglVjc7YpjVb9329MCGr3dD3pdKruIVHCD2MPMx9_Z0b57sBTL5WBJjPO1gn9MPb81AujW9_fTt_fHXeZUynZ4SwlB8MEqEFc1TjgOnupOmp-A6WZFM42cB0hDWhn--3OdXpO6_O1glqq5nxzMuNsvzuUcznq64Eb1nP4KLShYlpk1ACuQ1XdskfQX1sQhbRL9pRrfNBK-TBbYw16FpdBHuzCzPPx463tobAH__xZ-TH6y_Sv-_1ihKPprDbskZnjTgqjJNfWKd2iT9mBMnH2YxrJaf3waqCAmjXwaugGnsyrgU8_GPk0mMkFO_SMuGiHBhwbH9GyA9MycSD3CiiGhwipwgkG-aJfz7OJX164vdg20FseSBSfSDGzacBQxvEFN3J0yT3gfgGh4ngvmyMxcqhb0ISZK3LbMrzQxLRAkDOeqSHNFJ_GBYQJPSi7NaTmlHVXzszdD1d5sIlWXhSVqRcl68pL0jT1Kn-TBbs0yooo_wt3KQqgDT9L4KXDtHmcBTDPVdAx0egF2I9EDDPcEvzUSiMPivYtxuM8u38H4ivFtUTu9y7p5Xi-pOR-qB8AQVTsye4AyhsD53byz0T3uB-NHUZCoyVTS230AiGP_bwIc9_bZGHhIYjKS7MA8ykp8ZxmqZ-n7wLhi5E9hk8OYIx1d5RKwxswrmUD3CUaFKN4Hq0KcTlVCiXWXJEPlO8RkFWFRt2gdrRhnJNBNEiOkhFnUmGORMhJURyzEhoy9Auaalcmm6AqvTKNSy-Kw8rL1lnspXG8WVerdVylxbugqXDWae8wQGY13RBMJiJ58wagL_SIi1jd2gwBTIg9xVJl12PtmAgzYwVHMLHwNyjSYR1pT-aNxanAlsFJO8Zm3kiPC5ywygIksPLCdY66ScrIS1bJyiviuAp2m2gTJMG7wDkVsi3Zsyd39hhcgiHZCnmO8Q1Mt7LBsCZEfwwwwISDEqMolo8eXyeFZdYBxSqCAmGCjAAPJ0xY8pXRJ_Ed5UAUwloQ7TI_yH0UTBgWOy_aJKWXruLAWwd5sorX62odJ--C6Jo-wFQda2xZFs0E6VQvFWaD83w3V-EcuBSHW1nSuv08iOVN-tjdS35zKvijAoGqwvivdK1gbGzGKYzE0MPHYnYWc9h8gCec_lNSYi1Z2eeKHQ6Td9_unpdWOpf-SzO9NNP_QuyXZnppppdm-i_hXJrpPyL6XzZT-0os4R2dF2B7UKYezPnW0OWfLdo9X0HX8xcPXhr8Ew"
+  },
+  "colour" : "grey",
+  "name" : "When something breaks",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Now, before anybody touches it. This is the one that decides an insurance claim.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Photograph it"
+      "description" : "Now, before anybody touches it. This is the one that decides an insurance claim.",
+      "title" : "Photograph it"
     },
     {
-      "asks_first": false,
-      "detail": "Water off, power off, a bucket. Fixing comes later; spreading is what costs.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Stop it getting worse"
+      "description" : "Water off, power off, a bucket. Fixing comes later; spreading is what costs.",
+      "title" : "Stop it getting worse"
     },
     {
-      "asks_first": false,
-      "detail": "Model, serial, when it arrived. Half of these are still under a warranty nobody looked up.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Find what it is and how old"
+      "description" : "Model, serial, when it arrived. Half of these are still under a warranty nobody looked up.",
+      "title" : "Find what it is and how old"
     },
     {
-      "asks_first": false,
-      "detail": "Say which. The default is living with it for four months and then replacing it anyway.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Decide: fix, replace, or live with it"
+      "description" : "Say which. The default is living with it for four months and then replacing it anyway.",
+      "title" : "Decide: fix, replace, or live with it"
     },
     {
-      "asks_first": false,
-      "detail": "Today. The queue for a tradesperson is measured in weeks and starts when you ring.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Make the call or place the order"
+      "description" : "Today. The queue for a tradesperson is measured in weeks and starts when you ring.",
+      "title" : "Make the call or place the order"
     }
   ],
-  "tint": "#8E8E93"
+  "symbol" : "wrench.and.screwdriver"
 }

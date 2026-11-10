@@ -2,6 +2,9 @@
 // Run by .github/workflows/validate.yml; `node .github/scripts/validate.mjs` locally.
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
+// The same checks the relay makes and the app's own form describes, from the package here.
+import { problems as routineProblems } from '../../packages/form/src/index.js';
+import { problemsWithSkin } from '../../packages/form/src/skin.js';
 
 const problems = [];
 const say = (file, what) => problems.push(`${file}: ${what}`);
@@ -26,7 +29,7 @@ for (const file of walk('.')) {
   if (file.startsWith('connections/')) {
     for (const k of ['id', 'kind', 'summary', 'rules', 'samples']) if (!(k in data)) say(file, `has no ${k}`);
     if (data.id && !file.endsWith(`/${data.id}.json`)) say(file, `is called ${data.id} inside`);
-    if (!['any', 'planner', 'habits', 'tasks', 'oncall', 'home', 'chat'].includes(data.kind)) say(file, `kind ${data.kind} is not one the app knows`);
+    if (!['any', 'planner', 'habits', 'tasks', 'oncall', 'home', 'chat', 'money'].includes(data.kind)) say(file, `kind ${data.kind} is not one the app knows`);
     for (const r of data.rules ?? []) {
       if (r.when?.pattern) { try { new RegExp(r.when.pattern); } catch { say(file, `pattern ${r.when.pattern} is not a regular expression`); } }
       if (r.in && !['title', 'body', 'both'].includes(r.in)) say(file, `in: ${r.in}`);
@@ -40,8 +43,15 @@ for (const file of walk('.')) {
     if (!Array.isArray(data.sends)) say(file, 'does not say what it sends ("sends": [] for nothing)');
   }
 
-  if (file.startsWith('routines/') && !file.endsWith('README.md')) {
-    if (!data.name || !Array.isArray(data.steps) || data.steps.length === 0) say(file, 'has no name or no steps');
+  if (file.startsWith('routines/')) {
+    const found = routineProblems(data);
+    if (found.length) say(file, found[0]);
+    else if (!Array.isArray(data.steps) || data.steps.length === 0) say(file, 'has no steps');
+  }
+
+  if (file.startsWith('skins/')) {
+    const found = problemsWithSkin(data);
+    if (found.length) say(file, found[0]);
   }
 }
 

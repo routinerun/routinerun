@@ -1,55 +1,47 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": true,
-  "glyph": "moon.stars",
-  "group": "dayEnds",
-  "group_line": "The first half hour of a day and the last one.",
-  "group_name": "Mornings and evenings",
-  "link_web": "https://routinerun.com/r?v=1&d=7VfbbuM2EP0VQn0VA-puu0-yLmjQdnexG3SBFkbBSLRFWCINkorjBv73DmVZXidF0YdunmwbhDQkh3POGc7ALw573kllWJ0aZ-H4xI8xmWM_eiBkMfx-d9xpTalkB6uU7A0XTPXirgKD66yl6qj5jSnNpXAWnusIaZh2Fn-sXGfX0ur8rFglVX1-OblxFi8ObVu517_2reG7lt0LbagYNq1pq5nrUFU1_Inprw0TubR7xomaGcpbiOneaGR4ByEgxWjVoIPs0Z6bBlFUUVX_iDQzCLYiI9GebtmwgK-RaRjaNXZiz9sWPTK0hnhRLffiDqA1Um7HeHkN58SFt_QyP8UEPji0Q24Hcv54xIdtXH9cr6coW4g9rQx_4uaQSWGUbLWFrRtAnW4oB9KM6mHlYFnSantlyFnFa3Zl-sCezZXh0ysnn3ozhGBNRxCEduDA-cpFzcVmgAdh7qgCuwHWIJzjuPOXb6KdXBq2szSAVDAjxUjJRP8XeSKSKiB5PXBrGmrQlsE-UKRhFJIDDuYG5BBIG7mz9A6cRlG6TIpgjrOyjHAU5DGexUmEE5KlJMzn8ywnbziVIme0bs8J9G1UtH66Th_FOsCtJzJewzbctJYd4AzSo5NKyT3SsmP7hik2phIkxxq8AALn6L7moVfUDLkfEzKimvlhEMRhiNNkSXAUZSVOSQyZEmTBMi2TdF4W74LqZ24quDc28f9iSv5D9BcVz5AH8bhGcI8HYR9ZraTsXGAFbZgxo5SPkKl2GUU1pKi9_ZOoIZmVWRCXOFiWHo7iMsezdF5gbwZ2UqRxOn97Ub4H_C-VYkzoU8r_C_YOihCqZC-MvkMPgLmmB9RJbdoDFAyNtF0wwUv9NAlIlEKpLBIceR7oXCQBDvNlEJZB6Hv-8l3gfbQlrbF6DJrtmTBI8U0DWboa7-2StVJsHmQBdfFzL6Yj9KF7lO2HU2XoJIgHdRf8g3O6uc_HyEBr8xN7hiU_REWUFbGdhxM2QyhXFeHFqU7V7fOltP9J7AhY-qEjxHA95I6dr4sj12umnLFLdBA82ITcO1N7uM__e9W1aO9FbYMlx-PxXLPJzC9mWVjiKCGgVbIM8TwpwUVQ5Fnsp16Z5G-0GgvmKzKeJK-s2bYUmILLIiy8irZM1FRdADeyhzffH0PIisD3CVS3cF7GOCpLH6dRUcCQ-H6ZZEU4D8HfiSaIHlwztoUMtOd6ru8GbuhGbuwmKwB2Onhk_H2PXsF30mbU_9a8b8371ry_D6pb874171vzvjXv_-Vo27xtXkFF6ehICnQNZarenF8Nnf65A3fnJ9aBxpeJSwatjn8D",
-  "name": "Winding down",
-  "release": 1,
-  "shortcuts": [],
-  "slug": "winding-down",
-  "starts_by_itself": true,
-  "starts_by_itself_line": "Every day at 22:00",
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "dayEnds",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "winding-down",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7VfbbuM2EP0VQn0VA-puu0-yLmjQdnexG3SBFkbBSLRFWCINkorjBv73DmVZXidF0YdunmwbhDQkh3POGc7ALw573kllWJ0aZ-H4xI8xmWM_eiBkMfx-d9xpTalkB6uU7A0XTPXirgKD66yl6qj5jSnNpXAWnusIaZh2Fn-sXGfX0ur8rFglVX1-OblxFi8ObVu517_2reG7lt0LbagYNq1pq5nrUFU1_Inprw0TubR7xomaGcpbiOneaGR4ByEgxWjVoIPs0Z6bBlFUUVX_iDQzCLYiI9GebtmwgK-RaRjaNXZiz9sWPTK0hnhRLffiDqA1Um7HeHkN58SFt_QyP8UEPji0Q24Hcv54xIdtXH9cr6coW4g9rQx_4uaQSWGUbLWFrRtAnW4oB9KM6mHlYFnSantlyFnFa3Zl-sCezZXh0ysnn3ozhGBNRxCEduDA-cpFzcVmgAdh7qgCuwHWIJzjuPOXb6KdXBq2szSAVDAjxUjJRP8XeSKSKiB5PXBrGmrQlsE-UKRhFJIDDuYG5BBIG7mz9A6cRlG6TIpgjrOyjHAU5DGexUmEE5KlJMzn8ywnbziVIme0bs8J9G1UtH66Th_FOsCtJzJewzbctJYd4AzSo5NKyT3SsmP7hik2phIkxxq8AALn6L7moVfUDLkfEzKimvlhEMRhiNNkSXAUZSVOSQyZEmTBMi2TdF4W74LqZ24quDc28f9iSv5D9BcVz5AH8bhGcI8HYR9ZraTsXGAFbZgxo5SPkKl2GUU1pKi9_ZOoIZmVWRCXOFiWHo7iMsezdF5gbwZ2UqRxOn97Ub4H_C-VYkzoU8r_C_YOihCqZC-MvkMPgLmmB9RJbdoDFAyNtF0wwUv9NAlIlEKpLBIceR7oXCQBDvNlEJZB6Hv-8l3gfbQlrbF6DJrtmTBI8U0DWboa7-2StVJsHmQBdfFzL6Yj9KF7lO2HU2XoJIgHdRf8g3O6uc_HyEBr8xN7hiU_REWUFbGdhxM2QyhXFeHFqU7V7fOltP9J7AhY-qEjxHA95I6dr4sj12umnLFLdBA82ITcO1N7uM__e9W1aO9FbYMlx-PxXLPJzC9mWVjiKCGgVbIM8TwpwUVQ5Fnsp16Z5G-0GgvmKzKeJK-s2bYUmILLIiy8irZM1FRdADeyhzffH0PIisD3CVS3cF7GOCpLH6dRUcCQ-H6ZZEU4D8HfiSaIHlwztoUMtOd6ru8GbuhGbuwmKwB2Onhk_H2PXsF30mbU_9a8b8371ry_D6pb874171vzvjXv_-Vo27xtXkFF6ehICnQNZarenF8Nnf65A3fnJ9aBxpeJSwatjn8D"
+  },
+  "colour" : "indigo",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Winding down",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "So the part of you that keeps rehearsing it can stop.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Put tomorrow somewhere you will find it"
+      "description" : "So the part of you that keeps rehearsing it can stop.",
+      "title" : "Put tomorrow somewhere you will find it"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 600,
-      "title": "Kitchen to zero"
+      "minutes" : 10,
+      "title" : "Kitchen to zero"
     },
     {
-      "asks_first": false,
-      "detail": "Somewhere that is not the bedroom, so getting it back is a decision.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Screens down"
+      "description" : "Somewhere that is not the bedroom, so getting it back is a decision.",
+      "title" : "Screens down"
     },
     {
-      "asks_first": false,
-      "detail": "Small counts. The day mostly was small.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "One thing that went right"
+      "description" : "Small counts. The day mostly was small.",
+      "title" : "One thing that went right"
     }
   ],
-  "tint": "#5E5CE6"
+  "symbol" : "moon.stars",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "22:00"
+      }
+    }
+  ]
 }

@@ -1,0 +1,38 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "the-bills-this-month",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7VfbbuM2EP0VQn01A90t5U1XNECzWSyCLtAiKGhqZBGRSZei4hgL__sOZdm5AUUf2jzZNgRxRhqec2Y4A_9w4HmrtIEmM86147t-TN2U-tG9615Pvz-cxfmZWqsNPqXVaIQEPcorjoaF0yq9YeZ30INQ0rn2Fo5UBgbn-s-HhbPtGT_da-BKN6fFMYxz_cNhfa92w-3YG7Ht4UYOhsnppZb1AywcpnknnmD43oEslX1ndjRgmOgR040hiAUGglFlQ5QkwgxE7STeciCMbJQ03YLsOsE79BHOrKvfk0ZZYw8EMYtWcGaQxECYxrcsLGiukGKn1OOMWzS4X1x5uVf4GXXxQ0N7Ke3FPX0CN8XXxHDXtme0PXLIuBFPwuwLxKNVP1j6Q4fsszUTKJ7RIz45WXLGH98YSuCigTemL_Bs3hi-vgvydTQTBGs6YGLYBgM49x2Qlej7gZhODEdxEO6WafQbTCTCOswRfnuF-hzawNbKganjk16vpQmKyguinHphtaRREuY0TZIlrevQjWMvrpeh90EaJUtgTX-qh9dBWfP0tho0bIS0VTRzeo_aCNNbkt87ZsgOpCFYaUgUV3s1kkY0NtcEqxq4cQ6Ld_uda8qKhMVG_h5hsP5jiC3bDwQr3hYY9O0VwdJDCSU8gbZxOyHXtmImLXy_9L0oj2iW4SWK45wmXl3RMI_jICjjNCmjT9Eik_sJGeEd02t7Y6WwNBg5Oux6MGq7hYaMA1o-KjNRqlK_KtIgp0WaBTTKwpjmYRnRIKprLy1q5Ft-CqUpvah8M2ItA1IBZILHGE_ElDbV2vUA_5DhGkvbKiLX2DkwFCOrsVmDwTyuVLMnj4BlfkXuMNrk7dgKW8dqT25tRzpnua4j1KLIaZCFNY2KIKNpVSxptvTqqMryKvLdT5HEAj3SWUwl3iI_5_Awn9cceiXX96pivPs2ynP0Yb9Zqf7LsTNwDY0wnOkGERu2vilnUNirza_wjI_84lfLMqytX4v1ekLxphP8cPixu317afF_ufaKNMZpMsQuKrAFPXVbjKnaFrQzT4sNnlm0SbVzzmPipvz3XdeyvZGNBeseDodT5aZlXedhkVIvKDOKp9KlSVp4tPbiIKqSJCrT7EOa5ob5TownJfik1lGnHc4lS4-zHmTD9Avhhu3v2tupvdq52KkRnV46I4qKJM6zEhukX3k0KpOaJkFV0ij0Yr_M0jBMbHs4qoZkcCeAR4w5wUBqx61nzT978wf8nvMz18BlkF8G-X_e1i6D_DLIL4P8Msgvg_z_2dwOcltbvIMNm4XBiaENH81padj5Hz3qd7qDDeb5xfFSRQ-Hnw"
+  },
+  "colour" : "#2E7D4F",
+  "description" : "It comes round on its own once a month, which it can only do while notifications are allowed.",
+  "name" : "The bills this month",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "title" : "What went out that you did not expect"
+    },
+    {
+      "description" : "The one question that pays for itself. It is never nothing.",
+      "title" : "Anything charging you for a thing you stopped using"
+    },
+    {
+      "title" : "What is due before the next one of these"
+    },
+    {
+      "description" : "Five changes is a budget nobody keeps. One is a habit by March.",
+      "title" : "One change, not five"
+    }
+  ],
+  "symbol" : "creditcard"
+}

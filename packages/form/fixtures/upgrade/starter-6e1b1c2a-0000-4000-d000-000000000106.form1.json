@@ -1,0 +1,32 @@
+{
+  "about" : "Needs a Home scene called Good Night. If yours goes by another name, change it on that step and this works as it is.",
+  "colour" : "indigo",
+  "name" : "Good night, house",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Runs the scene called Good Night, which is one of the ones the Home app suggests. If yours is called something else, change the name on this step.",
+      "does" : [
+        {
+          "scene" : "Good Night"
+        }
+      ],
+      "title" : "Set the house down"
+    },
+    {
+      "title" : "Doors and windows"
+    },
+    {
+      "title" : "Phone on to charge, away from the bed"
+    },
+    {
+      "title" : "Alarm set for the hour you meant, not the hour you hope for"
+    }
+  ],
+  "symbol" : "moon.stars",
+  "times" : [
+    {
+      "at" : "22:30"
+    }
+  ]
+}

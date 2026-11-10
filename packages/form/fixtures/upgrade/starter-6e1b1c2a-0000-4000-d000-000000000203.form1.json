@@ -1,0 +1,21 @@
+{
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "#64D2FF",
+  "name" : "Closing the day",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Commit, save, send the draft. Nothing sits open overnight.",
+      "title" : "Land what is half done"
+    },
+    {
+      "minutes" : 10,
+      "title" : "Answer anything that takes under two minutes"
+    },
+    {
+      "about" : "The whole point: tomorrow starts with a sentence rather than a decision.",
+      "title" : "Write the first line of tomorrow"
+    }
+  ],
+  "symbol" : "checkmark.circle"
+}

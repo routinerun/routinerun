@@ -1,0 +1,41 @@
+{
+  "about" : "Needs a Home scene called Good Morning. If yours goes by another name, change it on that step. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "orange",
+  "name" : "Getting up when it is dark",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Runs the scene called Good Morning. Light first is most of the difference in winter.",
+      "does" : [
+        {
+          "scene" : "Good Morning"
+        }
+      ],
+      "title" : "Lights up before your feet are down"
+    },
+    {
+      "minutes" : 1,
+      "title" : "Stand up and stay standing"
+    },
+    {
+      "title" : "Water"
+    },
+    {
+      "about" : "Said now, while nothing else has had a chance to ask for the morning.",
+      "title" : "The one thing that has to happen today"
+    }
+  ],
+  "symbol" : "sunrise.fill",
+  "times" : [
+    {
+      "at" : "06:30",
+      "days" : [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ]
+    }
+  ]
+}

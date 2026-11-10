@@ -1,29 +1,29 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": "Videos and talks to watch later. In YouTube or Safari, press Share, choose Routine Run, then To watch, and each link becomes a step that opens it. It never closes, and it waits when it is empty.",
-  "first_shelf": false,
-  "glyph": "play.rectangle",
-  "group": "making",
-  "group_line": "Reading, writing and shooting: work that comes in stages.",
-  "group_name": "Learning and making",
-  "link_web": "https://routinerun.com/r?v=1&d=7ZZdb5swFIb_yhG7hYh8Vs1dPlqt0tZWbdRpq3rhwAGsGBvZh7RRlf--YwJZ0t3sfkURwgf79eF9_Ep5D_CtMpYwnVEwDQbxYBLFl9FgvIrjafP7FYTHOdfWlDzLmpqkRlvrXsKFMMiMLQU9oXXS6GDaDwNtCF0wfX4Jg0qJpHu2mBibdoODTDB9D4RS5tV9rxXJSuGNdiR0sygTymEYCJsUcovuR4F6afya9kWKJKTinp5kisaB0CmQUBsHZOBVUFKAEoS2Bzcafpp6Va8RjIVHkQkrQ6gsOgePhbAYQlIY4xAeDn3BQ61DIN4RVq1W2Oij8KpSb2DNn1Mi7wqOsOK5gsBUqB1I4h0JNG7RQqJY1h0WS2IpSQ5evTCPpAMsK9r12Efef9OaI1P-qMlVf95fDGZRzFc08relv8XdNY4veJl0d1l2tESxUbOE5FbSbmE0WaOc99gVbPEsF5IJka15ZlOZi2RzVlhiwl6elW7xjc4K9x9E7mtqWvClPdMXJQsEnW3cYiUs1xiEb2Xfrvp20ulRjsTO3bGHfwpYeU_4kPBUo1t_juBnesdWWvSk-C49jYYnrGsio6ctY0n_ALiBJqz1Zw1EB5bJZdw6I-Oj5IHyJh6i1HkP7ht179AB6c7UUIgt92Mlet4ebEMzji9Gw_liFC0uLhfReDQfRPPhoB9NhpPL4WgSx4NZ_BdNo5coUtXl5NQCkW7PU2KxlNqnq8Xw0XSSpDyXR_QpKRAyaR2fWLbCexfsX1q756iMzlfmik86m3REsSvXRt0e4HKsdz3OMyc1Z1VWF_nNsm2NraGv-MbTvlxfj8bDmX9vZZ43vTy_7I_pb9F-5v8z_5_5_3_y73dKCixFu4DPg6Wkpm5I4vj_gXW7Jw6KOnlxKvgb",
-  "name": "To watch",
-  "release": 4,
-  "shortcuts": [],
-  "slug": "to-watch",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "making",
+    "licence" : "CC-BY-4.0",
+    "release" : 4,
+    "shortcuts" : [
+
+    ],
+    "slug" : "to-watch",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7ZZdb5swFIb_yhG7hYh8Vs1dPlqt0tZWbdRpq3rhwAGsGBvZh7RRlf--YwJZ0t3sfkURwgf79eF9_Ep5D_CtMpYwnVEwDQbxYBLFl9FgvIrjafP7FYTHOdfWlDzLmpqkRlvrXsKFMMiMLQU9oXXS6GDaDwNtCF0wfX4Jg0qJpHu2mBibdoODTDB9D4RS5tV9rxXJSuGNdiR0sygTymEYCJsUcovuR4F6afya9kWKJKTinp5kisaB0CmQUBsHZOBVUFKAEoS2Bzcafpp6Va8RjIVHkQkrQ6gsOgePhbAYQlIY4xAeDn3BQ61DIN4RVq1W2Oij8KpSb2DNn1Mi7wqOsOK5gsBUqB1I4h0JNG7RQqJY1h0WS2IpSQ5evTCPpAMsK9r12Efef9OaI1P-qMlVf95fDGZRzFc08relv8XdNY4veJl0d1l2tESxUbOE5FbSbmE0WaOc99gVbPEsF5IJka15ZlOZi2RzVlhiwl6elW7xjc4K9x9E7mtqWvClPdMXJQsEnW3cYiUs1xiEb2Xfrvp20ulRjsTO3bGHfwpYeU_4kPBUo1t_juBnesdWWvSk-C49jYYnrGsio6ctY0n_ALiBJqz1Zw1EB5bJZdw6I-Oj5IHyJh6i1HkP7ht179AB6c7UUIgt92Mlet4ebEMzji9Gw_liFC0uLhfReDQfRPPhoB9NhpPL4WgSx4NZ_BdNo5coUtXl5NQCkW7PU2KxlNqnq8Xw0XSSpDyXR_QpKRAyaR2fWLbCexfsX1q756iMzlfmik86m3REsSvXRt0e4HKsdz3OMyc1Z1VWF_nNsm2NraGv-MbTvlxfj8bDmX9vZZ43vTy_7I_pb9F-5v8z_5_5_3_y73dKCixFu4DPg6Wkpm5I4vj_gXW7Jw6KOnlxKvgb"
+  },
+  "colour" : "red",
+  "description" : "Videos and talks to watch later. In YouTube or Safari, press Share, choose Routine Run, then To watch, and each link becomes a step that opens it. It never closes, and it waits when it is empty.",
+  "name" : "To watch",
+  "routineRun" : 2,
+  "staysOpen" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Anywhere there is a Share button: press it, choose Routine Run, then To watch. It arrives as a step, after whatever is waiting. Press Next when you have tried it.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Send the first one here"
+      "description" : "Anywhere there is a Share button: press it, choose Routine Run, then To watch. It arrives as a step, after whatever is waiting. Press Next when you have tried it.",
+      "title" : "Send the first one here"
     }
   ],
-  "tint": "#FF453A"
+  "symbol" : "play.rectangle"
 }

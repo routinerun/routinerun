@@ -1,0 +1,45 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "making",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "a-shoot-shot-by-shot",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VdLj9s2EP4rhHroxVzoYb1804togDQJ2kUDNNgDLdEWsRJpUNR6jcD_vUNaErxpUgRFN5daECxpZvhx-M0L_uyw54NUmjWZdjaO7_oRdlPsh_euu7H3n85qsSFK9mCl5Ki5YGoUdzUIVs5Oqp7qP5gauBTOxls5Qmo2OJtPDyvn0NF6fleslqqZPy4wzuazQ7tOHodfx07zQ8feiEFTYRdpNbKVQ1Xd8ic2fGyZKKVZsqPdAIpWyscJjTfgWVR5uVf4GXbhwmvzU5ofd75Cdw3-8uH9breAdACd1Zo_cX0qpNBKdoNxamjBp2xPuZj9sJKc1o8vBCWrecNeiN6xZ_1C8OELkA-jti4Y0Rnooj0AOBkCpdQr89Boe7JP8PdAFRho4Bf8Ok8Qb6_cXrA1Oxg-gFHQSDFx0zBNeQcb5FK3aEs1QHE2rNDWfNcUQnKH7ls-ILh1y5AUHWwOYPBFNVgIYRxiqAH2UUdh_Z0zcU4qt4zKtY-riKxx6FclTqrcwySP3TINoyjxo79xLkXJaNPN4b92ljZPU_AnW8V6LpphIetLNhQgAdBgg1ZLseOqNxpQaa47Q2zRUrVniIoGXXLVOa--xdFHxTVDjNYtMoflAtEB0Qsbx5Z3DJ3kiKhiyGQp7LxHLVPMEMhOwFEnQaIl3A09_TzMITV7A5WGXQavBqOxiQOgDKQKLE5I7oxFfw0DC6ZKWSiP4iqMvCrHIXF9HHppipOMRJh4JFwXXpDF4etSPvOaNY110OTpYM90pOIr5Fqv8zQibuIW2E0SD4eVX-EsTkocl3mSR2EaBiT-IV6_5ftW24AMchTNysZ5Z2wN4XXLoMC_fgQSkyqI4wCTxAf2qyDHaVxBuyGBS1w3Cquw-CFH-N0kFeL_lMfvAdjUs6lcCkVfP46HO1RKk7Bc25xFitrMgyIXJjlb2bO5BTR8twMTA7Jl-siYsCgNgqy-JDPq5KANd0teunGS5C5J8LpIDD1FgVOSZ9gnXrrOCoh47r0qPd_RCkz7NucfobcduT0dtIRLUXeMPrFvhD5NytTPchiPJAtwWKzXUHOQvSQOwspbk6Dy01c925K9FJqDDZFt3M75Yer7ue0Z97KC1vXbKBbg4dRvZffuMmJqeCgKjmq6f1NOvkBz0b-wZ1D_REgQh8ToFd_v7eafHs7LsB4uw-U2rm_j-t_m8XfU6G1c_7eU38b1bVzfxvX_Z1ybLaAuejotgHpXuh71_Knp8u8ccOc31h-6K8U14F8"
+  },
+  "colour" : "pink",
+  "name" : "A shoot, shot by shot",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Both batteries, both cards. This is the only step that cannot be done later.",
+      "title" : "Charge and format"
+    },
+    {
+      "description" : "Write each one in as a step while you are standing here. They belong to today's shoot, and at the end you decide whether any of them belong to the routine.",
+      "title" : "Add the shots you want"
+    },
+    {
+      "title" : "Light and sound, one frame to check"
+    },
+    {
+      "title" : "Shoot it"
+    },
+    {
+      "description" : "Once is not a backup. Doing it here rather than at home is the difference between a bad day and a lost one.",
+      "title" : "Back it up twice before you leave"
+    },
+    {
+      "title" : "Label the cards"
+    }
+  ],
+  "symbol" : "camera"
+}

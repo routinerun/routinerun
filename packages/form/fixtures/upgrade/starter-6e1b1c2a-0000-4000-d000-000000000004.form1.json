@@ -1,0 +1,30 @@
+{
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "green",
+  "name" : "Putting something live",
+  "routineRun" : 1,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "about" : "Written before, not after. Afterwards every graph looks like it was meant to do that.",
+      "title" : "Say what you expect to change"
+    },
+    {
+      "about" : "Two changes in one window is one incident with two suspects.",
+      "title" : "Check who else is shipping"
+    },
+    {
+      "title" : "Send it"
+    },
+    {
+      "about" : "Actually watch. The failures that matter show up while you are still the person who can undo it.",
+      "minutes" : 10,
+      "title" : "Watch it for ten minutes"
+    },
+    {
+      "about" : "Both are fine. What is not fine is leaving it half out and going to lunch.",
+      "title" : "Say it is done, or roll it back"
+    }
+  ],
+  "symbol" : "shippingbox"
+}

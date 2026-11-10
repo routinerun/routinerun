@@ -1,0 +1,78 @@
+{
+  "about" : "A routine that uses every key form 2 renames.",
+  "colour" : "blue",
+  "dates" : [
+    {
+      "name" : "Departure",
+      "on" : "2026-11-14"
+    }
+  ],
+  "name" : "Every key that moved",
+  "rounds" : {
+    "from" : 2,
+    "through" : 3,
+    "times" : 4
+  },
+  "routineRun" : 1,
+  "startsFrom" : [
+    {
+      "at" : "19:00",
+      "date" : "Departure",
+      "days" : -3
+    }
+  ],
+  "steps" : [
+    {
+      "about" : "Words.",
+      "alarm" : true,
+      "by" : "09:00",
+      "late" : "ask",
+      "times" : 3,
+      "title" : "By a time",
+      "warnHours" : 2
+    },
+    {
+      "alarm" : false,
+      "day" : 2,
+      "startBy" : "08:30",
+      "title" : "Begun by"
+    },
+    {
+      "byDate" : {
+        "date" : "Departure",
+        "days" : -1,
+        "hours" : 19
+      },
+      "tellMe" : "reminders",
+      "title" : "From a date"
+    },
+    {
+      "byValue" : {
+        "days" : -3,
+        "value" : "appointment"
+      },
+      "title" : "From a value"
+    },
+    {
+      "byMinutesFromStart" : 60,
+      "minutes" : 50,
+      "title" : "Within",
+      "waitsOut" : true
+    }
+  ],
+  "times" : [
+    {
+      "at" : "07:00",
+      "days" : [
+        "mon",
+        "fri"
+      ]
+    },
+    {
+      "at" : "18:30"
+    }
+  ],
+  "values" : {
+    "appointment" : "2026-11-20 10:00"
+  }
+}

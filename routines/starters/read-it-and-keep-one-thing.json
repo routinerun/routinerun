@@ -1,55 +1,41 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": true,
-  "glyph": "doc.text.magnifyingglass",
-  "group": "making",
-  "group_line": "Reading, writing and shooting: work that comes in stages.",
-  "group_name": "Learning and making",
-  "link_web": "https://routinerun.com/r?v=1&d=7VfBjqNGEP2VFrkaCzB4bOcEBmtH2kxGm0lWymoOPVBAy9BtdRfDWCtL-Yh8Yb4k1RiTmVkpt92TkWVDU1396tWrKvmrAy8HpRGKGJ2NE3jB0vXWbhA9eN5m-PzpzCabnVYtWWnVoZCgOznPaWHmlEq3HP8AbYSSzsafOVIhGGfz5XHmHBqeX-415EoXl4ezG2fz1eFNo3rzS9egODRwKw1yOWxC3cHM4TqvxTOYzzXIVNktJW8MvSgAuWgI0i0ahqIlBEwDz2t2VB3rBdaMs5zr4mdmABltZahYz_cwGIiSYQ3sUNsXvWga9gSsJLisUL2cU2S1UvsRrijonGXmJ_42iF2PLje0X6n98i5X5Pm0TZhfy3JC2RD2OEfxLPC4VRK1aoyN2tQUdFxxIS-BDisJz_dvFlLIRQFvlu7gBd8s3L9zct_hAMEunSgfvCUHzifgBRPIuCzYHuBwZqQWsiLQB67JColDAnca_Xx8hX06AOFgSaG80RslR4KmZHygU8ilGY6xBDfcILPuK80P9Zw99Iq1QnakEVaDJrqHCA3rayB7PWySFCLDHiQeGSebniRYE3iblqLTHM9aC7wxNas4WWWel7lbL9m60XYbuUkYr9wwTqMwC-JVuMi-SY2SKYFtLjJ8HQ4vnkcRjrYaCHNhJk7f84UCG0vyb3vRWpJLoQ06p9k7vwPYm3C7WsTrnRssb2I3Snahu7pZB-7ai1Y32126Xiy9HwL2ooiDVgfQzfFbvFNa7xQJh5mubbk-UhLrUTrnWlNdUzDDKVdPVNfWJVWaUS08qeJIiVWs5oZRX7AFWox5HLhY-2mWBkvPXSR-4EbrZeKu_Z3v3mRxmgaLLN1GwQ_h4rMWCIP2bFkYUh6Qn_9hJHsGfbQxwVnGlSIN25j74fGfv_62hFG1zKgU1KDssenNmNKM93zgkRNdVvv0S4TSHRfUzqipThTF62AX-THJOgmJokXskVJC312t0sVymYXhLtp9V4r0UNJghr5lQ6G8f4QSf5dDey-s1Ssm788KONNwbsXUXEs6gpad0-PYQxJolKweVEYd-1MnJzTm2D6p5u7cswqVz5F6wbzllRTlkU6uqKEYihd5dZuOIRGr-AFeaMNPHtX6zvKBWlTVEMOXx9M0cMbWdR0515FzHTnXkXMdOdeR851Gjj00r6Hl4wZqbxrzDi-PyKd_SeT3cgctBfjfi9cO_wU",
-  "name": "Read it and keep one thing",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "read-it-and-keep-one-thing",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "making",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "read-it-and-keep-one-thing",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VfBjqNGEP2VFrkaCzB4bOcEBmtH2kxGm0lWymoOPVBAy9BtdRfDWCtL-Yh8Yb4k1RiTmVkpt92TkWVDU1396tWrKvmrAy8HpRGKGJ2NE3jB0vXWbhA9eN5m-PzpzCabnVYtWWnVoZCgOznPaWHmlEq3HP8AbYSSzsafOVIhGGfz5XHmHBqeX-415EoXl4ezG2fz1eFNo3rzS9egODRwKw1yOWxC3cHM4TqvxTOYzzXIVNktJW8MvSgAuWgI0i0ahqIlBEwDz2t2VB3rBdaMs5zr4mdmABltZahYz_cwGIiSYQ3sUNsXvWga9gSsJLisUL2cU2S1UvsRrijonGXmJ_42iF2PLje0X6n98i5X5Pm0TZhfy3JC2RD2OEfxLPC4VRK1aoyN2tQUdFxxIS-BDisJz_dvFlLIRQFvlu7gBd8s3L9zct_hAMEunSgfvCUHzifgBRPIuCzYHuBwZqQWsiLQB67JColDAnca_Xx8hX06AOFgSaG80RslR4KmZHygU8ilGY6xBDfcILPuK80P9Zw99Iq1QnakEVaDJrqHCA3rayB7PWySFCLDHiQeGSebniRYE3iblqLTHM9aC7wxNas4WWWel7lbL9m60XYbuUkYr9wwTqMwC-JVuMi-SY2SKYFtLjJ8HQ4vnkcRjrYaCHNhJk7f84UCG0vyb3vRWpJLoQ06p9k7vwPYm3C7WsTrnRssb2I3Snahu7pZB-7ai1Y32126Xiy9HwL2ooiDVgfQzfFbvFNa7xQJh5mubbk-UhLrUTrnWlNdUzDDKVdPVNfWJVWaUS08qeJIiVWs5oZRX7AFWox5HLhY-2mWBkvPXSR-4EbrZeKu_Z3v3mRxmgaLLN1GwQ_h4rMWCIP2bFkYUh6Qn_9hJHsGfbQxwVnGlSIN25j74fGfv_62hFG1zKgU1KDssenNmNKM93zgkRNdVvv0S4TSHRfUzqipThTF62AX-THJOgmJokXskVJC312t0sVymYXhLtp9V4r0UNJghr5lQ6G8f4QSf5dDey-s1Ssm788KONNwbsXUXEs6gpad0-PYQxJolKweVEYd-1MnJzTm2D6p5u7cswqVz5F6wbzllRTlkU6uqKEYihd5dZuOIRGr-AFeaMNPHtX6zvKBWlTVEMOXx9M0cMbWdR0515FzHTnXkXMdOdeR851Gjj00r6Hl4wZqbxrzDi-PyKd_SeT3cgctBfjfi9cO_wU"
+  },
+  "colour" : "blue",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Read it and keep one thing",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Headings and the last paragraph. Two minutes here decides whether the next twenty are worth it.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 120,
-      "title": "Skim it first"
+      "description" : "Headings and the last paragraph. Two minutes here decides whether the next twenty are worth it.",
+      "minutes" : 2,
+      "title" : "Skim it first"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Read it properly"
+      "title" : "Read it properly"
     },
     {
-      "asks_first": false,
-      "detail": "Not a summary. The thing you would say about it to somebody who has not read it.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Write the one sentence"
+      "description" : "Not a summary. The thing you would say about it to somebody who has not read it.",
+      "title" : "Write the one sentence"
     },
     {
-      "asks_first": false,
-      "detail": "Every note here goes somewhere — a step, another routine, or away. That is what this waits for.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Put it where you will find it"
+      "description" : "Every note here goes somewhere — a step, another routine, or away. That is what this waits for.",
+      "title" : "Put it where you will find it"
     }
   ],
-  "tint": "#0A84FF"
+  "symbol" : "doc.text.magnifyingglass"
 }

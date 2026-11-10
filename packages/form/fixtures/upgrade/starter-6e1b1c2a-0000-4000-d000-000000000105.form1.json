@@ -1,0 +1,28 @@
+{
+  "colour" : "blue",
+  "name" : "Sunday evening",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Once, now, so it is not a surprise on Tuesday.",
+      "title" : "Look at the week as it stands"
+    },
+    {
+      "about" : "One. A week with three most-important things has none.",
+      "title" : "Name the one thing that matters"
+    },
+    {
+      "about" : "A block in the calendar, not an intention. If there is nowhere to put it, something else has to go.",
+      "title" : "Find where it will actually happen"
+    },
+    {
+      "about" : "Sending it tonight buys you their Monday. Sending it Monday buys you their Wednesday.",
+      "title" : "Deal with anything that needs somebody else"
+    },
+    {
+      "about" : "The rest of the evening is not preparation. Planning past this point is just working on Sunday.",
+      "title" : "Then stop"
+    }
+  ],
+  "symbol" : "calendar.badge.clock"
+}

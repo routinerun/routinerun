@@ -1,117 +1,72 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": "One run per deal, as many at once as you have in the pipe. Notes, links and answers stay on that deal's run; what you change about the process, kept, is how the next deal starts.",
-  "first_shelf": false,
-  "glyph": "checklist",
-  "group": "work",
-  "group_line": "Getting into a piece of work, and putting it down properly.",
-  "group_name": "Work and focus",
-  "link_web": null,
-  "name": "Due diligence on a deal",
-  "release": 7,
-  "shortcuts": [],
-  "slug": "due-diligence-on-a-deal",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 7,
+    "shortcuts" : [
+
+    ],
+    "slug" : "due-diligence-on-a-deal",
+    "startsByItself" : false
+  },
+  "colour" : "blue",
+  "description" : "One run per deal, as many at once as you have in the pipe. Notes, links and answers stay on that deal's run; what you change about the process, kept, is how the next deal starts.",
+  "name" : "Due diligence on a deal",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "What has to be true for this to be a good deal. Every step below is a test of it.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Write the thesis in one sentence"
+      "description" : "What has to be true for this to be a good deal. Every step below is a test of it.",
+      "title" : "Write the thesis in one sentence"
     },
     {
-      "asks_first": false,
-      "detail": "Today, in one message: incorporation papers, cap table, financials, material contracts, IP assignments. A list sent in pieces is a data room that arrives in pieces.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Send the request list"
+      "description" : "Today, in one message: incorporation papers, cap table, financials, material contracts, IP assignments. A list sent in pieces is a data room that arrives in pieces.",
+      "title" : "Send the request list"
     },
     {
-      "asks_first": false,
-      "detail": "Every SAFE, note and option grant on the cap table, and the cap table matching the documents.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Who owns what"
+      "description" : "Every SAFE, note and option grant on the cap table, and the cap table matching the documents.",
+      "title" : "Who owns what"
     },
     {
-      "asks_first": false,
-      "detail": "Every founder and contractor has assigned their work to the company, including what they wrote before it existed.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Who owns the code"
+      "description" : "Every founder and contractor has assigned their work to the company, including what they wrote before it existed.",
+      "title" : "Who owns the code"
     },
     {
-      "asks_first": false,
-      "detail": "Revenue in the model against money that arrived. A gap is a question, not yet a problem.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "The numbers against the bank"
+      "description" : "Revenue in the model against money that arrived. A gap is a question, not yet a problem.",
+      "title" : "The numbers against the bank"
     },
     {
-      "asks_first": false,
-      "detail": "End to end, before the next call. What it does on your phone outranks what the deck says it does.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Use the product yourself"
+      "description" : "End to end, before the next call. What it does on your phone outranks what the deck says it does.",
+      "title" : "Use the product yourself"
     },
     {
-      "asks_first": false,
-      "detail": "Ask what they would use if it disappeared tomorrow.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Call two customers they did not pick"
+      "description" : "Ask what they would use if it disappeared tomorrow.",
+      "title" : "Call two customers they did not pick"
     },
     {
-      "asks_first": false,
-      "detail": "Somebody who worked with them, not somebody they gave you.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "One reference on each founder"
+      "description" : "Somebody who worked with them, not somebody they gave you.",
+      "title" : "One reference on each founder"
     },
     {
-      "asks_first": false,
-      "detail": "Litigation, regulation, privacy, a dependency on one platform. Write it down even when the answer is none.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Anything that would stop the round"
+      "description" : "Litigation, regulation, privacy, a dependency on one platform. Write it down even when the answer is none.",
+      "title" : "Anything that would stop the round"
     },
     {
-      "asks_first": false,
-      "detail": "A flag with nothing that would clear it is a pass dressed up as a question.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "List the red flags and what would clear each"
+      "description" : "A flag with nothing that would clear it is a pass dressed up as a question.",
+      "title" : "List the red flags and what would clear each"
     },
     {
-      "asks_first": true,
-      "detail": "Invest, pass, or one more question with a date on it. Written, with the reason.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Decide"
+      "description" : "Invest, pass, or one more question with a date on it. Written, with the reason.",
+      "title" : "Decide"
     },
     {
-      "asks_first": false,
-      "detail": "A step that was missing, one that was a waste of time. Keep it, and the next deal runs the better version.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "What this deal taught the process"
+      "description" : "A step that was missing, one that was a waste of time. Keep it, and the next deal runs the better version.",
+      "title" : "What this deal taught the process"
     }
   ],
-  "tint": "#0A84FF"
+  "symbol" : "checklist"
 }

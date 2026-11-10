@@ -1,0 +1,43 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Reminders"
+    ],
+    "firstShelf" : false,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "receipts-before-they-are-lost",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VZtb6M4EP4rFvcVV5AEEvKNV22l3b2qV-1KuzqdvDABq8aObJM0qvLfb0xImva-r-5DEAIzHs8888yLePXgZau0hSa13tqbBbOYBgmdRU9BsB7vH55_0am06lFLq8FyCXqQdzUKfG-jdM_sN9CGK-mtQ9-TyoLx1j__9r2tYPV5raFWujl_nMx461ePCaH25ssgLN8KuJfGMjkesnoA32O67vgOzPcOZKHckQ0TBjc6pZ4na7xBZHEZZmE-S2mAF124R-EewfmahyHi5ebPzeZiRKDptLZ8x-0hV9JqJYwDZTrElLaMyzOOUZKx-vmdoICaN_BO9BVe7DvBwwcjD4MdITjREeliPRrwHqEGvrXGJ78AOQViOzgQhguhjEXgW6ZR0yLRCPA42fp8hf_ixMLWEYPU4o6SE0kNWMYFerqXVhFGXJqIkuiHG-LO-Cja-2TfcQGEW4JiLslBDZp0TDZ3JCX6BNLJGdmq-hlGNXbZsB2zqG1Ii6m686bUREmRzYIyoGESVzRaLBOaZnFIqziMg1WSF2mV_ic1ShbAGnGukutQWLObamTS1dBz2ZgLpx-5stwKR_JDp6xqNdt2GKB39D_YPYEN8kVZpTkto2JFo3IW0GSezWheVkWVlqtwsSp-C9i_2AGTgXxiLvZIKVaF75i3nQYg-7GZ3odwXjsMtQZm4XH0BdpJ_glO7WZUKpju3wA1A7bdFy6HsW_DIFgFLr5KsLaF5qpXjP16KlbvDWUuGO8R4pq88ql3j97xeJzYLJaY-HwRUpwucxplVU6zfJnSdD5bVOkqTpI8R2sGXE9kWMPY8JrvmEDhHlv-ST0OYzywA3144s79K5q_LuixCblsXUkTrO2pIpkgTJo9aHw1jkRA1l1buZKX7XV1VvEyqOgyn-U0itOQJkVS0TgJsiiPwlUUZb8l4WcqfaI0acbJ4tqP7LkQLjbPRT12dwZCyfZJlazuRn4mT-bQ_1JiSlKj6rsdh_3mVAHoh7X3xQQSp6_9BC-o9seqXJXJ3O1rjgnXo8bxMqOnwrpN6duUvk3p25S-Ten_05R2ruoOejYdwHGjbT3Y86dll39xtHteQY8_5m8b1wb_BQ"
+  },
+  "colour" : "grey",
+  "name" : "Receipts, before they are lost",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Into a note on this step, now, while it is in your hand. A receipt in a pocket is a receipt that has gone.",
+      "title" : "Photograph it"
+    },
+    {
+      "title" : "Say what it was for, in three words"
+    },
+    {
+      "description" : "Deciding not to is a real answer and it ends the thing.",
+      "does" : [
+        {
+          "reminder" : {
+            "in" : 10080,
+            "title" : "Claim it: {instance}"
+          }
+        }
+      ],
+      "title" : "Claim it, or decide you will not"
+    }
+  ],
+  "symbol" : "doc.viewfinder"
+}

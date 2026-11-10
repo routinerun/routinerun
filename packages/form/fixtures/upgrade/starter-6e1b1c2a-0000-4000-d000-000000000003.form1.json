@@ -1,0 +1,25 @@
+{
+  "colour" : "purple",
+  "name" : "After it is fixed",
+  "routineRun" : 1,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "about" : "One sentence. If it takes three, you have two problems.",
+      "title" : "What broke"
+    },
+    {
+      "about" : "And how long after it started. That gap is the thing worth fixing.",
+      "title" : "What told you"
+    },
+    {
+      "about" : "The half everybody leaves out and everybody needs.",
+      "title" : "What you tried that did not work"
+    },
+    {
+      "about" : "A check, a number, a different threshold. Something you can actually go and make.",
+      "title" : "What would have caught it sooner"
+    }
+  ],
+  "symbol" : "text.magnifyingglass"
+}

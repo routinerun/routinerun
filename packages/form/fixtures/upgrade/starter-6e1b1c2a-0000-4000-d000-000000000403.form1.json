@@ -1,0 +1,23 @@
+{
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "purple",
+  "name" : "Five sets",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Two light sets. The first working set is not the warm-up.",
+      "minutes" : 3,
+      "title" : "Warm up with the bar"
+    },
+    {
+      "about" : "Then rest until your breathing is back. Press Again for the next one.",
+      "times" : 5,
+      "title" : "A set"
+    },
+    {
+      "about" : "Weight and how the last set felt. Next time this is the only thing you will want to know.",
+      "title" : "Write down what you lifted"
+    }
+  ],
+  "symbol" : "figure.strengthtraining.traditional"
+}

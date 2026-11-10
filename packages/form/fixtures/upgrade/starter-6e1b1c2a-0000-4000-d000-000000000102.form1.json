@@ -1,0 +1,30 @@
+{
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "indigo",
+  "name" : "Winding down",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "So the part of you that keeps rehearsing it can stop.",
+      "title" : "Put tomorrow somewhere you will find it"
+    },
+    {
+      "minutes" : 10,
+      "title" : "Kitchen to zero"
+    },
+    {
+      "about" : "Somewhere that is not the bedroom, so getting it back is a decision.",
+      "title" : "Screens down"
+    },
+    {
+      "about" : "Small counts. The day mostly was small.",
+      "title" : "One thing that went right"
+    }
+  ],
+  "symbol" : "moon.stars",
+  "times" : [
+    {
+      "at" : "22:00"
+    }
+  ]
+}

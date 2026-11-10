@@ -1,55 +1,38 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": false,
-  "glyph": "house",
-  "group": "home",
-  "group_line": "The errands a week repeats, and nobody enjoys holding.",
-  "group_name": "Home and everyday",
-  "link_web": "https://routinerun.com/r?v=1&d=7VZLb9s4EP4rhHo1C4mWYsl70hMN0EfQBrvAFjkw0tgiIpEGSUUxCv_3DmXZyAM99NCeLBiCSA6H8z048A8PnnZKW2hS66095rMr6ieURbe-v55-_3uLc0ylVY9RWg1WSNCDfF_jxMLbKN1z-y9oI5T01sHCk8qC8dbf7xberuP16VtDrXRzGhzTeOsfHu86NZpPQ2fFroNraSyX06YN7wwsPK7rVjyC-a8FWSi3Z15owHLRYU3X1hAreiyBaOB1S_ZqIKOwLeGk5rr5hxiwBLcSq8jIH2AKEBtiWyC71i2MouvIPZAN1ksaNcr3CK1V6mGuVzR4zlUZZEHOUurjQ0P3KtzLPz1Lf4nbhPmy2Zyr7LD2tLbiUdh9rqTVqjMOtmkRdbrlAkmzesDIaSbj9cOLiQJq0cCLqc_wZF9M3LxKcjPYqQQ3dUBBeI8JvAxQKwQMCnkmqB4QlEE2WPKOa4yxyCCWdpizfHxW-Tm9hZ2jBGXDFSVneppBczvpn_j-zFZU5qsozSsaRmFOI1aUNMlZROPlqohYXGVJHL1hS8kCeNOdrPH8DN48vjSGhl5IZ6gZ5msQVtjO4b5tHVDVG6f3_ig1Zh7QeHunOZJ3WLwGdPLWN6RpbEFP3tkNFnMIuTWTR4gwZMTL0ZLeEWtbLgk8gt4fN9wDRqIxm70z08QJK4MwieOIRnGQUOQlpGmWBrRcFVUVhOxqVcV_hZMv6Hkz6Mnu6AQ0hAVko-6A67dsTLWnLE2jq4jRPEkRAEsSmpXZklalX4YsL1csCP9K7U6SSQUnSaOFfFighnU3NG4OPU7GVjkdnD7YjI4xuPYLYHkUZYxVFc3LqKLRys9oWrCQxnnMlnkRxEX29lr_CWA3k72wGXEzweMj3xOEY9p5oVE4Uug76x3u5suYQafk9laV2Pi-DvJ8qNn396r7fLz6rRoMIAbLt9fFXCb2X_sBnnD13dIvgsgZz2qx3U51fb87nLv0fOEvffrSp_-k_S99-tKnL3369_u0O6FuoefzBmwK2taDPQ0tP_8fx7ynL0AzPVt4nvAn",
-  "name": "Before people come round",
-  "release": 1,
-  "shortcuts": [],
-  "slug": "before-people-come-round",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "before-people-come-round",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VZLb9s4EP4rhHo1C4mWYsl70hMN0EfQBrvAFjkw0tgiIpEGSUUxCv_3DmXZyAM99NCeLBiCSA6H8z048A8PnnZKW2hS66095rMr6ieURbe-v55-_3uLc0ylVY9RWg1WSNCDfF_jxMLbKN1z-y9oI5T01sHCk8qC8dbf7xberuP16VtDrXRzGhzTeOsfHu86NZpPQ2fFroNraSyX06YN7wwsPK7rVjyC-a8FWSi3Z15owHLRYU3X1hAreiyBaOB1S_ZqIKOwLeGk5rr5hxiwBLcSq8jIH2AKEBtiWyC71i2MouvIPZAN1ksaNcr3CK1V6mGuVzR4zlUZZEHOUurjQ0P3KtzLPz1Lf4nbhPmy2Zyr7LD2tLbiUdh9rqTVqjMOtmkRdbrlAkmzesDIaSbj9cOLiQJq0cCLqc_wZF9M3LxKcjPYqQQ3dUBBeI8JvAxQKwQMCnkmqB4QlEE2WPKOa4yxyCCWdpizfHxW-Tm9hZ2jBGXDFSVneppBczvpn_j-zFZU5qsozSsaRmFOI1aUNMlZROPlqohYXGVJHL1hS8kCeNOdrPH8DN48vjSGhl5IZ6gZ5msQVtjO4b5tHVDVG6f3_ig1Zh7QeHunOZJ3WLwGdPLWN6RpbEFP3tkNFnMIuTWTR4gwZMTL0ZLeEWtbLgk8gt4fN9wDRqIxm70z08QJK4MwieOIRnGQUOQlpGmWBrRcFVUVhOxqVcV_hZMv6Hkz6Mnu6AQ0hAVko-6A67dsTLWnLE2jq4jRPEkRAEsSmpXZklalX4YsL1csCP9K7U6SSQUnSaOFfFighnU3NG4OPU7GVjkdnD7YjI4xuPYLYHkUZYxVFc3LqKLRys9oWrCQxnnMlnkRxEX29lr_CWA3k72wGXEzweMj3xOEY9p5oVE4Uug76x3u5suYQafk9laV2Pi-DvJ8qNn396r7fLz6rRoMIAbLt9fFXCb2X_sBnnD13dIvgsgZz2qx3U51fb87nLv0fOEvffrSp_-k_S99-tKnL3369_u0O6FuoefzBmwK2taDPQ0tP_8fx7ynL0AzPVt4nvAn"
+  },
+  "colour" : "green",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Before people come round",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 900,
-      "title": "The rooms they will actually be in"
+      "minutes" : 15,
+      "title" : "The rooms they will actually be in"
     },
     {
-      "asks_first": false,
-      "detail": "Somewhere to put things down is worth more than everywhere being tidy.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "One surface completely clear"
+      "description" : "Somewhere to put things down is worth more than everywhere being tidy.",
+      "title" : "One surface completely clear"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Something to drink, including for whoever is not drinking"
+      "title" : "Something to drink, including for whoever is not drinking"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Put the washing away or shut the door on it"
+      "title" : "Put the washing away or shut the door on it"
     }
   ],
-  "tint": "#30D158"
+  "symbol" : "house"
 }

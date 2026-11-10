@@ -1,0 +1,25 @@
+{
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "#64D2FF",
+  "name" : "Washing, end to end",
+  "routineRun" : 1,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "title" : "Load it"
+    },
+    {
+      "about" : "The step exists so the next one arrives. This is the whole reason the app has timers.",
+      "minutes" : 90,
+      "title" : "Wait for the machine"
+    },
+    {
+      "about" : "Within the hour, or it is a second wash.",
+      "title" : "Hang it before it creases"
+    },
+    {
+      "title" : "Put it away"
+    }
+  ],
+  "symbol" : "washer"
+}

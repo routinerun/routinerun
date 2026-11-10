@@ -1,0 +1,40 @@
+{
+  "colour" : "orange",
+  "name" : "A post, idea to published",
+  "routineRun" : 1,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "about" : "If that line is dull, the post is dull, and this is the cheapest moment to find out.",
+      "title" : "Write the one line it is about"
+    },
+    {
+      "title" : "Draft it badly, all the way to the end"
+    },
+    {
+      "about" : "Nothing to do. Come back tomorrow and the bad half will be obvious.",
+      "title" : "Sleep on it"
+    },
+    {
+      "about" : "It is nearly always throat-clearing.",
+      "title" : "Cut the first paragraph"
+    },
+    {
+      "about" : "The one step here with no way back, which is why it asks.",
+      "title" : "Publish it"
+    },
+    {
+      "about" : "Put it somewhere other than your memory, so the thread does not go cold.",
+      "does" : [
+        {
+          "reminder" : {
+            "in" : 180,
+            "title" : "Answer the replies to {instance}"
+          }
+        }
+      ],
+      "title" : "Come back to the replies"
+    }
+  ],
+  "symbol" : "square.and.pencil"
+}

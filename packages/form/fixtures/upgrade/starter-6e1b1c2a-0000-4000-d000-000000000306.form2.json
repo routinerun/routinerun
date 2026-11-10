@@ -1,0 +1,29 @@
+{
+  "colour" : "grey",
+  "name" : "When something breaks",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Now, before anybody touches it. This is the one that decides an insurance claim.",
+      "title" : "Photograph it"
+    },
+    {
+      "description" : "Water off, power off, a bucket. Fixing comes later; spreading is what costs.",
+      "title" : "Stop it getting worse"
+    },
+    {
+      "description" : "Model, serial, when it arrived. Half of these are still under a warranty nobody looked up.",
+      "title" : "Find what it is and how old"
+    },
+    {
+      "description" : "Say which. The default is living with it for four months and then replacing it anyway.",
+      "title" : "Decide: fix, replace, or live with it"
+    },
+    {
+      "description" : "Today. The queue for a tradesperson is measured in weeks and starts when you ring.",
+      "title" : "Make the call or place the order"
+    }
+  ],
+  "symbol" : "wrench.and.screwdriver"
+}

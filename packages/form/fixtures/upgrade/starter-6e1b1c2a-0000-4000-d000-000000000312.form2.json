@@ -1,0 +1,14 @@
+{
+  "colour" : "grey",
+  "description" : "Anything to deal with later, sent from the share sheet in Safari, Mail or any other app: choose Routine Run, then Inbox. Go through it when you have a minute; it never closes, and it waits when it is empty.",
+  "name" : "Inbox",
+  "routineRun" : 2,
+  "staysOpen" : true,
+  "steps" : [
+    {
+      "description" : "Anywhere there is a Share button: press it, choose Routine Run, then Inbox. It arrives as a step, after whatever is waiting. Press Next when you have tried it.",
+      "title" : "Send the first one here"
+    }
+  ],
+  "symbol" : "tray.full"
+}

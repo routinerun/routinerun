@@ -1,0 +1,48 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "the-weekly-shop",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7Vdbi9s4GP0rwvsaFVu-xM4--coG2m4pwy60hEVjy7F2bMnI8mTMkP_eT46TaaYUug87T0mCEn-6nXO-G3m22FMvlWZVrK2NRWwSYDvCxL-z7c38-WKtLmsKJTtYpeSouWBqFO9KMKysWqqO6r-YGrgU1sZZWUJqNlibr7uV1be0PP9WrJSqOj-cjrE2zxZtW3kYPoyt5n3LtmLQVMybatoObGVRVTb8kQ1_N0xk0uxZJiqmKW8B01YPSPMOICDFaNmgSY7owHWDKCqpqn5HA9MItiIt0YE-sHkBr5FuGOobM3HgbYvuGaoBL6rkQbwDao2UDwteXsE9Qe4kTkpibMMLe2bIzGCfX67twDY-_FnXF5QtYI9LzR-5nlIptJLtYGgPDbCO95SDaFqNsHK2JLR8uDJkrOQVuzJ9ZE_6yvDp1SGfRj1DMKYjOIR2cIB1B2wPjD20E4JVPSDtqYIpDcIBouOy-f13gC-natYbJcBbMCPFosrFA-bolg_6pLziGpSEeEEd66SaEB9mqecVuqEa3Y_TAM7RDVcV-pcqJGvUjeB5VRnhq1FRfQqn0F7Ej7yMJKSwcRqHa-y7UYbDoIjwOo7znKTEjZLwB_GlyBit2nOkfY-dVo_XcaZYx4WJz0W11-Jorlsj43uICsTFzKhWvNozCBzIAjYT52KPqJiAmdhbx9WrS2cmHvG81M8JTkI3w35gFzjMgwLHuZP6SRjESULehMkHButnl8F5I-QheEpoJiqTJyXQ_AmBMCoyf00cnAc-EPBtgsHk4HDtph6JfZLExZsQMGFXjZC5DW3rDeppz9QKDZL2K8Bf14z9hIEfpySI7AB7aRFjv3AcHGfrEOdJ6hCSu04euG_CIF5CBUFBFeYb6uIpRYS8l9UEzAbIImHuYhWamLaOuyUfE9ZKsb-TOZS8z6O43D1M3b1sP56SHuqfBiaa7rfZAhZiVP_BnmDyt6KICjs284rv9zO6qxx_tspTyfr8Uq__sc0I9Ma5zAeQoBJ0XxLWMrIrayn9BjnYhDxYl5q_zX69lBqeW1EZsPbxeDy7L0_Xse35BQ4KF9znewWOQhgK1wsyJynM-IP7lir4SoxHyctFpwqmDtBkDL2StpAHVL0QbuQIT86lHMWe49iBi9d5bGOfZAEOi2SN49S1M-KCMYjgvJNMgB6OhtJb0cncu94BmdNli8r__3U7eF98sPj51nlvnffWeW-d978TuHXeW-e9dd5fu850XhM5ZcM6upCHeq90Oerzo6aX_8yg0fkX68CXLxMvkbI7fgM"
+  },
+  "colour" : "orange",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "The weekly shop",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "The list you write from memory is the list that buys a third jar of mustard.",
+      "minutes" : 3,
+      "title" : "Look in the fridge before writing anything"
+    },
+    {
+      "title" : "Meals you actually intend to cook"
+    },
+    {
+      "title" : "The dull half: paper, soap, coffee"
+    },
+    {
+      "title" : "Anything running out that nobody has mentioned yet"
+    }
+  ],
+  "symbol" : "cart",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "10:00",
+        "weekdays" : [
+          "sat"
+        ]
+      }
+    }
+  ]
+}

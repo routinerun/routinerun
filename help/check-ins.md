@@ -26,7 +26,7 @@ Press an answer on the card, or in In hand. **Not yet** is always there too — 
 
 Once answered, it stops asking and says what it was answered. **Ask again** starts it over.
 
-**Decide later**, on the Lock Screen card or under **Not now…**, is a quick one: the step stays where it is, the run moves on past it, and the question waits in In hand, with no card. Its answers are **Now** and **Skip**. Leave it unanswered and nothing is lost: at the end the run comes back to it, in its place. See [Pause, Later and Last](pause-later-last.md).
+**Decide later**, on the Lock Screen card or under **Not now…**, is a quick one: the step stays where it is, the run moves on past it, and the question waits in In hand, with no card. Its answers are **Now** and **Skip**. Leave it unanswered and nothing is lost: at the end the run comes back for it, after everything you have done. See [Pause, Later and Last](pause-later-last.md).
 
 ## Every run of a routine
 

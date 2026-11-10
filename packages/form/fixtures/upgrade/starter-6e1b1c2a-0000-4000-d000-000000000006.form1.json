@@ -1,0 +1,25 @@
+{
+  "about" : "Two minutes, nothing real. It stops and asks at the second step, the way a real page will. Real pages arrive in a run of their own.",
+  "colour" : "pink",
+  "name" : "A practice page",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Pretend this just woke you: checkout errors above five percent for ten minutes. The check and the number, not the channel it landed in.",
+      "title" : "Read what fired"
+    },
+    {
+      "about" : "This is where it stops and asks. On a real page, nothing past here happens until somebody has said so.",
+      "title" : "Say whether it is real"
+    },
+    {
+      "about" : "On a real page this is what tells the rota somebody has it.",
+      "title" : "Acknowledge it"
+    },
+    {
+      "about" : "One line. It is the note a real page will start from.",
+      "title" : "Write the first thing you would check"
+    }
+  ],
+  "symbol" : "bell.badge"
+}

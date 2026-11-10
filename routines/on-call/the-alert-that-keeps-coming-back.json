@@ -1,53 +1,40 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": null,
-  "first_shelf": false,
-  "glyph": "arrow.trianglehead.2.clockwise",
-  "group": "onCall",
-  "group_line": "Something pages you at an hour you did not choose.",
-  "group_name": "Being on call",
-  "link_web": "https://routinerun.com/r?v=1&d=7ZfNbuM2EIBfhVCvliErUmT7Jlk2GqBNF23QAt3NgZbGFhGKY5CjOMbC796hLDvJFt1DCwQ9WDAMakjOz8fhDPQ1gJcdWoI6p2AexFF8G0azME4fomje__4MRpc1K4str7LYkTJgOzOuWDAKNmhbSb-DdQpNMJ-MAoMELph_fhwFOy2r89hChbY-v5zUBPOvgdQa9-7nTpPaabgzjqTpN5HtYBRIWzXqGdwfDZgS_ZaN1I4nGsSnQZuq2bPb5aSYLOI8jPgJE_9X-r_o9UnZX-V-2WwuSjSrzitSz4oOCzRkUTvvlGvYp3wrlTn70UsKWT29E5RQqRreie7hhd4JPn2j5FNHvQtedGRcsmUFwUMDQmqwJKiRJJ4Adk4wYmW2Yu3NMk1peS0xanbxOGj76U0EFzPEmxkNw-UZNAOmGkgqPdgyXbsGK5Rje2zZbrsWDI3FPa6xPoidVWgVKQdOfAkUiY2yPJRCI30JxsEAvcymcTy7ScNFGWVhGuVpOFuWZZhOJ1myLBZ5vlj-DTqaEmStz-f_1kVZPw-nP6y1wARqd6H1LQNSpD2-BXaGBAMRrTQHQaoFHxmH1_KxNsFx9E8w7jYnAsbtX3k4NsIDC-DPgFXWbnQ6mGHBRr3wllqoXsIpf1LiD_AC5ybPZ1lR3IbJZLUM0zgrwulNGodxWRSFB5RNsg-B85s8iL13_oCdqFGArJoe0XewPPTB14jW9YFyeAdOEx-jFmsgtuKBmBMN7Cw1gq_niA0p1u4xYZ_FA1mfx-qVTbKYTrPVJA75xqZhmhbMJskWIctnxapI4mQZfwib0w2eC9kRciHjACxQ5wNBK2rQvOU7lO754PHEwF9SjduxuCOfM5x-XsKouELC2xUMFdwFxHKaZos0ycObSRIzCK5Y04S5JKt4tsqLclUso48Bgb2TfIZ9mlQNOq4SuA-Oj0NFKUCj2T7gktPn185cLLhDu0Z9f6pj0lrcj8kqabYaGnZzHI8rjdXTnosJR0Jye1cOznIPoB_hhbf9sFqVt1Hu563abnvvPj8eL51iKGfXXnHtFf8506-94tor_hWba6_4P_cKb7pqoJXDBi55lqqOzq8kL98lrPc8gpY_Ul4n3ir8Cw",
-  "name": "The alert that keeps coming back",
-  "release": 2,
-  "shortcuts": [],
-  "slug": "the-alert-that-keeps-coming-back",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "onCall",
+    "licence" : "CC-BY-4.0",
+    "release" : 2,
+    "shortcuts" : [
+
+    ],
+    "slug" : "the-alert-that-keeps-coming-back",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7ZfNbuM2EIBfhVCvliErUmT7Jlk2GqBNF23QAt3NgZbGFhGKY5CjOMbC796hLDvJFt1DCwQ9WDAMakjOz8fhDPQ1gJcdWoI6p2AexFF8G0azME4fomje__4MRpc1K4str7LYkTJgOzOuWDAKNmhbSb-DdQpNMJ-MAoMELph_fhwFOy2r89hChbY-v5zUBPOvgdQa9-7nTpPaabgzjqTpN5HtYBRIWzXqGdwfDZgS_ZaN1I4nGsSnQZuq2bPb5aSYLOI8jPgJE_9X-r_o9UnZX-V-2WwuSjSrzitSz4oOCzRkUTvvlGvYp3wrlTn70UsKWT29E5RQqRreie7hhd4JPn2j5FNHvQtedGRcsmUFwUMDQmqwJKiRJJ4Adk4wYmW2Yu3NMk1peS0xanbxOGj76U0EFzPEmxkNw-UZNAOmGkgqPdgyXbsGK5Rje2zZbrsWDI3FPa6xPoidVWgVKQdOfAkUiY2yPJRCI30JxsEAvcymcTy7ScNFGWVhGuVpOFuWZZhOJ1myLBZ5vlj-DTqaEmStz-f_1kVZPw-nP6y1wARqd6H1LQNSpD2-BXaGBAMRrTQHQaoFHxmH1_KxNsFx9E8w7jYnAsbtX3k4NsIDC-DPgFXWbnQ6mGHBRr3wllqoXsIpf1LiD_AC5ybPZ1lR3IbJZLUM0zgrwulNGodxWRSFB5RNsg-B85s8iL13_oCdqFGArJoe0XewPPTB14jW9YFyeAdOEx-jFmsgtuKBmBMN7Cw1gq_niA0p1u4xYZ_FA1mfx-qVTbKYTrPVJA75xqZhmhbMJskWIctnxapI4mQZfwib0w2eC9kRciHjACxQ5wNBK2rQvOU7lO754PHEwF9SjduxuCOfM5x-XsKouELC2xUMFdwFxHKaZos0ycObSRIzCK5Y04S5JKt4tsqLclUso48Bgb2TfIZ9mlQNOq4SuA-Oj0NFKUCj2T7gktPn185cLLhDu0Z9f6pj0lrcj8kqabYaGnZzHI8rjdXTnosJR0Jye1cOznIPoB_hhbf9sFqVt1Hu563abnvvPj8eL51iKGfXXnHtFf8506-94tor_hWba6_4P_cKb7pqoJXDBi55lqqOzq8kL98lrPc8gpY_Ul4n3ir8Cw"
+  },
+  "colour" : "yellow",
+  "name" : "The alert that keeps coming back",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "The number is the argument. Nobody prioritises \"it fires a lot\".",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Count how many times this month"
+      "description" : "The number is the argument. Nobody prioritises \"it fires a lot\".",
+      "title" : "Count how many times this month"
     },
     {
-      "asks_first": false,
-      "detail": "If the answer is the same three commands, that is the fix and it is not the alert.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Say what you do each time"
+      "description" : "If the answer is the same three commands, that is the fix and it is not the alert.",
+      "title" : "Say what you do each time"
     },
     {
-      "asks_first": false,
-      "detail": "Three doors and they are all better than the fourth one, which is to keep answering it.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Decide: automate, retune, or delete"
+      "description" : "Three doors and they are all better than the fourth one, which is to keep answering it.",
+      "title" : "Decide: automate, retune, or delete"
     },
     {
-      "asks_first": false,
-      "detail": "Not on the backlog. It comes back before the backlog does.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Do the one you chose now"
+      "description" : "Not on the backlog. It comes back before the backlog does.",
+      "title" : "Do the one you chose now"
     }
   ],
-  "tint": "#FFD60A"
+  "symbol" : "arrow.trianglehead.2.clockwise"
 }

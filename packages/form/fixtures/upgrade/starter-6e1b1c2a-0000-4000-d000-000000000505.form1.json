@@ -1,0 +1,20 @@
+{
+  "about" : "Comes back the next day, measured from the day you actually read.",
+  "colour" : "#A2845E",
+  "name" : "A chapter at a time",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Keep it as a value called Chapter, and this stops being a thing you have to find again.",
+      "title" : "Where you got to"
+    },
+    {
+      "title" : "Read"
+    },
+    {
+      "about" : "Enough to know, in a year, whether the book was any good.",
+      "title" : "One line about it"
+    }
+  ],
+  "symbol" : "book"
+}

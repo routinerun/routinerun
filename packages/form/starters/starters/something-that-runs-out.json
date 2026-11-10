@@ -1,0 +1,39 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "something-that-runs-out",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VfRrps4EP0Vi30NEZAQkrwBTrSVdrvV9morbXUffGEC1jU2sk1yoyrSfsR-4X7JjoHQ3FbtW_sUFBHbYx-PzxzPiE8evLRKWyhT6229KIhWfrDxo_ghCLb9729vNs3Za9XgLK06yyXoTs4LHJh5B6UbZv8CbbiS3jaceVJZMN724-PMawUrrm0NhdLltTPAeNtPHhNCnczvnbC8FfBGGstkv8jqDmYe00XNj2A-1CCpcksOTBg01Eo9j2i8RM9WuzAL8yj1A3z8pXtR9wquzyIM0F9u_jgcJhCB0Glh-ZHbc66k1UoY55Sp0ae0Ylxe_ehHMlY8vxqgUPASXg29hRf7auDdFyDvOtu74IYuSBdrEMB7rxqwNZcVsTWzBAk2BElCj1umcYpFhtGzywjy243jE7qF1jGCnKJFyZGdEizjArf4oLkFhAdSMmyU6iQJM4SRIxMdkAIjASXZvbRcg5mTlLTMGBf9Gc4RvACMi2seuWH4LwmXptMuWqRVaD-T__75t8fHOJnhHEwDOWCkSSctF8547sdQJHNvjBxdBnQd5nt_t4wXfkxX1M8ymvhBRFfxPqRxSKOvIqckBVaKq4huD8zK4yihca6GhsvSTJR_yajlVrgYOI0RbgkMFHiX2beozDFa5AnVQKxyKw54O_qTD1Rqhm3tGJCDiQ2Un1VHWl48Q7klBRqrm3AwWfadwVlc3SiUPTlxW-MOE1n5cpNl-W7hZ8F-48e7BMmKUPWL3W6R5nkcBkn6U8hCGaO_3Aw6GsN7Uui2tLUhT4CZAXoRfM1jf5INerzeJIG_ifPEjxeb2N8s6doP4mwVpzSg8eLnnGSPs9xdI6f-5oGEk7uHCN7hlTgTCVB-TwwPn0_NTR_DirWD_Bv23N8ER1MnxCthoMpAGrzHU2wjGi0XyTrzKc0DZGRN_TSLMz8JoyReroIwpfsfyohGJAQyfQ4slDxw3TjLDVnvLdMWBeldHseMk4FQsnpQO1bUf3Zy2sycmycl3g7prVTF_ImVFcwLoTCJIiCr3tDRUawF9ld4wXm_5EmSBC5RW82rqvfs4-NlqhhjfrvXjHvNuNeMe82414x7zfhWzXB7FTU0bFyAOVDborPXrmXTdwriXlvQ4EfLZ8Mt4P8"
+  },
+  "colour" : "#C77700",
+  "name" : "Something that runs out",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Write the date down as a value called Expires. A passport, a licence, a visa, an insurance policy — the ones that are fine until they are not.",
+      "title" : "When it expires"
+    },
+    {
+      "description" : "Come back to it from the value rather than from a date you picked: change the date and the reminder moves with it.",
+      "title" : "Put this down until two months before that"
+    },
+    {
+      "title" : "Find out what renewing actually needs"
+    },
+    {
+      "description" : "Two months is the gap that makes this dull rather than expensive.",
+      "title" : "Start it"
+    }
+  ],
+  "symbol" : "doc.badge.clock"
+}

@@ -1,55 +1,55 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": true,
-  "glyph": "sunrise",
-  "group": "dayEnds",
-  "group_line": "The first half hour of a day and the last one.",
-  "group_name": "Mornings and evenings",
-  "link_web": "https://routinerun.com/r?v=1&d=7Vhda-M4FP0rwvuwL1axHH9mnuzYZgsznaGUHdilLKqtxKK2FGS5aSj573ul2u60MwzzsHRfkhbjXH2de-7RkciTwx73UmnWZNpZO77nR9hLsR_eeN7a_v_luEufSskeeik5ai6YGsVFDQHX2UrVU_0nUwOXwlkT1xFSs8FZ_33rOvuO1vO7YrVUzfzleRpn_eTQrpOH4dPYab7v2KUYNBV20JZ2A3MdquqWP7Dha8tEIc2YqaFhmvIOMF3qAWneAwSkGK1bdJQjOnDdIopqqpoPaGAawVCkJTrQe2Y78C3SLUP71jQceNehO4a2gBc18iAuILVWyvsJL29gnagkOdn4GfbggwPzKMzDmz_EIzCMD5-32wVlB9izWvMHro8bKbSS3WDSHlrIOttRDqRpNUJPG8lpff8qULCaN-xV6Io96leBL28m-TJqC8GETlAQ2sMETsXVoFFLuy1q5agA6Z4qaNJAHCA6TYM_fgN4mVWzvWECqgUtUkysNKOi2pY98iaOQr-IvLBY4SAmGxzmpMR54Jc4rOKNR5IgL0rvO46kKBhtulkQ3y5Bm4fXclCs58LIaErubQ6a685k-5VCzIWagkAZquV2y5hzct9mMGvoitX3LgICxq6BuVzU8v1wgT5KsUNMyHHXGvHUchTadlN6CbdUW0E1EnFtdPNCC0lmXrzIT2M_9HHgr1Y4JEGKk9CrcOyVfkmSJCGR_y68fJIPIHOpALdiDMGg0WzXnzAjtd0oXNzJxwt0M78iPqBB9uxONkfEAMPvA-o4KExu0WHiRKFeKsGBQ-gMixp2LB0kyQuyKnNcrWKQSbnKcUrCCpcB8BOGYZHnwbvQcQ0zgjV0xwUzqls5WKsAM2l-QsxnwS5QtmRodbBXshkBx8QuZE1_2KFBAmxnoSOKSRIaYaSRn8CuSQlOV1mO84h4wcqLg6R6H3VcQdRW27pla2HLhh5tJndg2s7pdrKDnHWwOW5kCY57PYplqeHY38nu6tlzhlEoPjDArunuspjggfXrP9gjtP9WVWnlZaZd8d3O4nnlMk9O_Wya1y8nxj-eec7Ktd4j92zec47Z6tbdzOHTM2EONyEPznLqXBa_buYm1UvRGLDe6XSaj4KgLKMwDCocRhHB4QZqlWXEw6Xvl1UVkTjdpN8VbPLhN2Q8SF6bsDmpoOkAx5xJr6YdEw1VLwlb017H8w7KqyrxiwSvqiLGYZaCWoqsxEGVB2AnIUmyGKZ7ZgnAw8yM3UMpzbK-u3IDN3SjW8jpec2J7Hdb9Rb-lopMVT_fBM43gf_e0843gfNN4BfoON8EzjeB803gf7oJGCnVLevpRIX11XrU81dNl98UgLH5jfVQ2ZeGF93cnv4F",
-  "name": "First half hour",
-  "release": 1,
-  "shortcuts": [],
-  "slug": "first-half-hour",
-  "starts_by_itself": true,
-  "starts_by_itself_line": "Weekdays at 7:00",
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "dayEnds",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "first-half-hour",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7Vhda-M4FP0rwvuwL1axHH9mnuzYZgsznaGUHdilLKqtxKK2FGS5aSj573ul2u60MwzzsHRfkhbjXH2de-7RkciTwx73UmnWZNpZO77nR9hLsR_eeN7a_v_luEufSskeeik5ai6YGsVFDQHX2UrVU_0nUwOXwlkT1xFSs8FZ_33rOvuO1vO7YrVUzfzleRpn_eTQrpOH4dPYab7v2KUYNBV20JZ2A3MdquqWP7Dha8tEIc2YqaFhmvIOMF3qAWneAwSkGK1bdJQjOnDdIopqqpoPaGAawVCkJTrQe2Y78C3SLUP71jQceNehO4a2gBc18iAuILVWyvsJL29gnagkOdn4GfbggwPzKMzDmz_EIzCMD5-32wVlB9izWvMHro8bKbSS3WDSHlrIOttRDqRpNUJPG8lpff8qULCaN-xV6Io96leBL28m-TJqC8GETlAQ2sMETsXVoFFLuy1q5agA6Z4qaNJAHCA6TYM_fgN4mVWzvWECqgUtUkysNKOi2pY98iaOQr-IvLBY4SAmGxzmpMR54Jc4rOKNR5IgL0rvO46kKBhtulkQ3y5Bm4fXclCs58LIaErubQ6a685k-5VCzIWagkAZquV2y5hzct9mMGvoitX3LgICxq6BuVzU8v1wgT5KsUNMyHHXGvHUchTadlN6CbdUW0E1EnFtdPNCC0lmXrzIT2M_9HHgr1Y4JEGKk9CrcOyVfkmSJCGR_y68fJIPIHOpALdiDMGg0WzXnzAjtd0oXNzJxwt0M78iPqBB9uxONkfEAMPvA-o4KExu0WHiRKFeKsGBQ-gMixp2LB0kyQuyKnNcrWKQSbnKcUrCCpcB8BOGYZHnwbvQcQ0zgjV0xwUzqls5WKsAM2l-QsxnwS5QtmRodbBXshkBx8QuZE1_2KFBAmxnoSOKSRIaYaSRn8CuSQlOV1mO84h4wcqLg6R6H3VcQdRW27pla2HLhh5tJndg2s7pdrKDnHWwOW5kCY57PYplqeHY38nu6tlzhlEoPjDArunuspjggfXrP9gjtP9WVWnlZaZd8d3O4nnlMk9O_Wya1y8nxj-eec7Ktd4j92zec47Z6tbdzOHTM2EONyEPznLqXBa_buYm1UvRGLDe6XSaj4KgLKMwDCocRhHB4QZqlWXEw6Xvl1UVkTjdpN8VbPLhN2Q8SF6bsDmpoOkAx5xJr6YdEw1VLwlb017H8w7KqyrxiwSvqiLGYZaCWoqsxEGVB2AnIUmyGKZ7ZgnAw8yM3UMpzbK-u3IDN3SjW8jpec2J7Hdb9Rb-lopMVT_fBM43gf_e0843gfNN4BfoON8EzjeB803gf7oJGCnVLevpRIX11XrU81dNl98UgLH5jfVQ2ZeGF93cnv4F"
+  },
+  "colour" : "orange",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "First half hour",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 60,
-      "title": "Water, before coffee"
+      "minutes" : 1,
+      "title" : "Water, before coffee"
     },
     {
-      "asks_first": false,
-      "detail": "Neck, shoulders, hips. Long enough to count, short enough that you do it.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 180,
-      "title": "Move for three minutes"
+      "description" : "Neck, shoulders, hips. Long enough to count, short enough that you do it.",
+      "minutes" : 3,
+      "title" : "Move for three minutes"
     },
     {
-      "asks_first": false,
-      "detail": "Not the inbox. The inbox is somebody else's list of what your morning is for.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Read only what you chose to read"
+      "description" : "Not the inbox. The inbox is somebody else's list of what your morning is for.",
+      "title" : "Read only what you chose to read"
     },
     {
-      "asks_first": false,
-      "detail": "One. A morning that produces three is a morning that produced none.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Name the one thing today is about"
+      "description" : "One. A morning that produces three is a morning that produced none.",
+      "title" : "Name the one thing today is about"
     }
   ],
-  "tint": "#FF9F0A"
+  "symbol" : "sunrise",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "07:00",
+        "weekdays" : [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ]
+      }
+    }
+  ]
 }

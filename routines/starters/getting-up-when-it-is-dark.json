@@ -1,56 +1,59 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Home scene “Good Morning”",
-    "Notifications"
-  ],
-  "description": "Needs a Home scene called Good Morning. If yours goes by another name, change it on that step. Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": false,
-  "glyph": "sunrise.fill",
-  "group": "dayEnds",
-  "group_line": "The first half hour of a day and the last one.",
-  "group_name": "Mornings and evenings",
-  "link_web": "https://routinerun.com/r?v=1&d=7VjbbuM2EP0VQn01A90tuU-6WLsBdtPFJugCLYKCkUYWYZk0SNqOEfjfO5RlJ_EWxT7lyb7IEm8zc-bMIeEXB57XUhloMuPMHN_1Y-qm1I8eXHc2fP5yJucxlZIrHKXkxnABaiNuamyYOK1UK2b-BKW5FM7MmzhCGtDO7O_HibPuWX26V1BL1Zwejss4sxeH9b3c6a-b3vB1D7dCGyaGSS3rNUwcpuqOb0H_6ECU0s4ZOxowjPfo0x1Aowkjn-UKiK5BAKlxVWjIJykb8lUqwcXihty2ZC83SpOFBE2e9oShqx0oItgKJqTumFgA4YZIQUzHDNEG1jjNaGL4CiMkCljd2UXIjpsOTdZMNb8TDXYOECPJji1hGMBbXAPIurMdO9735AlIi3CQRu7EDSLXSbkc4eANhhHPvdwr_Iy6-KKhvZT24p5enjvFaVz_0bZnEHqEJqsN33KzL6QwSvbaoqo7BDVbMI45MWqDI4eWnNXLdw0l1LyBd0138GzeNXy7WOTbxgwu2KYD5hvRQ_c_gcGULshmTXaYKosj16RhaolOr5nCUQYxROcO4zpf3vh-NoCQW1CQF9gjxdt7GxcS795m2N7_49rryfybVDuHw2EENYyywE3TOc1Sr6JRFVY0nxcFTeZV5MVBGJeBBRUziCHl6AbyTfEt67HRhvEgv28Gw7AFtX_g1tYLLv_4hn84Qg_J_h_ufeGLzpCWKz3AspL4K48UaXjbggIkPeECqSIQJsuPwf8kKYuoSALqh2lBo9Sf06SoPBqnYT6NonAeZ9VPpJCiBNb0pwI7A4lOs2b7vrwUrLiwZTlm8zJThpve4jsEoG12nwBrfiC5Ii0g9Zk6kto5TC6sNRvFjpmL3TGguR_HZeW5tEjigEZFENAkCxOaRIEXZ3ngldXHBHSPOtPYeOwPis7eXkQz0OcyjsFz14-KMCkSGlZxSKM8ntIsCOY09sKqdH03zyL3Qzz_wbDtP8A-8fGe8YYIuZtgIfIeiFU5W5mAVkjHNH4bq12dNW9Fi-klwZwObFyNjD0RsHKLInXTisYYHo3KMqFpHE5plGRxHuVFWcTlh0T9gM4NIjvEMuizjQXd79h6jYJjZMP2jq3MQURy6KVYPMg5SvZQw6M9vV89yf7uqBp6IxTXcNOiQGMUhi1uy9FRFDPzGZ5x0G9VlVZuZvsVXywGzy4Eqj5K7_fXbe0oThjaZtgNLf_lGk7l4Ehb8864Q65A2B0YU-act8bb8te3BBvvrWiss-5Rm46lFkV56Gc-Ted-QiM_j7HU3IjmXlrmgeslXpn-lLpRTi_A2Epe22a7343KaMNDqQOBEv8acIeqgNGOHgTVNAjzDIW3jCKkjBfTLApdigQK4ipLp0gsXO6IkjMLEKQdwBLzaO36k2ASTqJJ_DjouTU6ov1xZh_xfc7JmPfrgeV6YLkeWK4HluuB5Rc9vx5YrgeW64HlY8zaA4tlVN3Bio1g4OalTL0xp0fDzv_QIGanO1hhbl87XpnzePgX",
-  "name": "Getting up when it is dark",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "getting-up-when-it-is-dark",
-  "starts_by_itself": true,
-  "starts_by_itself_line": "Weekdays at 6:30",
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Home scene “Good Morning”",
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "dayEnds",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "getting-up-when-it-is-dark",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7VjbbuM2EP0VQn01A90tuU-6WLsBdtPFJugCLYKCkUYWYZk0SNqOEfjfO5RlJ_EWxT7lyb7IEm8zc-bMIeEXB57XUhloMuPMHN_1Y-qm1I8eXHc2fP5yJucxlZIrHKXkxnABaiNuamyYOK1UK2b-BKW5FM7MmzhCGtDO7O_HibPuWX26V1BL1Zwejss4sxeH9b3c6a-b3vB1D7dCGyaGSS3rNUwcpuqOb0H_6ECU0s4ZOxowjPfo0x1Aowkjn-UKiK5BAKlxVWjIJykb8lUqwcXihty2ZC83SpOFBE2e9oShqx0oItgKJqTumFgA4YZIQUzHDNEG1jjNaGL4CiMkCljd2UXIjpsOTdZMNb8TDXYOECPJji1hGMBbXAPIurMdO9735AlIi3CQRu7EDSLXSbkc4eANhhHPvdwr_Iy6-KKhvZT24p5enjvFaVz_0bZnEHqEJqsN33KzL6QwSvbaoqo7BDVbMI45MWqDI4eWnNXLdw0l1LyBd0138GzeNXy7WOTbxgwu2KYD5hvRQ_c_gcGULshmTXaYKosj16RhaolOr5nCUQYxROcO4zpf3vh-NoCQW1CQF9gjxdt7GxcS795m2N7_49rryfybVDuHw2EENYyywE3TOc1Sr6JRFVY0nxcFTeZV5MVBGJeBBRUziCHl6AbyTfEt67HRhvEgv28Gw7AFtX_g1tYLLv_4hn84Qg_J_h_ufeGLzpCWKz3AspL4K48UaXjbggIkPeECqSIQJsuPwf8kKYuoSALqh2lBo9Sf06SoPBqnYT6NonAeZ9VPpJCiBNb0pwI7A4lOs2b7vrwUrLiwZTlm8zJThpve4jsEoG12nwBrfiC5Ii0g9Zk6kto5TC6sNRvFjpmL3TGguR_HZeW5tEjigEZFENAkCxOaRIEXZ3ngldXHBHSPOtPYeOwPis7eXkQz0OcyjsFz14-KMCkSGlZxSKM8ntIsCOY09sKqdH03zyL3Qzz_wbDtP8A-8fGe8YYIuZtgIfIeiFU5W5mAVkjHNH4bq12dNW9Fi-klwZwObFyNjD0RsHKLInXTisYYHo3KMqFpHE5plGRxHuVFWcTlh0T9gM4NIjvEMuizjQXd79h6jYJjZMP2jq3MQURy6KVYPMg5SvZQw6M9vV89yf7uqBp6IxTXcNOiQGMUhi1uy9FRFDPzGZ5x0G9VlVZuZvsVXywGzy4Eqj5K7_fXbe0oThjaZtgNLf_lGk7l4Ehb8864Q65A2B0YU-act8bb8te3BBvvrWiss-5Rm46lFkV56Gc-Ted-QiM_j7HU3IjmXlrmgeslXpn-lLpRTi_A2Epe22a7343KaMNDqQOBEv8acIeqgNGOHgTVNAjzDIW3jCKkjBfTLApdigQK4ipLp0gsXO6IkjMLEKQdwBLzaO36k2ASTqJJ_DjouTU6ov1xZh_xfc7JmPfrgeV6YLkeWK4HluuB5Rc9vx5YrgeW64HlY8zaA4tlVN3Bio1g4OalTL0xp0fDzv_QIGanO1hhbl87XpnzePgX"
+  },
+  "colour" : "orange",
+  "description" : "Needs a Home scene called Good Morning. If yours goes by another name, change it on that step. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Getting up when it is dark",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Runs the scene called Good Morning. Light first is most of the difference in winter.",
-      "does_itself": true,
-      "does_itself_line": "Runs the Home scene Good Morning",
-      "duration_seconds": null,
-      "title": "Lights up before your feet are down"
+      "description" : "Runs the scene called Good Morning. Light first is most of the difference in winter.",
+      "does" : [
+        {
+          "scene" : "Good Morning"
+        }
+      ],
+      "title" : "Lights up before your feet are down"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 60,
-      "title": "Stand up and stay standing"
+      "minutes" : 1,
+      "title" : "Stand up and stay standing"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Water"
+      "title" : "Water"
     },
     {
-      "asks_first": false,
-      "detail": "Said now, while nothing else has had a chance to ask for the morning.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "The one thing that has to happen today"
+      "description" : "Said now, while nothing else has had a chance to ask for the morning.",
+      "title" : "The one thing that has to happen today"
     }
   ],
-  "tint": "#FF9F0A"
+  "symbol" : "sunrise.fill",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "06:30",
+        "weekdays" : [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ]
+      }
+    }
+  ]
 }

@@ -37,7 +37,7 @@ Also **Skip, ask me at the end**. About the run: **Pause**, **Come back to it…
 
 The step keeps its place. Its bead on the line is hollow with an orange ring, and in the run's list of steps it says **Left for later**. In In hand its question has two answers: **Now** brings the step into your hands straight away, and **Skip** writes it down as skipped.
 
-You do not have to answer. When the run reaches its end with steps left for later, it does not finish. It says how many there are and lists them in their own order. **Next** starts the first; when that is done, **Next** goes to the next one left. **Skip them** ends the run. Their order never changed, so there is nothing to put back.
+You do not have to answer. When the run reaches its end with steps left for later, it does not finish. It says how many there are and lists them in their own order. The first moves up to after everything you have done, and **Next** starts it there; when that is done, the next one left moves up the same way. **Skip them** ends the run. Of five steps with the second and fourth left, the run ends as 1, 3, 5, 2, 4, which is the order you did them in.
 
 **Come back to it…** and **Check in on this step…** still move the step to the end, because there you have said where it goes.
 

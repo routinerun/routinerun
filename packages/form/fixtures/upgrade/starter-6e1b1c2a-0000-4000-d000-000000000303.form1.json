@@ -1,0 +1,23 @@
+{
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "green",
+  "name" : "Before people come round",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "minutes" : 15,
+      "title" : "The rooms they will actually be in"
+    },
+    {
+      "about" : "Somewhere to put things down is worth more than everywhere being tidy.",
+      "title" : "One surface completely clear"
+    },
+    {
+      "title" : "Something to drink, including for whoever is not drinking"
+    },
+    {
+      "title" : "Put the washing away or shut the door on it"
+    }
+  ],
+  "symbol" : "house"
+}

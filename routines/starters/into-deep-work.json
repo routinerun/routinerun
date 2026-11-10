@@ -1,66 +1,51 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "The shortcut “Focus On via Routine Run”",
-    "Notifications"
-  ],
-  "description": "The third step turns on Do Not Disturb with a free shortcut, Focus On via Routine Run, which the step offers to add in one tap. Give it the name of another Focus to turn that one on instead. Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": true,
-  "glyph": "brain.head.profile",
-  "group": "work",
-  "group_line": "Getting into a piece of work, and putting it down properly.",
-  "group_name": "Work and focus",
-  "link_web": "https://routinerun.com/r?v=1&d=7VjbbuM2EP0VQn01HV0sWUqfdLG6AbrZxdboAt3sAy1SFhGZFEgqjhEY6Ef0C_slHUqym6QI-tLmyYbhCznDmTlnZjjQk8MeO6kMo6lxrh3f9SPsJtgP1657Pbx_c2ZnmVLJHUgp2RsumOrFvIKFmVNLtSPmV6Y0l8K59maOkIZp5_rbk3MPCroB9ao3GmTt_vH7zOlaUg0i8FuxSip6-jOe7lw_OaRt5V5_7FvDu5bdCG2IGJRq0mo2c4iqGv7A9NeGiUJanWmDMkN4C5bXDUOm4YoibViHTK-ERlKgQqJbaVDBNSxt0J6bBhFUK8bQydkZKmXVa_RJoAdO0JfRLfSlFzO0b3jVwMFsPFbWNcSOjESEUsQFWACzpJujn8A9xM0gKsiOgSgiAE7D1HQ8KFmvQIKYQQ-84xApI3SObgwI8J09XDECJg-yPzlbEUV_RJqNWnDMntyzQYDXg72usRt73rZow1ANcCMq92IOJDRS3k9wcwowRSsv83I_xS688MJ-FPbDPb181wM1rj_V9RnkFmJLK8MfuDnkUhglW21ZAwD3Ot0SDlQb1YPksJKR6v7FQsEqTtmLpVv2aF4sfH51yOfeDC7YpSMkE0AK7t8ICJ8yYGIv1T042hEFOwZwA4eOk-7Pz_w9Hwr0jXlKYEeKCZRz_ny1rJwgtCqIjGQyQS2XkFt6pA6-gddRRsi9RXmA1l2ullnhZThb-iEOI7fEaRGmOPGWQblK8yhf5v-AVooC-G9PZfDcNUIfXhaBYjsubPFMmLyO3XDTWpC-Km7Y4LtNC82EYXCOc5y9FfuabDSkYtX2lEEurnQHhEFJHiC1N_ocYFCswqXveTiOywKHQQyhJmGM3SJIVlGar5IoeZcA81ZqIOaBqQPQIrYveOHmVaSn39Y-dLJfpqq3f6eseqv8neNxCj3xszAJ3RQHkQuhZ-ESp2kW4WTlpV6Rx8FimUHoUKMQewZJ55A16WBlDw1rLe1ZYG7weM2tzafj8ficgg8EArftBf35-x9jsoGvGqr_1KXONIRZsQzcbIXTrFzgMF9EOI1TDwMVWZbEeewm7rvQsLbdjEzdDfB9O8FsBxZg2xzm6Hb4tmwRJPrdBvpjxyR0faTJAVomBRY3kh6ghbEh92ivyMhfAP1pAqFcrJIyXni4SIIIh8UixEmSB7jM8rQMwjgO0vBdQCh5DdGAbG_vwbch-MgpPpWiDb62OWaj5bb0bNM20HkMGDgTXYRxXvqhjxdpHOBwscpwArHhyPOTuPTjNHPLd4lxbCj2SoH7kKnx7tFGdh2jjk3joblmrJViu5YruL6GhJ-s6MNuI9vbsdQ2Cm6LeWPvvE7JmsP5YIdsb4rJSag984E9gugPWRmmpW_3Fd9uB6--fT-e54apti-Tw2VyuEwO_2WhXyaHy-Tw_9JwmRwuk8P7Tw7WXNWwHZkU_n5YYUsdArdPMBpjOn19d3V3td_v57xqZU_tw4-7q7P43VVCE5eGQbUIKF1UUZVQjy0jsokjwpYLd-nM_rVBgPl-tyPqMJXDMHLYzjtq8KErbeE6EmhzGOaCGZLq9VAC17iAVj1DvTC8nbTsrMDs1VPbhOg1o7avfBuwRsEMva6-ERlDzOkpDaB6-sV2Xfts4zmcfwE",
-  "name": "Into deep work",
-  "release": 1,
-  "shortcuts": [
-    "Focus On via Routine Run"
-  ],
-  "slug": "into-deep-work",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "The shortcut “Focus On via Routine Run”",
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+      "Focus On via Routine Run"
+    ],
+    "slug" : "into-deep-work",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VjbbuM2EP0VQn01HV0sWUqfdLG6AbrZxdboAt3sAy1SFhGZFEgqjhEY6Ef0C_slHUqym6QI-tLmyYbhCznDmTlnZjjQk8MeO6kMo6lxrh3f9SPsJtgP1657Pbx_c2ZnmVLJHUgp2RsumOrFvIKFmVNLtSPmV6Y0l8K59maOkIZp5_rbk3MPCroB9ao3GmTt_vH7zOlaUg0i8FuxSip6-jOe7lw_OaRt5V5_7FvDu5bdCG2IGJRq0mo2c4iqGv7A9NeGiUJanWmDMkN4C5bXDUOm4YoibViHTK-ERlKgQqJbaVDBNSxt0J6bBhFUK8bQydkZKmXVa_RJoAdO0JfRLfSlFzO0b3jVwMFsPFbWNcSOjESEUsQFWACzpJujn8A9xM0gKsiOgSgiAE7D1HQ8KFmvQIKYQQ-84xApI3SObgwI8J09XDECJg-yPzlbEUV_RJqNWnDMntyzQYDXg72usRt73rZow1ANcCMq92IOJDRS3k9wcwowRSsv83I_xS688MJ-FPbDPb181wM1rj_V9RnkFmJLK8MfuDnkUhglW21ZAwD3Ot0SDlQb1YPksJKR6v7FQsEqTtmLpVv2aF4sfH51yOfeDC7YpSMkE0AK7t8ICJ8yYGIv1T042hEFOwZwA4eOk-7Pz_w9Hwr0jXlKYEeKCZRz_ny1rJwgtCqIjGQyQS2XkFt6pA6-gddRRsi9RXmA1l2ullnhZThb-iEOI7fEaRGmOPGWQblK8yhf5v-AVooC-G9PZfDcNUIfXhaBYjsubPFMmLyO3XDTWpC-Km7Y4LtNC82EYXCOc5y9FfuabDSkYtX2lEEurnQHhEFJHiC1N_ocYFCswqXveTiOywKHQQyhJmGM3SJIVlGar5IoeZcA81ZqIOaBqQPQIrYveOHmVaSn39Y-dLJfpqq3f6eseqv8neNxCj3xszAJ3RQHkQuhZ-ESp2kW4WTlpV6Rx8FimUHoUKMQewZJ55A16WBlDw1rLe1ZYG7weM2tzafj8ficgg8EArftBf35-x9jsoGvGqr_1KXONIRZsQzcbIXTrFzgMF9EOI1TDwMVWZbEeewm7rvQsLbdjEzdDfB9O8FsBxZg2xzm6Hb4tmwRJPrdBvpjxyR0faTJAVomBRY3kh6ghbEh92ivyMhfAP1pAqFcrJIyXni4SIIIh8UixEmSB7jM8rQMwjgO0vBdQCh5DdGAbG_vwbch-MgpPpWiDb62OWaj5bb0bNM20HkMGDgTXYRxXvqhjxdpHOBwscpwArHhyPOTuPTjNHPLd4lxbCj2SoH7kKnx7tFGdh2jjk3joblmrJViu5YruL6GhJ-s6MNuI9vbsdQ2Cm6LeWPvvE7JmsP5YIdsb4rJSag984E9gugPWRmmpW_3Fd9uB6--fT-e54apti-Tw2VyuEwO_2WhXyaHy-Tw_9JwmRwuk8P7Tw7WXNWwHZkU_n5YYUsdArdPMBpjOn19d3V3td_v57xqZU_tw4-7q7P43VVCE5eGQbUIKF1UUZVQjy0jsokjwpYLd-nM_rVBgPl-tyPqMJXDMHLYzjtq8KErbeE6EmhzGOaCGZLq9VAC17iAVj1DvTC8nbTsrMDs1VPbhOg1o7avfBuwRsEMva6-ERlDzOkpDaB6-sV2Xfts4zmcfwE"
+  },
+  "colour" : "purple",
+  "description" : "The third step turns on Do Not Disturb with a free shortcut, Focus On via Routine Run, which the step offers to add in one tap. Give it the name of another Focus to turn that one on instead. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Into deep work",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "What will be true at the end of this that is not true now.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Write the one sentence"
+      "description" : "What will be true at the end of this that is not true now.",
+      "title" : "Write the one sentence"
     },
     {
-      "asks_first": false,
-      "detail": "Tabs included. Especially tabs.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Close everything that is not it"
+      "description" : "Tabs included. Especially tabs.",
+      "title" : "Close everything that is not it"
     },
     {
-      "asks_first": false,
-      "detail": "Hands off — this runs a shortcut.",
-      "does_itself": true,
-      "does_itself_line": "Runs the shortcut Focus On via Routine Run",
-      "duration_seconds": null,
-      "title": "Turn a Focus on"
+      "buttons" : [
+        {
+          "shortcut" : "Focus On via Routine Run"
+        }
+      ],
+      "description" : "Hands off — this runs a shortcut.",
+      "title" : "Turn a Focus on"
     },
     {
-      "asks_first": false,
-      "detail": "Not ninety. Ninety is a number people say and nobody does.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 3000,
-      "title": "Fifty minutes"
+      "description" : "Not ninety. Ninety is a number people say and nobody does.",
+      "minutes" : 50,
+      "title" : "Fifty minutes"
     },
     {
-      "asks_first": false,
-      "detail": "Mid-sentence is fine and is in fact better.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Write down where you stopped"
+      "description" : "Mid-sentence is fine and is in fact better.",
+      "title" : "Write down where you stopped"
     }
   ],
-  "tint": "#BF5AF2"
+  "symbol" : "brain.head.profile"
 }

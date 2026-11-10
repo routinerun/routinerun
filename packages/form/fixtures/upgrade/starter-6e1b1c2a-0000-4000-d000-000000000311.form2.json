@@ -1,0 +1,28 @@
+{
+  "colour" : "grey",
+  "name" : "Receipts, before they are lost",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Into a note on this step, now, while it is in your hand. A receipt in a pocket is a receipt that has gone.",
+      "title" : "Photograph it"
+    },
+    {
+      "title" : "Say what it was for, in three words"
+    },
+    {
+      "description" : "Deciding not to is a real answer and it ends the thing.",
+      "does" : [
+        {
+          "reminder" : {
+            "in" : 10080,
+            "title" : "Claim it: {instance}"
+          }
+        }
+      ],
+      "title" : "Claim it, or decide you will not"
+    }
+  ],
+  "symbol" : "doc.viewfinder"
+}

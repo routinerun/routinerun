@@ -1,55 +1,38 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Comes round a week after the last one you did, not a week after the one you meant to.",
-  "first_shelf": false,
-  "glyph": "calendar.badge.checkmark",
-  "group": "work",
-  "group_line": "Getting into a piece of work, and putting it down properly.",
-  "group_name": "Work and focus",
-  "link_web": "https://routinerun.com/r?v=1&d=7VdJr9s2EP4rhHoVDe1ebrIWNECaBonbAAkeCj5pZBGWSIOi7CcE_u8ZyrLyll56aE4WDIEiZ4bzfbPB3y14OkqloYy1tbE8x4uos6ZeuHOczfj7atmzTK5ki1JK9poLUL1YFLhhW5VULdN_g-q4FNbGtS0hNXTW5tuDbR0bVtzWCgqpytvH1Yy1-W6xppHn7o--0fzYwDvRaSZGpYo1HdgWU0XNT9B9qUGk0uhMB3g_dJ9kL8p4z7gwtqqrkxUXvKuhRPdUPei6He-pNCiz-MexNpETrBzncrnYVgma8Qa1EmOPKGOQMHIGOJBRh-gaSMM6TfB2MsielLy0CcJ8K3aTaIEJTbRcoAu1lIcJNi_xnihzt27ixdTBhwbmlZqXc3s810U13v1ZVTPYBimIC81PXA-JFFrJpjNguhrJm_Br1aPkuLNlxeHFRgoFL-HF1gd40i82Pr4y8rHXowtmC4kSrEUD1g5hGtQ2aRAYIFcavT0yhcdIg_HqMhl4_8zp2bKGo2EDA4InUkzMzFHITqAGQy6QGhSQvcSgdBias_ncIOXGgk0YiuAOmTLJJlIRdmbDguxq3pEz47ojvdC8QWMYFYa2Gqi0icgYhq3vheHSX1IvT0IarrKIrrdZQNMsdtbLOEs8P3gTBilSYGVzS93nCFh5epm4ClouTMJP_L2mSKElNNSNcTRouNi_Rw__EmPZlEYKxTTXjeE9a496IGDoGUXHPDsrQ1Qpz8K62K8cGlE6ue_7ay-l-TLPaBgFGY2DVU4NvjyM4u1qGf6vKG_uf6kZ1kuhe6z3gbTyhADfuDxnwWcMOJEV4RrBYQIgPQvymQ0GdycJBthU21FyrDIUM5mIR3Ns13kUrj0_olHmOzRMUw8BOwENXT8NkzQO_dz7daixXRgAJmdLgmk85i0iw745avx75BIvdcNg6VLHDXPMzySjKyfxaBikbpKmy9hb5b8Ew27qa9esE9g1rl0Pg8Aesfqsy8NU1ltopNjvZMaK-lMv5pu6oX2UzYdr_yhYA6JkavHIyj0sihqKQ8vUAbFotn-XTu5iUevf4QkVfvOyZRoYrFrx_X7079vDZR4iUze5j5H7GLmPkfsYuY-R-xj5D2PEXIrKLZsUsOMoXfT69qnZ_G8G7d5W0GJx_Tx4bvAH",
-  "name": "The week, looked at",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "the-week-looked-at",
-  "starts_by_itself": true,
-  "starts_by_itself_line": "Again a week after each run",
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "the-week-looked-at",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7VdJr9s2EP4rhHoVDe1ebrIWNECaBonbAAkeCj5pZBGWSIOi7CcE_u8ZyrLyll56aE4WDIEiZ4bzfbPB3y14OkqloYy1tbE8x4uos6ZeuHOczfj7atmzTK5ki1JK9poLUL1YFLhhW5VULdN_g-q4FNbGtS0hNXTW5tuDbR0bVtzWCgqpytvH1Yy1-W6xppHn7o--0fzYwDvRaSZGpYo1HdgWU0XNT9B9qUGk0uhMB3g_dJ9kL8p4z7gwtqqrkxUXvKuhRPdUPei6He-pNCiz-MexNpETrBzncrnYVgma8Qa1EmOPKGOQMHIGOJBRh-gaSMM6TfB2MsielLy0CcJ8K3aTaIEJTbRcoAu1lIcJNi_xnihzt27ixdTBhwbmlZqXc3s810U13v1ZVTPYBimIC81PXA-JFFrJpjNguhrJm_Br1aPkuLNlxeHFRgoFL-HF1gd40i82Pr4y8rHXowtmC4kSrEUD1g5hGtQ2aRAYIFcavT0yhcdIg_HqMhl4_8zp2bKGo2EDA4InUkzMzFHITqAGQy6QGhSQvcSgdBias_ncIOXGgk0YiuAOmTLJJlIRdmbDguxq3pEz47ojvdC8QWMYFYa2Gqi0icgYhq3vheHSX1IvT0IarrKIrrdZQNMsdtbLOEs8P3gTBilSYGVzS93nCFh5epm4ClouTMJP_L2mSKElNNSNcTRouNi_Rw__EmPZlEYKxTTXjeE9a496IGDoGUXHPDsrQ1Qpz8K62K8cGlE6ue_7ay-l-TLPaBgFGY2DVU4NvjyM4u1qGf6vKG_uf6kZ1kuhe6z3gbTyhADfuDxnwWcMOJEV4RrBYQIgPQvymQ0GdycJBthU21FyrDIUM5mIR3Ns13kUrj0_olHmOzRMUw8BOwENXT8NkzQO_dz7daixXRgAJmdLgmk85i0iw745avx75BIvdcNg6VLHDXPMzySjKyfxaBikbpKmy9hb5b8Ew27qa9esE9g1rl0Pg8Aesfqsy8NU1ltopNjvZMaK-lMv5pu6oX2UzYdr_yhYA6JkavHIyj0sihqKQ8vUAbFotn-XTu5iUevf4QkVfvOyZRoYrFrx_X7079vDZR4iUze5j5H7GLmPkfsYuY-R-xj5D2PEXIrKLZsUsOMoXfT69qnZ_G8G7d5W0GJx_Tx4bvAH"
+  },
+  "colour" : "#2E7D4F",
+  "description" : "Comes round a week after the last one you did, not a week after the one you meant to.",
+  "name" : "The week, looked at",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Every note here goes somewhere: a step, another routine, or away. This waits until none are left.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Empty everything you wrote down"
+      "description" : "Every note here goes somewhere: a step, another routine, or away. This waits until none are left.",
+      "title" : "Empty everything you wrote down"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "What actually moved"
+      "title" : "What actually moved"
     },
     {
-      "asks_first": false,
-      "detail": "Some of it does not. Saying so is the point of looking.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "What did not, and whether it matters"
+      "description" : "Some of it does not. Saying so is the point of looking.",
+      "title" : "What did not, and whether it matters"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "The one thing next week is about"
+      "title" : "The one thing next week is about"
     }
   ],
-  "tint": "#2E7D4F"
+  "symbol" : "calendar.badge.checkmark"
 }

@@ -1,0 +1,46 @@
+{
+  "skin": 1,
+  "name": "Calm",
+  "audience": "More air, a book's type, and a second line that is allowed two lines.",
+  "light": {
+    "page": "#F6F1EA",
+    "card": "#FFFDF9",
+    "ink": "#111114",
+    "ink2": "rgba(60, 60, 67, 0.62)",
+    "ink3": "rgba(60, 60, 67, 0.3)",
+    "line": "rgba(60, 60, 67, 0.16)",
+    "fill": "rgba(118, 118, 128, 0.12)",
+    "accent": "#0A84FF",
+    "unanswered": "#FF9500"
+  },
+  "dark": {
+    "page": "#000000",
+    "card": "#1C1C1E",
+    "ink": "#F2F2F7",
+    "ink2": "rgba(235, 235, 245, 0.62)",
+    "ink3": "rgba(235, 235, 245, 0.3)",
+    "line": "rgba(84, 84, 88, 0.6)",
+    "fill": "rgba(118, 118, 128, 0.24)",
+    "accent": "#0A84FF",
+    "unanswered": "#FF9F0A"
+  },
+  "rows": {
+    "padding": 12,
+    "minHeight": 52,
+    "radius": 20,
+    "detailLines": 2,
+    "layout": "twoLines"
+  },
+  "type": {
+    "title": {
+      "family": "serif",
+      "weight": 500,
+      "size": 14
+    },
+    "detail": {
+      "family": "system",
+      "weight": 400,
+      "size": 11.5
+    }
+  }
+}

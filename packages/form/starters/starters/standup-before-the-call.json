@@ -1,0 +1,49 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "standup-before-the-call",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7Vddj9o4FP0rlvc1Hjkmn_QpkESLtNut2morbYVWbmKINYmNHAcGjfjvvQ6BKdN92JedlwVQFH9dn3Pu8bV4xuJpp40VdWbxHDPKIkJTwsLPlM7H31_Yu84pje5gltGDlUqYQT1U0OHhjTYdt38K00ut8Nz3sNJW9Hj-de3hXcury7sRlTb1pXEOg-fPmLetPvS_D62Vu1asVG-5GhdteNsLD3NTNXIv-i-NULl2a6aBWlguW8C0sj2ysgMIyAheNeioB3SQtkEcVdzU71AvLIKlyGp04I9inCA3yDYC7Ro3cJBti74JtAG8qNYH9QDUGq0fJ7yyhn2iwl_4S5YRCh8SuEfuHvTyAQlhmez_2GyuKFvAnlVW7qU9LrWyRre9o903wDrbcgmiWTPAzLFnwavHm45cVLIWN13vxZO96fjwKsiHwY4QXNcJEsI7CIA_gbD1sPOAJyRNjOwrUB8g77iBORYUBGinKcpvPyC_hrdi5ySBtMGIVpM89WC4Peef0UmtBfPjGWMpCeMgIWFRLkm6SGckT2lU-kmWszT-SS2tcsHr9mKNH_fg9f7WGEZ0UjlDTTRfk7DSto73l4ZbBKEG4HpEnd6LGh0FMDE1P-KT92qfM_hZnsVsFpIwDzISlnFGkoCFhGZ-lgRBWAT5G4J3duWQMa3Awf8I-noWPvEjkhaJvVDoACfGNWTvIjygot-BmUYVIPejxUeyYZTHeRoxEpchZCplJUlZkpLE95PCp3kcB_TtyAJaqUZzHhzT9WS6hWi12n7WBRzwj4O6xu6P3Tfdvj9bfAchtXqYAVrLt6t8AgSlxv4qnmDCLxTSV5Zu3MjtdkRwY-ZnXJ0P6ceXCvU3dU-gMIyFLQKHa9hpcjzWm40weCp2nVCumCp9wNcqt8r_ffFwXFeqdmDp6XS6-LGYRYzRMiQJLSFFNF-SZJnkhCZ-TsMkn8XR7KcUTef-lRh7LSvX7SojDDmTOHpQCYSquXkh3OgBWumEIA3jpCyzmCSpOxZplpCMFQGJihJORxQuCxZCuLNKeB6EEFqIR3Cr25d5My_wQi9aA6nzppPab7ftGr7XnEx5v98997vnP69o97vnfvfc757__d3j3FQ1ouOTGFDojK0Ge2lafv3fBJpd3kQHuX0ZeHHO-vQd"
+  },
+  "colour" : "blue",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Standup, before the call",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "minutes" : 2,
+      "title" : "What actually moved yesterday"
+    },
+    {
+      "title" : "What you are on today"
+    },
+    {
+      "description" : "Say it even when it is you. Especially then.",
+      "title" : "What is in the way"
+    }
+  ],
+  "symbol" : "person.3",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "09:45",
+        "weekdays" : [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ]
+      }
+    }
+  ]
+}

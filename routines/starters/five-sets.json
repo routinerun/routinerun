@@ -1,47 +1,38 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": true,
-  "glyph": "figure.strengthtraining.traditional",
-  "group": "body",
-  "group_line": "Rounds, sets and intervals, counted so you can put the phone down.",
-  "group_name": "Training and the body",
-  "link_web": "https://routinerun.com/r?v=1&d=7ZZNb6NIEIb_Sou9GguTGH_sCYytjTQzG81GG2mjHNpQQMtNN-ouQqKR__tUY8wkE82csjcjC0F_FG8_9VbJ3zx4brRByGP01l4YhJEfrPxwfhcE6_73nzcZ1-yMrmmV0S0KBaZV04wGJl6hTc3xXzBWaOWtZxNPaQTrrR8eJ14jeXZ-NpBpk59fTmG89TePS6k7-7mVKBoJN8oiV_2mgksLE4-brBJPYO8rUKl2e4aJHJALSZpu0DIUNUlgBnhWsRfdsk5gxTjLuMn_ZBaQ0VaGmnX8AP0CUTCsgDWVm-iElGwPrCC9LNedmtLRKq0Pg16R03ei7SyZbcLYD-jyr90tdbfgfF0HV7RN2L-LYlQpSXucoXgS-LLRCo2W1h3bVnTquOSCoKFpaWU_kvDs8GYghUzk8GboCzzjm4Hbn4LctthLcENHSgivKYC3IyWOhCWNDTc0iISMtByHbZ9eSR3jITSOAeWJZrQaeIzs7zrNpCgr7CNP2R0hLYSxyDptDkKVPXthGbmi591xU_tt4_jmreF4cs0yGBinaRRsw3jrb6Io9OebcOXH8Wzmb9PtKo0W0fXVPHzHWKsUeC7PhnotlOdPb-1koBbK2XCA8zMJFCgdrXvSydrm5CMnfM-Nd5z8kgO5k9xH524VCukcZtie7IiVg0AA9pTZKbulNZb1eWdUOn1kRfl09nRMTkZbxOHyKlj4QRpH_ny5XfrLxSz1l1GYLq6TaLnYBO8gHIAy9U9mAFTsTH7O4EfCMdDQiehl_gNU7DL8GzL30NuDq5yRyfoDS257v7ACJE6Z83NfwDRJoOjnFmklX9iJ3qmeqUI7rtAV8UHpbqQVJMk8jhdLP93MNmSZdO4nxMifrVabINmudkH0viw_kspoGSPw1D1YV3HsZUtRUPP0jo9DKSUgtSrv9Jb61NdWjd-wL_Veyy-nSi1E2RqYWjSgSqzQkFuIw5QecuGUckkHQl7epINmaqb4FzzT3j-S3TzeuRpBI8qyF_nweBxb7lDMl6Z7abqXpntpupem-z82Xff9rIKaDxuo4A1mLZ5fkY__lCnu-Qlq-tv8Y-J1wO8",
-  "name": "Five sets",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "five-sets",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "body",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "five-sets",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7ZZNb6NIEIb_Sou9GguTGH_sCYytjTQzG81GG2mjHNpQQMtNN-ouQqKR__tUY8wkE82csjcjC0F_FG8_9VbJ3zx4brRByGP01l4YhJEfrPxwfhcE6_73nzcZ1-yMrmmV0S0KBaZV04wGJl6hTc3xXzBWaOWtZxNPaQTrrR8eJ14jeXZ-NpBpk59fTmG89TePS6k7-7mVKBoJN8oiV_2mgksLE4-brBJPYO8rUKl2e4aJHJALSZpu0DIUNUlgBnhWsRfdsk5gxTjLuMn_ZBaQ0VaGmnX8AP0CUTCsgDWVm-iElGwPrCC9LNedmtLRKq0Pg16R03ei7SyZbcLYD-jyr90tdbfgfF0HV7RN2L-LYlQpSXucoXgS-LLRCo2W1h3bVnTquOSCoKFpaWU_kvDs8GYghUzk8GboCzzjm4Hbn4LctthLcENHSgivKYC3IyWOhCWNDTc0iISMtByHbZ9eSR3jITSOAeWJZrQaeIzs7zrNpCgr7CNP2R0hLYSxyDptDkKVPXthGbmi591xU_tt4_jmreF4cs0yGBinaRRsw3jrb6Io9OebcOXH8Wzmb9PtKo0W0fXVPHzHWKsUeC7PhnotlOdPb-1koBbK2XCA8zMJFCgdrXvSydrm5CMnfM-Nd5z8kgO5k9xH524VCukcZtie7IiVg0AA9pTZKbulNZb1eWdUOn1kRfl09nRMTkZbxOHyKlj4QRpH_ny5XfrLxSz1l1GYLq6TaLnYBO8gHIAy9U9mAFTsTH7O4EfCMdDQiehl_gNU7DL8GzL30NuDq5yRyfoDS257v7ACJE6Z83NfwDRJoOjnFmklX9iJ3qmeqUI7rtAV8UHpbqQVJMk8jhdLP93MNmSZdO4nxMifrVabINmudkH0viw_kspoGSPw1D1YV3HsZUtRUPP0jo9DKSUgtSrv9Jb61NdWjd-wL_Veyy-nSi1E2RqYWjSgSqzQkFuIw5QecuGUckkHQl7epINmaqb4FzzT3j-S3TzeuRpBI8qyF_nweBxb7lDMl6Z7abqXpntpupem-z82Xff9rIKaDxuo4A1mLZ5fkY__lCnu-Qlq-tv8Y-J1wO8"
+  },
+  "colour" : "purple",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Five sets",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Two light sets. The first working set is not the warm-up.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 180,
-      "title": "Warm up with the bar"
+      "description" : "Two light sets. The first working set is not the warm-up.",
+      "minutes" : 3,
+      "title" : "Warm up with the bar"
     },
     {
-      "asks_first": false,
-      "detail": "Then rest until your breathing is back. Press Again for the next one.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "A set"
+      "description" : "Then rest until your breathing is back. Press Again for the next one.",
+      "repeats" : 5,
+      "title" : "A set"
     },
     {
-      "asks_first": false,
-      "detail": "Weight and how the last set felt. Next time this is the only thing you will want to know.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Write down what you lifted"
+      "description" : "Weight and how the last set felt. Next time this is the only thing you will want to know.",
+      "title" : "Write down what you lifted"
     }
   ],
-  "tint": "#BF5AF2"
+  "symbol" : "figure.strengthtraining.traditional"
 }

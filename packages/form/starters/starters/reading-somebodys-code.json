@@ -1,0 +1,45 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "reading-somebodys-code",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Vffj5tGEP5XVvShL8bC2GDwG7-sRkqTKD21UqJ72IPBrG7ZdXcX-6zI_3tnMRDfRb28JJUqGVkWzMwOM998MyO-OPC0l8pAlRhn4_ieH7pe7PrBnedt-t8nZzbZbJVs0UrJzjABqhPzEgUzp5aqpeZPUJpJ4WwWM0dIA9rZfL6fOXtOy_FeQSlVNT5c3DibLw7lXB717x03bM_hjdCGiv6QUR3MHKrKhh1A_9WAyKU9UlOuUdFI-Th4YxVGFhaLdJH5ievh5a7sX27_vPHyFx7Gy_T7up6ccHSdlIYdmDllUhglubZB6QZjSnaUiTGOXpLS8vGZIIeSVfBM9A6ezDPBhxdOPnSmD8GKzggXbdGB8xFoxcSOaNnCg6xOv2pSSnSNIFKFJgYRxsjOg5O3V4FP3g3sLSKIKWqkGNCpwFDG8RUpYLGAmAZIxep6ThJSNlTsrIgaUknQ5GjvmCElp6zVhGlCe2NQIAxRcGBwJDVygWAtrs5h0efOWInVdhut8pVbeF7mBl4WuLFfJFiTJAzDrCjWq_ibSkiRIwJ8JMV1ArQ6DJQYbBW0TFR6gvAlQoYZPmJ6yQhzPhFNTzY1G69znv0bSncIT0N5TVqpx4w10Y9sPyNUVD18vb5PvraB9DLTYPk0HrjUUcABVP-uCZcsjCKvWMXuMlhEbhAnsZvkydL1w2VSBH6-irLFf4NLJxCIVzB4j24JkmWig81jhiW_Fjd0vwdhKQPWneXKUUmxm_KNwywqlgvPDdLl1g2CZOum3nLpRn4URUEQF8v19qfmq2AP1OCD_4ITGK05shJegeAPJMuxYWVDZD1kR8nfHWhr3BPhou3lCnrNnHwc6WJwrCFeti_Io5BHdoVLkqZJmoW-m8U-8mCxDtw0jlM3WQVRsQ7DfOVlPxWXEYu3QA-XeYCzvLUNfpIdOcqOY3ZUvM4QsMBciK8AkBydIVx2lR0rw5zoOwRsg7AeCdshFjB7yo4P2yInO-x67lBmrF6KCahVEId-Hi7coMA2CZZJ6KYh4pb66yxJkrUXZd-O9B8J1KWZQfc7oZSiZqq1misMLU9OtjmofkQQFHngEpfE-X6Yxylw7Ik7WdCywb6bXq1P7YPk7y7Dv2zggK0z51CbOTbYkeKm5FQ381Gj2K4xmKuhuzf5kA7CZX6DJzz_S7rF7vKtHg13ffyf78_Tnh22wm3T3jbtj22Q26a9bdrbpv0-D26b9rsE-l9vWhsDOmjpcAA3hzJlZ8ZHQ6dvYvQ73kGLH8hfFdcO_wE"
+  },
+  "colour" : "purple",
+  "name" : "Reading somebody's code",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Before the diff. A change that does what it claims is a different review from one that does not.",
+      "title" : "Read what they say it does"
+    },
+    {
+      "description" : "The half most reviews skip, and the half that finds the things reading never does.",
+      "title" : "Run it"
+    },
+    {
+      "description" : "Once for what it does, once for what happens when it is wrong.",
+      "repeats" : 2,
+      "title" : "Read it twice"
+    },
+    {
+      "description" : "Say which of it is a question and which is a request. Reviews stall on not knowing.",
+      "title" : "Leave the comment you would want"
+    },
+    {
+      "description" : "One of the three, out loud. A review that ends in nothing is the one everybody is waiting on.",
+      "title" : "Say yes, ask, or block"
+    }
+  ],
+  "symbol" : "chevron.left.forwardslash.chevron.right"
+}

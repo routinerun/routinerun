@@ -1,0 +1,31 @@
+{
+  "colour" : "red",
+  "description" : "Starts by itself when your paging app's notification runs a Shortcuts automation with Handle Event in it, which needs iOS 27; on iOS 26 you start it by hand. routinerun.com/help/on-call shows how. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "When something pages you",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "The alert, not the channel it landed in. What is the check, and what value tripped it.",
+      "minutes" : 2,
+      "title" : "Read what actually fired"
+    },
+    {
+      "description" : "Out loud, before touching anything. Half of these are a threshold nobody has revisited since the service got busier.",
+      "title" : "Say whether it is real"
+    },
+    {
+      "description" : "So the next person on the rota knows somebody has it.",
+      "title" : "Acknowledge it"
+    },
+    {
+      "description" : "Now, while it is a guess. It is worth more than the tidy version you write afterwards.",
+      "title" : "Write down what you think is happening"
+    },
+    {
+      "description" : "Both are answers. Sitting on it is not.",
+      "title" : "Fix it, or hand it on"
+    }
+  ],
+  "symbol" : "bell.badge"
+}

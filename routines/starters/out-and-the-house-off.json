@@ -1,47 +1,39 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Home scene “Leave Home”"
-  ],
-  "description": "Needs a Home scene called Leave Home. If yours goes by another name, change it on that step and this works as it is.",
-  "first_shelf": false,
-  "glyph": "figure.walk.departure",
-  "group": "home",
-  "group_line": "The errands a week repeats, and nobody enjoys holding.",
-  "group_name": "Home and everyday",
-  "link_web": "https://routinerun.com/r?v=1&d=7VZRb5swEP4rFnuFiEAgkDcSQK3WtdVardKqanLhEqyCHdkmaVTlv-9MIU07TdrD-hYSIft8_vzdd-cTLxY8r4XUUCbamlme64WOGztecOu6s-7_07IPPrkUDXpJ0WrGQbZ8VKDBtpZCNlT_AKmY4NZsbFtcaFDW7P7BttY1LYaxhELIcpi8wlizF4vWtdiqb22t2bqGc6405d2mJa0V2BaVRcU2oO4q4Kkwe_qFEjRlNXK6BCgVoeRMNEBUARxIgahQkgugG-jsI3K-JDvRSkVWAhR53BGKRCuQhNMGbFJUlK-AME0EJ7qimigNa3QqccYU2Qr5hIco48HUCCOvhHjqw2El0giz8Xy88BLHxceZmFdqXu7w-G6E25i6Wi4PQdQYWlJotmF6txBcS1Ero4qqUJRkRRlqqmWLnp1lTound4YUClbCO9MlPOt3husPINet7igY0x7zhfEj_atW2324QCrRKiACvTCJVKKHxgwjsX2PcXHE-wCOghlBMKe4IvixOEGYJbEXelhhfuIEQTBx5uHEdbJJFqe-n3nTKPlDHMFToGU9FMoxKC0378tEQsO4Ka8-qo-sJSIhkOrULQRfMtmYFVzSTNdGgTsEwNCORHi09vbxwcPYYOAVuDG1Zsa_XPPuhXwrOmtv4Lv45-k0jieR74ReMnECH-siieahk2dp7OFK7i5ijF-BSc0cJcW6l2xDazRusfJvxfe2OxY2IHe3zJyE5PcPR_cAPVRH_G93wBqSEYz9SR7lmIIgcoI4y50oXCRO5s4jd5xNA98LPzUZg-I3oI_KTQtSG7IfRB9KaOHlUTaNAyfL_TGyXqROFCeBM87xl7lj33cXn8r6H0roK-yUTbZGebxN68r0K5Oj7mrMoRZ8dSsyWlRdNvtz1a55FPXla_Us2aqVMEKIp1EJSEHjFMPSdHWe9syxdeozeEbvL-Ek9fLcrEu2WnVU7x_2hwbbF-2pxZ5a7KnFnlrsqcX-txZrTiwqaGi_Aa-s1EWrh6mmh69gxB1G0OAn8dvCMeBv",
-  "name": "Out, and the house off",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "out-and-the-house-off",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Home scene “Leave Home”"
+    ],
+    "firstShelf" : false,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "out-and-the-house-off",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VZRb5swEP4rFnuFiEAgkDcSQK3WtdVardKqanLhEqyCHdkmaVTlv-9MIU07TdrD-hYSIft8_vzdd-cTLxY8r4XUUCbamlme64WOGztecOu6s-7_07IPPrkUDXpJ0WrGQbZ8VKDBtpZCNlT_AKmY4NZsbFtcaFDW7P7BttY1LYaxhELIcpi8wlizF4vWtdiqb22t2bqGc6405d2mJa0V2BaVRcU2oO4q4Kkwe_qFEjRlNXK6BCgVoeRMNEBUARxIgahQkgugG-jsI3K-JDvRSkVWAhR53BGKRCuQhNMGbFJUlK-AME0EJ7qimigNa3QqccYU2Qr5hIco48HUCCOvhHjqw2El0giz8Xy88BLHxceZmFdqXu7w-G6E25i6Wi4PQdQYWlJotmF6txBcS1Ero4qqUJRkRRlqqmWLnp1lTound4YUClbCO9MlPOt3husPINet7igY0x7zhfEj_atW2324QCrRKiACvTCJVKKHxgwjsX2PcXHE-wCOghlBMKe4IvixOEGYJbEXelhhfuIEQTBx5uHEdbJJFqe-n3nTKPlDHMFToGU9FMoxKC0378tEQsO4Ka8-qo-sJSIhkOrULQRfMtmYFVzSTNdGgTsEwNCORHi09vbxwcPYYOAVuDG1Zsa_XPPuhXwrOmtv4Lv45-k0jieR74ReMnECH-siieahk2dp7OFK7i5ijF-BSc0cJcW6l2xDazRusfJvxfe2OxY2IHe3zJyE5PcPR_cAPVRH_G93wBqSEYz9SR7lmIIgcoI4y50oXCRO5s4jd5xNA98LPzUZg-I3oI_KTQtSG7IfRB9KaOHlUTaNAyfL_TGyXqROFCeBM87xl7lj33cXn8r6H0roK-yUTbZGebxN68r0K5Oj7mrMoRZ8dSsyWlRdNvtz1a55FPXla_Us2aqVMEKIp1EJSEHjFMPSdHWe9syxdeozeEbvL-Ek9fLcrEu2WnVU7x_2hwbbF-2pxZ5a7KnFnlrsqcX-txZrTiwqaGi_Aa-s1EWrh6mmh69gxB1G0OAn8dvCMeBv"
+  },
+  "colour" : "#64D2FF",
+  "description" : "Needs a Home scene called Leave Home. If yours goes by another name, change it on that step and this works as it is.",
+  "name" : "Out, and the house off",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": true,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Windows and the hob"
+      "title" : "Windows and the hob"
     },
     {
-      "asks_first": false,
-      "detail": "Runs the scene called Leave Home.",
-      "does_itself": true,
-      "does_itself_line": "Runs the Home scene Leave Home",
-      "duration_seconds": null,
-      "title": "Set the house to leave"
+      "description" : "Runs the scene called Leave Home.",
+      "does" : [
+        {
+          "scene" : "Leave Home"
+        }
+      ],
+      "title" : "Set the house to leave"
     },
     {
-      "asks_first": true,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Keys, wallet, phone"
+      "title" : "Keys, wallet, phone"
     }
   ],
-  "tint": "#64D2FF"
+  "symbol" : "figure.walk.departure"
 }

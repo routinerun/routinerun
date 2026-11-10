@@ -1,0 +1,20 @@
+{
+  "about" : "Comes back a day later, then three, then a week, then three weeks.",
+  "colour" : "purple",
+  "name" : "Something worth remembering",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Out loud, from memory. Reading it again feels like learning and is not.",
+      "title" : "Say it without looking"
+    },
+    {
+      "title" : "Now look, and find what you missed"
+    },
+    {
+      "about" : "Only that half. Next time this is what you start from.",
+      "title" : "Write the half you got wrong"
+    }
+  ],
+  "symbol" : "brain"
+}

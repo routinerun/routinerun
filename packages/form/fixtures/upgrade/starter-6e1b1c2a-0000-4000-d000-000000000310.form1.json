@@ -1,0 +1,24 @@
+{
+  "colour" : "#C77700",
+  "name" : "Something that runs out",
+  "routineRun" : 1,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "about" : "Write the date down as a value called Expires. A passport, a licence, a visa, an insurance policy — the ones that are fine until they are not.",
+      "title" : "When it expires"
+    },
+    {
+      "about" : "Come back to it from the value rather than from a date you picked: change the date and the reminder moves with it.",
+      "title" : "Put this down until two months before that"
+    },
+    {
+      "title" : "Find out what renewing actually needs"
+    },
+    {
+      "about" : "Two months is the gap that makes this dull rather than expensive.",
+      "title" : "Start it"
+    }
+  ],
+  "symbol" : "doc.badge.clock"
+}

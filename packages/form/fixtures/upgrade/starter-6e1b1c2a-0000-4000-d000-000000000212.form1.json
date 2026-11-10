@@ -1,0 +1,58 @@
+{
+  "about" : "One run per deal, as many at once as you have in the pipe. Notes, links and answers stay on that deal's run; what you change about the process, kept, is how the next deal starts.",
+  "colour" : "blue",
+  "name" : "Due diligence on a deal",
+  "routineRun" : 1,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "about" : "What has to be true for this to be a good deal. Every step below is a test of it.",
+      "title" : "Write the thesis in one sentence"
+    },
+    {
+      "about" : "Today, in one message: incorporation papers, cap table, financials, material contracts, IP assignments. A list sent in pieces is a data room that arrives in pieces.",
+      "title" : "Send the request list"
+    },
+    {
+      "about" : "Every SAFE, note and option grant on the cap table, and the cap table matching the documents.",
+      "title" : "Who owns what"
+    },
+    {
+      "about" : "Every founder and contractor has assigned their work to the company, including what they wrote before it existed.",
+      "title" : "Who owns the code"
+    },
+    {
+      "about" : "Revenue in the model against money that arrived. A gap is a question, not yet a problem.",
+      "title" : "The numbers against the bank"
+    },
+    {
+      "about" : "End to end, before the next call. What it does on your phone outranks what the deck says it does.",
+      "title" : "Use the product yourself"
+    },
+    {
+      "about" : "Ask what they would use if it disappeared tomorrow.",
+      "title" : "Call two customers they did not pick"
+    },
+    {
+      "about" : "Somebody who worked with them, not somebody they gave you.",
+      "title" : "One reference on each founder"
+    },
+    {
+      "about" : "Litigation, regulation, privacy, a dependency on one platform. Write it down even when the answer is none.",
+      "title" : "Anything that would stop the round"
+    },
+    {
+      "about" : "A flag with nothing that would clear it is a pass dressed up as a question.",
+      "title" : "List the red flags and what would clear each"
+    },
+    {
+      "about" : "Invest, pass, or one more question with a date on it. Written, with the reason.",
+      "title" : "Decide"
+    },
+    {
+      "about" : "A step that was missing, one that was a waste of time. Keep it, and the next deal runs the better version.",
+      "title" : "What this deal taught the process"
+    }
+  ],
+  "symbol" : "checklist"
+}

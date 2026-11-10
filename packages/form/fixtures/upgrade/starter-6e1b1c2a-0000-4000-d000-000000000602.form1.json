@@ -1,0 +1,19 @@
+{
+  "about" : "For an iPhone with an Action button, with Routine Run's In hand control on it: Settings › Action Button › Controls. Start this in the morning, and every press of the side button adds one — reps, glasses, laps, anything you would otherwise have to open the phone to write down. The number is on the run, and Keep carries it up to the routine.",
+  "colour" : "green",
+  "name" : "Count it without looking",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Nothing else is on the button while this run is pinned, so it cannot go wrong in a pocket. The count is a value called count on this step: open the run to read it, change it by hand if you miscounted, and press Next when the day is done.",
+      "buttons" : [
+        {
+          "count" : "count"
+        }
+      ],
+      "symbol" : "number",
+      "title" : "Every press adds one"
+    }
+  ],
+  "symbol" : "number"
+}

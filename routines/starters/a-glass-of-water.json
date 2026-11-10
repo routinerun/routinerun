@@ -1,32 +1,49 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Health",
-    "Notifications"
-  ],
-  "description": "Writes each glass to Health, which asks the first time it does.",
-  "first_shelf": true,
-  "glyph": "drop",
-  "group": "body",
-  "group_line": "Rounds, sets and intervals, counted so you can put the phone down.",
-  "group_name": "Training and the body",
-  "link_web": "https://routinerun.com/r?v=1&d=7Vdbq-M2EP4rxn2NFvkaO2-25bAH2u2yhC60hEW1lVhEllJZTk445L935EvOZV-2dPehJSYYeUaa2_fNiDy57PGotGF1ZtyV62M_RjhFfrTBeDX8fncXtz1rrVrYpVVvuGS6l-8qECzcndItNb8x3XEl3ZW3cKUyrHNXf2wX7lHQal5rVildzx-jGXf15FIh1Ln7pReGHwV7kJ2hcji0o6JjC5fqquEn1n1umCTKnpkUNTOUC4jps-bg0WG0apy9oF3nGOW8Z1SYZuGcGw5i2h1A2jBnx3VnHMNb5nDj1Ip17yCJRqnDFBmvwWJcerlX-BnC8KDQvoh94fkJcQTHePfrbneLR0CUWWX4iZtLoaTRSnQ2wa6B_LI95VAeo3vYOUhyWh1eCQireM1eiT6wR_NK8PGNkY-9GUKwoiuUnrZgwM2mMqidc6aGaQj1SDXoYG1Duk6nf34R8c2sYUdbCgAGNEq-XNtszrbYY3Ht5xc8YNiqXg4kijA4-6un0gw23dl_L7nVt1wILrjRAPD1ep3KnfuBHy1TgkgWxyjKwxDlvpegIAkICXwcpVEBNjpmk82tWao1P1EBwjPQYqM-9UNw7MT0ZcNtEZ7A_PYFSTawDxjAO-c80gXgf0GTTg30MMpQ4cCmTrUMTGvmKJBrUFLpXFSvnZa1Sl8sa4bYyxj7y2WyRGlEEhR5BFZxGSESeFGerZO4LMhXVFGSMFqLuQNuhYaAaX16zX_NWi5t30wYv0USCi0s6ERzeYCsXJv2gGLOhJL7jSqhMYYCTRa7S_unEh9GrtRaHSE-Q_cPZAoBOtO8Z4-g_CkOib9eW73m-_3g8w0zqpHpn54beqQEBN0PcyDGkO-RaToyyFW73chIOxtaNtBGqrN7GwoP5Ns70Ob5IGsbLB4BH0Ah-TIIvQCgSIBGEVkHKE-CHHkxJmGEcbH24q9AmZrnTTFOildWXFFdT3Sz6VVUMFlT_ZxwA-SA-YdnXiQxiYs0QzEpCfBimaI0B4bgjES4wDHww7bKWCaIHkwzdqjpZfA79Ib1NRX5h3vbXhf_AVzX0GoAZoiKIMQoymKCcpL5iPhFmEfr1Cd5-INwjeZKZ946TMsC-djOqtLzURLGJfILnJXLZZmnQfTvcf1u3rYW2RmBqXvvF-79wr1fuPcL9zsO5vuF-0-93S_c_--Fa-dB1bCWTqnD7Nem6s38aejtHzJUaF6xFpB8Vjz3__b6Nw",
-  "name": "A glass of water",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "a-glass-of-water",
-  "starts_by_itself": true,
-  "starts_by_itself_line": "Every day at 10:00 and 15:00",
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Health",
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "body",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "a-glass-of-water",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7Vdbq-M2EP4rxn2NFvkaO2-25bAH2u2yhC60hEW1lVhEllJZTk445L935EvOZV-2dPehJSYYeUaa2_fNiDy57PGotGF1ZtyV62M_RjhFfrTBeDX8fncXtz1rrVrYpVVvuGS6l-8qECzcndItNb8x3XEl3ZW3cKUyrHNXf2wX7lHQal5rVildzx-jGXf15FIh1Ln7pReGHwV7kJ2hcji0o6JjC5fqquEn1n1umCTKnpkUNTOUC4jps-bg0WG0apy9oF3nGOW8Z1SYZuGcGw5i2h1A2jBnx3VnHMNb5nDj1Ip17yCJRqnDFBmvwWJcerlX-BnC8KDQvoh94fkJcQTHePfrbneLR0CUWWX4iZtLoaTRSnQ2wa6B_LI95VAeo3vYOUhyWh1eCQireM1eiT6wR_NK8PGNkY-9GUKwoiuUnrZgwM2mMqidc6aGaQj1SDXoYG1Duk6nf34R8c2sYUdbCgAGNEq-XNtszrbYY3Ht5xc8YNiqXg4kijA4-6un0gw23dl_L7nVt1wILrjRAPD1ep3KnfuBHy1TgkgWxyjKwxDlvpegIAkICXwcpVEBNjpmk82tWao1P1EBwjPQYqM-9UNw7MT0ZcNtEZ7A_PYFSTawDxjAO-c80gXgf0GTTg30MMpQ4cCmTrUMTGvmKJBrUFLpXFSvnZa1Sl8sa4bYyxj7y2WyRGlEEhR5BFZxGSESeFGerZO4LMhXVFGSMFqLuQNuhYaAaX16zX_NWi5t30wYv0USCi0s6ERzeYCsXJv2gGLOhJL7jSqhMYYCTRa7S_unEh9GrtRaHSE-Q_cPZAoBOtO8Z4-g_CkOib9eW73m-_3g8w0zqpHpn54beqQEBN0PcyDGkO-RaToyyFW73chIOxtaNtBGqrN7GwoP5Ns70Ob5IGsbLB4BH0Ah-TIIvQCgSIBGEVkHKE-CHHkxJmGEcbH24q9AmZrnTTFOildWXFFdT3Sz6VVUMFlT_ZxwA-SA-YdnXiQxiYs0QzEpCfBimaI0B4bgjES4wDHww7bKWCaIHkwzdqjpZfA79Ib1NRX5h3vbXhf_AVzX0GoAZoiKIMQoymKCcpL5iPhFmEfr1Cd5-INwjeZKZ946TMsC-djOqtLzURLGJfILnJXLZZmnQfTvcf1u3rYW2RmBqXvvF-79wr1fuPcL9zsO5vuF-0-93S_c_--Fa-dB1bCWTqnD7Nem6s38aejtHzJUaF6xFpB8Vjz3__b6Nw"
+  },
+  "colour" : "#64D2FF",
+  "description" : "Writes each glass to Health, which asks the first time it does.",
+  "name" : "A glass of water",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Then this writes it to Health, so the total is somewhere other than your memory.",
-      "does_itself": true,
-      "does_itself_line": "Logs 250 ml of water in Health",
-      "duration_seconds": null,
-      "title": "Drink it"
+      "description" : "Then this writes it to Health, so the total is somewhere other than your memory.",
+      "does" : [
+        {
+          "health" : {
+            "amount" : "250",
+            "log" : "water"
+          }
+        }
+      ],
+      "title" : "Drink it"
     }
   ],
-  "tint": "#64D2FF"
+  "symbol" : "drop",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "10:00"
+      }
+    },
+    {
+      "when" : {
+        "at" : "15:00"
+      }
+    }
+  ]
 }

@@ -1,0 +1,31 @@
+{
+  "about" : "Twenty seconds on, ten off, eight times. Longer to read about than to do. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "pink",
+  "name" : "Tabata, four minutes",
+  "rounds" : {
+    "from" : 2,
+    "through" : 3,
+    "times" : 8
+  },
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Enough to be out of breath before the first round.",
+      "minutes" : 3,
+      "title" : "Warm up"
+    },
+    {
+      "minutes" : 0.3333333333333333,
+      "title" : "Go"
+    },
+    {
+      "minutes" : 0.16666666666666666,
+      "title" : "Rest"
+    },
+    {
+      "minutes" : 2,
+      "title" : "Walk it off"
+    }
+  ],
+  "symbol" : "timer"
+}

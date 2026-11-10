@@ -1,0 +1,26 @@
+{
+  "colour" : "blue",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Read it and keep one thing",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Headings and the last paragraph. Two minutes here decides whether the next twenty are worth it.",
+      "minutes" : 2,
+      "title" : "Skim it first"
+    },
+    {
+      "title" : "Read it properly"
+    },
+    {
+      "description" : "Not a summary. The thing you would say about it to somebody who has not read it.",
+      "title" : "Write the one sentence"
+    },
+    {
+      "description" : "Every note here goes somewhere — a step, another routine, or away. That is what this waits for.",
+      "title" : "Put it where you will find it"
+    }
+  ],
+  "symbol" : "doc.text.magnifyingglass"
+}

@@ -1,55 +1,58 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "The exercises somebody gave you, at the three times you will otherwise miss. Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": false,
-  "glyph": "figure.cooldown",
-  "group": "body",
-  "group_line": "Rounds, sets and intervals, counted so you can put the phone down.",
-  "group_name": "Training and the body",
-  "link_web": "https://routinerun.com/r?v=1&d=7Vhtb9s2EP4rhPbVDPT-kn4i9YIG2NqgDTagQzAwEmURkUWDouIYgf97j7LkxOmGrUWyLYANQ7DII-_uuede4AeL36-l0rwi2jq3XNsNsZ1gN7iy7fPx-8VaHGQKJVcgpeSgRcfV0J2VsLCwaqlWTP_KVS9kZ507C6uTmvfW-e_XC2vdsnL-rXgpVTW_7K-xzh8s1rZy0_8ytFqsW37R9Zp146GatT1fWEyVjbjj_W8N7zJpzkwbFddMtGDTVcMRv-eqFD3vUS9X_EZWW7Rkdxxt5bBATCMNMrpRHJ5iBVKwjjaibZGEHbWBk2gl-v4MXeh-FFE9UpyVzSSpG8RQyVT1DvVcI7ADaYk27HZUgUQ9alg3ZmO894ajGpxHldx0Z4BTI-Xt5LyowOgwd6iTugTb8MG-eWTmYc8f3_bhmOg_1vXB5RaAIKUWd0JvU9lpJdveYNg3ACFZMgER0GoAyXGFsvL2aCHjpaj40dIHfq-PFi6fXXI56NEEs7SD6LIVXGBdNlsI-OIIU4YqtgWb10yBkAYIwbbddM3PT0w_3K_52mACJIAd2U34HAL7GZjRbs-QCfBaik4j0Y84K9Yt-QIB08ZXXgMLtUF5hDanJKVOkmCSugUOkoTgJC4SgNZzMppQN8nTb6CVXcZZ1c6kfGoPq-6OKan4SnSGyhMmzx1WfM2ZhhfHXlha6JZPLK2F6kfyWLvFMyWj5ZlP_DwMPRzlcYQDmviY5iTEUZpGNAyLLPL-I8t7yN6u-nPTq0ExPWa_Z0-OuGGRFkXh4yTxIATE8SAYWYghALkd0CIqnPBVHZltfy_bauRIy_4K-QPdPprchRplWMY7OSwbQz3D7w3ntz2S9Zj3s8i-pIhuCcRfj-lgSglbC1AECgYobFvEejgI7DyQM_WTyMvdDCdpYuMgtj2cEAoRJw7kfJ7bUfHvIPOZbREkJhIa1bzV1u56SkjKW9ktr2QO1e_T0B0u7rerG9l-2Od_LZaD4tADAF-ocGCxZsuLbDIKart-z-9B7iebxH5RmH0llsvRiqN8f7DKfSH79NgS_rDNE9wYxk4SAqvkms8ks2Rdc2VN3WXFO9O9OrmxDm3lIvvnBda4fNFVxlh7t9vNmRhFueM5eYC9OKU48DyKSUhzTBMvS20_DvLY_SZMU218BsadFKVZNt0DtjbQx4x7JWt5VzH16HAjB3iLJwuClIYB8Sn2ndjDQZTnOI7tAnuJmwZJHkRpQOC6PUr71DM0hRI86gVf9romkF9d2_VxYv1P40qJXVDiONgtCPgZ-lCiUhJg6idBEAdeHMb268TV8eba6BFi25DyvlcAtVwo8oTG4EUE9T5MQxs61BOofyyuL6ftbcTVjqE1hqGL0ww6fUCCDNMsibAXUseBjkMy95Xy1UlmExzQRIsMh4EL1CoyaN5xTHHsOF6euIWTe0-R_sGEfUF11ya2cwymunwaxk_D-GkYPw3jL-rIaRj_O2ROw_hpGH9JbW9jaDsN49-r7W3E9TSMf786M4ybol82fMUm52FWU7oc9Pyq2eGfdcBo_sVXEMvHjcfKfr37Cg",
-  "name": "Physio, three times a day",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "physio-three-times-a-day",
-  "starts_by_itself": true,
-  "starts_by_itself_line": "Every day at 8:30, 13:00 and 19:30",
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "body",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "physio-three-times-a-day",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7Vhtb9s2EP4rhPbVDPT-kn4i9YIG2NqgDTagQzAwEmURkUWDouIYgf97j7LkxOmGrUWyLYANQ7DII-_uuede4AeL36-l0rwi2jq3XNsNsZ1gN7iy7fPx-8VaHGQKJVcgpeSgRcfV0J2VsLCwaqlWTP_KVS9kZ507C6uTmvfW-e_XC2vdsnL-rXgpVTW_7K-xzh8s1rZy0_8ytFqsW37R9Zp146GatT1fWEyVjbjj_W8N7zJpzkwbFddMtGDTVcMRv-eqFD3vUS9X_EZWW7Rkdxxt5bBATCMNMrpRHJ5iBVKwjjaibZGEHbWBk2gl-v4MXeh-FFE9UpyVzSSpG8RQyVT1DvVcI7ADaYk27HZUgUQ9alg3ZmO894ajGpxHldx0Z4BTI-Xt5LyowOgwd6iTugTb8MG-eWTmYc8f3_bhmOg_1vXB5RaAIKUWd0JvU9lpJdveYNg3ACFZMgER0GoAyXGFsvL2aCHjpaj40dIHfq-PFi6fXXI56NEEs7SD6LIVXGBdNlsI-OIIU4YqtgWb10yBkAYIwbbddM3PT0w_3K_52mACJIAd2U34HAL7GZjRbs-QCfBaik4j0Y84K9Yt-QIB08ZXXgMLtUF5hDanJKVOkmCSugUOkoTgJC4SgNZzMppQN8nTb6CVXcZZ1c6kfGoPq-6OKan4SnSGyhMmzx1WfM2ZhhfHXlha6JZPLK2F6kfyWLvFMyWj5ZlP_DwMPRzlcYQDmviY5iTEUZpGNAyLLPL-I8t7yN6u-nPTq0ExPWa_Z0-OuGGRFkXh4yTxIATE8SAYWYghALkd0CIqnPBVHZltfy_bauRIy_4K-QPdPprchRplWMY7OSwbQz3D7w3ntz2S9Zj3s8i-pIhuCcRfj-lgSglbC1AECgYobFvEejgI7DyQM_WTyMvdDCdpYuMgtj2cEAoRJw7kfJ7bUfHvIPOZbREkJhIa1bzV1u56SkjKW9ktr2QO1e_T0B0u7rerG9l-2Od_LZaD4tADAF-ocGCxZsuLbDIKart-z-9B7iebxH5RmH0llsvRiqN8f7DKfSH79NgS_rDNE9wYxk4SAqvkms8ks2Rdc2VN3WXFO9O9OrmxDm3lIvvnBda4fNFVxlh7t9vNmRhFueM5eYC9OKU48DyKSUhzTBMvS20_DvLY_SZMU218BsadFKVZNt0DtjbQx4x7JWt5VzH16HAjB3iLJwuClIYB8Sn2ndjDQZTnOI7tAnuJmwZJHkRpQOC6PUr71DM0hRI86gVf9romkF9d2_VxYv1P40qJXVDiONgtCPgZ-lCiUhJg6idBEAdeHMb268TV8eba6BFi25DyvlcAtVwo8oTG4EUE9T5MQxs61BOofyyuL6ftbcTVjqE1hqGL0ww6fUCCDNMsibAXUseBjkMy95Xy1UlmExzQRIsMh4EL1CoyaN5xTHHsOF6euIWTe0-R_sGEfUF11ya2cwymunwaxk_D-GkYPw3jL-rIaRj_O2ROw_hpGH9JbW9jaDsN49-r7W3E9TSMf786M4ybol82fMUm52FWU7oc9Pyq2eGfdcBo_sVXEMvHjcfKfr37Cg"
+  },
+  "colour" : "blue",
+  "description" : "The exercises somebody gave you, at the three times you will otherwise miss. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Physio, three times a day",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Slowly. The point is the range, not the effort.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "The first one"
+      "description" : "Slowly. The point is the range, not the effort.",
+      "repeats" : 10,
+      "title" : "The first one"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "The second one"
+      "repeats" : 10,
+      "title" : "The second one"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 30,
-      "title": "Hold the last one"
+      "minutes" : 0.5,
+      "title" : "Hold the last one"
     },
     {
-      "asks_first": false,
-      "detail": "One word is enough. Three weeks of one word is the thing a physiotherapist actually asks for.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Say how it felt"
+      "description" : "One word is enough. Three weeks of one word is the thing a physiotherapist actually asks for.",
+      "title" : "Say how it felt"
     }
   ],
-  "tint": "#0A84FF"
+  "symbol" : "figure.cooldown",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "08:30"
+      }
+    },
+    {
+      "when" : {
+        "at" : "13:00"
+      }
+    },
+    {
+      "when" : {
+        "at" : "19:30"
+      }
+    }
+  ]
 }

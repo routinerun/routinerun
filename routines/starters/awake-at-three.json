@@ -1,45 +1,35 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": null,
-  "first_shelf": false,
-  "glyph": "moon.stars",
-  "group": "dayEnds",
-  "group_line": "The first half hour of a day and the last one.",
-  "group_name": "Mornings and evenings",
-  "link_web": "https://routinerun.com/r?v=1&d=7ZbbittIEIZfpdFe5MYyOljy4U6yNMlAdhKyYQMJc9GWylYzUrfoLtljgt891bKseLJsAmE3EBhjjFTd9fvvr0qFPjvw2CqNUCborJzAC2LXW7pB9N7zVv33ozMZ99xo1dAurToUEnQnpwUFJs5W6Ybj36CNUNJZ-RNHKgTjrD7dT5y25sXlWkOhdHm5Ocs4q88Or2t1MH92NYq2hltpkMs-actrAxOH66ISezAfKpCZsjnDQqXUwyAnSrIW537qr4PE9ejjzuxPZn-8y8f3ZmRYmDfb7ShSk3RSoNgLPK6VRK1qY12ZikwlOy7oTKg72tlHUl48PAlkUIgSnoTu4BGfBN5-I_K2w96CDZ2IF29IwEkO_AEYR4aVBiCjLde0gkSWDJ2G3NdXfkdRhNaCIJa0ouQApQTkoiblN5K1vAXNlGYVaJiyW2QGVWvYBoTcMc5qpVqmiDsTyIRhRjVwsHvJDe8jVFV2VJ1V4OXUGZgn6WK2jNehO1_koRulme-m68WNu5zP_HCWB3MvTf_BXMmMNOpL_a8983L_tPoaGiFt1wywvoWCAmtL74MWCKxUB0mOrWt7LvLLOJ2hqOBg76lBT5N_o3Rrjzlld-qcW_aFLceCsIobBnuiaDq9pyqUrKB-IS12EFgxSccZsWThLI7SeerGURK7UZ6EbhLFobvOUy9cL7Mwz_L_FYsmJRIyfS-Tz63QjV25Inbu3KHeqBqltTq8MN8h9PpowWDfFrzvVgRObE0Pum-UDWEhuXPr2Ggthr1T9tfYU6VoJn2LDai7up6wDT1aNlGOZaNO2x9HpsvEDxdhGLpB5iVu5Meem0bz3L2ZB-s0X3hzP8h-HVO-pQV7QTldP-8C75ruS0DWtUxsLWDbOhugk-EBJB7ZJed0Pzy8KdRK7t6rnHC-6-RoyRybjarvzgOiUUpOaTqSH_ofvrvNhpPQJMVX8Ehb_ojyaJ3Hdl2L3a63_un-NM7bYUo8T9znifvTj8HzxP3xdHieuP89099q4tq_oTo1fEigSaKx6PByi3x8RybdyxU09ML8deFa8As",
-  "name": "Awake at three",
-  "release": 2,
-  "shortcuts": [],
-  "slug": "awake-at-three",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "dayEnds",
+    "licence" : "CC-BY-4.0",
+    "release" : 2,
+    "shortcuts" : [
+
+    ],
+    "slug" : "awake-at-three",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7ZbbittIEIZfpdFe5MYyOljy4U6yNMlAdhKyYQMJc9GWylYzUrfoLtljgt891bKseLJsAmE3EBhjjFTd9fvvr0qFPjvw2CqNUCborJzAC2LXW7pB9N7zVv33ozMZ99xo1dAurToUEnQnpwUFJs5W6Ybj36CNUNJZ-RNHKgTjrD7dT5y25sXlWkOhdHm5Ocs4q88Or2t1MH92NYq2hltpkMs-actrAxOH66ISezAfKpCZsjnDQqXUwyAnSrIW537qr4PE9ejjzuxPZn-8y8f3ZmRYmDfb7ShSk3RSoNgLPK6VRK1qY12ZikwlOy7oTKg72tlHUl48PAlkUIgSnoTu4BGfBN5-I_K2w96CDZ2IF29IwEkO_AEYR4aVBiCjLde0gkSWDJ2G3NdXfkdRhNaCIJa0ouQApQTkoiblN5K1vAXNlGYVaJiyW2QGVWvYBoTcMc5qpVqmiDsTyIRhRjVwsHvJDe8jVFV2VJ1V4OXUGZgn6WK2jNehO1_koRulme-m68WNu5zP_HCWB3MvTf_BXMmMNOpL_a8983L_tPoaGiFt1wywvoWCAmtL74MWCKxUB0mOrWt7LvLLOJ2hqOBg76lBT5N_o3Rrjzlld-qcW_aFLceCsIobBnuiaDq9pyqUrKB-IS12EFgxSccZsWThLI7SeerGURK7UZ6EbhLFobvOUy9cL7Mwz_L_FYsmJRIyfS-Tz63QjV25Inbu3KHeqBqltTq8MN8h9PpowWDfFrzvVgRObE0Pum-UDWEhuXPr2Ggthr1T9tfYU6VoJn2LDai7up6wDT1aNlGOZaNO2x9HpsvEDxdhGLpB5iVu5Meem0bz3L2ZB-s0X3hzP8h-HVO-pQV7QTldP-8C75ruS0DWtUxsLWDbOhugk-EBJB7ZJed0Pzy8KdRK7t6rnHC-6-RoyRybjarvzgOiUUpOaTqSH_ofvrvNhpPQJMVX8Ehb_ojyaJ3Hdl2L3a63_un-NM7bYUo8T9znifvTj8HzxP3xdHieuP89099q4tq_oTo1fEigSaKx6PByi3x8RybdyxU09ML8deFa8As"
+  },
+  "colour" : "indigo",
+  "name" : "Awake at three",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "On paper or here. It stops being a loop once it is somewhere that is not your head.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Write down the thing you are chewing on"
+      "description" : "On paper or here. It stops being a loop once it is somewhere that is not your head.",
+      "title" : "Write down the thing you are chewing on"
     },
     {
-      "asks_first": true,
-      "detail": "It is. Nothing decided at three has ever survived contact with nine.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Decide it is tomorrow's"
+      "description" : "It is. Nothing decided at three has ever survived contact with nine.",
+      "title" : "Decide it is tomorrow's"
     },
     {
-      "asks_first": false,
-      "detail": "Lying there awake teaches you that bed is where you lie awake. Somewhere dim, something dull, back when you are heavy.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Get up if it has been twenty minutes"
+      "description" : "Lying there awake teaches you that bed is where you lie awake. Somewhere dim, something dull, back when you are heavy.",
+      "title" : "Get up if it has been twenty minutes"
     }
   ],
-  "tint": "#5E5CE6"
+  "symbol" : "moon.stars"
 }

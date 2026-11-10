@@ -1,0 +1,38 @@
+{
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "orange",
+  "name" : "First half hour",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "minutes" : 1,
+      "title" : "Water, before coffee"
+    },
+    {
+      "about" : "Neck, shoulders, hips. Long enough to count, short enough that you do it.",
+      "minutes" : 3,
+      "title" : "Move for three minutes"
+    },
+    {
+      "about" : "Not the inbox. The inbox is somebody else's list of what your morning is for.",
+      "title" : "Read only what you chose to read"
+    },
+    {
+      "about" : "One. A morning that produces three is a morning that produced none.",
+      "title" : "Name the one thing today is about"
+    }
+  ],
+  "symbol" : "sunrise",
+  "times" : [
+    {
+      "at" : "07:00",
+      "days" : [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ]
+    }
+  ]
+}

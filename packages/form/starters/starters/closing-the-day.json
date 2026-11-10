@@ -1,0 +1,36 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "closing-the-day",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VZti5tAEP4ri_0aD_USTdJP8SX0oL2WcrTQch-2OsYl627YHeOFkv_eWc_Yu-vXUiiciOjMzswzz7zgTw8eDtogVBv01l4URLEfrPxocRcE6-H-5s2mM1ujWzpldIdCgenUVUmCmVdr03L8AsYKrbx1OPOURrDe-vv9zDtIXl7eDZTaVJePRzfe-qfHpdS9_dBJFAcJN8oiV4NRzaWFmcdN2Ygj2K8NqFw7m1FRAXIhCdMNWoaiJQjMAC8bdtId6wU2jLOSm-ots4CMTBlq1vM9DAdEzbABdmicohdSsh_AasLLKt2rK0qt0Xo_4hUVxYmLMA2zaOMHdPlz98jdI7hcUXBNZsJ-rOsJpSTsmxLFUeAp0wqNltalbRvKerPjgkhD09HJQZLycv9MkEMpKngmuoUHfCb49MLJpw4HCE50poLwlhx4mdRWqN2QdcVPhPTADamQiCNE59H4_RPAk1eEg2OCqkUarUZWpgpkum0FzpjlR6AnqOoxiuE1XrFbjY0LbAUVSh9AMX0Eo8SuQUfzwO08TNJtkRV-UawCf7HZrPzlahH4UVgk4XY1327z5R_capUDr-SlkZ5C49XxeRsZaIVy7TeS8jJ3FCgdS-85ge8bjkxY1nBZUzuQ__PsZe6d4Ti0fBwEYxJJnKZRmlxTb8SZv1jmiZ_O89TPc4K_SsJlHkX_JImNsj0YxtXpkXl0-SB1vmWdqkiDvWbkqnOT-mdql7LeUQ37RkuaEi0Urml-Wm2M7hkNqaFijkNGBUcgoIwoaZz3hisSV9S6bitMRV4E2fUiTpfEz4r4WYWRv8mizA-KLAmTvIjDJP4n_Hw1AmFo0VoYi8x5Z7qe8vPO92PTpyC12t3pgvbK505Nkeyp_aHl7eNklQ2U-5ab_VUpTEkRKBLf3eQjTNp0-A4e6OCbeJ5H263TG7HbDbi-35-nfTjO2OtGfN2IrxvxrybxuhH_q43ogpGPlo8GNIcGyw4vn8inf0zye3mDln44fyueOvwF"
+  },
+  "colour" : "#64D2FF",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Closing the day",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "Commit, save, send the draft. Nothing sits open overnight.",
+      "title" : "Land what is half done"
+    },
+    {
+      "minutes" : 10,
+      "title" : "Answer anything that takes under two minutes"
+    },
+    {
+      "description" : "The whole point: tomorrow starts with a sentence rather than a decision.",
+      "title" : "Write the first line of tomorrow"
+    }
+  ],
+  "symbol" : "checkmark.circle"
+}

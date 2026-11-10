@@ -1,0 +1,44 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "before-a-trial-charges-you",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VhNb-M2EP0rhHroxTIk2ZLtXAp9ogHa7KIwdoHu5sBItEWsRAokFSdYBNgf0V_YX9JHWdY6KRD00OZSC4FBDcnhzHuPo0G-Ouyhk8qwKjbOlRN4QeR6GzcIt553Nfz97symNYWSLVYp2RsumOrFvIRh5uykaqn5wJTmUjhX_swR0jDtXH26nTldQ8vTWLFSqur0cnTjXH11aNPIg_61bwzvGnYttKFi2GRUz2YOVWXN75n-WDORSbtlRxuNiVrKL6M3XiGyKPcTPw1i18PjLu1PZn-807PwloiX63e73eSkgeu4NPyem8dUCqNko21QukZM8Z5ycYpjsCS0_PLMkLGSV-yZ6YY9mGeG9y-cvO_NEII1PQEu2sKBkzAgyQglRnHakLKmas80eZQ9gu6owioDkBHc0-jnl7PYpwMM6ywogBUzUowAVcxQ3uCUbc1I1_SaSEFMzTUBkTOMmCAfaNOzOUF09p1U1LBhsFMMe6gyRBvZafLntz8GO7ggXAzDUoodtzLAiYS1OGpGoIJpGZIgmu8Fq0jfwTJ3Rs78TRilmzhzi2CVuaGfJu56sYjdbFFEoRfmRZAWf-NMiozRqjnJ5zxPWt2P4hnXKtZyUekJ7JdAGm4ai_5HxZFuJQ-CHCwY3BCGfTNCNSi5t9CQEkpFBtuBHzvrPM1ewxnQ_qgJaxreaa5HlFPZMnIHGREjccqcpNCxZmSkXypCdwhvRlpGda8s_LI9OxMRiYpoBnAPEiQ9anI3bJ2TawMiWmhmcC9tEuD5II5b-G6g46guEA-Vwh_ysdYW-4QhOzncxe_8K4qhwjsVRDBWcbG3cd9hhiGGicfIK5JltFm5RbhO3TAKfTfeZLmb58Fy5S3jVRTGb8LjUb1Ib6CyF4Y3L4Gy2ZhXqLuBcKGBIXErXBABaIyck-3JkYVPyH5fWzB6sAe5SMRrQe961VlCLeY7xExQ6SacijBPvSwDOtlm6ULfsbspotxdLeIijcNVEi7yN8Ep49WQHLz1kPXjmMVPr-DyTgzyHO60Bcde8cOcfHaONZA0EIz67Fhw7Boq9OEoHXNezCYogihY-3FeuEHmr91wna3dJMl9dxGm0dLzixUU9Z9CoeAJjvRQ78cKZmfOUEqtR9wWM7OZH85rBLIC6cj1gK_joANbqV8vCOdl8nuBvOuNQUkkWyvbETxbxkfoqClrdrSWQzjNscwOs_ZO4gpTFAQ4r1Cm92xCeIUnibKVvYWeGy690F0HfuIWm2WRxV68SjZvI7a0ZihIgGtS25gJq5yn2_GjlbBGiv1W5rSsf-vFdIh-bO9kc3P8SJYKNciUVFUI3ND9dTbGhmbC_MwesOSHpAjjIrDziu_3QzCfbp-mlmP8Ol6ajkvTcWk6Lk3Hv8Hjpen4Zzhdmo5L0_G_ajrsMQCypeMGfEGVKXtzejV0-k8J_J5GrO2as4lzh38B"
+  },
+  "colour" : "purple",
+  "name" : "Before a trial charges you",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "The plus on this run, then Value. Put the date the free part stops — the one in the confirmation email, not the one you signed up on.",
+      "title" : "Write down when it ends, as a value called Trial ends"
+    },
+    {
+      "description" : "The run's ellipsis, then Come back to it. Choose Before or after, measure from Trial ends, and set two days before. It comes back on its own, and if the trial is extended the moment follows the date rather than needing to be reset.",
+      "title" : "Put this down until two days before that"
+    },
+    {
+      "description" : "Not whether you meant to. Two days is enough to use it once on purpose and find out.",
+      "title" : "Did you actually use it?"
+    },
+    {
+      "description" : "One or the other, now. \"Decide later\" is the answer that charges you.",
+      "title" : "Cancel it, or write down what it is worth to you"
+    },
+    {
+      "description" : "The confirmation, not the button. This is the step that catches the cancellation that needed a second page.",
+      "title" : "Check it actually cancelled"
+    }
+  ],
+  "symbol" : "creditcard"
+}

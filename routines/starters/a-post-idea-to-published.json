@@ -1,71 +1,55 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Reminders"
-  ],
-  "description": null,
-  "first_shelf": true,
-  "glyph": "square.and.pencil",
-  "group": "making",
-  "group_line": "Reading, writing and shooting: work that comes in stages.",
-  "group_name": "Learning and making",
-  "link_web": "https://routinerun.com/r?v=1&d=7Vhbb6M4FP4riH2NK0MChbyZm7bSTrearXakXa1WDjjBqsGsbZJGVf77Hrvk0laap-k8BaEIjs3xd75zVV589jxIZVhDjL_0QxzGCKcojB4xXrr7L3922lMp2cEuJUfDe6bG_qYGwcxfS9VR8ydTmsveXwYzv5eGaX_59z8zfxC0Pj4rVkvVHF9e1fjLF58KIXf6yygMHwS767WhvfvIqJHNfKrqlm-Z_tayvpD2kzUVGhZaKZ8mbbwBZHEZZEEeEoThQgv7U9gffLwiPAe8XP--Xp-UCFBNasO33Oxz2RslhbagdAuYyIby_ojDSTJaP70RFKzmDXsjumfP5o3g4Z2Sh9E4CFZ0ALpoBwp84g1Sm5kH6qhnpDeMK8F1yxrAPFAFmwxwDNgOk5rfLqCf9Bs2WE6AVViR_cRPwwzlAg65W3umpcYTwL3HtdeMQsxAxNzhZwntG5DCK9x2tW4ZHRjs6GTHemPxrTnsAS_e-BP_izgiOI5LlONwgaIgxyghYYkIrsg8JyTHWfSBf9kXjDbiGAqXoGmznQJh2qtYB2fqE3HvWTHcCMvkN8UNc7AhXCZTnW10BXj9w-zdQQ59ENziIIHwT5K4QlFIMkBfxWgeYZIlybysivinoC8UXRsLeAWa9-AKIZwtO7q3tNtH1jcfrTj5-F6C5_qN3dzIGy8Hj4Gu-gkEnVRK7ibvWmnjtVSsvR2HQ1bA12rL5ahPLr2tsrzK5inKizxGEQY-0iSoUFwWSVqFWVbln0uKAk2gSLuchLqSMSg3Tm8rR-Uv05kPCkYDIny4IPEPwdgA7gcev8PUnYuKnlEl9sAzMGyjXUlqUC1ACiyeqQgWQZxXCcrTskBRQiKUziFIIpIWVZnhsMjST6XiaFo-Gue8NVeQj3bXRtGh_Y6Zj1Mm2OLgtUxBLHHTer10MWVDY-btWl63lo1du7fBR_XTOQzCLCyjRRggSOQSRfGCoKTAMcrLvCQkmeMi-FhZf6Ttb8Kglj3Y3tmVC1oeXsvlR4cfn92noMiwr-40pqzkX_zagrQkgqruDKkZoRV9cbEFQqgM1r5K0M0GKvK5e2hz_1q-_TMU0usdU85Jig2CM21z8YVPne3gHyxwx2yySG-LMkhRRooQRfN5grIEoirLyW2SZVlIFjaqNLMdI4MyD-1Q8S0VINxBQ3yUX0dnGdsytX_kFgrQcrh0P7Qb61ENdWDnvA_1wcGjvbeHLPI6BnUBKo1-rS6QAUA31A7ADSnnbaRXS9Gc63wZBJgEGIWLaA6ZkCSQCRANxS2JgmwxD3GRfWo0nDLhorJdsu1b810nzJiQ_eZRlrRuHVHTCXrfraSYPKf_G6liN1AUbwbW19xya-jmrpjwwZxifmXPsPOXqkorTOy64hAIyu04nKaZKdyu88x1nvmRcX6dZ67zzHWeuc4z13nmOs_8jHnGngYNsqPTB9CdlalHc3w19PT_Dug9PrFuEBcLlwr_Bw",
-  "name": "A post, idea to published",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "a-post-idea-to-published",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Reminders"
+    ],
+    "firstShelf" : true,
+    "group" : "making",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "a-post-idea-to-published",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Vhbb6M4FP4riH2NK0MChbyZm7bSTrearXakXa1WDjjBqsGsbZJGVf77Hrvk0laap-k8BaEIjs3xd75zVV589jxIZVhDjL_0QxzGCKcojB4xXrr7L3922lMp2cEuJUfDe6bG_qYGwcxfS9VR8ydTmsveXwYzv5eGaX_59z8zfxC0Pj4rVkvVHF9e1fjLF58KIXf6yygMHwS767WhvfvIqJHNfKrqlm-Z_tayvpD2kzUVGhZaKZ8mbbwBZHEZZEEeEoThQgv7U9gffLwiPAe8XP--Xp-UCFBNasO33Oxz2RslhbagdAuYyIby_ojDSTJaP70RFKzmDXsjumfP5o3g4Z2Sh9E4CFZ0ALpoBwp84g1Sm5kH6qhnpDeMK8F1yxrAPFAFmwxwDNgOk5rfLqCf9Bs2WE6AVViR_cRPwwzlAg65W3umpcYTwL3HtdeMQsxAxNzhZwntG5DCK9x2tW4ZHRjs6GTHemPxrTnsAS_e-BP_izgiOI5LlONwgaIgxyghYYkIrsg8JyTHWfSBf9kXjDbiGAqXoGmznQJh2qtYB2fqE3HvWTHcCMvkN8UNc7AhXCZTnW10BXj9w-zdQQ59ENziIIHwT5K4QlFIMkBfxWgeYZIlybysivinoC8UXRsLeAWa9-AKIZwtO7q3tNtH1jcfrTj5-F6C5_qN3dzIGy8Hj4Gu-gkEnVRK7ibvWmnjtVSsvR2HQ1bA12rL5ahPLr2tsrzK5inKizxGEQY-0iSoUFwWSVqFWVbln0uKAk2gSLuchLqSMSg3Tm8rR-Uv05kPCkYDIny4IPEPwdgA7gcev8PUnYuKnlEl9sAzMGyjXUlqUC1ACiyeqQgWQZxXCcrTskBRQiKUziFIIpIWVZnhsMjST6XiaFo-Gue8NVeQj3bXRtGh_Y6Zj1Mm2OLgtUxBLHHTer10MWVDY-btWl63lo1du7fBR_XTOQzCLCyjRRggSOQSRfGCoKTAMcrLvCQkmeMi-FhZf6Ttb8Kglj3Y3tmVC1oeXsvlR4cfn92noMiwr-40pqzkX_zagrQkgqruDKkZoRV9cbEFQqgM1r5K0M0GKvK5e2hz_1q-_TMU0usdU85Jig2CM21z8YVPne3gHyxwx2yySG-LMkhRRooQRfN5grIEoirLyW2SZVlIFjaqNLMdI4MyD-1Q8S0VINxBQ3yUX0dnGdsytX_kFgrQcrh0P7Qb61ENdWDnvA_1wcGjvbeHLPI6BnUBKo1-rS6QAUA31A7ADSnnbaRXS9Gc63wZBJgEGIWLaA6ZkCSQCRANxS2JgmwxD3GRfWo0nDLhorJdsu1b810nzJiQ_eZRlrRuHVHTCXrfraSYPKf_G6liN1AUbwbW19xya-jmrpjwwZxifmXPsPOXqkorTOy64hAIyu04nKaZKdyu88x1nvmRcX6dZ67zzHWeuc4z13nmOs_8jHnGngYNsqPTB9CdlalHc3w19PT_Dug9PrFuEBcLlwr_Bw"
+  },
+  "colour" : "orange",
+  "name" : "A post, idea to published",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "If that line is dull, the post is dull, and this is the cheapest moment to find out.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Write the one line it is about"
+      "description" : "If that line is dull, the post is dull, and this is the cheapest moment to find out.",
+      "title" : "Write the one line it is about"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Draft it badly, all the way to the end"
+      "title" : "Draft it badly, all the way to the end"
     },
     {
-      "asks_first": false,
-      "detail": "Nothing to do. Come back tomorrow and the bad half will be obvious.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Sleep on it"
+      "description" : "Nothing to do. Come back tomorrow and the bad half will be obvious.",
+      "title" : "Sleep on it"
     },
     {
-      "asks_first": false,
-      "detail": "It is nearly always throat-clearing.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Cut the first paragraph"
+      "description" : "It is nearly always throat-clearing.",
+      "title" : "Cut the first paragraph"
     },
     {
-      "asks_first": true,
-      "detail": "The one step here with no way back, which is why it asks.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Publish it"
+      "description" : "The one step here with no way back, which is why it asks.",
+      "title" : "Publish it"
     },
     {
-      "asks_first": false,
-      "detail": "Put it somewhere other than your memory, so the thread does not go cold.",
-      "does_itself": true,
-      "does_itself_line": "Adds a reminder in Reminders",
-      "duration_seconds": null,
-      "title": "Come back to the replies"
+      "description" : "Put it somewhere other than your memory, so the thread does not go cold.",
+      "does" : [
+        {
+          "reminder" : {
+            "in" : 180,
+            "title" : "Answer the replies to {instance}"
+          }
+        }
+      ],
+      "title" : "Come back to the replies"
     }
   ],
-  "tint": "#FF9F0A"
+  "symbol" : "square.and.pencil"
 }

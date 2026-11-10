@@ -1,0 +1,46 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 2,
+    "shortcuts" : [
+
+    ],
+    "slug" : "leaving-it-empty-for-a-week",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VdNb9s4EP0rhPYqBvr-yE2yJLRAmy12gw2wRQ60RFmEadIgqTjewv-9Q1l2nBYt9tDmZMEQxCE5fPPmcQb-4tDnrVSGdoVxbp3ACxLs5TiI7z3vdvr967jnNY2SG1il5GiYoGoUNy0YXKeXakPMP1RpJoVz67uOkIZq5_bzo-tsOWlP34q2UnWnwdGNc_vFIZzLnf44csO2nL4X2hAxbeoJ19R1iGoH9kT1w0BFJe2eeWKQcj27Yx1AS2q_9BdBgT14cGRflX15pyf0YgDM9J99f3bCwXXRGvbEzH4hhVGSa4tKDwCqWBEGMRk1wsrJUpJ2_cpQ0ZZ19JXpjj6bV4ZP3zj5NJoJgjUdgC-yAQfOB0qemFghZhDdbM0eAbOIoB2la0C9JQqWGaAZ0B1mRx8uwJ9PMHRrWQFiYUaKmaGOGsI4HHM_ULRkAjHR8rGj3Q0qpjMQ04hLOJ8KOa6G4-mcI9lbRER0aC9HtGNgggSjJUUDVRQZaYespTfOnIYyC_ws9wrsx0GMYz8Pcek3JS7DMC9Tv4njMvsuDVJUlHT8JIlL5KR7ei0IRTdMWCHN_H1LjWGGW0LricXdQMwR9kpCML1zcH9EzTGXsIO1ww16R3iPO2uasqIRMI5A0MJo1LGXePMsK4uyjnFapRWOm0WGyyqqcJInWVT6kR9V6ZvE-0DA5iKbN71GWm7oUnZ7yNBPQi5QPwI1nBrYu5TPNk6CNFsJd8q5TTXcuWPuIXQYIAMK6qRULxkvvDhMEw-ndRXiOPFCnMXhAod1FIVJFRd-Xb4JA-CRQ67NMGHcSm1-EvodhGaX9Yp1K-pOoR7HlP5nibQGIvZmsPkfJJ90YFcMlBj7TZbyaV4PwzMdceQHQVr4OPGiFMfRIsBZEKZ4AfTEQQRsJcGb0HE_KmElf7wDnaR6iklQ2tl7C1cYKvaPCXqwRO6g6k7ZJ3DZl1D9btDfJ2VBDRp5h9YCLsYkCtb3UBMAK_g2UFTEXMmsknZKXnC0SOqwipoI1_UCJBNVNc7zssJNFpRx3GRVWeVvwxG1NQ4UvoUp-RLqSkJKvyfnCL5OE7jhEY49P8dQzmKce2mDF6GfN2UAcveS3wpegSdwpO3QaaXomdrYmctiAA6gQ7jTTXXRmu61c3ic20NJbaW_lzVph79GcT5X7zdLye-O_UiPzLREU4jEkNX7agYLyjfv6DMs-KNpwjRu7Lxiq9WE7vPj4dzc9bELXdv7tb3_SvFf2_u1vV_b-7W9_z-Oru39F7d3e0g70A2ZN4BKlGlHcxoacv73D35PXyAUfjFx6fAr"
+  },
+  "colour" : "pink",
+  "name" : "Leaving it empty for a week",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "The bin included. A week is long enough for all of it and you will not be here to notice.",
+      "title" : "Empty what will go off"
+    },
+    {
+      "description" : "Decide which. Half-deciding is how plants die.",
+      "title" : "Water, or ask somebody to"
+    },
+    {
+      "description" : "A full letterbox is a sign, and not one you want on the door.",
+      "title" : "Deal with the post"
+    },
+    {
+      "description" : "Not the fridge, not the freezer, not anything holding the heating above freezing.",
+      "title" : "Turn off what does not need to be on"
+    },
+    {
+      "description" : "With when you are back. Somebody should know the difference between empty and wrong.",
+      "title" : "Tell one person you are going"
+    },
+    {
+      "title" : "Windows, door, keys"
+    }
+  ],
+  "symbol" : "suitcase"
+}

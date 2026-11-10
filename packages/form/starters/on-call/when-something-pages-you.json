@@ -1,0 +1,47 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications",
+      "A Shortcuts automation on your paging app's notification"
+    ],
+    "firstShelf" : true,
+    "group" : "onCall",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "when-something-pages-you",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7VhNj9s2EP0rhHroxXL04Q9pc5ItCwnQZoPsogGa5EBLtEUsTQokZa8R7H_PIy27uymaU5OTDUGQyOHozZs3Q8JfA_bYKW1ZU9jgJkiiZBZGeZhM76Poxl9_B6OLTaXVDlZa9ZZLpns5rjEwCjZK76j9i2nDlQxu4lEglWUmuPn0ZRR0gtbnZ81qpZvzy8lNcPM1oEKog_mzF5Z3gr2VxlLpF1nds1FAdd3yPTMfWyZL5ZZsqDCYaJilXADSnaXaGrI-Em4NExtygCk5ql6Tjm653BLadb8bAlx8w2tqAZQgAEMouWsRXN1jOe2t2p3mDty25A2VjWBktWfSEi7hewTHvG6JZKwxhN_ekWT-msDeP87cF4lxWGDr0LTwMCYvCfv8qmWi-_xKybBG4MS0iJ3gNiZvAcLyHYgkmlF8x_nzUCipqW5eE8MsPseIVeRAH5g34BtiW0a61k0cOFyuGdmAddKogxwjQa1SDwPrvAFds1W8iJdJEUb4hRN3K90t-ucXYxk3t5vNhWyBFBS15Xtuj0slrVbCuOR5_MWWcnnOlx9Z0PrhxUDJat6wF0Pv2KN9MfD-Oyfve-shuKEnyIru4CBwOiBG7ZhtXWqRYWYcE4DcUQ0bCwYB7Wnw8scz5Bf3lnWOEoivdhkf6Lko6h6MUsE0Ug7ReIJrZFMy4VIrkFfWQBNj8rGlyLYZLFj9MCKYhE4wvKeiR6407zpnbV0uml57iaFOkmjIxyIrimS5RBYmyTycRmkS5nkeh2mZ5GlW5GWyzP-VDyVLRhtxLqHnUdBmPxTQYKvZjsvGXIj8nibLrXDMfoDHE3T466HOI9lwzZrgafRfRN32oEP1zQiqQyNw0uxrnxcqjz5BYxQSSlJ5mRrQCiOKZ82QHdGA37VqXK041e-54Wg1xHAE4Ek1TO85nrdIw7o3nGlHo-dtHkfZNMuycJ7MwFucTcJFPF-GaR6ny0W5yqdV9VN5Q5U2cGR8IdRKgqydm3lG6R09um6ESLRTDvelLX5A6J3yYUvUBunwJXQXXG5IK0vJg3Ttwqn_wtpJWKfKTtPVqijSMKumYCRPl2GRxVm4yGfTtJhVsyrLfioj57CL2gEVrNky4PtBuO_UwXdVwQZ6KNn2YNR1Q_d6QHduyc4rCwXoibAcke9P-82pR2qIhtANcBzQJ82Fj3weF8tJWYRVVE7C6bychsVkOQ3TCuooZvNJGhe_hI-PHqFryKf6cqhddTy4GFvsTkyiVH7A00K5bcCVjjQHuB-TO26tqzO3_Xiq0KgugcdlGkVVlYVZtErCablMw0U2TcMkKvLVYlZM5rNfI4SKP_qNU2m_GzqoaH5PX4YWvGBCye29WmG7-9DLi3tz3K2VeHdq-GsmxHhNoSVAtnT7thxQIX77hj3C5LeqmkDhbl7z7dbD-PTl6XLMGHr99aBxPWhcDxrXg8b1oHE9aFwPGteDxv920HCfQVfe0WGBOW_2w6ull39E4Pf8xHadeDbx3OE3"
+  },
+  "colour" : "red",
+  "description" : "Starts by itself when your paging app's notification runs a Shortcuts automation with Handle Event in it, which needs iOS 27; on iOS 26 you start it by hand. routinerun.com/help/on-call shows how. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "When something pages you",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "The alert, not the channel it landed in. What is the check, and what value tripped it.",
+      "minutes" : 2,
+      "title" : "Read what actually fired"
+    },
+    {
+      "description" : "Out loud, before touching anything. Half of these are a threshold nobody has revisited since the service got busier.",
+      "title" : "Say whether it is real"
+    },
+    {
+      "description" : "So the next person on the rota knows somebody has it.",
+      "title" : "Acknowledge it"
+    },
+    {
+      "description" : "Now, while it is a guess. It is worth more than the tidy version you write afterwards.",
+      "title" : "Write down what you think is happening"
+    },
+    {
+      "description" : "Both are answers. Sitting on it is not.",
+      "title" : "Fix it, or hand it on"
+    }
+  ],
+  "symbol" : "bell.badge"
+}

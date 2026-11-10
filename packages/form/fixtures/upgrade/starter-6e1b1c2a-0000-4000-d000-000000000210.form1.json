@@ -1,0 +1,30 @@
+{
+  "colour" : "purple",
+  "name" : "Reading somebody's code",
+  "routineRun" : 1,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "about" : "Before the diff. A change that does what it claims is a different review from one that does not.",
+      "title" : "Read what they say it does"
+    },
+    {
+      "about" : "The half most reviews skip, and the half that finds the things reading never does.",
+      "title" : "Run it"
+    },
+    {
+      "about" : "Once for what it does, once for what happens when it is wrong.",
+      "times" : 2,
+      "title" : "Read it twice"
+    },
+    {
+      "about" : "Say which of it is a question and which is a request. Reviews stall on not knowing.",
+      "title" : "Leave the comment you would want"
+    },
+    {
+      "about" : "One of the three, out loud. A review that ends in nothing is the one everybody is waiting on.",
+      "title" : "Say yes, ask, or block"
+    }
+  ],
+  "symbol" : "chevron.left.forwardslash.chevron.right"
+}

@@ -1,61 +1,43 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": null,
-  "first_shelf": false,
-  "glyph": "calendar.badge.clock",
-  "group": "dayEnds",
-  "group_line": "The first half hour of a day and the last one.",
-  "group_name": "Mornings and evenings",
-  "link_web": "https://routinerun.com/r?v=1&d=7Vdbj5s6EP4rFuc1joAECHnjkqgrtdvV6epUarUPDkyCu8RGttlsVOW_dwwhJ9mqrXR0un0JQsjMjW8-j2fEVweeG6kMlIlx5o7v-iF1Y-oH96477-5Pzuhks1Ryi1ZKtoYLUK0YFygYOWuptsz8A0pzKZy5N3KENKCd-eeHkdPUrBjWCgqpyuGlD-PMvzqsruVOv2trw5saboQ2THROa1ZrGDlMFRV_Av2xApFL63NUVFI-HsPxEqGFCy_1Mj-hLl50ah-5fbjD5bkBAub6_Xp9ClJj6KQw_ImbfSaFUbLWFpWuEFSyYRxzMqpFy06SsuLxQpBDwUu4EN3Cs7kQ3L0IcteaDoIVHZAvtsUAzodWlGxP4AkEFxsE2jCFGoPMIqDD0fftGd5TUAONJQK5RI0UR1JKMIzXGPk98jkiQu5GREvCDeEa3wxhRLeqUVwDkYLct6ARwNgZ6IzCxcJLMjpZTCY0mHkpjWdpTidJnke556axn3xHpxQ5sLIetvYcDiufLjdWwZYLWxBHHl7ma7ipLTFvcZ8JM8RUQHYAuNY2CVsn6H0Y_ThtGJOkd9lxU2EABUC2UhvKt7aqmbBRkW1NKmY5QY8h_TzNPMw0pukyxPSziUdnQezTJPaz1A2iLPC_r6bfkf4tSrvcEV2PFp9IB566zvjHBCRkVcvikXDR-ResBiwxNeo3X6DcgLCOY3KztiYK-tLYdUsjSdNisRhbNois-zQg9o4s1G7kiS1vkbqzLM5p4EcxFks-oUmWJnQ6naZpms3ypTd7FbaWaEV6_FgjO17XBAO32GT2CLtpQPyEsA_Ij00SPY0UfFMZsmr3muxla-nhiryT9pCOyZllL3pp-BFKcXmesmngTYJlTL0wCGjgBTmdhTH22yj04ijz4mXkvwpFGLHuDwQT-7OCEgCl7rZ6Jct9t9M_4eoeK0qBNkR2pTP0raG3NArs9_vququZ6JQN092J06SRWH3W-EuLop1Uj1aPbahvgyfWojwLo8nMo-nUz2gQLXwaI1U08sMkD5NF4kbpq7CG-QrsObJxDg_HlptCLcXmXi5YUf3dilNIvd-uZH3bt_Xh1I1XrNzAuLAnEgEbtrnJj5hwEpo38IzGf7nJbLpcWr3im00H4vPD4TQvj13-OjGvE_M6Ma8T839h6zoxf0nRdWL-F9b-5MS0Hywq2LKjA04CZYrWDK-Gnf5RMe6wgi3-sP6rOA_4DQ",
-  "name": "Sunday evening",
-  "release": 2,
-  "shortcuts": [],
-  "slug": "sunday-evening",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "dayEnds",
+    "licence" : "CC-BY-4.0",
+    "release" : 2,
+    "shortcuts" : [
+
+    ],
+    "slug" : "sunday-evening",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Vdbj5s6EP4rFuc1joAECHnjkqgrtdvV6epUarUPDkyCu8RGttlsVOW_dwwhJ9mqrXR0un0JQsjMjW8-j2fEVweeG6kMlIlx5o7v-iF1Y-oH96477-5Pzuhks1Ryi1ZKtoYLUK0YFygYOWuptsz8A0pzKZy5N3KENKCd-eeHkdPUrBjWCgqpyuGlD-PMvzqsruVOv2trw5saboQ2THROa1ZrGDlMFRV_Av2xApFL63NUVFI-HsPxEqGFCy_1Mj-hLl50ah-5fbjD5bkBAub6_Xp9ClJj6KQw_ImbfSaFUbLWFpWuEFSyYRxzMqpFy06SsuLxQpBDwUu4EN3Cs7kQ3L0IcteaDoIVHZAvtsUAzodWlGxP4AkEFxsE2jCFGoPMIqDD0fftGd5TUAONJQK5RI0UR1JKMIzXGPk98jkiQu5GREvCDeEa3wxhRLeqUVwDkYLct6ARwNgZ6IzCxcJLMjpZTCY0mHkpjWdpTidJnke556axn3xHpxQ5sLIetvYcDiufLjdWwZYLWxBHHl7ma7ipLTFvcZ8JM8RUQHYAuNY2CVsn6H0Y_ThtGJOkd9lxU2EABUC2UhvKt7aqmbBRkW1NKmY5QY8h_TzNPMw0pukyxPSziUdnQezTJPaz1A2iLPC_r6bfkf4tSrvcEV2PFp9IB566zvjHBCRkVcvikXDR-ResBiwxNeo3X6DcgLCOY3KztiYK-tLYdUsjSdNisRhbNois-zQg9o4s1G7kiS1vkbqzLM5p4EcxFks-oUmWJnQ6naZpms3ypTd7FbaWaEV6_FgjO17XBAO32GT2CLtpQPyEsA_Ij00SPY0UfFMZsmr3muxla-nhiryT9pCOyZllL3pp-BFKcXmesmngTYJlTL0wCGjgBTmdhTH22yj04ijz4mXkvwpFGLHuDwQT-7OCEgCl7rZ6Jct9t9M_4eoeK0qBNkR2pTP0raG3NArs9_vququZ6JQN092J06SRWH3W-EuLop1Uj1aPbahvgyfWojwLo8nMo-nUz2gQLXwaI1U08sMkD5NF4kbpq7CG-QrsObJxDg_HlptCLcXmXi5YUf3dilNIvd-uZH3bt_Xh1I1XrNzAuLAnEgEbtrnJj5hwEpo38IzGf7nJbLpcWr3im00H4vPD4TQvj13-OjGvE_M6Ma8T839h6zoxf0nRdWL-F9b-5MS0Hywq2LKjA04CZYrWDK-Gnf5RMe6wgi3-sP6rOA_4DQ"
+  },
+  "colour" : "blue",
+  "name" : "Sunday evening",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Once, now, so it is not a surprise on Tuesday.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Look at the week as it stands"
+      "description" : "Once, now, so it is not a surprise on Tuesday.",
+      "title" : "Look at the week as it stands"
     },
     {
-      "asks_first": false,
-      "detail": "One. A week with three most-important things has none.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Name the one thing that matters"
+      "description" : "One. A week with three most-important things has none.",
+      "title" : "Name the one thing that matters"
     },
     {
-      "asks_first": false,
-      "detail": "A block in the calendar, not an intention. If there is nowhere to put it, something else has to go.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Find where it will actually happen"
+      "description" : "A block in the calendar, not an intention. If there is nowhere to put it, something else has to go.",
+      "title" : "Find where it will actually happen"
     },
     {
-      "asks_first": false,
-      "detail": "Sending it tonight buys you their Monday. Sending it Monday buys you their Wednesday.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Deal with anything that needs somebody else"
+      "description" : "Sending it tonight buys you their Monday. Sending it Monday buys you their Wednesday.",
+      "title" : "Deal with anything that needs somebody else"
     },
     {
-      "asks_first": false,
-      "detail": "The rest of the evening is not preparation. Planning past this point is just working on Sunday.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Then stop"
+      "description" : "The rest of the evening is not preparation. Planning past this point is just working on Sunday.",
+      "title" : "Then stop"
     }
   ],
-  "tint": "#0A84FF"
+  "symbol" : "calendar.badge.clock"
 }

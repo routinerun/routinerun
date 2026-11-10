@@ -1,0 +1,35 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "making",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "a-chapter-at-a-time",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7VZRb5swEP4rlvcKFdBASN5IIFq1ra2qapNWVZMDF7AKdmSbtKjKf9-ZENa0731ZUETgzv7uu-_OJ14pvGylMlAkhs5p4AWR683cILz3vHn_-02dcc1KyQZXKdkaLkC14iJHg0M3UjXM_ASluRR07jtUSAOazh8eHbqtWX58VpBLVRxfDjB0_kpZXctn_aOtDd_WcCW0YaLftGG1BocylVd8B_pXBSKVds_gwPig72QriqRkXFiszYHkhguuKyiQnqo6UzV9nI0BZR_-eHQeRxPP2-_3Di3AMF7jpqWFI2uWPxFTARHwYkjBOoc0wHSroCAWvfehmXSyJSw3LdLviAJWXGC0SsqnIUNeIGaU-Qt_GSSuh5c7sbfU3rzjFXohbuP6ZrMZ86ox2yQ3fMdNt5TCKFlry1tXqNOQqlEtruwtC2R8Ykgh5wWcmK4xmRPD7TuQ29b0FKwJRRGsQQCakLxiW5SNMEMYMRytWFSm0I1Wy2o_AHx_Q3pENrC1aqD26JFiUGZU_BvAlnBE1gi-Y3ULJEc5UenlIaxDmChQca6JNnKL1QEuSsuksv-2BBXbATGSYMkLwqw4tg69-EHoT6NoGbjTZLVyw1W6cBfhZeb6sZdmnr-KJ-nkg_hSpFjL-tibb3mzYnfamQoajKpH1d4LY7iprYzYuQp6tqU0SJbunXfQh2aZpamfpIGbxV7mhskydeNVMkPm2dQLswT5xp_C9w4RP3Icy5YJ2ZaVFf1JyGeHcIEV6YBhuZ4rwPOh-kOyxrNAnm1tRYeJy2IszGwaT4NgNnHDy0ssTOTFbhL6kRv500mceZE_S_xPSfRGALGIhK1xHmEr0v3j0LYLqKUo72XG8uquFSO07pq1rK8P58OmiEQNK6_SgQtONfMVXtD5JQniSZhZv-Jl2Qd_eNyPs284Gefpd55-5-l3nn7_x_SzAfIKGjZswNOjTN6a46th47cj4h6foMEPyX-Ot4B_AQ"
+  },
+  "colour" : "#A2845E",
+  "description" : "Comes back the next day, measured from the day you actually read.",
+  "name" : "A chapter at a time",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "Keep it as a value called Chapter, and this stops being a thing you have to find again.",
+      "title" : "Where you got to"
+    },
+    {
+      "title" : "Read"
+    },
+    {
+      "description" : "Enough to know, in a year, whether the book was any good.",
+      "title" : "One line about it"
+    }
+  ],
+  "symbol" : "book"
+}

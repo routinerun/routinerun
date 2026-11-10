@@ -1,0 +1,34 @@
+{
+  "about" : "Out of the door in time for nine, with whatever does not fit dropped on the way.",
+  "colour" : "orange",
+  "name" : "School run",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "minutes" : 5,
+      "startBy" : "08:20",
+      "title" : "Make coffee"
+    },
+    {
+      "about" : "Lunch, water bottle, homework folder.",
+      "links" : [
+        {
+          "title" : "Packing list",
+          "url" : "https://www.youtube.com/results?search_query=school+bag+packing+checklist"
+        }
+      ],
+      "minutes" : 10,
+      "title" : "Pack the bag"
+    },
+    {
+      "by" : "09:00",
+      "minutes" : 25,
+      "title" : "Drive to school"
+    },
+    {
+      "minutes" : 20,
+      "title" : "Back home"
+    }
+  ],
+  "symbol" : "figure.and.child.holdinghands"
+}

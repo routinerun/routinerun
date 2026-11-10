@@ -6,7 +6,15 @@ It is pinned by [`written-routine.v1.schema.json`](written-routine.v1.schema.jso
 
 ## Versions
 
-Every routine says its form in `"routineRun"`. This is form **1**.
+Every routine says its form in `"routineRun"`. The app reads forms **1** and **2**, and still writes form 1.
+
+Form 2, pinned by [`written-routine.v2.schema.json`](written-routine.v2.schema.json) (`$id`: `https://routinerun.com/schema/routine.v2.json`), says the same routine in the app's own words:
+- `description` for `about`;
+- `repeats` for a step's `times`;
+- one `deadline` object for a step's ten deadline keys;
+- `triggers` for a routine's `times`.
+
+It also says what form 1 could not: notes, places, a step's tags and check-ins, other triggers, reactions, and a value's kind where reading it plainly would be wrong. Form 1 is read for ever and turned into form 2 by one table, the app's and `@routinerun/form`'s alike. Links, codes and the request to an assistant stay form 1 until a build that reads form 2 is on the App Store.
 
 - A reader takes every form up to the newest it knows, and refuses a newer one with a sentence naming both numbers. The relay that carries routines to the phone does the same.
 - A form changes number only when something already valid would be read differently. Adding an optional field, an action word or a colour does not.

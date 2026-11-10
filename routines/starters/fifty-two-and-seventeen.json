@@ -1,39 +1,34 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Goes round for as long as you want it to. Stop it when you are done. Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": false,
-  "glyph": "hourglass",
-  "group": "work",
-  "group_line": "Getting into a piece of work, and putting it down properly.",
-  "group_name": "Work and focus",
-  "link_web": "https://routinerun.com/r?v=1&d=7Zbfb5swEMf_FYu9hoj8bJI9QUK2SttatdUmreqDC0ewYmxkH6VRlf99ZwJZ02kvmzTtIQglxnc-H5_v-cSLB8-lNghpiN7CGwbDqR_M_eHkLggWzf3d6x191kYX5GV0hUKBqVQ_oYmel2lTcPwKxgqtvMWg5ymNYL3F_UPPKyVPurGBRJu0eziE8RYvHpdS1_ZzJVGUEi6VRa6aRRmXFnoeN0kunsB-y0GttFvTGmh_sDe6Umm44UK5WNkhyUwoYXNIKT2T7zAvmn3wiuLSaL_f97wUkAtJvh80WGZcFEavwrhlUquN-9_pitVcIRPIUPfZLerSjWtKpDFyAyyljPrsEi1DURAEZoAn-WGtwJxxlnCTvmcWkJErBaKYW2gcRMYwB1bmzlALKdkjsIyIUdRa9Sn7XOttS0yklOw0HkSD5TD0A7r8sftZuZ-gu4bBjJYJe5VlR06S6IUJiieBu6VWaLS0DojNiXuLDk1Fns1MxJPtycQKEpHCydQXeMaTies3Qa4rbFJwU0Rb8YICeGuR4c7HWjNOuC08gUIARRmX3JALEkAnUBvk06vEj9ERSkeE9CSLVi2do5xXjnEu1KbP7oitqopHMKwpFeaqg-hj4uysBE31RmpqtiFxOOmOjZw9RhV8cOZOIG12Tou0MhybGh8NhkEryGC8nI5msVNgFvqTUTjzZ6s49ufRfD65iJfryWD5iyBarYCnsqv_1-_B06fT6jdQCOVOTUvyLSgUKE_Rkn_lDuC-9ztGYc13h5fkLBVZBoZ0YDYxpIXDJiyj25VmzmXWgbJbUTa6oav_WquUwNb5rnG0dLjJlOuK5ujs1NpYOKU2CI7UwmE0uxjFS38wDmJ_sgxWfjieX_jz0TyaRlE0Xgf_htptV4IdNcaJzUF7gd7-oS24CFxTuNMxne2bSh33sbviUcsvh-p2L7-R3FpKHfnmctVmR40OP8IzebybxJNlPHV2IzabJp37h_2xHbaFfW6I54Z4boh_ebTPDfFPqP0fDdHtkuRQ8HYBFb_BpMLuEfnxC5PidiMo6HPzp-F1wB8",
-  "name": "Fifty-two and seventeen",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "fifty-two-and-seventeen",
-  "starts_by_itself": true,
-  "starts_by_itself_line": "Again straight after each run",
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "fifty-two-and-seventeen",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7Zbfb5swEMf_FYu9hoj8bJI9QUK2SttatdUmreqDC0ewYmxkH6VRlf99ZwJZ02kvmzTtIQglxnc-H5_v-cSLB8-lNghpiN7CGwbDqR_M_eHkLggWzf3d6x191kYX5GV0hUKBqVQ_oYmel2lTcPwKxgqtvMWg5ymNYL3F_UPPKyVPurGBRJu0eziE8RYvHpdS1_ZzJVGUEi6VRa6aRRmXFnoeN0kunsB-y0GttFvTGmh_sDe6Umm44UK5WNkhyUwoYXNIKT2T7zAvmn3wiuLSaL_f97wUkAtJvh80WGZcFEavwrhlUquN-9_pitVcIRPIUPfZLerSjWtKpDFyAyyljPrsEi1DURAEZoAn-WGtwJxxlnCTvmcWkJErBaKYW2gcRMYwB1bmzlALKdkjsIyIUdRa9Sn7XOttS0yklOw0HkSD5TD0A7r8sftZuZ-gu4bBjJYJe5VlR06S6IUJiieBu6VWaLS0DojNiXuLDk1Fns1MxJPtycQKEpHCydQXeMaTies3Qa4rbFJwU0Rb8YICeGuR4c7HWjNOuC08gUIARRmX3JALEkAnUBvk06vEj9ERSkeE9CSLVi2do5xXjnEu1KbP7oitqopHMKwpFeaqg-hj4uysBE31RmpqtiFxOOmOjZw9RhV8cOZOIG12Tou0MhybGh8NhkEryGC8nI5msVNgFvqTUTjzZ6s49ufRfD65iJfryWD5iyBarYCnsqv_1-_B06fT6jdQCOVOTUvyLSgUKE_Rkn_lDuC-9ztGYc13h5fkLBVZBoZ0YDYxpIXDJiyj25VmzmXWgbJbUTa6oav_WquUwNb5rnG0dLjJlOuK5ujs1NpYOKU2CI7UwmE0uxjFS38wDmJ_sgxWfjieX_jz0TyaRlE0Xgf_htptV4IdNcaJzUF7gd7-oS24CFxTuNMxne2bSh33sbviUcsvh-p2L7-R3FpKHfnmctVmR40OP8IzebybxJNlPHV2IzabJp37h_2xHbaFfW6I54Z4boh_ebTPDfFPqP0fDdHtkuRQ8HYBFb_BpMLuEfnxC5PidiMo6HPzp-F1wB8"
+  },
+  "colour" : "indigo",
+  "description" : "Goes round for as long as you want it to. Stop it when you are done. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Fifty-two and seventeen",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "One thing. The number comes from watching people who get a lot done, not from a theory.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 3120,
-      "title": "Fifty-two minutes"
+      "description" : "One thing. The number comes from watching people who get a lot done, not from a theory.",
+      "minutes" : 52,
+      "title" : "Fifty-two minutes"
     },
     {
-      "asks_first": false,
-      "detail": "Away, not a different screen. This is the half people skip and then wonder why the second hour was worse.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 1020,
-      "title": "Seventeen minutes away from it"
+      "description" : "Away, not a different screen. This is the half people skip and then wonder why the second hour was worse.",
+      "minutes" : 17,
+      "title" : "Seventeen minutes away from it"
     }
   ],
-  "tint": "#5E5CE6"
+  "symbol" : "hourglass"
 }

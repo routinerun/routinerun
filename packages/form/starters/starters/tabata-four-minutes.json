@@ -1,0 +1,46 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "body",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "tabata-four-minutes",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Vfbjts2EP0VQn01F9SFujhPurYLbNMgNRqgQVDQEmURlkWDota7WOjfM5RtZb1FFtui6ZMFw6BIDufMOcMZ6MniD3upNK9ibS0thzg-JhF26IqQ5fT701rMewold7BLyUGLjquhuylhYmHVUu2Y_oOrXsjOWtoLq5Oa99by85eFtW9ZeR4rXkpVnV-Ox1jLJ4u1rTz0vw6tFvuW33a9Zt1kVLO25wuLqbIR97z_1PAuk8bmtFBxzUQLmFYH3ulH1IODruqR7BZI8w7Jul4gLjaNRlrseH-D7mS34QppiRRnFWJrQIF0wzozVckbdKv7aa_qzY6yQY9yQAehG8RQyVT1DpxocMCNwYFt-bRB1HAIR_vGLBxE26I1RzVEDmceuhsgqZFye4pcVIDYz-3ETp0YE3iwZ_4y80fOj0dsMBP9b3U9x9sCC3Gpxb3Qj6nstJJtbwjsG-Av3jAB9Gs1wM5pJmHl9mIi46Wo-MXUe_6gLyY-vDjkw6AnCGZqBGnZjhvC2ZpptkC1HBTaiW4wgoPaTMG6BvYA1jiJ3FUTxPqYPEFIY9dxQpzljodpEfg4pF6M_dC1Ey8goR8kcI5uwHLTgIHnEOIm1MN2RGJM0xgMSE5wHts0CkPfcRxiDIy81jIcT6jvnjE1h6P53kgACQcrsjvJMSdR3hmfRlcQz-SFrNEakgC0X3NIcj5pXAvVazQFZnStBsX0Me9DctI28PPI8TIHJ3aYYgpvOKFhjOPcD6PYTwvfjv-mrewyyMj2fCWeI2TV_eWFUBwoN7yeRHlJuxa6NSp9YmqHhr01Ll7GPKN2ZtBvU-YS9JYDpb-XivMuNpfhTPX3gjmPp6Tdc7Y1g78IuP_Ie22N4wmMm2QpCO_hICoCTCOa4YiQHJM8ATpplnhxBGDgKgKaBBSGGqHEPWth8gBVYiU_DpMTfs_V40qYnH0ax_GCzCPUmcsppFfI_Fm-xqN95vGNCfujeDQox1lSxy5SL8WR7USYhnYAUGiO0yijkR_SIg7cf8ZiMuhVw-8YaDXxufg-kKlQz1CIG9m-neXYdwIXU-omOI58FwcF8aPIJlGWvU3QFnz_N3oeM-4VReer4YVZkjhJge0MEpEWNsWAF7LRIWGa0jDz3eJ_us_tFglTmGrLxD5VtIS30NRWModuNZF0OrR_3K1l-_5Yr6eWZuok29xmJxjQfvUv_AFWfyoKN6AmBq3EZjP5_fxlnJv0KeWubfrapq9t-kdc62ubvrbpa5u-tul_1aaNh7LhO3YygMqqdDno86tm89c4nHse8R18mn9beH7gVw"
+  },
+  "colour" : "pink",
+  "description" : "Twenty seconds on, ten off, eight times. Longer to read about than to do. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Tabata, four minutes",
+  "rounds" : {
+    "from" : 2,
+    "repeats" : 8,
+    "through" : 3
+  },
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "Enough to be out of breath before the first round.",
+      "minutes" : 3,
+      "title" : "Warm up"
+    },
+    {
+      "minutes" : 0.3333333333333333,
+      "title" : "Go"
+    },
+    {
+      "minutes" : 0.16666666666666666,
+      "title" : "Rest"
+    },
+    {
+      "minutes" : 2,
+      "title" : "Walk it off"
+    }
+  ],
+  "symbol" : "timer"
+}

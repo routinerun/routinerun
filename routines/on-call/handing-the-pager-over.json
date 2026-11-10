@@ -1,53 +1,38 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": null,
-  "first_shelf": true,
-  "glyph": "arrow.left.arrow.right",
-  "group": "onCall",
-  "group_line": "Something pages you at an hour you did not choose.",
-  "group_name": "Being on call",
-  "link_web": "https://routinerun.com/r?v=1&d=7VbLbtswEPwVQr1ahkxbj_imh4UESNOgDRqgQQ6MtLbY0KRBUk6MwP_epSw7L7SHos3JgiBQy-VwZrha6MmDx5XSFurUelOPBjTygxOfhldBMO3uH97gkFNqtcQsrVrLJehWDisMDLy50ktmv4M2XElvOhp4Ulkw3vTmduCtBKv2Yw2V0vX-ZQfjTZ88JoR6MJ9bYflKwJk0lslu0ZwJAwOP6arhazDXDchCuTX9RKPUfQ_Ha6QWzUbZKKepH-DlT9yjcI_g-aJImJsv8_kBRCB0Wlm-5naTK2m1EsaxMg2SSheMoyarW8zsIhmr7l8FCqh4Da9CF_BoXwUu34Bctraj4EJb9IstEcA7ZbLmckFsA2TFFqCJWoNGwiumMcOiw0hs22Ocv-B9ALewcoagpzijZG9ODZZxgTucyUq0hz3QSoMDZsmcP0LtYksDAp0ekqtGGSBMw5tMPHIgd-jB0OtNT2YFjUc092kZhn5YzEI_ycuRH8RhGGbjcRGPR-9MV7IAVot9Abwky-r16-PXsOTSlU3v1ls3LLfC2XfOjSUPOzm6k8MNMQ2fW287-J0j19w2uAhQ6Ea1ZKEssWpAsILJzxbxOtEcb0PUCuRBNc1pOU6yxA_CgvohTXI_C-ORn8ThSVKmQTybzT5E9Te22Yl2Yi0XouP5B8UpMVwA7oUi71S9IfcSq4mwO_wgHQiTBEdYfvt5A1gQe91RUdAgnER-mNDED8cRdZJjP6KzCY2yMqBp_CG6LzCKXDd4yljO7ux6WfV77R3zMouicYIlmgUp0s-L2MeTwrKdZHESB0UeBZP_ylwjEgKZrrtUSmKVLt3MC1H5Luq-uQ1p2Bqw9Lztbf9hZyCUXFypGauar608bGw2yzslLnZNhGmtHoYC5na4G2q-aCwKwyM9K3ru2HntKTxi-qeyPCmD1M1j4qIje3O7PfTnvpscO_SxQ_995R879LFDHzv0v-3QbssK2wHrF2DH0bZq7f7VssM_OOLuR7DEH_LniZeAvwA",
-  "name": "Handing the pager over",
-  "release": 1,
-  "shortcuts": [],
-  "slug": "handing-the-pager-over",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : true,
+    "group" : "onCall",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "handing-the-pager-over",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VbLbtswEPwVQr1ahkxbj_imh4UESNOgDRqgQQ6MtLbY0KRBUk6MwP_epSw7L7SHos3JgiBQy-VwZrha6MmDx5XSFurUelOPBjTygxOfhldBMO3uH97gkFNqtcQsrVrLJehWDisMDLy50ktmv4M2XElvOhp4Ulkw3vTmduCtBKv2Yw2V0vX-ZQfjTZ88JoR6MJ9bYflKwJk0lslu0ZwJAwOP6arhazDXDchCuTX9RKPUfQ_Ha6QWzUbZKKepH-DlT9yjcI_g-aJImJsv8_kBRCB0Wlm-5naTK2m1EsaxMg2SSheMoyarW8zsIhmr7l8FCqh4Da9CF_BoXwUu34Bctraj4EJb9IstEcA7ZbLmckFsA2TFFqCJWoNGwiumMcOiw0hs22Ocv-B9ALewcoagpzijZG9ODZZxgTucyUq0hz3QSoMDZsmcP0LtYksDAp0ekqtGGSBMw5tMPHIgd-jB0OtNT2YFjUc092kZhn5YzEI_ycuRH8RhGGbjcRGPR-9MV7IAVot9Abwky-r16-PXsOTSlU3v1ls3LLfC2XfOjSUPOzm6k8MNMQ2fW287-J0j19w2uAhQ6Ea1ZKEssWpAsILJzxbxOtEcb0PUCuRBNc1pOU6yxA_CgvohTXI_C-ORn8ThSVKmQTybzT5E9Te22Yl2Yi0XouP5B8UpMVwA7oUi71S9IfcSq4mwO_wgHQiTBEdYfvt5A1gQe91RUdAgnER-mNDED8cRdZJjP6KzCY2yMqBp_CG6LzCKXDd4yljO7ux6WfV77R3zMouicYIlmgUp0s-L2MeTwrKdZHESB0UeBZP_ylwjEgKZrrtUSmKVLt3MC1H5Luq-uQ1p2Bqw9Lztbf9hZyCUXFypGauar608bGw2yzslLnZNhGmtHoYC5na4G2q-aCwKwyM9K3ru2HntKTxi-qeyPCmD1M1j4qIje3O7PfTnvpscO_SxQ_995R879LFDHzv0v-3QbssK2wHrF2DH0bZq7f7VssM_OOLuR7DEH_LniZeAvwA"
+  },
+  "colour" : "orange",
+  "name" : "Handing the pager over",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Including the ones that fixed themselves. Those are the ones that come back.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "List what fired this shift"
+      "description" : "Including the ones that fixed themselves. Those are the ones that come back.",
+      "title" : "List what fired this shift"
     },
     {
-      "asks_first": false,
-      "detail": "With where you got to, not just that it is open.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Say what is still open"
+      "description" : "With where you got to, not just that it is open.",
+      "title" : "Say what is still open"
     },
     {
-      "asks_first": false,
-      "detail": "A silence nobody knows about is an outage nobody sees.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Name anything you silenced"
+      "description" : "A silence nobody knows about is an outage nobody sees.",
+      "title" : "Name anything you silenced"
     },
     {
-      "asks_first": true,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Confirm they have it"
+      "title" : "Confirm they have it"
     }
   ],
-  "tint": "#FF9F0A"
+  "symbol" : "arrow.left.arrow.right"
 }

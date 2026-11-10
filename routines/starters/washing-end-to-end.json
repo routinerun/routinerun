@@ -1,55 +1,40 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": true,
-  "glyph": "washer",
-  "group": "home",
-  "group_line": "The errands a week repeats, and nobody enjoys holding.",
-  "group_name": "Home and everyday",
-  "link_web": "https://routinerun.com/r?v=1&d=7Vbfb5swEP5XLPYaVwYCIdkTCaBW6rppihZpVR9ccIJVsCPblFRV_vedKbC01Z629SkI8ePOPr7v7rsTzw477KUyrIiNs3A84oWYzLEXrAlZdOdPZzKuyZSsYZWSjeGCqUZc5GCYOFupamp-MKW5FM7CnThCGqadxe3dxNlXNB-eFculKoaXlzDO4tmhVSVb_aWpDN9X7EpoQ0W3yaiGTRyq8pI_Mr0pmUik3bKllQZHwQzlFUC6MhoZXgMCpBjNS_QkG9RyUyKKcqqKz0gzg2ArMhK19IF1C_gWmZKhfWkdLa8qdM_QFuCiQrbiApiVUj70cHkB3wlTd-muvBgTOPDUXhJ7IcPhEw-2cf11ux1RVoA9zg1_5OZpJYVRstKWtS6BdLyjXAxEO8uS5g-vDAnLecFemW7YwbwyfHsT5FtjOgjWdIR60BoCOBuqSy52E8REYTMBN0C7pwrcBpIHqI59gOsT0GNkw_Y2G1Aw8EhxmhkSxb4X-S5OVmGIg1ni43lGArz0fRLOMjchqfsuM1IkjBbVoILToLR47DXQr1Ws5qLQI6W3qA03leV4LWmBuHGOkzcRR7GsoeaWCmIHrkE4WnYyEJDTTiJUKau2C7QuuUZwWm9byopZcWkpOgPd71FJB9lZsRSNoqbrgACU0efFJ-5qRYIUuys3woEbzfAymc5w6PnpLJrHxJ-SD8nLhnKDoFM78DX0iI3-5yRtoHn4C9NSNmqCYCcEgGxQ6KVcgoBaUJPl3fGME2CTQf29LJriwIt9HMcRwVniQU-EaZZOkw_heUnFziK9Z0CW2afcVg0ivSPbAZ8naRpFfoy9KCM48H0oUAYSns-DNPaT1JtNV_8VOKArIJDuZgIkdstVbT0nnKCbLRHa0ifneNc34pJVUuzWMoVafm_E-D39VN_L6ual422NmAL8hu6ukh4ijF1zyQ7g_hROEy_LrF_x3a7DdHt3HIdz3-3n8Xwez3-p8vN4Po_n83j-N-PZfiIvWU37DTARlMkbM7waOv59Q9zhidXwK_7bcRrwFw",
-  "name": "Washing, end to end",
-  "release": 1,
-  "shortcuts": [],
-  "slug": "washing-end-to-end",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "washing-end-to-end",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Vbfb5swEP5XLPYaVwYCIdkTCaBW6rppihZpVR9ccIJVsCPblFRV_vedKbC01Z629SkI8ePOPr7v7rsTzw477KUyrIiNs3A84oWYzLEXrAlZdOdPZzKuyZSsYZWSjeGCqUZc5GCYOFupamp-MKW5FM7CnThCGqadxe3dxNlXNB-eFculKoaXlzDO4tmhVSVb_aWpDN9X7EpoQ0W3yaiGTRyq8pI_Mr0pmUik3bKllQZHwQzlFUC6MhoZXgMCpBjNS_QkG9RyUyKKcqqKz0gzg2ArMhK19IF1C_gWmZKhfWkdLa8qdM_QFuCiQrbiApiVUj70cHkB3wlTd-muvBgTOPDUXhJ7IcPhEw-2cf11ux1RVoA9zg1_5OZpJYVRstKWtS6BdLyjXAxEO8uS5g-vDAnLecFemW7YwbwyfHsT5FtjOgjWdIR60BoCOBuqSy52E8REYTMBN0C7pwrcBpIHqI59gOsT0GNkw_Y2G1Aw8EhxmhkSxb4X-S5OVmGIg1ni43lGArz0fRLOMjchqfsuM1IkjBbVoILToLR47DXQr1Ws5qLQI6W3qA03leV4LWmBuHGOkzcRR7GsoeaWCmIHrkE4WnYyEJDTTiJUKau2C7QuuUZwWm9byopZcWkpOgPd71FJB9lZsRSNoqbrgACU0efFJ-5qRYIUuys3woEbzfAymc5w6PnpLJrHxJ-SD8nLhnKDoFM78DX0iI3-5yRtoHn4C9NSNmqCYCcEgGxQ6KVcgoBaUJPl3fGME2CTQf29LJriwIt9HMcRwVniQU-EaZZOkw_heUnFziK9Z0CW2afcVg0ivSPbAZ8naRpFfoy9KCM48H0oUAYSns-DNPaT1JtNV_8VOKArIJDuZgIkdstVbT0nnKCbLRHa0ifneNc34pJVUuzWMoVafm_E-D39VN_L6ual422NmAL8hu6ukh4ijF1zyQ7g_hROEy_LrF_x3a7DdHt3HIdz3-3n8Xwez3-p8vN4Po_n83j-N-PZfiIvWU37DTARlMkbM7waOv59Q9zhidXwK_7bcRrwFw"
+  },
+  "colour" : "#64D2FF",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Washing, end to end",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Load it"
+      "title" : "Load it"
     },
     {
-      "asks_first": false,
-      "detail": "The step exists so the next one arrives. This is the whole reason the app has timers.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 5400,
-      "title": "Wait for the machine"
+      "description" : "The step exists so the next one arrives. This is the whole reason the app has timers.",
+      "minutes" : 90,
+      "title" : "Wait for the machine"
     },
     {
-      "asks_first": false,
-      "detail": "Within the hour, or it is a second wash.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Hang it before it creases"
+      "description" : "Within the hour, or it is a second wash.",
+      "title" : "Hang it before it creases"
     },
     {
-      "asks_first": true,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Put it away"
+      "title" : "Put it away"
     }
   ],
-  "tint": "#64D2FF"
+  "symbol" : "washer"
 }

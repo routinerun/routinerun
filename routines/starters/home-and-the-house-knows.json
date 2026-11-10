@@ -1,47 +1,40 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Home scene “Arrive Home”"
-  ],
-  "description": "Needs a Home scene called Arrive Home. If yours goes by another name, change it on that step and this works as it is.",
-  "first_shelf": true,
-  "glyph": "house.fill",
-  "group": "home",
-  "group_line": "The errands a week repeats, and nobody enjoys holding.",
-  "group_name": "Home and everyday",
-  "link_web": "https://routinerun.com/r?v=1&d=7VfRbts2FP0VQnuVAsmWbMtvshSjAbqsWI0VaBEMjHQtEZFFgaTjGIGBfsS-cF-yQ0Z2nRTby4ZiDxYMmiIvL88991wSevboqZfKUJUZb-6NwtEkCNNglKzCcO5-nz3_ZLNUcgMrJbdGdKS23VWJAd9bS7Xh5jdSWsjOm0e-10lD2pt_ufO9vuXlsa-olKo6vry48ebPHm9budM_b1sj-pZuOm145xateavJ97gqG_FI-lNDXSHtmmGiIsNFC0y3RJVmnL2TG2K6pI5YCa9UsUwpLHUTV-xmzfZyqzSrJWl2v2ccSBtSrOMb8lnZ8K4mJgyTHTMNN0wb6mFU4U1otpPqAbtoayH0FUJvpHwY4hEVcEyuo0WUj7IgxBPEtilsEx6fcTjFMqF_Wa9PUbQAmJVGPAqzz2VnlGy1pUU3YCWruQCpRm1h6UYWvHx4NVBQKSp6NXRLT-bVwIc3Tj5sjYNghw5IGOIHfMuSP8RLrJFbTeyhgzkw91zByCDLwHYY3Lw_g37yD84sJ8grZmR33rdhQTgfbYZs__fQtsPuZ6nyDofDQGk6DuNxPJ4FUR4vgmQ5XQZZNMuDPEnHWZYtsmlUAJ4mG9ACKCAX-OEtBncQzEr-unX70iOp_UrYrZ7h_u5MPrDQLuS_k47Pdo0oG2fjNMb7nsn1Gmwwu4mVFQMEq4xtfya0Bmr5R5FBVpYwKyYX7nIWxZNkOgtGUT4NkmgSBot0hmZcTIs8zKPZdfKdgmRXEK_aYzmdaEeMvHp8XUyKNqKzRTik_m1ejTCtzcZ7UTdGOzE0xFGqtXfw3zh3iJMwmRbxchoUcT4JkhRyz_J4HKQohkmaRst4Ev8QxB8bVDUIltz47J7X7M-vfzCk0mVtx1HtaHyGbNjSt4OVlOr7qE6y-KSEMUguKsAJoCWXZ64gFCPg2B5UFZi5Yit4a4W25wJDZSjjiHPnBCBg30FfAI6OIttioT7lfTZKwyRfTIN8kSLvWTFCyvEaTqbX0SxLs2wW_hAWs27voL0cgFa_RuKv70HEPeGsfyFBI7ZK7jrPFpIr-QW1sqtX8pqXjSu5YWO939zL9valxt2ZcrUGeQjG8PqmGPBCYOYdPcHkp-UyXYaZnVeirh3AL3eH040xnCeXO-NyZ1zujMud8e8QX-6M_4LF_-udYbcpG9rwYYFjudya46vhp-8U-D32aIOPlm8T5w7_Ag",
-  "name": "Home, and the house knows",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "home-and-the-house-knows",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Home scene “Arrive Home”"
+    ],
+    "firstShelf" : true,
+    "group" : "home",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "home-and-the-house-knows",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VfRbts2FP0VQnuVAsmWbMtvshSjAbqsWI0VaBEMjHQtEZFFgaTjGIGBfsS-cF-yQ0Z2nRTby4ZiDxYMmiIvL88991wSevboqZfKUJUZb-6NwtEkCNNglKzCcO5-nz3_ZLNUcgMrJbdGdKS23VWJAd9bS7Xh5jdSWsjOm0e-10lD2pt_ufO9vuXlsa-olKo6vry48ebPHm9budM_b1sj-pZuOm145xateavJ97gqG_FI-lNDXSHtmmGiIsNFC0y3RJVmnL2TG2K6pI5YCa9UsUwpLHUTV-xmzfZyqzSrJWl2v2ccSBtSrOMb8lnZ8K4mJgyTHTMNN0wb6mFU4U1otpPqAbtoayH0FUJvpHwY4hEVcEyuo0WUj7IgxBPEtilsEx6fcTjFMqF_Wa9PUbQAmJVGPAqzz2VnlGy1pUU3YCWruQCpRm1h6UYWvHx4NVBQKSp6NXRLT-bVwIc3Tj5sjYNghw5IGOIHfMuSP8RLrJFbTeyhgzkw91zByCDLwHYY3Lw_g37yD84sJ8grZmR33rdhQTgfbYZs__fQtsPuZ6nyDofDQGk6DuNxPJ4FUR4vgmQ5XQZZNMuDPEnHWZYtsmlUAJ4mG9ACKCAX-OEtBncQzEr-unX70iOp_UrYrZ7h_u5MPrDQLuS_k47Pdo0oG2fjNMb7nsn1Gmwwu4mVFQMEq4xtfya0Bmr5R5FBVpYwKyYX7nIWxZNkOgtGUT4NkmgSBot0hmZcTIs8zKPZdfKdgmRXEK_aYzmdaEeMvHp8XUyKNqKzRTik_m1ejTCtzcZ7UTdGOzE0xFGqtXfw3zh3iJMwmRbxchoUcT4JkhRyz_J4HKQohkmaRst4Ev8QxB8bVDUIltz47J7X7M-vfzCk0mVtx1HtaHyGbNjSt4OVlOr7qE6y-KSEMUguKsAJoCWXZ64gFCPg2B5UFZi5Yit4a4W25wJDZSjjiHPnBCBg30FfAI6OIttioT7lfTZKwyRfTIN8kSLvWTFCyvEaTqbX0SxLs2wW_hAWs27voL0cgFa_RuKv70HEPeGsfyFBI7ZK7jrPFpIr-QW1sqtX8pqXjSu5YWO939zL9valxt2ZcrUGeQjG8PqmGPBCYOYdPcHkp-UyXYaZnVeirh3AL3eH040xnCeXO-NyZ1zujMud8e8QX-6M_4LF_-udYbcpG9rwYYFjudya46vhp-8U-D32aIOPlm8T5w7_Ag"
+  },
+  "colour" : "orange",
+  "description" : "Needs a Home scene called Arrive Home. If yours goes by another name, change it on that step and this works as it is.",
+  "name" : "Home, and the house knows",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Runs the scene called Arrive Home, which the Home app offers when you set it up. If yours has another name, change it on this step.",
-      "does_itself": true,
-      "does_itself_line": "Runs the Home scene Arrive Home",
-      "duration_seconds": null,
-      "title": "Lights and heating"
+      "description" : "Runs the scene called Arrive Home, which the Home app offers when you set it up. If yours has another name, change it on this step.",
+      "does" : [
+        {
+          "scene" : "Arrive Home"
+        }
+      ],
+      "title" : "Lights and heating"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Shoes, coat, bag — all the way away, not by the door"
+      "title" : "Shoes, coat, bag — all the way away, not by the door"
     },
     {
-      "asks_first": false,
-      "detail": "Written now, while you are still standing. The list is short and it is always the same three things.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Anything that has to happen before you sit down"
+      "description" : "Written now, while you are still standing. The list is short and it is always the same three things.",
+      "title" : "Anything that has to happen before you sit down"
     }
   ],
-  "tint": "#FF9F0A"
+  "symbol" : "house.fill"
 }

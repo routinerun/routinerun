@@ -1,0 +1,46 @@
+{
+  "skin": 1,
+  "name": "Blush",
+  "audience": "A warm rose ground, rounded letters and room to breathe, with a berry verb.",
+  "light": {
+    "page": "#F8ECEE",
+    "card": "#FFFAFA",
+    "ink": "#2B1D24",
+    "ink2": "rgba(90, 60, 72, 0.66)",
+    "ink3": "rgba(90, 60, 72, 0.32)",
+    "line": "rgba(90, 60, 72, 0.13)",
+    "fill": "rgba(160, 100, 120, 0.12)",
+    "accent": "#B4387A",
+    "unanswered": "#FF9500"
+  },
+  "dark": {
+    "page": "#1A1215",
+    "card": "#2A1E23",
+    "ink": "#F8EAF0",
+    "ink2": "rgba(248, 234, 240, 0.62)",
+    "ink3": "rgba(248, 234, 240, 0.3)",
+    "line": "rgba(248, 234, 240, 0.12)",
+    "fill": "rgba(248, 234, 240, 0.12)",
+    "accent": "#F27BB6",
+    "unanswered": "#FF9F0A"
+  },
+  "rows": {
+    "padding": 12,
+    "minHeight": 52,
+    "radius": 22,
+    "detailLines": 2,
+    "layout": "twoLines"
+  },
+  "type": {
+    "title": {
+      "family": "rounded",
+      "weight": 600,
+      "size": 14
+    },
+    "detail": {
+      "family": "rounded",
+      "weight": 400,
+      "size": 11.5
+    }
+  }
+}

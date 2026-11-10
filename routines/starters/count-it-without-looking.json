@@ -1,29 +1,34 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": "For an iPhone with an Action button, with Routine Run's In hand control on it: Settings › Action Button › Controls. Start this in the morning, and every press of the side button adds one — reps, glasses, laps, anything you would otherwise have to open the phone to write down. The number is on the run, and Keep carries it up to the routine.",
-  "first_shelf": false,
-  "glyph": "number",
-  "group": "handsFree",
-  "group_line": "Moved along by a button, a card or your wrist, not by looking.",
-  "group_name": "Hands free",
-  "link_web": "https://routinerun.com/r?v=1&d=7VbNbts4EH4VQnvYixTIjmUnvsl_2GB3s0FjtMAWQcFIY4kIRQokZccoDPQh9mn2cfoknSFl12mx9z3YCBxpZvjNx5lvBv4cwWurjYMyd9E0GqbDcZLeJsNsnaZT__d3FJ9iVkY3GGV054QC06mrAg1xtNGm4e49GCu0iqaDOFLagY2mH5_iqJW8OD4bKLQpjy8BJpp-jriUemf_7KQTrYQ7ZR1X_tCGSwtxxE1Riy3YDzWohaYzvaMEx4VETittGFdMPNToZjvhanrNC4eM2HPnnFZxML8Ladm7Tv1q2Z1iNVclK7RyRkuG0cJN2SM4DKos-_rl3yPKzKN4yzxE2yv26LhxzNXCMqHwP7BGG4VHY0awsAWzZ60Ba5neeL8VJfSMGC9LtCOZr1_-YQZaG7NKcmsBHySnV672CK4qttcd2-lOlkwjitkJC8h8C8xpplsIuVt_e7TsjHDASr1TV2yNDtU1z2CYoGw-EpsXGP4O0LKCGyMAr-BY19J5HxIKdYUNrrV-6bsmSqz2eDmYDebDPEnxk4zoa0Ff6fEzTod4TNi_NptTryR2kEq5FW5_LCA139bY-7ziAqXjTIeR3jLjxcsbwwIKLN0b0z28ujeGhx9AHjrnKZDpgLLkDQJEc90pR5clQeAtmcT7YZGRcssNxjiUMlI79Ch_nDE_wTtsF5YExevlcf5MtypQVhW857LzCv-U0jeCeR_lv3OUAVO8AIIGGxLAxlQ0Y53K3SPmiA4U46s-XM3zbDAeJ5PJfJ5kw9ssuRkvb5LBYDSarWZZNrq-RQQLdOcZgWIbg2rRvMPZWWtUPTHwulwLqgZyODydTdK9DoIDbNqZYHrF7mohIegdKZK_FUpBGTOrqaIFVzj7rCIJakTBoeCs1cULuKDEItTeonlLxcETUkLZ230ydFJ1p991TalQlQZ4iUliFopL-Z73YX7Fxk9II6wHIkJkDpNHMmF0fw9W8j3lL3XQti_tTTrM8jEWdDRZTJJsvBok-SQdJsvserEa5It5Pr_-SdBaLZCQPO6wkwywmrzcvt1gBhqhaPP1SvxJZ_vmWcv7oM8wrZjPCSfJsDxbI8edEVHXvApnILHUa73kRe372-f8D0xe3S16mjjf7jd4Rfcv1-likN2Q34iq8rw-Ph1OW7qX92VPX_b0ZU9f9vRlT_-_9jSlKGpoeH8Ax8G4onPHV8dPv8cR9_gEDf44_-44B_wG",
-  "name": "Count it without looking",
-  "release": 6,
-  "shortcuts": [],
-  "slug": "count-it-without-looking",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "handsFree",
+    "licence" : "CC-BY-4.0",
+    "release" : 6,
+    "shortcuts" : [
+
+    ],
+    "slug" : "count-it-without-looking",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VbNbts4EH4VQnvYixTIjmUnvsl_2GB3s0FjtMAWQcFIY4kIRQokZccoDPQh9mn2cfoknSFl12mx9z3YCBxpZvjNx5lvBv4cwWurjYMyd9E0GqbDcZLeJsNsnaZT__d3FJ9iVkY3GGV054QC06mrAg1xtNGm4e49GCu0iqaDOFLagY2mH5_iqJW8OD4bKLQpjy8BJpp-jriUemf_7KQTrYQ7ZR1X_tCGSwtxxE1Riy3YDzWohaYzvaMEx4VETittGFdMPNToZjvhanrNC4eM2HPnnFZxML8Ladm7Tv1q2Z1iNVclK7RyRkuG0cJN2SM4DKos-_rl3yPKzKN4yzxE2yv26LhxzNXCMqHwP7BGG4VHY0awsAWzZ60Ba5neeL8VJfSMGC9LtCOZr1_-YQZaG7NKcmsBHySnV672CK4qttcd2-lOlkwjitkJC8h8C8xpplsIuVt_e7TsjHDASr1TV2yNDtU1z2CYoGw-EpsXGP4O0LKCGyMAr-BY19J5HxIKdYUNrrV-6bsmSqz2eDmYDebDPEnxk4zoa0Ff6fEzTod4TNi_NptTryR2kEq5FW5_LCA139bY-7ziAqXjTIeR3jLjxcsbwwIKLN0b0z28ujeGhx9AHjrnKZDpgLLkDQJEc90pR5clQeAtmcT7YZGRcssNxjiUMlI79Ch_nDE_wTtsF5YExevlcf5MtypQVhW857LzCv-U0jeCeR_lv3OUAVO8AIIGGxLAxlQ0Y53K3SPmiA4U46s-XM3zbDAeJ5PJfJ5kw9ssuRkvb5LBYDSarWZZNrq-RQQLdOcZgWIbg2rRvMPZWWtUPTHwulwLqgZyODydTdK9DoIDbNqZYHrF7mohIegdKZK_FUpBGTOrqaIFVzj7rCIJakTBoeCs1cULuKDEItTeonlLxcETUkLZ230ydFJ1p991TalQlQZ4iUliFopL-Z73YX7Fxk9II6wHIkJkDpNHMmF0fw9W8j3lL3XQti_tTTrM8jEWdDRZTJJsvBok-SQdJsvserEa5It5Pr_-SdBaLZCQPO6wkwywmrzcvt1gBhqhaPP1SvxJZ_vmWcv7oM8wrZjPCSfJsDxbI8edEVHXvApnILHUa73kRe372-f8D0xe3S16mjjf7jd4Rfcv1-likN2Q34iq8rw-Ph1OW7qX92VPX_b0ZU9f9vRlT_-_9jSlKGpoeH8Ax8G4onPHV8dPv8cR9_gEDf44_-44B_wG"
+  },
+  "colour" : "green",
+  "description" : "For an iPhone with an Action button, with Routine Run's In hand control on it: Settings › Action Button › Controls. Start this in the morning, and every press of the side button adds one — reps, glasses, laps, anything you would otherwise have to open the phone to write down. The number is on the run, and Keep carries it up to the routine.",
+  "name" : "Count it without looking",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Nothing else is on the button while this run is pinned, so it cannot go wrong in a pocket. The count is a value called count on this step: open the run to read it, change it by hand if you miscounted, and press Next when the day is done.",
-      "does_itself": true,
-      "does_itself_line": "Changes a value",
-      "duration_seconds": null,
-      "title": "Every press adds one"
+      "buttons" : [
+        {
+          "count" : "count"
+        }
+      ],
+      "description" : "Nothing else is on the button while this run is pinned, so it cannot go wrong in a pocket. The count is a value called count on this step: open the run to read it, change it by hand if you miscounted, and press Next when the day is done.",
+      "symbol" : "number",
+      "title" : "Every press adds one"
     }
   ],
-  "tint": "#30D158"
+  "symbol" : "number"
 }

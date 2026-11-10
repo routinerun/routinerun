@@ -1,0 +1,32 @@
+{
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "blue",
+  "name" : "Standup, before the call",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "minutes" : 2,
+      "title" : "What actually moved yesterday"
+    },
+    {
+      "title" : "What you are on today"
+    },
+    {
+      "about" : "Say it even when it is you. Especially then.",
+      "title" : "What is in the way"
+    }
+  ],
+  "symbol" : "person.3",
+  "times" : [
+    {
+      "at" : "09:45",
+      "days" : [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ]
+    }
+  ]
+}

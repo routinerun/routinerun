@@ -1,0 +1,31 @@
+{
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "orange",
+  "name" : "The weekly shop",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "The list you write from memory is the list that buys a third jar of mustard.",
+      "minutes" : 3,
+      "title" : "Look in the fridge before writing anything"
+    },
+    {
+      "title" : "Meals you actually intend to cook"
+    },
+    {
+      "title" : "The dull half: paper, soap, coffee"
+    },
+    {
+      "title" : "Anything running out that nobody has mentioned yet"
+    }
+  ],
+  "symbol" : "cart",
+  "times" : [
+    {
+      "at" : "10:00",
+      "days" : [
+        "sat"
+      ]
+    }
+  ]
+}

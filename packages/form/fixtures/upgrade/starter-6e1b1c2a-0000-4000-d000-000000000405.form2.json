@@ -1,0 +1,33 @@
+{
+  "colour" : "#64D2FF",
+  "description" : "Writes each glass to Health, which asks the first time it does.",
+  "name" : "A glass of water",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "Then this writes it to Health, so the total is somewhere other than your memory.",
+      "does" : [
+        {
+          "health" : {
+            "amount" : "250",
+            "log" : "water"
+          }
+        }
+      ],
+      "title" : "Drink it"
+    }
+  ],
+  "symbol" : "drop",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "10:00"
+      }
+    },
+    {
+      "when" : {
+        "at" : "15:00"
+      }
+    }
+  ]
+}

@@ -1,53 +1,40 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": null,
-  "first_shelf": false,
-  "glyph": "text.magnifyingglass",
-  "group": "onCall",
-  "group_line": "Something pages you at an hour you did not choose.",
-  "group_name": "Being on call",
-  "link_web": "https://routinerun.com/r?v=1&d=7VZNi-M4EP0rwnONQpzYTpybv8I2zBezzQ7s0AfFLtsishQkOd1hyH-fksdxd8-yA3tp9hBjjFQllapePT383YOno9IWqsR6W2-5WEZ0EdNleL9YbIf3b282rdlp1eEqrXrLJehezks0zLxa6Y7Zv0AbrqS39WeeVBaMt_32MPOOgpXXsYZS6eo6-RnG2373mBDq0XzoheVHAXfSWCaHTVb3MPOYLlt-AvO1BZkrt6VmwqCjVeowRuMVZhYVfupny4Qu8KGB--Tus3h-VpgvN5_qegoiMHRSWn7i9pwpabUSxiVlWswpaRiX1zwGS8rKwytDDiWv4JXpIzzZV4bPvwT53NshBWe6IFyswwBeUlvQhFvCDan5E1SY65FpdKLd5XQZt79_kfIU18LRYYFookfJEZcKLOMCg3-SQAxIC4jsnNzV7hzLDmCIbTXAjJxVT1p2AmIfFTlqtRfQmbk3Qpss43WShzu62WxCGsZZQuN0ndAgypLAj4LAz_8JrZI5sEpcu_wyL1adxh6PazV0XFZmwuTXwi23woH0tWWW7LU6gHeZ_VuxiawIAkWEkg1hV1iRVo7Gc3LvYjTs6IC2LVbcclz3iCRvHfA4meqOokWUr6KQrtZpQsOiWGHdSUGL2A_ydZrv8k34dnVbJSrXqN-Ufo_1tEzUBE6gz3tVnYkAbKsheN8IQ2CeHRKgem7xOiqW0TLzaRZGOQ2DPKKxn-Q0L7K0WC_WWRzv3q5UR0erOVTYHZxWvCKoKq5Jh981npQtlIcZYUT23R60G1W8rkEj9weq4w0SyIE_FR499N2dVDJJMGKPSnQmjRpw6vB2TOBkCRIgDSMahblPw120oXERZHSVb4IFAhem4RuC86h6JMJwW0vWN60d6K1QG7V3eRjFIAVH_3tVsLL90svpJHPu9kp8_Kk5FqVq3rFG8vqMYDSCGYN1WNbc5WOqqNL2D3jCxe_SXZjsls6vedMMuX17uExaPurPTc1vav5f2HxT85ua39T8_6Lm7kCEvWPjBkRY27K316ll0789xr2OoMMf_WfHy4A_AA",
-  "name": "After it is fixed",
-  "release": 1,
-  "shortcuts": [],
-  "slug": "after-it-is-fixed",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "onCall",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "after-it-is-fixed",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VZNi-M4EP0rwnONQpzYTpybv8I2zBezzQ7s0AfFLtsishQkOd1hyH-fksdxd8-yA3tp9hBjjFQllapePT383YOno9IWqsR6W2-5WEZ0EdNleL9YbIf3b282rdlp1eEqrXrLJehezks0zLxa6Y7Zv0AbrqS39WeeVBaMt_32MPOOgpXXsYZS6eo6-RnG2373mBDq0XzoheVHAXfSWCaHTVb3MPOYLlt-AvO1BZkrt6VmwqCjVeowRuMVZhYVfupny4Qu8KGB--Tus3h-VpgvN5_qegoiMHRSWn7i9pwpabUSxiVlWswpaRiX1zwGS8rKwytDDiWv4JXpIzzZV4bPvwT53NshBWe6IFyswwBeUlvQhFvCDan5E1SY65FpdKLd5XQZt79_kfIU18LRYYFookfJEZcKLOMCg3-SQAxIC4jsnNzV7hzLDmCIbTXAjJxVT1p2AmIfFTlqtRfQmbk3Qpss43WShzu62WxCGsZZQuN0ndAgypLAj4LAz_8JrZI5sEpcu_wyL1adxh6PazV0XFZmwuTXwi23woH0tWWW7LU6gHeZ_VuxiawIAkWEkg1hV1iRVo7Gc3LvYjTs6IC2LVbcclz3iCRvHfA4meqOokWUr6KQrtZpQsOiWGHdSUGL2A_ydZrv8k34dnVbJSrXqN-Ufo_1tEzUBE6gz3tVnYkAbKsheN8IQ2CeHRKgem7xOiqW0TLzaRZGOQ2DPKKxn-Q0L7K0WC_WWRzv3q5UR0erOVTYHZxWvCKoKq5Jh981npQtlIcZYUT23R60G1W8rkEj9weq4w0SyIE_FR499N2dVDJJMGKPSnQmjRpw6vB2TOBkCRIgDSMahblPw120oXERZHSVb4IFAhem4RuC86h6JMJwW0vWN60d6K1QG7V3eRjFIAVH_3tVsLL90svpJHPu9kp8_Kk5FqVq3rFG8vqMYDSCGYN1WNbc5WOqqNL2D3jCxe_SXZjsls6vedMMuX17uExaPurPTc1vav5f2HxT85ua39T8_6Lm7kCEvWPjBkRY27K316ll0789xr2OoMMf_WfHy4A_AA"
+  },
+  "colour" : "purple",
+  "name" : "After it is fixed",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "One sentence. If it takes three, you have two problems.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "What broke"
+      "description" : "One sentence. If it takes three, you have two problems.",
+      "title" : "What broke"
     },
     {
-      "asks_first": false,
-      "detail": "And how long after it started. That gap is the thing worth fixing.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "What told you"
+      "description" : "And how long after it started. That gap is the thing worth fixing.",
+      "title" : "What told you"
     },
     {
-      "asks_first": false,
-      "detail": "The half everybody leaves out and everybody needs.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "What you tried that did not work"
+      "description" : "The half everybody leaves out and everybody needs.",
+      "title" : "What you tried that did not work"
     },
     {
-      "asks_first": false,
-      "detail": "A check, a number, a different threshold. Something you can actually go and make.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "What would have caught it sooner"
+      "description" : "A check, a number, a different threshold. Something you can actually go and make.",
+      "title" : "What would have caught it sooner"
     }
   ],
-  "tint": "#BF5AF2"
+  "symbol" : "text.magnifyingglass"
 }

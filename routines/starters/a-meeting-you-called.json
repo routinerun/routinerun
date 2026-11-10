@@ -1,63 +1,45 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": false,
-  "glyph": "person.2",
-  "group": "work",
-  "group_line": "Getting into a piece of work, and putting it down properly.",
-  "group_name": "Work and focus",
-  "link_web": "https://routinerun.com/r?v=1&d=7VdNb-M2EP0rhHo1A0q2ZNk96cNCA7TpYjfoAl3kwEhji4hEuiRlx1j4v3coS9ok3W5PzcmGYcgcDjnz3psZ6KsHz3ulLVSJ9dZewIKIshUNwnvG1v33T2827Sm0anGXVp0VEnQnb0pcmHlbpVtu_wBthJLe2p95Ulkw3vrLw8zbN7wcnzWUSlfjn8sx3vqrx5tGHc1vXWPFvoFbaSyXvZPVHcw8rstaHMB8rkHmyrlseWPQUIHlosGQbq0hVrQYAdHAy5qcVEeOwtaEk5Lr6mdiwBJ0JVaRI3-CfoPYElsD2dfOcBRNQx6BbDFcUqmjvMHMaqWehnBFhfdEGz_1syChDD904X5y98PGT8AW6CbM79vtFGWDsSelFQdhT5mSVqvGuKxNjUknOy7kmGi_kvLy6dVCDqWo4NXSHTzbVwsf3hzyobN9CG7pjHzwFg_wEtICIOi7Pv0SYYcKw91zjXaL6GFY5-GEX19EPR1tYe_gQMbQouQAzURDYhDvvzowzjjifwJDlMYHqYiQRNgb8i0Otwd10FMjnPdosDW3BGRlnA9HPdWgR6NjpqeDRRljyXJJFwXzaThPQpps4pDO_XQZbcLlIsqif9ChZA68akbpvUyEV4dBeMNeDa2QlZlwfIuUFbZxwH7WwkIvpgrJcmXQIywB8T3P_hUuWV3ylOpRVSfnrwGhaE69p3FirYHrHrP7WhnUKiisELJDNbvb-jqb4EjzpZ8HWUzDKC5omGYLGrNkQbP5giVhPl_lq_Bd4MhqKJ8IHECf-prr8yq5I9IcweXzA1Tu1HHmEnPEuxyFPFzA1QAE7-8wZSxUbDpwQz5i7E4uYtqulWqdlNzzW71kmywukiSh_ipElMJlTpM4ZjQLU1asFkm2_E75_h8AfUJlk6OjHsO8sO3Ixt71Pb10mttLZ40ZG1IJg4gFoZ_SOA7mKH0_p6sNCynzk8yfB34cLVfvksrHTv6Yz0_oRip-cmU_Vceg-KNGAffdFruyK_9KmLIzbstEWsTyZBkv5rSY-4yGcYGqDqI5jWI_DYs0zouoeJdMe9Je1TjvWVQE4zc9nd75YeiSKTRK7u7VBqcRQjRdZk7to2ruLv14j3dgpgGGb_nuNh8iRM3aX-AZN_xUFKuCJc6uxW7Xh_Tl4TwNz6EZX8fndXxex-d1fF7H53V8Xsfnf45Pd0lZQ8sHB2zY2padHf9aPr294rnjE7T4KvvN8PLAvwE",
-  "name": "A meeting you called",
-  "release": 2,
-  "shortcuts": [],
-  "slug": "a-meeting-you-called",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 2,
+    "shortcuts" : [
+
+    ],
+    "slug" : "a-meeting-you-called",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VdNb-M2EP0rhHo1A0q2ZNk96cNCA7TpYjfoAl3kwEhji4hEuiRlx1j4v3coS9ok3W5PzcmGYcgcDjnz3psZ6KsHz3ulLVSJ9dZewIKIshUNwnvG1v33T2827Sm0anGXVp0VEnQnb0pcmHlbpVtu_wBthJLe2p95Ulkw3vrLw8zbN7wcnzWUSlfjn8sx3vqrx5tGHc1vXWPFvoFbaSyXvZPVHcw8rstaHMB8rkHmyrlseWPQUIHlosGQbq0hVrQYAdHAy5qcVEeOwtaEk5Lr6mdiwBJ0JVaRI3-CfoPYElsD2dfOcBRNQx6BbDFcUqmjvMHMaqWehnBFhfdEGz_1syChDD904X5y98PGT8AW6CbM79vtFGWDsSelFQdhT5mSVqvGuKxNjUknOy7kmGi_kvLy6dVCDqWo4NXSHTzbVwsf3hzyobN9CG7pjHzwFg_wEtICIOi7Pv0SYYcKw91zjXaL6GFY5-GEX19EPR1tYe_gQMbQouQAzURDYhDvvzowzjjifwJDlMYHqYiQRNgb8i0Otwd10FMjnPdosDW3BGRlnA9HPdWgR6NjpqeDRRljyXJJFwXzaThPQpps4pDO_XQZbcLlIsqif9ChZA68akbpvUyEV4dBeMNeDa2QlZlwfIuUFbZxwH7WwkIvpgrJcmXQIywB8T3P_hUuWV3ylOpRVSfnrwGhaE69p3FirYHrHrP7WhnUKiisELJDNbvb-jqb4EjzpZ8HWUzDKC5omGYLGrNkQbP5giVhPl_lq_Bd4MhqKJ8IHECf-prr8yq5I9IcweXzA1Tu1HHmEnPEuxyFPFzA1QAE7-8wZSxUbDpwQz5i7E4uYtqulWqdlNzzW71kmywukiSh_ipElMJlTpM4ZjQLU1asFkm2_E75_h8AfUJlk6OjHsO8sO3Ixt71Pb10mttLZ40ZG1IJg4gFoZ_SOA7mKH0_p6sNCynzk8yfB34cLVfvksrHTv6Yz0_oRip-cmU_Vceg-KNGAffdFruyK_9KmLIzbstEWsTyZBkv5rSY-4yGcYGqDqI5jWI_DYs0zouoeJdMe9Je1TjvWVQE4zc9nd75YeiSKTRK7u7VBqcRQjRdZk7to2ruLv14j3dgpgGGb_nuNh8iRM3aX-AZN_xUFKuCJc6uxW7Xh_Tl4TwNz6EZX8fndXxex-d1fF7H53V8Xsfnf45Pd0lZQ8sHB2zY2padHf9aPr294rnjE7T4KvvN8PLAvwE"
+  },
+  "colour" : "orange",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "A meeting you called",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "As a question with a yes or a no in it. A meeting without one is a meeting that ends in another meeting.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Write the decision you need"
+      "description" : "As a question with a yes or a no in it. A meeting without one is a meeting that ends in another meeting.",
+      "title" : "Write the decision you need"
     },
     {
-      "asks_first": false,
-      "detail": "And that nobody there only needs to hear it. Those people get the notes.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Check everyone there can answer it"
+      "description" : "And that nobody there only needs to hear it. Those people get the notes.",
+      "title" : "Check everyone there can answer it"
     },
     {
-      "asks_first": false,
-      "detail": "Now, not in the invite three minutes before. Reading it in the room is the meeting.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Send what they need to read"
+      "description" : "Now, not in the invite three minutes before. Reading it in the room is the meeting.",
+      "title" : "Send what they need to read"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 1800,
-      "title": "Run it"
+      "minutes" : 30,
+      "title" : "Run it"
     },
     {
-      "asks_first": false,
-      "detail": "Same day. A decision nobody wrote down was a discussion.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Send the decision and who owns what"
+      "description" : "Same day. A decision nobody wrote down was a discussion.",
+      "title" : "Send the decision and who owns what"
     }
   ],
-  "tint": "#FF9F0A"
+  "symbol" : "person.2"
 }

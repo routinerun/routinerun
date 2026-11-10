@@ -1,0 +1,38 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "work-until-you-drift",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VbbjqNGEP2VFnl1W4CBsZ0nrspKyWQVjbJSVvPQA4VpGbqtphhmtPK_bzXG3vGuEimRMk9GFu5L9aHOqUOJLw68HLRBqGJ0to7v-hF3N9wPH1x3O_3-chaXmMLojqKMHlAqMINalrSwcGptOoF_gumlVs7WWzhKI_TO9vPjwjm0ojyPDZTaVOfJCcbZfnFE2-qx_21oUR5a-KB6FGo6VIu2h4UjTNnIZ-g_NaAybc_MG43W-xlOVpRalHuJl_oxd-nigb1l9uaeL9_dUMKy_72uLyAtQcclymeJr6lWaHTb26z6hpKKd0ISJzQDRU4riSj3VwsZlLKCq6V7eMGrhY_fgXwccErBLh1JL9ERgPNJmz0bFMqWveqBVUbWSOkehKF9JH0preOM8OubrC_QCAcrBylKO1rN0lSAQraEf68Zyg4M04phI3v6hyV7aICVrS73jFaQJrSlduwJ7J3qSJVfOrPARVTkXh7f8TBKEx6GnssTzyt4EoTJZhXcBUmS_CCwVhmIqj0X-21qonq-LrWBTiprkVmZ77mjxHaSykgENjYCJ6mEAUauMeSonXNc_J0ARFVRnD4s2b1GWVqGM-l-L9v25xP_SaNR9BZSVVOQYuRyJvGbEqss26RJwPN1kvIwDdc8dl0a5X4YRfFd4ob--yhxbRplecE0bMQzTGwPUP2DKHFNoEywEWDPdG0l6E8AI0nC9kqPdkauGRVTQ_cEZsFIF1LjFEGPJLcwHEHhK6_JmIxSH8g6F7WCVRok6yLlaRiQeeI05OtkveJ-GudxngdBHkfvo9bkm8pSGRswJ547IoB64kSvFmu1rThaB_wo20RnFRXhOiwKHnmFS8UPYr7xk4R7fpSvs2hVhO76XegkBsSeqvFEzZRKWFPDaE41FOgcH-eWkICl9KBzUTZ_DOrylP61e9Lt_an5jOSW5Wpp5K6xTQfF7kM2p0dvFf4CLxT0UxRkflHYfQrcTfl8fjxeuvncfW79_NbP_52Rb_381s__k1q3fv4_9HP7oLKBTswHqEMZLAc8T1Fcvu8J9zyCjj72v228BfwK"
+  },
+  "colour" : "#64D2FF",
+  "name" : "Work until you drift",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "No timer on this one. The clock is the thing being tested.",
+      "title" : "Write what you are starting"
+    },
+    {
+      "description" : "Then stop. Noticing is the skill; the timer was standing in for it.",
+      "title" : "Work until you notice you have stopped"
+    },
+    {
+      "description" : "After a week of these you will know your own number, and it will not be twenty-five minutes.",
+      "title" : "Write down where you got to and how long it was"
+    },
+    {
+      "title" : "Break, about a fifth of that"
+    }
+  ],
+  "symbol" : "wave.3.right"
+}

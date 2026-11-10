@@ -1,0 +1,35 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 2,
+    "shortcuts" : [
+
+    ],
+    "slug" : "leaving-a-note-for-tomorrow",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VZbb5swFP4rlvcaIiBALm9cglapa6utWqW1fXDBCVaNHdkmaTTlv--YAGs6bdrLqj0ERQGOj7_z-TsX8R3Tl41UhpaxwQvsu37kuHPHD29dd9H-vuHR4JMrWYOXko1hgqpGjAswjPBKqpqYr1RpJgVeeCMspKEaL-4fR3jDSdE_K1pIVfYvRxi8-I4J53KnPzXcsA2nF0IbItpNK8I1HWGiioptqb6rqMik3dMtVFI-d3CsBGrR0ku81I8dFy4nsH-Z_XP7y3cjIMz09Wo1gHCAjgvDtszsUymMklxbVroCUvGaMDiTUQ14tpaEFM8nhowWrKQnpiv6Yk4MN29AbhrTUrCmA-hFagDAl5RsmVgjgqyACHRFRtZSKbkD1huiwM2AzMDu0AFdviI_RDB0Y1UBYWFFik6hkhrCOIR5wHeEGRtICmQqiuKbC2QoqR8w3DjXQ1TLowLHMXrAaUU0uJYEkSdIXbsxcD0Nm5gGyq0j7ESlHOMuH3mwdL1JmjizPHKdMIwiJ3HzxAlTL57NozifT37NhxQZJSXva-P1EUi5Pa0MRWsmbEV1Qr7VyDDDrbJ3ioGglrKA1KAj6MgerzVCwZlG48Pod5LdghMkmaC9bFBFSkSOG2tZU2FaqzZys6GlFcOuQJnCHdx2jPM2kG7UFrJ1ZMHWlRlkygLXn3hB5GRxMHFCfzlxZmk8c4I0n8VLL5zFYfguMn0he7SzpO2BdlTRPtcSGbX_gz7XGyoQE2iloIGQXFmAo7xgJFDJvKTqiCobXoKEVgiJgBitn6itcyQBY5AkcKfTWZa7TjyfTp3QhamURFPPCSdeniTTJEuT-btIYnsScg95rKwe7RFsRjkRJT48dt2WUC7F-lYuSVF9bsQQRe_rJ8mvju1tm3ps7GgAeLK-yDpu0IrmI30Bjw9JHsa5b9cVW69bMvePh2FYdl19HpfncflPi_48Lv9KpvO4_C_HpY1SVLQm3QbofGWKxvSvUL39Fyng9k-0hk_VnwuvAX8A"
+  },
+  "colour" : "purple",
+  "name" : "Leaving a note for tomorrow",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "\"Waiting on the API team\" tells tomorrow nothing. \"Chase Ada about the 401s\" is a thing to do.",
+      "title" : "Write the next action, not the status"
+    },
+    {
+      "description" : "The idea you had at the moment you stopped is the one that will not survive the night.",
+      "title" : "Say what you were about to try"
+    },
+    {
+      "description" : "Open in front of you, not in a folder you would have to remember to open.",
+      "title" : "Leave it where you will land"
+    }
+  ],
+  "symbol" : "note.text"
+}

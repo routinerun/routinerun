@@ -1,0 +1,20 @@
+{
+  "colour" : "purple",
+  "name" : "Leaving a note for tomorrow",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "\"Waiting on the API team\" tells tomorrow nothing. \"Chase Ada about the 401s\" is a thing to do.",
+      "title" : "Write the next action, not the status"
+    },
+    {
+      "description" : "The idea you had at the moment you stopped is the one that will not survive the night.",
+      "title" : "Say what you were about to try"
+    },
+    {
+      "description" : "Open in front of you, not in a folder you would have to remember to open.",
+      "title" : "Leave it where you will land"
+    }
+  ],
+  "symbol" : "note.text"
+}

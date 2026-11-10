@@ -1,56 +1,50 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Home scene “Good Night”",
-    "Notifications"
-  ],
-  "description": "Needs a Home scene called Good Night. If yours goes by another name, change it on that step and this works as it is.",
-  "first_shelf": false,
-  "glyph": "moon.stars",
-  "group": "dayEnds",
-  "group_line": "The first half hour of a day and the last one.",
-  "group_name": "Mornings and evenings",
-  "link_web": "https://routinerun.com/r?v=1&d=7VjbbuM2EP0VQn01A4myLvabLlY3QJsGu0ELtAgKRhpbQiTSIOk4RuB_3yEtO3G2AQoU6ZNtQ5Co4XDOzJkL_OLB81oqA01mvLnHfBZTf0ZZdOf7c_f705ucZColB5RScmM6AWojrmpcmHhLqQZufgelOym8eTDxhDSgvflf9xNv3fP6eK-glqo5PhzUePMXj_e93OpfN73p1j1cC224cJuWvNcw8biq2-4J9B8tiFLaPeOLBgzverTpBqDRhJMvcgCiaxBAatQKDflZyobcdKvWXJHrJdnJjdJkJUGThx3haGgLigg-wITULRcrIJ0hUhDTckO0gTUKNfjUabKV6hEP0Vai01eIvJXycYTTNWhGvAjyoGAZ9fFDp_ZS2ot__AR-jNs6_dtyeQLRI7SsNt1TZ3aFFEbJXluv6Badkq14hz41aoOSbiXn9ePZQgl118DZ0g08m7OF23dKbjfGmWCX9hgvxI_mO18J66sJaeVGA9q65gpfGgwu2rQft__yxuSTXvSV9QWGE99I8fbewkG-fLOBsfd_-_b69lQXIW-_34-ezIvYT8M4oWVSlDSKAkZnVZnQNGVFVmUsDJMcrdNgceRoBJJEdU-8x8Ut0uROft24Y-EJ1O6usye9oPr7N6RBCY2R_ZAwE7Jtu7rFWCMhgMilE8bbwy7HNb5eE71ZrUAb_YZguGVUp1EK2SNWBGy0jySzCiz-A9VQ3LrPUsqhz8psmlUlYg7CFNEnMU2zoqJZloaLlMWhX6U_8EiKEnjTH3PqFASEzJun84xSMHTCZuJIgPdRNp3pbWy-gXGmOjaQRm6Ft5-8U-4sDqMySNKyoIxlEY1KhsbOwoBOq1nBWFVNp0n4qRYr1ISKtEudWoplpwYX8lcwpZQYGpvOW1SFNP4ACyuDgIX-ghZRsKBRuAhoWlU-reJqmqWLYBoH1adiORp82zreIUOk5Y1aIX_4lu_IEiuxi8sDNB-AKGbhIsFg0DT2YxrNQiTTIk0oy1k-izPmx6z4X0BkPVcDwUQl2CeOZFI2T8gAXGCWYRE-X2_lGqy0Z9PV1ZUceilWd3LB69Yl9miE3g0Psr85FJJBSnGFvQMtwOP56rocbcc-Y77AM4r8FC2iYmFrsFEdZq36sWLVhxL89bU9HaoVot24rhb76Kg1KH6obJ5cLkF5Y6cbQNhOKuTWO7W46_LftwaL9lo01lj_UK5cNEsWJXlV5bRkeYbRRF7OkhJzLCmKIMmyOPyHgjDW13fOeJJdbZdrrpqxWLqU4T2IhqtXwDYc3pyxY28rwqxMyoAWdkqI4llBMz-a0mkeTpMiLf1pYk04uMmbh-ilLcBjw3fuYFfa7WGjlz__uHv8nmIwxvkyaFwGjcugcRk0_oPFl0HjMmhcBo3LoHE-aFj-1C0MfASP3UuZemOOj4af_hFBHx3vYMBYvr54Zcr9_js",
-  "name": "Good night, house",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "good-night-house",
-  "starts_by_itself": true,
-  "starts_by_itself_line": "Every day at 22:30",
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Home scene “Good Night”",
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "dayEnds",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "good-night-house",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7VjbbuM2EP0VQn01A4myLvabLlY3QJsGu0ELtAgKRhpbQiTSIOk4RuB_3yEtO3G2AQoU6ZNtQ5Co4XDOzJkL_OLB81oqA01mvLnHfBZTf0ZZdOf7c_f705ucZColB5RScmM6AWojrmpcmHhLqQZufgelOym8eTDxhDSgvflf9xNv3fP6eK-glqo5PhzUePMXj_e93OpfN73p1j1cC224cJuWvNcw8biq2-4J9B8tiFLaPeOLBgzverTpBqDRhJMvcgCiaxBAatQKDflZyobcdKvWXJHrJdnJjdJkJUGThx3haGgLigg-wITULRcrIJ0hUhDTckO0gTUKNfjUabKV6hEP0Vai01eIvJXycYTTNWhGvAjyoGAZ9fFDp_ZS2ot__AR-jNs6_dtyeQLRI7SsNt1TZ3aFFEbJXluv6Badkq14hz41aoOSbiXn9ePZQgl118DZ0g08m7OF23dKbjfGmWCX9hgvxI_mO18J66sJaeVGA9q65gpfGgwu2rQft__yxuSTXvSV9QWGE99I8fbewkG-fLOBsfd_-_b69lQXIW-_34-ezIvYT8M4oWVSlDSKAkZnVZnQNGVFVmUsDJMcrdNgceRoBJJEdU-8x8Ut0uROft24Y-EJ1O6usye9oPr7N6RBCY2R_ZAwE7Jtu7rFWCMhgMilE8bbwy7HNb5eE71ZrUAb_YZguGVUp1EK2SNWBGy0jySzCiz-A9VQ3LrPUsqhz8psmlUlYg7CFNEnMU2zoqJZloaLlMWhX6U_8EiKEnjTH3PqFASEzJun84xSMHTCZuJIgPdRNp3pbWy-gXGmOjaQRm6Ft5-8U-4sDqMySNKyoIxlEY1KhsbOwoBOq1nBWFVNp0n4qRYr1ISKtEudWoplpwYX8lcwpZQYGpvOW1SFNP4ACyuDgIX-ghZRsKBRuAhoWlU-reJqmqWLYBoH1adiORp82zreIUOk5Y1aIX_4lu_IEiuxi8sDNB-AKGbhIsFg0DT2YxrNQiTTIk0oy1k-izPmx6z4X0BkPVcDwUQl2CeOZFI2T8gAXGCWYRE-X2_lGqy0Z9PV1ZUceilWd3LB69Yl9miE3g0Psr85FJJBSnGFvQMtwOP56rocbcc-Y77AM4r8FC2iYmFrsFEdZq36sWLVhxL89bU9HaoVot24rhb76Kg1KH6obJ5cLkF5Y6cbQNhOKuTWO7W46_LftwaL9lo01lj_UK5cNEsWJXlV5bRkeYbRRF7OkhJzLCmKIMmyOPyHgjDW13fOeJJdbZdrrpqxWLqU4T2IhqtXwDYc3pyxY28rwqxMyoAWdkqI4llBMz-a0mkeTpMiLf1pYk04uMmbh-ilLcBjw3fuYFfa7WGjlz__uHv8nmIwxvkyaFwGjcugcRk0_oPFl0HjMmhcBo3LoHE-aFj-1C0MfASP3UuZemOOj4af_hFBHx3vYMBYvr54Zcr9_js"
+  },
+  "colour" : "indigo",
+  "description" : "Needs a Home scene called Good Night. If yours goes by another name, change it on that step and this works as it is.",
+  "name" : "Good night, house",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Runs the scene called Good Night, which is one of the ones the Home app suggests. If yours is called something else, change the name on this step.",
-      "does_itself": true,
-      "does_itself_line": "Runs the Home scene Good Night",
-      "duration_seconds": null,
-      "title": "Set the house down"
+      "description" : "Runs the scene called Good Night, which is one of the ones the Home app suggests. If yours is called something else, change the name on this step.",
+      "does" : [
+        {
+          "scene" : "Good Night"
+        }
+      ],
+      "title" : "Set the house down"
     },
     {
-      "asks_first": true,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Doors and windows"
+      "title" : "Doors and windows"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Phone on to charge, away from the bed"
+      "title" : "Phone on to charge, away from the bed"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Alarm set for the hour you meant, not the hour you hope for"
+      "title" : "Alarm set for the hour you meant, not the hour you hope for"
     }
   ],
-  "tint": "#5E5CE6"
+  "symbol" : "moon.stars",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "22:30"
+      }
+    }
+  ]
 }

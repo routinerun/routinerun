@@ -1,0 +1,48 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "pomodoro-four-rounds",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Vdbj5s6EP4rFuc1rAghBNInLkFnpXPa1dHqVOpqH7xgghXAyB6Wjar89465NellVanqPgVFke0ZDzPfNxfx2WAvjZDAsgCMrWFbtmtavmmv7y1r2_8-GYtZJ5GiQi0pWuA1k219k-LBwsiFrCj8z6Tioja2y4VRC2DK2D48LoympOm0liwVMps2gxlj-9mgZSk69W9bAm9KdlsroHV_KaelYguDyrTgz0x9LFgdC31nFGQMKC_Rp_uO1XA0c9QiFa9bfP2C9DuR57gSrSTAK30KaIRQUop6T9DWDbkF1cukIpLRtCBH0ZKOQ4FaKZXZO6IYaFUCgnT0wHoFnmtLpCm0oONlSZ4YyTFWkomuvkFYCiEOY6w8Qx_d3TJcRnZgWviYjv6L9Z81Pba1wWtcfcjzOcISYwhS4M8cjpGoQYpSachUgYgFe8oRcJAtavYnIU0PFwcxS3nGLo7esxe4OLj7xshdC70L-uiEZNIKDRh3ohKZkGJEE-mrkUokmEpUAIQP_Tr1vGoB-pgP-RJHseu5dmImu5VlrqMoMQN745jRxrcSL3Q829FxQ4E39wVeCPylu4m82AwtFy_Eydr0XGtlBu5q5bixu8NHX9B8GlvnNLr9zxlUczzAGs0B5hhKRD3yMefNBySv5DoL7pHMwXVCJSNpwWjzjmQaPo6Z0hUUNOHHXooZT7gaEoBKLUDpnmEiqQNvGpZp_nvS_dCKNyt3Zy6jJMJY_I0ZhpgDTuQk4dqN_XDnfEe6qGNGs3KqjnPPafZ8WRuSYb5rvEe2vqUDOJSavo-SA5vDOOdwisg4LX4G0w_KCwtiCLsvjAIxuiFBfexXhKFrgxQ7BOq2zYBOh04Alp8ukQXBLoErBB8ByFpJYWgfa8sawfvFzPnz4CUibdUr-AQdPRKd7oTDWSoRmqMtbCNP2FgOfdsY82PKnkFtSB-BQD2h58dLPFYzHL9YF28Ax9hYX0Ek4Rg6Mj03Y6rhmGHSsWdMHfpKwk11GbM_x7wLEtfyvJ3pRjbGnCSuGSx92_TWyzjx49gOA-9NYtakTjPDOD2OrSVk-uxe7HBu_NfWs1V1rJ5E-X7onP1w0Q2L7m_j0Q8cffA3e0HpX0my2qwTLZd8v-9f_PB4mgfk2L6uI_I6Iq8j8o-W-HVE_gZ41xF5HZFvPCL1G7AJVXS8gC1OQtrCtAU6f4Wi3WnFKvwk_So4N_gF"
+  },
+  "colour" : "pink",
+  "description" : "Twenty-five minutes, five off, four times, then a long one. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Pomodoro, four rounds",
+  "rounds" : {
+    "from" : 2,
+    "repeats" : 4,
+    "through" : 3
+  },
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "One line. The rounds are cheap; deciding what they are for is the part that gets skipped.",
+      "title" : "Write what the four rounds are for"
+    },
+    {
+      "description" : "Twenty-five minutes on that one thing. Anything else that comes up gets written down, not done.",
+      "minutes" : 25,
+      "title" : "Focus"
+    },
+    {
+      "description" : "Away from it. The round after a break you skipped is the round that goes badly.",
+      "minutes" : 5,
+      "title" : "Five off"
+    },
+    {
+      "description" : "Fifteen minutes, and away from the desk for them.",
+      "minutes" : 15,
+      "title" : "The long one"
+    }
+  ],
+  "symbol" : "timer"
+}

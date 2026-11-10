@@ -23,7 +23,7 @@ Tap anywhere else and the app opens on that run. Press and hold the Dynamic Isla
 | Resume | On a paused run, in place of Next, with Again and Decide later gone |
 | Again, as a new run | On the card a finished run leaves for a few minutes |
 
-**Decide later** leaves the step where it is, moves the run on past it, and puts a question about it in In hand: **Now** or **Skip**. Unanswered, the run comes back to it at the end, in its place. See [Pause, Later and Last](pause-later-last.md).
+**Decide later** leaves the step where it is, moves the run on past it, and puts a question about it in In hand: **Now** or **Skip**. Unanswered, the run comes back for it at the end. See [Pause, Later and Last](pause-later-last.md).
 
 Back and Stop are never on a card. Stop is on the run's page.
 

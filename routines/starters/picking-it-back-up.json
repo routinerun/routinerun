@@ -1,45 +1,35 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": null,
-  "first_shelf": false,
-  "glyph": "arrow.uturn.backward",
-  "group": "work",
-  "group_line": "Getting into a piece of work, and putting it down properly.",
-  "group_name": "Work and focus",
-  "link_web": "https://routinerun.com/r?v=1&d=7Vbfj5swDP5XIvawl1IBhbbXN9oUbdJ-nG6nTdp0DymYEh0kKDHXq6b-73M42l03bXuZpj0UoSjYjv35i23x1YPHVhuEIkVv4UVBNPWDKz9KboNg0b-fvdHJJjO6ISujO5QKTKfGOQlGXqlNI_AjGCu18hbhyFMawXqLL3cjr61FftwbyLUpjh9PbrzFV0_Utd7Zt12Nsq3htbIoVH-oFLWFkSdMXskHsJ8qUFy7M4Oi0vp-cCcLgjZdh8twFaV-QI8fu4W7JTg-UZAQYGnfl-XJSU2u0xzlg8T9Sis0urYOla0IVLoVknJC05FlL1mK_P5MwCGXBZyJ3sEjngmuf3By3WEPwYkOxJdoyIF3LfN7qbZMIttQFNa1BLYVhrRI7BKow3D-zTPMJ8cIrSOD-CSNVgMxBaCQNXlfAl0UMN2CckGE2mPlNkAsjNlbMmKlNBZJU7C97pgg6502PSStmNUNbHSx7w-8tKzRxjkaewP5cZpE0Xqy8mdZxP1kxjM_zWJa-JzP1sswTpL4J_K14iCK-lgIz4GL4uG8DAw0UrnyGVj7kRmUWDsab8gj21UC-yxqKPuNsVCX3mH0K3puK2CuQKn6TNdbMOmSJEJ0yZC0-bAXpFEU1nStMxv1hNGdkXkp6BYMs62-B0WHyNQQmhNHkyCZLUOe-lkWz_0knaT-PFyu_FU4C-OMr5JVwv8JRx_EnlEDslp3jiugq6YMLOq2heI3LH0iWuGBUuzzHbMluOroq1WqvnBBoKXViY3cVlROGxfoKQZq4oPa2-B3SiZ8PY_nMz-Z89hPplPuz6N04l9F62kYBnEYr-b_hBKu-1u2DY0jwsgUNTHrW8Q73A3ttYRaq-2tXou8uunUKYbdNxtdv3tqY2GM3o077IwaO2Z2whSUAYrtaz6ApMmHr-CRjF9MYx5lmdMTXdse1Ze7w2k-Dh19mZCXCfn3Sv0yIf_M0WVC_t8T0gXMK2jEcIC63mDe4fETxekflPwed9DQD-l3xXOH3wA",
-  "name": "Picking it back up",
-  "release": 2,
-  "shortcuts": [],
-  "slug": "picking-it-back-up",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "release" : 2,
+    "shortcuts" : [
+
+    ],
+    "slug" : "picking-it-back-up",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Vbfj5swDP5XIvawl1IBhbbXN9oUbdJ-nG6nTdp0DymYEh0kKDHXq6b-73M42l03bXuZpj0UoSjYjv35i23x1YPHVhuEIkVv4UVBNPWDKz9KboNg0b-fvdHJJjO6ISujO5QKTKfGOQlGXqlNI_AjGCu18hbhyFMawXqLL3cjr61FftwbyLUpjh9PbrzFV0_Utd7Zt12Nsq3htbIoVH-oFLWFkSdMXskHsJ8qUFy7M4Oi0vp-cCcLgjZdh8twFaV-QI8fu4W7JTg-UZAQYGnfl-XJSU2u0xzlg8T9Sis0urYOla0IVLoVknJC05FlL1mK_P5MwCGXBZyJ3sEjngmuf3By3WEPwYkOxJdoyIF3LfN7qbZMIttQFNa1BLYVhrRI7BKow3D-zTPMJ8cIrSOD-CSNVgMxBaCQNXlfAl0UMN2CckGE2mPlNkAsjNlbMmKlNBZJU7C97pgg6502PSStmNUNbHSx7w-8tKzRxjkaewP5cZpE0Xqy8mdZxP1kxjM_zWJa-JzP1sswTpL4J_K14iCK-lgIz4GL4uG8DAw0UrnyGVj7kRmUWDsab8gj21UC-yxqKPuNsVCX3mH0K3puK2CuQKn6TNdbMOmSJEJ0yZC0-bAXpFEU1nStMxv1hNGdkXkp6BYMs62-B0WHyNQQmhNHkyCZLUOe-lkWz_0knaT-PFyu_FU4C-OMr5JVwv8JRx_EnlEDslp3jiugq6YMLOq2heI3LH0iWuGBUuzzHbMluOroq1WqvnBBoKXViY3cVlROGxfoKQZq4oPa2-B3SiZ8PY_nMz-Z89hPplPuz6N04l9F62kYBnEYr-b_hBKu-1u2DY0jwsgUNTHrW8Q73A3ttYRaq-2tXou8uunUKYbdNxtdv3tqY2GM3o077IwaO2Z2whSUAYrtaz6ApMmHr-CRjF9MYx5lmdMTXdse1Ze7w2k-Dh19mZCXCfn3Sv0yIf_M0WVC_t8T0gXMK2jEcIC63mDe4fETxekflPwed9DQD-l3xXOH3wA"
+  },
+  "colour" : "#64D2FF",
+  "name" : "Picking it back up",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Before opening anything else. Mail first and you are working on somebody else's morning.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Read what you left yourself"
+      "description" : "Before opening anything else. Mail first and you are working on somebody else's morning.",
+      "title" : "Read what you left yourself"
     },
     {
-      "asks_first": false,
-      "detail": "The reconstruction is most of the cost of an interruption, and it is faster spoken than read.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Say out loud where it stopped"
+      "description" : "The reconstruction is most of the cost of an interruption, and it is faster spoken than read.",
+      "title" : "Say out loud where it stopped"
     },
     {
-      "asks_first": false,
-      "detail": "Whatever it is. Being back in it beats being right about where to restart.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Do the smallest next thing"
+      "description" : "Whatever it is. Being back in it beats being right about where to restart.",
+      "title" : "Do the smallest next thing"
     }
   ],
-  "tint": "#64D2FF"
+  "symbol" : "arrow.uturn.backward"
 }

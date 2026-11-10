@@ -1,0 +1,18 @@
+{
+  "name": "@routinerun/form",
+  "version": "0.1.0",
+  "description": "Check and upgrade routines written for Routine Run, in form 1 or form 2.",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./schema/v1": "./schema/written-routine.v1.schema.json",
+    "./schema/v2": "./schema/written-routine.v2.schema.json"
+  },
+  "bin": {
+    "routinerun": "./bin/routinerun.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}

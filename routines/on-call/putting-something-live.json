@@ -1,63 +1,45 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": false,
-  "glyph": "shippingbox",
-  "group": "onCall",
-  "group_line": "Something pages you at an hour you did not choose.",
-  "group_name": "Being on call",
-  "link_web": "https://routinerun.com/r?v=1&d=7Vfbbts4EP0VQvtqGbpf3CddbGyA3W6xG2yALfLASCOLCEUKJGUnKPzvHSqym7RoHxZonywYsjQkh4dnZs5Anxx4GqUy0BbG2TiBFySul7tBfOt5m_n3n7O6zNkpOeAsJSfDBKhJrBs0rJxOqoGaf0FpJoWz8VeOkAa0s_l4v3JGTpvzs4JGqvb88uLG2XxyKOfyqP-cuGEjhxuhDRXzIqMmWDlUNT07gL7rQdTSLuko1zjQgqGMI6Qbo4lhAyIgCmjTk2c5kSMzPaGkoap9RzQYgkuJkeRIH2GewDpieiBjbweOjHPyAKRDuKSVR7HGk_VSPi5wWYv7JFu_9KugcD283MjeanvzvlwRLmP6r667oOSIvWgMOzDzXElhlOTanlr3eOhiT5k4H3S2lLR5fGOooWEtvDG9hyfzxvDhKycfJjNDsKYTxoMO6MBBK1K-J1oOYHr7ZLEh4JEqnGGQPwR2Wnz88Qr3xbmB0RKCMcMRKRZyLoG4U8wYEEgkJgWsCCYCoR06XpPC_h0xGJrAAdQz2Ss69oRbihEHxoQZjI0mA1BhbKBaifGhxgZiZj9MwtDP0tRNg13sxtsidvMsq1yv3mVlWEZZkdffsC9FDbTl50x7jZq2hyXPlrkKBiZafaHta1oMM9zy-A99JkdENmcRVgc0M96mp2IPzmn1PXZuj-dJmjBBXtJOYLIRpuc3Jmyo8fRz7hqcridt3esLCbt4l_tJFblenGduXNSBm-Vp4PpFnCU-DqWF_0tIqHpoHpEGSQDX2RPono0jZtW3DMzIfc_bBruqcINd6iPyIHdzv8YKSuogLMI6CqL8pyJHaWjRkZ6rr5GiY2qwI68jC6LFPPxBDLEiJtQrTABqmn5NbnurGYxPCoNq05WgFuKexNYQmUZkiPEXvaEKiDZWZ2bZQVxSzAQ2VJAJ8wB3tnFuJ0XNLKWJ5y3k5YVfpGkQuVmQpW4cR6Wbbf0t0phUaViF26Ssfip5Z4bu7LFtqWKBE1vquGyyav99ykpphRgP3yGSNbmzJGG6WG2wFvvMgR6sHqHfnvKOYG8gFEOxl9aKtcUngWxflKCsynS7C900zwM3DgsfecFblERZuKuirKy8X8KGVQI2n6bF-l0R5ATlnVvbg9Xx0_2imSVwKfa3covd6e9JXDbSz8OD5O9f9PlcQA_yCdEbur-pF4Ao2-Z3eMI5v4Ve7ceZHVdsv58Rfbw_Xfrpos7XjnrtqNeOeu2o14567ajXjvp_Oqrdp-lhoMsCzD5lmsmcXw29fOOi3_MTDPjB-2XgtcPP",
-  "name": "Putting something live",
-  "release": 2,
-  "shortcuts": [],
-  "slug": "putting-something-live",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "onCall",
+    "licence" : "CC-BY-4.0",
+    "release" : 2,
+    "shortcuts" : [
+
+    ],
+    "slug" : "putting-something-live",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Vfbbts4EP0VQvtqGbpf3CddbGyA3W6xG2yALfLASCOLCEUKJGUnKPzvHSqym7RoHxZonywYsjQkh4dnZs5Anxx4GqUy0BbG2TiBFySul7tBfOt5m_n3n7O6zNkpOeAsJSfDBKhJrBs0rJxOqoGaf0FpJoWz8VeOkAa0s_l4v3JGTpvzs4JGqvb88uLG2XxyKOfyqP-cuGEjhxuhDRXzIqMmWDlUNT07gL7rQdTSLuko1zjQgqGMI6Qbo4lhAyIgCmjTk2c5kSMzPaGkoap9RzQYgkuJkeRIH2GewDpieiBjbweOjHPyAKRDuKSVR7HGk_VSPi5wWYv7JFu_9KugcD283MjeanvzvlwRLmP6r667oOSIvWgMOzDzXElhlOTanlr3eOhiT5k4H3S2lLR5fGOooWEtvDG9hyfzxvDhKycfJjNDsKYTxoMO6MBBK1K-J1oOYHr7ZLEh4JEqnGGQPwR2Wnz88Qr3xbmB0RKCMcMRKRZyLoG4U8wYEEgkJgWsCCYCoR06XpPC_h0xGJrAAdQz2Ss69oRbihEHxoQZjI0mA1BhbKBaifGhxgZiZj9MwtDP0tRNg13sxtsidvMsq1yv3mVlWEZZkdffsC9FDbTl50x7jZq2hyXPlrkKBiZafaHta1oMM9zy-A99JkdENmcRVgc0M96mp2IPzmn1PXZuj-dJmjBBXtJOYLIRpuc3Jmyo8fRz7hqcridt3esLCbt4l_tJFblenGduXNSBm-Vp4PpFnCU-DqWF_0tIqHpoHpEGSQDX2RPono0jZtW3DMzIfc_bBruqcINd6iPyIHdzv8YKSuogLMI6CqL8pyJHaWjRkZ6rr5GiY2qwI68jC6LFPPxBDLEiJtQrTABqmn5NbnurGYxPCoNq05WgFuKexNYQmUZkiPEXvaEKiDZWZ2bZQVxSzAQ2VJAJ8wB3tnFuJ0XNLKWJ5y3k5YVfpGkQuVmQpW4cR6Wbbf0t0phUaViF26Ssfip5Z4bu7LFtqWKBE1vquGyyav99ykpphRgP3yGSNbmzJGG6WG2wFvvMgR6sHqHfnvKOYG8gFEOxl9aKtcUngWxflKCsynS7C900zwM3DgsfecFblERZuKuirKy8X8KGVQI2n6bF-l0R5ATlnVvbg9Xx0_2imSVwKfa3covd6e9JXDbSz8OD5O9f9PlcQA_yCdEbur-pF4Ao2-Z3eMI5v4Ve7ceZHVdsv58Rfbw_Xfrpos7XjnrtqNeOeu2o14567ajXjvp_Oqrdp-lhoMsCzD5lmsmcXw29fOOi3_MTDPjB-2XgtcPP"
+  },
+  "colour" : "green",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Putting something live",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Written before, not after. Afterwards every graph looks like it was meant to do that.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Say what you expect to change"
+      "description" : "Written before, not after. Afterwards every graph looks like it was meant to do that.",
+      "title" : "Say what you expect to change"
     },
     {
-      "asks_first": false,
-      "detail": "Two changes in one window is one incident with two suspects.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Check who else is shipping"
+      "description" : "Two changes in one window is one incident with two suspects.",
+      "title" : "Check who else is shipping"
     },
     {
-      "asks_first": true,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Send it"
+      "title" : "Send it"
     },
     {
-      "asks_first": false,
-      "detail": "Actually watch. The failures that matter show up while you are still the person who can undo it.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 600,
-      "title": "Watch it for ten minutes"
+      "description" : "Actually watch. The failures that matter show up while you are still the person who can undo it.",
+      "minutes" : 10,
+      "title" : "Watch it for ten minutes"
     },
     {
-      "asks_first": false,
-      "detail": "Both are fine. What is not fine is leaving it half out and going to lunch.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Say it is done, or roll it back"
+      "description" : "Both are fine. What is not fine is leaving it half out and going to lunch.",
+      "title" : "Say it is done, or roll it back"
     }
   ],
-  "tint": "#30D158"
+  "symbol" : "shippingbox"
 }

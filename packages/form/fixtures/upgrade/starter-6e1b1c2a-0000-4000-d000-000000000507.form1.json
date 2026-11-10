@@ -1,0 +1,14 @@
+{
+  "about" : "Videos and talks to watch later. In YouTube or Safari, press Share, choose Routine Run, then To watch, and each link becomes a step that opens it. It never closes, and it waits when it is empty.",
+  "colour" : "red",
+  "name" : "To watch",
+  "routineRun" : 1,
+  "staysOpen" : true,
+  "steps" : [
+    {
+      "about" : "Anywhere there is a Share button: press it, choose Routine Run, then To watch. It arrives as a step, after whatever is waiting. Press Next when you have tried it.",
+      "title" : "Send the first one here"
+    }
+  ],
+  "symbol" : "play.rectangle"
+}

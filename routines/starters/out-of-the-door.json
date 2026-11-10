@@ -1,45 +1,33 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": null,
-  "first_shelf": true,
-  "glyph": "figure.walk.departure",
-  "group": "dayEnds",
-  "group_line": "The first half hour of a day and the last one.",
-  "group_name": "Mornings and evenings",
-  "link_web": "https://routinerun.com/r?v=1&d=7VZNb5tAEP0raHtlLbANxr7xYdSobRJVUSM1ymENi1l52bWWIY4V-b9nIODaSQ89NDcjhJaZncd7M7MjXgh_3moDPA-BLMjYGfvUmdOxd-c4i-7-TezjntToCncZ3YBQ3DRqlKHBJoU2FYNf3NRCK7JwbaI08JosHh5tspUsG9aGZ9rkw8sbDFm8ECal3tU_GgliK_mVqoGpLqhgsuY2YSYrxROv70uuEt3G9I5S600PJ3Kk5i_dyI3HIXXwotP2kbQPZ7hcZ4KERX1TFEcQidBhBuJJwD7WCoyWdcuqLpFUuGYCNYFpcGdniVi2OTMkPBM5PzNd82c4M9y-A7ltoKPQmg6YL1YhALlpwNKFBSW3cq0NMt0ygy7A1CKjQx_8_YTwERX4ts0EJhM9Wp1mxU0dz5-mDp1404h6fjCl8ygN6Cz1J07qu37gBh-yolXCWS6HCp2CsvzpvD6GV0K1de3lvGdtEAmB6i6tmVaFMFXrQRcIkK30b3xf29YOO4GDbW3LtsoH-29qUm8WRL6X0mk4n1FvOo7pPJ3FdBnM4ngZevMgjj5VzUA5VHsohVpbe91YWzwboua5BdpaGbR-ZJ9zYEJi4B3WF3a6i9sJKa0WZmOxlW7rr7r6g8G-szQuzQ5xR6RXH3hJHDlJSLF0AfWSuUNDfzahgRO7UegkbhgtP1X9P9TyHgGwTS2m8k5LqVfk8Nj3aMSlVus7vWRZ-bNRx-_W-2ql5fXbQSjEujF8hO2wGeUcKQC-oixg66ukZ47DA77yZ9z9ZYK6vbaFwYj1uqP68Hg4jpj-XFyGzGXIXIbMZcj81yHTfjErecX6ADw7BrIGhldgxz8hxB1WvMLfoj-OU8BX",
-  "name": "Out of the door",
-  "release": 1,
-  "shortcuts": [],
-  "slug": "out-of-the-door",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : true,
+    "group" : "dayEnds",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "out-of-the-door",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VZNb5tAEP0raHtlLbANxr7xYdSobRJVUSM1ymENi1l52bWWIY4V-b9nIODaSQ89NDcjhJaZncd7M7MjXgh_3moDPA-BLMjYGfvUmdOxd-c4i-7-TezjntToCncZ3YBQ3DRqlKHBJoU2FYNf3NRCK7JwbaI08JosHh5tspUsG9aGZ9rkw8sbDFm8ECal3tU_GgliK_mVqoGpLqhgsuY2YSYrxROv70uuEt3G9I5S600PJ3Kk5i_dyI3HIXXwotP2kbQPZ7hcZ4KERX1TFEcQidBhBuJJwD7WCoyWdcuqLpFUuGYCNYFpcGdniVi2OTMkPBM5PzNd82c4M9y-A7ltoKPQmg6YL1YhALlpwNKFBSW3cq0NMt0ygy7A1CKjQx_8_YTwERX4ts0EJhM9Wp1mxU0dz5-mDp1404h6fjCl8ygN6Cz1J07qu37gBh-yolXCWS6HCp2CsvzpvD6GV0K1de3lvGdtEAmB6i6tmVaFMFXrQRcIkK30b3xf29YOO4GDbW3LtsoH-29qUm8WRL6X0mk4n1FvOo7pPJ3FdBnM4ngZevMgjj5VzUA5VHsohVpbe91YWzwboua5BdpaGbR-ZJ9zYEJi4B3WF3a6i9sJKa0WZmOxlW7rr7r6g8G-szQuzQ5xR6RXH3hJHDlJSLF0AfWSuUNDfzahgRO7UegkbhgtP1X9P9TyHgGwTS2m8k5LqVfk8Nj3aMSlVus7vWRZ-bNRx-_W-2ql5fXbQSjEujF8hO2wGeUcKQC-oixg66ukZ47DA77yZ9z9ZYK6vbaFwYj1uqP68Hg4jpj-XFyGzGXIXIbMZcj81yHTfjErecX6ADw7BrIGhldgxz8hxB1WvMLfoj-OU8BX"
+  },
+  "colour" : "green",
+  "name" : "Out of the door",
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": true,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Keys, wallet, phone"
+      "title" : "Keys, wallet, phone"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Anything you promised to bring"
+      "title" : "Anything you promised to bring"
     },
     {
-      "asks_first": true,
-      "detail": "The two you will think about on the train otherwise.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Windows and the hob"
+      "description" : "The two you will think about on the train otherwise.",
+      "title" : "Windows and the hob"
     }
   ],
-  "tint": "#30D158"
+  "symbol" : "figure.walk.departure"
 }

@@ -1,0 +1,96 @@
+{
+  "colour" : "blue",
+  "dates" : [
+    {
+      "name" : "Departure",
+      "on" : "2026-11-14"
+    }
+  ],
+  "description" : "A routine that uses every key form 2 renames.",
+  "name" : "Every key that moved",
+  "rounds" : {
+    "from" : 2,
+    "repeats" : 4,
+    "through" : 3
+  },
+  "routineRun" : 2,
+  "startsFrom" : [
+    {
+      "at" : "19:00",
+      "date" : "Departure",
+      "days" : -3
+    }
+  ],
+  "steps" : [
+    {
+      "deadline" : {
+        "by" : "09:00",
+        "late" : "ask",
+        "tellMe" : "alarm",
+        "warn" : {
+          "hours" : 2
+        }
+      },
+      "description" : "Words.",
+      "repeats" : 3,
+      "title" : "By a time"
+    },
+    {
+      "deadline" : {
+        "day" : 2,
+        "startBy" : "08:30",
+        "tellMe" : "notification"
+      },
+      "title" : "Begun by"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "date" : "Departure",
+          "days" : -1,
+          "hours" : 19
+        },
+        "tellMe" : "reminders"
+      },
+      "title" : "From a date"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : -3,
+          "value" : "appointment"
+        }
+      },
+      "title" : "From a value"
+    },
+    {
+      "deadline" : {
+        "within" : {
+          "minutes" : 60
+        }
+      },
+      "minutes" : 50,
+      "title" : "Within",
+      "waitsOut" : true
+    }
+  ],
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "07:00",
+        "weekdays" : [
+          "mon",
+          "fri"
+        ]
+      }
+    },
+    {
+      "when" : {
+        "at" : "18:30"
+      }
+    }
+  ],
+  "values" : {
+    "appointment" : "2026-11-20 10:00"
+  }
+}

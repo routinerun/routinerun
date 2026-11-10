@@ -1,29 +1,29 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [],
-  "description": "Articles to read later. In Safari, press Share, choose Routine Run, then To read, and each link becomes a step that opens it. Read them in any order: Now brings one forward, and Skip lets one go.",
-  "first_shelf": false,
-  "glyph": "book",
-  "group": "making",
-  "group_line": "Reading, writing and shooting: work that comes in stages.",
-  "group_name": "Learning and making",
-  "link_web": "https://routinerun.com/r?v=1&d=7VbBbtpAEP2VkXu1kUExBW4GEjVSm0QhaqVGOSz2YK9Y71q7YwiK-PfOGkMgPfRexbJW65md5-f3ZiS_BfhaG0uYpxRMgkE8GEbxOBokT3E8ae_fQXg6c2NNxaesaUhqtI3uZRwIg5WxlaCfaJ00Opj0w0AbQhdMnl_CoFYiO-4tZsbmx4cDTDB5C4RSZut-NIpkrfBWOxK6LVoJ5TAMhM1KuUH3q0Q9N76mS-RIQirmlFqSmUIHZMCiyEEJQtuDWw0LsRJWhlBbdA4WpbAYQlYa4xAeDxzgsdEhEKPD06E-BKFzQJGVoKRew5KZVwwvwBHWfFQQmBq1A0k9ePRv5PIKpObCHfBXop3AndnC0kpdOGDWwDpthe2wF2tZg0I6pArTYyGZ1LpTR-b8VcPr_rQ_G6RRzFd05Ze5X-LjlcRDLpPufrU6aaJYqTQjuZG0mxlN1ijnRXYla5wWQrJFZBs-2UamIltfBOaYyRwvQnf4SheBhw8gDw21FHxoz_aLigGCTktmWAvLIXbEM9l3Rd_PiJ7QSOzcPQv7HsDaS8JNwkeN7uR5N17vtiVa9PLzKr1FrcewbIiMnnS-S_q36dwuBMJa32ogjmazXStmDlv2HDe84XdshWSIogcPLbjXh_OMtDMNlGLDdKzE3DdH0HmZTGfJKE7G0aifjKJkfD2KxuOkH6XpcDodzwbD4dXXv7w0es681HFMzhUQ-eZySCxWUvvh6kz4qDlJUt6VBeq2WWElraO2-7x0wf6lU3uKyujiyVxz97NGJyd21dKou4O1S-5UZkuiuJ13hFgQ-oavnPwSp6Ormxuft7IoWgbPL_vTyHd-fg7959B_Dv1_PvQeP-MhEV0BN4GlrKHjI4nTnwLjHndY1eoscQ74Bw",
-  "name": "To read",
-  "release": 4,
-  "shortcuts": [],
-  "slug": "to-read",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "making",
+    "licence" : "CC-BY-4.0",
+    "release" : 4,
+    "shortcuts" : [
+
+    ],
+    "slug" : "to-read",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VbBbtpAEP2VkXu1kUExBW4GEjVSm0QhaqVGOSz2YK9Y71q7YwiK-PfOGkMgPfRexbJW65md5-f3ZiS_BfhaG0uYpxRMgkE8GEbxOBokT3E8ae_fQXg6c2NNxaesaUhqtI3uZRwIg5WxlaCfaJ00Opj0w0AbQhdMnl_CoFYiO-4tZsbmx4cDTDB5C4RSZut-NIpkrfBWOxK6LVoJ5TAMhM1KuUH3q0Q9N76mS-RIQirmlFqSmUIHZMCiyEEJQtuDWw0LsRJWhlBbdA4WpbAYQlYa4xAeDxzgsdEhEKPD06E-BKFzQJGVoKRew5KZVwwvwBHWfFQQmBq1A0k9ePRv5PIKpObCHfBXop3AndnC0kpdOGDWwDpthe2wF2tZg0I6pArTYyGZ1LpTR-b8VcPr_rQ_G6RRzFd05Ze5X-LjlcRDLpPufrU6aaJYqTQjuZG0mxlN1ijnRXYla5wWQrJFZBs-2UamIltfBOaYyRwvQnf4SheBhw8gDw21FHxoz_aLigGCTktmWAvLIXbEM9l3Rd_PiJ7QSOzcPQv7HsDaS8JNwkeN7uR5N17vtiVa9PLzKr1FrcewbIiMnnS-S_q36dwuBMJa32ogjmazXStmDlv2HDe84XdshWSIogcPLbjXh_OMtDMNlGLDdKzE3DdH0HmZTGfJKE7G0aifjKJkfD2KxuOkH6XpcDodzwbD4dXXv7w0es681HFMzhUQ-eZySCxWUvvh6kz4qDlJUt6VBeq2WWElraO2-7x0wf6lU3uKyujiyVxz97NGJyd21dKou4O1S-5UZkuiuJ13hFgQ-oavnPwSp6Ormxuft7IoWgbPL_vTyHd-fg7959B_Dv1_PvQeP-MhEV0BN4GlrKHjI4nTnwLjHndY1eoscQ74Bw"
+  },
+  "colour" : "blue",
+  "description" : "Articles to read later. In Safari, press Share, choose Routine Run, then To read, and each link becomes a step that opens it. Read them in any order: Now brings one forward, and Skip lets one go.",
+  "name" : "To read",
+  "routineRun" : 2,
+  "staysOpen" : true,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": "Anywhere there is a Share button: press it, choose Routine Run, then To read. It arrives as a step, after whatever is waiting. Press Next when you have tried it.",
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": null,
-      "title": "Send the first one here"
+      "description" : "Anywhere there is a Share button: press it, choose Routine Run, then To read. It arrives as a step, after whatever is waiting. Press Next when you have tried it.",
+      "title" : "Send the first one here"
     }
   ],
-  "tint": "#0A84FF"
+  "symbol" : "book"
 }

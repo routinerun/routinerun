@@ -1,0 +1,23 @@
+{
+  "about" : "It comes round on its own once a month, which it can only do while notifications are allowed.",
+  "colour" : "#2E7D4F",
+  "name" : "The bills this month",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "title" : "What went out that you did not expect"
+    },
+    {
+      "about" : "The one question that pays for itself. It is never nothing.",
+      "title" : "Anything charging you for a thing you stopped using"
+    },
+    {
+      "title" : "What is due before the next one of these"
+    },
+    {
+      "about" : "Five changes is a budget nobody keeps. One is a habit by March.",
+      "title" : "One change, not five"
+    }
+  ],
+  "symbol" : "creditcard"
+}

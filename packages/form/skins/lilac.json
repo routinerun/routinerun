@@ -1,0 +1,46 @@
+{
+  "skin": 1,
+  "name": "Lilac",
+  "audience": "A cool lavender ground, a book's type for names and a plum verb: quieter than Blush.",
+  "light": {
+    "page": "#F1EEF6",
+    "card": "#FDFCFF",
+    "ink": "#1F1A26",
+    "ink2": "rgba(70, 60, 90, 0.62)",
+    "ink3": "rgba(70, 60, 90, 0.3)",
+    "line": "rgba(70, 60, 90, 0.14)",
+    "fill": "rgba(120, 110, 150, 0.12)",
+    "accent": "#8E3B7A",
+    "unanswered": "#FF9500"
+  },
+  "dark": {
+    "page": "#121018",
+    "card": "#1F1C27",
+    "ink": "#F1EDF7",
+    "ink2": "rgba(241, 237, 247, 0.62)",
+    "ink3": "rgba(241, 237, 247, 0.3)",
+    "line": "rgba(241, 237, 247, 0.12)",
+    "fill": "rgba(241, 237, 247, 0.12)",
+    "accent": "#E58BCB",
+    "unanswered": "#FF9F0A"
+  },
+  "rows": {
+    "padding": 11,
+    "minHeight": 50,
+    "radius": 18,
+    "detailLines": 2,
+    "layout": "twoLines"
+  },
+  "type": {
+    "title": {
+      "family": "serif",
+      "weight": 500,
+      "size": 14
+    },
+    "detail": {
+      "family": "system",
+      "weight": 400,
+      "size": 11.5
+    }
+  }
+}

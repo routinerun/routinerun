@@ -1,0 +1,37 @@
+{
+  "about" : "The exercises somebody gave you, at the three times you will otherwise miss. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "blue",
+  "name" : "Physio, three times a day",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Slowly. The point is the range, not the effort.",
+      "times" : 10,
+      "title" : "The first one"
+    },
+    {
+      "times" : 10,
+      "title" : "The second one"
+    },
+    {
+      "minutes" : 0.5,
+      "title" : "Hold the last one"
+    },
+    {
+      "about" : "One word is enough. Three weeks of one word is the thing a physiotherapist actually asks for.",
+      "title" : "Say how it felt"
+    }
+  ],
+  "symbol" : "figure.cooldown",
+  "times" : [
+    {
+      "at" : "08:30"
+    },
+    {
+      "at" : "13:00"
+    },
+    {
+      "at" : "19:30"
+    }
+  ]
+}

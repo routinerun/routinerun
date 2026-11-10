@@ -1,0 +1,75 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "handsFree",
+    "licence" : "CC-BY-4.0",
+    "release" : 6,
+    "shortcuts" : [
+
+    ],
+    "slug" : "the-button-one-press-at-a-time",
+    "startsByItself" : false
+  },
+  "colour" : "indigo",
+  "description" : "For an iPhone with an Action button. Put the control on it first: Settings › Action Button › Controls, then In hand under Routine Run. Starting this puts a card on your Lock Screen, which is what the button acts on — then put the phone down and press the side button. Each step marks something different, and most of them also move you on.",
+  "name" : "The button, one press at a time",
+  "once" : true,
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "buttons" : [
+        {
+          "say" : "This is the Action button. You are on the first step."
+        },
+        {
+          "run" : "next"
+        }
+      ],
+      "description" : "Do not unlock anything. A press acts on the step in hand of the run you have pinned, and says so out loud — then moves you to the next step. That is the whole idea: the phone stays where it is.",
+      "symbol" : "speaker.wave.2",
+      "title" : "Press the side button"
+    },
+    {
+      "buttons" : [
+        {
+          "run" : "next"
+        }
+      ],
+      "description" : "This press files a note on the run. Look for it afterwards on the run's page — it is under Notes, and the band at the top counts it as this run's until you say what becomes of it.",
+      "symbol" : "square.and.pencil",
+      "title" : "It can write things down"
+    },
+    {
+      "buttons" : [
+        {
+          "count" : "presses"
+        }
+      ],
+      "description" : "This one does not move you on. Press it four or five times and each press adds one to a value called presses — that is the set, the lap, the glass of water, counted without looking. When you have had enough, press Next here on the screen.",
+      "symbol" : "number",
+      "title" : "It can count"
+    },
+    {
+      "buttons" : [
+        {
+          "copy" : "Pressed without looking at the phone."
+        },
+        {
+          "run" : "next"
+        }
+      ],
+      "description" : "This step marks two. Marking two says both may happen with nobody looking, so one press copies a line to your clipboard and moves you on. Paste it anywhere to see that it really ran.",
+      "symbol" : "doc.on.doc",
+      "title" : "Two things, one press"
+    },
+    {
+      "description" : "This one marks nothing at all, which is what almost every step you write will do. Press the button now and it opens In hand instead — the screen you are reading this from — because there was nothing to do without looking. Press Next to finish.",
+      "symbol" : "circle.dotted",
+      "title" : "And a step can mark nothing"
+    }
+  ],
+  "symbol" : "button.programmable"
+}

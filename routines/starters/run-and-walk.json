@@ -1,55 +1,50 @@
 {
-  "catalogue": 1,
-  "licence": "CC-BY-4.0",
-  "depends_on": [
-    "Notifications"
-  ],
-  "description": "The first week of coming back to it: a minute running, ninety seconds walking, eight times. Its timers reach you with a card; set one to wake you if the phone will be face down.",
-  "first_shelf": false,
-  "glyph": "figure.run",
-  "group": "body",
-  "group_line": "Rounds, sets and intervals, counted so you can put the phone down.",
-  "group_name": "Training and the body",
-  "link_web": "https://routinerun.com/r?v=1&d=7Vhbi-M2FP4rwn2NBvlup0-WL3Rgu122oQtdlqKxlVjEsYIsJxMG__ceOXZmZpdZ0m1fCjHByEc653z6zg3yZPHHvVSaV4m2lpZDnACTGDv-ipDl-PvTWlzOFEru4JSSvRYtV317V4JgYa2l2jH9B1edkK21tBdWKzXvrOXnLwtr37ByXiteSlXNH2cz1vLJYk0jj92vfaPFvuH3badZOyqtWdPxhcVUWYsD7z7VvM2k0Zk2Kq6ZaADTquZoLVSn0ZHzLZJrBNBEu0EPrNwiLZHQS8QQiHrNEUBvYXOB4M31CXWAq606dGTNdpRzsak10mLHuzt0r7txqTqkOCtrdJI9Ogpdg8GSqepn0NcIYBk_R7bl4wGxRhpA7WuzcRRNgx4AInCBKnls74C2WsrtxIWo4A5BblM7dRJM4MGeeWXmRebHIw6oie639frCQAO8JKUWB6FPqWy1kk1nKO1qYDTZMAEB0aqHk6OEAh2vBBkvRcVfid7zR_1K8OErIx96PUIwogGCzXZgwPrYt4i11UgiwNwzBXINrAGcYQx3W43Q1uc0smnuu0ni4CTNcuz7qYep60Q4pyQmlBRJGgRgR9egualBgcYR9agdYZqFKSjQHCcFdbGdeYUbFmmUkdQomKhZy2iY0L57wdDlGprvDfWQerAj25frkb09Z1uz-IuA4981U3pOGmsYpnglcU6doAiwVzhwgdRzcOzmEC8vIsQuPN8JDR5IDmCLgm_IYyUOrAHhETJ5JYEy44QfuDqthGHxaRgGyIeqV-yMxSVkchfT0EkCx4P7JhT7NIhxHNAQZ27hpy7xCXX9b9JDthlnVTPX2eWy4INVh6nKzpwoDtVRzUU3fBtBLXRjAv0JAnxOdbVD_d4aFl9ZfkYfzOCvDPZ14N-OlIH2HCAnyouMxgQHduJjPwOyKElj7IVRZieFW8RZ-IMB-mHyjMXvEBbPhF2Z7P-WsBHOzFeeRQUkV4hd18mwn4C7yLUz7AWel8Z5kibkHyY07TV05nes02fmFm8jSaVsxtb4jCfIXS_LI4qLgDjYdynF1PcdnMbUS8LAK1LfvQpPAwD-m_CdE-zt-D2XaxG4aRwEHvZDO4ByhZqlbujg3LazlIZe4mb51QF8BXk6e8E8teHvlmvfatGYuaTQAwwxXZvZKLpxPFqGkbEjUt7IdrOSOUy5kbrJVXfaPcjm_bnPr8WmV_wO2qFptmxzn00IYZrrX_gjHPnJJZntR2Zfic1mhPT5y3CZ-VNO3qb-berfpv5t6l8H_jb1b1P_NvX_f1PfuClrvmOTArRnpctez5-aXf4rALvziu_2zYuNlwb_Bg",
-  "name": "Run and walk",
-  "release": 3,
-  "shortcuts": [],
-  "slug": "run-and-walk",
-  "starts_by_itself": false,
-  "starts_by_itself_line": null,
-  "steps": [
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "body",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "run-and-walk",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7Vhbi-M2FP4rwn2NBvlup0-WL3Rgu122oQtdlqKxlVjEsYIsJxMG__ceOXZmZpdZ0m1fCjHByEc653z6zg3yZPHHvVSaV4m2lpZDnACTGDv-ipDl-PvTWlzOFEru4JSSvRYtV317V4JgYa2l2jH9B1edkK21tBdWKzXvrOXnLwtr37ByXiteSlXNH2cz1vLJYk0jj92vfaPFvuH3badZOyqtWdPxhcVUWYsD7z7VvM2k0Zk2Kq6ZaADTquZoLVSn0ZHzLZJrBNBEu0EPrNwiLZHQS8QQiHrNEUBvYXOB4M31CXWAq606dGTNdpRzsak10mLHuzt0r7txqTqkOCtrdJI9Ogpdg8GSqepn0NcIYBk_R7bl4wGxRhpA7WuzcRRNgx4AInCBKnls74C2WsrtxIWo4A5BblM7dRJM4MGeeWXmRebHIw6oie639frCQAO8JKUWB6FPqWy1kk1nKO1qYDTZMAEB0aqHk6OEAh2vBBkvRcVfid7zR_1K8OErIx96PUIwogGCzXZgwPrYt4i11UgiwNwzBXINrAGcYQx3W43Q1uc0smnuu0ni4CTNcuz7qYep60Q4pyQmlBRJGgRgR9egualBgcYR9agdYZqFKSjQHCcFdbGdeYUbFmmUkdQomKhZy2iY0L57wdDlGprvDfWQerAj25frkb09Z1uz-IuA4981U3pOGmsYpnglcU6doAiwVzhwgdRzcOzmEC8vIsQuPN8JDR5IDmCLgm_IYyUOrAHhETJ5JYEy44QfuDqthGHxaRgGyIeqV-yMxSVkchfT0EkCx4P7JhT7NIhxHNAQZ27hpy7xCXX9b9JDthlnVTPX2eWy4INVh6nKzpwoDtVRzUU3fBtBLXRjAv0JAnxOdbVD_d4aFl9ZfkYfzOCvDPZ14N-OlIH2HCAnyouMxgQHduJjPwOyKElj7IVRZieFW8RZ-IMB-mHyjMXvEBbPhF2Z7P-WsBHOzFeeRQUkV4hd18mwn4C7yLUz7AWel8Z5kibkHyY07TV05nes02fmFm8jSaVsxtb4jCfIXS_LI4qLgDjYdynF1PcdnMbUS8LAK1LfvQpPAwD-m_CdE-zt-D2XaxG4aRwEHvZDO4ByhZqlbujg3LazlIZe4mb51QF8BXk6e8E8teHvlmvfatGYuaTQAwwxXZvZKLpxPFqGkbEjUt7IdrOSOUy5kbrJVXfaPcjm_bnPr8WmV_wO2qFptmxzn00IYZrrX_gjHPnJJZntR2Zfic1mhPT5y3CZ-VNO3qb-berfpv5t6l8H_jb1b1P_NvX_f1PfuClrvmOTArRnpctez5-aXf4rALvziu_2zYuNlwb_Bg"
+  },
+  "colour" : "green",
+  "description" : "The first week of coming back to it: a minute running, ninety seconds walking, eight times. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Run and walk",
+  "rounds" : {
+    "from" : 2,
+    "repeats" : 8,
+    "through" : 3
+  },
+  "routineRun" : 2,
+  "steps" : [
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": true,
-      "does_itself_line": "Says “Start running” out loud",
-      "duration_seconds": 300,
-      "title": "Walk to warm up"
+      "does" : [
+        {
+          "say" : "Start running"
+        }
+      ],
+      "minutes" : 5,
+      "title" : "Walk to warm up"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": true,
-      "does_itself_line": "Says “Walk” out loud",
-      "duration_seconds": 60,
-      "title": "Run"
+      "minutes" : 1,
+      "title" : "Run"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": true,
-      "does_itself_line": "Says “Run” out loud; Says “Cool down” out loud",
-      "duration_seconds": 90,
-      "title": "Walk"
+      "minutes" : 1.5,
+      "title" : "Walk"
     },
     {
-      "asks_first": false,
-      "detail": null,
-      "does_itself": false,
-      "does_itself_line": null,
-      "duration_seconds": 300,
-      "title": "Walk until your breathing is back"
+      "minutes" : 5,
+      "title" : "Walk until your breathing is back"
     }
   ],
-  "tint": "#30D158"
+  "symbol" : "figure.run"
 }

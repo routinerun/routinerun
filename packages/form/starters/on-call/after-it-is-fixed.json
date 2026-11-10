@@ -1,0 +1,40 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "onCall",
+    "licence" : "CC-BY-4.0",
+    "release" : 1,
+    "shortcuts" : [
+
+    ],
+    "slug" : "after-it-is-fixed",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?v=1&d=7VZNi-M4EP0rwnONQpzYTpybv8I2zBezzQ7s0AfFLtsishQkOd1hyH-fksdxd8-yA3tp9hBjjFQllapePT383YOno9IWqsR6W2-5WEZ0EdNleL9YbIf3b282rdlp1eEqrXrLJehezks0zLxa6Y7Zv0AbrqS39WeeVBaMt_32MPOOgpXXsYZS6eo6-RnG2373mBDq0XzoheVHAXfSWCaHTVb3MPOYLlt-AvO1BZkrt6VmwqCjVeowRuMVZhYVfupny4Qu8KGB--Tus3h-VpgvN5_qegoiMHRSWn7i9pwpabUSxiVlWswpaRiX1zwGS8rKwytDDiWv4JXpIzzZV4bPvwT53NshBWe6IFyswwBeUlvQhFvCDan5E1SY65FpdKLd5XQZt79_kfIU18LRYYFookfJEZcKLOMCg3-SQAxIC4jsnNzV7hzLDmCIbTXAjJxVT1p2AmIfFTlqtRfQmbk3Qpss43WShzu62WxCGsZZQuN0ndAgypLAj4LAz_8JrZI5sEpcu_wyL1adxh6PazV0XFZmwuTXwi23woH0tWWW7LU6gHeZ_VuxiawIAkWEkg1hV1iRVo7Gc3LvYjTs6IC2LVbcclz3iCRvHfA4meqOokWUr6KQrtZpQsOiWGHdSUGL2A_ydZrv8k34dnVbJSrXqN-Ufo_1tEzUBE6gz3tVnYkAbKsheN8IQ2CeHRKgem7xOiqW0TLzaRZGOQ2DPKKxn-Q0L7K0WC_WWRzv3q5UR0erOVTYHZxWvCKoKq5Jh981npQtlIcZYUT23R60G1W8rkEj9weq4w0SyIE_FR499N2dVDJJMGKPSnQmjRpw6vB2TOBkCRIgDSMahblPw120oXERZHSVb4IFAhem4RuC86h6JMJwW0vWN60d6K1QG7V3eRjFIAVH_3tVsLL90svpJHPu9kp8_Kk5FqVq3rFG8vqMYDSCGYN1WNbc5WOqqNL2D3jCxe_SXZjsls6vedMMuX17uExaPurPTc1vav5f2HxT85ua39T8_6Lm7kCEvWPjBkRY27K316ll0789xr2OoMMf_WfHy4A_AA"
+  },
+  "colour" : "purple",
+  "name" : "After it is fixed",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "One sentence. If it takes three, you have two problems.",
+      "title" : "What broke"
+    },
+    {
+      "description" : "And how long after it started. That gap is the thing worth fixing.",
+      "title" : "What told you"
+    },
+    {
+      "description" : "The half everybody leaves out and everybody needs.",
+      "title" : "What you tried that did not work"
+    },
+    {
+      "description" : "A check, a number, a different threshold. Something you can actually go and make.",
+      "title" : "What would have caught it sooner"
+    }
+  ],
+  "symbol" : "text.magnifyingglass"
+}

@@ -1,0 +1,35 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : true,
+    "group" : "making",
+    "licence" : "CC-BY-4.0",
+    "release" : 3,
+    "shortcuts" : [
+
+    ],
+    "slug" : "something-worth-remembering",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?v=1&d=7Vbfb9owEP5XrOw1QSEkUHgjQLRKW1t11SqtqiaTHMTCsZF9KUUV__vOacigfe8TURTZd_bdd9_9UN48eN1qg1BM0Zt4URgNg3AcRMlDGE6a94_nd2cyoys6ZXSNQoGpVS8nge-ttKk4_gZjhVbepO97SiNYb_L07HtbyfPj2kCuTXHcvJvxJm8el1Lv7M9aothKuFYWuWourbi04Hvc5KV4AftYgpprd6dVkH-w97pWxXTNhXK2Vu8gV0IJW0JB8Ey5x7JyOrslLIVb_Q3pTMH31jscDr5XAHIhSTRzBtmS5xvGGemZ5AjGZ0ie6WMA2jVnO4DNqaIR2B45LLXetEEK8uYNF_20P4umQUhPELvP3H3C45OEEV0T9na16kKTFPA0R_EicD_TCo2WtomhJKraaNHUdLKRpAT5TDCHXBRwJrqBVzwT3H0wcldjA8GJiBXFKzLg_SJOsBRqzXZUBiUzUEG1BEMSQr3lho4RSQ7doTX04wR85wFh61ihdJNGq5ahjvrbGpnUdeEzl0JGPrTZ99g98ML5Fsi4i5qtAKRlUmyASeBGOSVXBROWUdk5_lvSF_F4kE6DUXI1CpLpIg6miygMKBGDZJjFi3je_0S6VnNyJ49leYqTFy_nRUk0COWKuWXrIxEoUDb0URUR-J3AUjch6o1j7uB_cNCgHozTWTiO02CQhANCnV0F43icBKM0zeLRLJr1h7MvQX2jdw1Uv-GWuqlgu5Ij2-uaVcJaaqNPEfxPpZJ7ago6XnK56jFXeAxFBSSkNNHb2aJWN9hkvMtcOkiHozTJgigLsyAZRf0gnffjIJuncdofLaLxcPglHDwagQ4yNGE0cNeaMmm0y99zW9IpSNo_6AXPy_tadV7svlpqefPeQ0vjGpZM8_X1vMVF0w-_wytpv6UZpdrNADRivW6APD0fuhnZts1lSl6m5GVKXqbkZUqeTknnIS-h4u0Fai2DeY3HLfLuX5TsHldQbeWJ4tTgPw"
+  },
+  "colour" : "purple",
+  "description" : "Comes back a day later, then three, then a week, then three weeks.",
+  "name" : "Something worth remembering",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "Out loud, from memory. Reading it again feels like learning and is not.",
+      "title" : "Say it without looking"
+    },
+    {
+      "title" : "Now look, and find what you missed"
+    },
+    {
+      "description" : "Only that half. Next time this is what you start from.",
+      "title" : "Write the half you got wrong"
+    }
+  ],
+  "symbol" : "brain"
+}

@@ -1,0 +1,25 @@
+{
+  "about" : "Needs a Home scene called Arrive Home. If yours goes by another name, change it on that step and this works as it is.",
+  "colour" : "orange",
+  "name" : "Home, and the house knows",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Runs the scene called Arrive Home, which the Home app offers when you set it up. If yours has another name, change it on this step.",
+      "does" : [
+        {
+          "scene" : "Arrive Home"
+        }
+      ],
+      "title" : "Lights and heating"
+    },
+    {
+      "title" : "Shoes, coat, bag — all the way away, not by the door"
+    },
+    {
+      "about" : "Written now, while you are still standing. The list is short and it is always the same three things.",
+      "title" : "Anything that has to happen before you sit down"
+    }
+  ],
+  "symbol" : "house.fill"
+}

@@ -1,0 +1,24 @@
+{
+  "about" : "Needs a Home scene called Leave Home. If yours goes by another name, change it on that step and this works as it is.",
+  "colour" : "#64D2FF",
+  "name" : "Out, and the house off",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "title" : "Windows and the hob"
+    },
+    {
+      "about" : "Runs the scene called Leave Home.",
+      "does" : [
+        {
+          "scene" : "Leave Home"
+        }
+      ],
+      "title" : "Set the house to leave"
+    },
+    {
+      "title" : "Keys, wallet, phone"
+    }
+  ],
+  "symbol" : "figure.walk.departure"
+}
