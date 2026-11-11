@@ -24,7 +24,7 @@
   "steps" : [
     {
       "deadline" : {
-        "by" : "09:00",
+        "at" : "09:00",
         "late" : "ask",
         "tellMe" : "alarm",
         "warn" : {
@@ -37,8 +37,9 @@
     },
     {
       "deadline" : {
+        "at" : "08:30",
         "day" : 2,
-        "startBy" : "08:30",
+        "kind" : "startBy",
         "tellMe" : "notification"
       },
       "title" : "Begun by"

@@ -37,17 +37,17 @@ one step nobody else can take for you. How to set one up: [routinerun.com/help/c
 
 `when` is one of:
 - `"anything"`;
-- `{"contains": "words"}`, which ignores case and accents;
-- `{"pattern": "regex"}`, whose first capture group is the value;
+- `{"kind": "contains", "text": "words"}`, which ignores case and accents;
+- `{"kind": "pattern", "text": "regex"}`, whose first capture group is the value;
 - `"namesARoutine"`: the text has the name of one of the person's routines, as whole words, longest name first.
 
 `in` is `title`, `body` or `both` (the default).
 
 `does` is one of:
-- `{"start": "<routine id>"}`;
+- `{"kind": "start", "routine": "<routine id>"}`;
 - `"startNamed"`: the routine the text named;
-- `"next"` or `{"next": "<routine id>"}`: moves the going run on one step;
-- `{"setValue": "key", "routine": "<id>"}`: writes the match onto the going run;
+- `"next"` or `{"kind": "next", "routine": "<routine id>"}`: moves the going run on one step;
+- `{"kind": "setValue", "key": "key", "routine": "<id>"}`: writes the match onto the going run;
 - `"ignore"`.
 
 A rule matches the person's own words — a task, habit or routine name — rather than the

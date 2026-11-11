@@ -45,7 +45,15 @@ function stepWritten(step) {
   rename(out, "about", "description");
   rename(out, "times", "repeats");
   const deadline = {};
-  for (const key of ["by", "startBy", "day", "late", "tellMe"]) {
+  // One time and what it means, rather than a key for each meaning: "by" and "startBy"
+  // become "at", and a start-by says so in "kind".
+  if ("by" in out || "startBy" in out) {
+    deadline.at = "by" in out ? out.by : out.startBy;
+    if (!("by" in out)) deadline.kind = "startBy";
+    delete out.by;
+    delete out.startBy;
+  }
+  for (const key of ["day", "late", "tellMe"]) {
     if (key in out) {
       deadline[key] = out[key];
       delete out[key];

@@ -43,7 +43,9 @@ test("upgrading form 2 changes nothing, and nothing is lost on the way up", () =
 test("form 2 says what is wrong in the same words form 1 did, where the key is new", () => {
   const routine = { routineRun: 2, name: "A", steps: [{ title: "B" }] };
   assert.equal(problemWith(routine), null);
-  assert.match(problemWith({ ...routine, steps: [{ title: "B", deadline: { by: "09:00", startBy: "08:00" } }] }), /both "by" and "startBy"/);
+  // The time is "at" and what it means is "kind": a word that is not one is refused.
+  assert.match(problemWith({ ...routine, steps: [{ title: "B", deadline: { at: "09:00", kind: "doneAround" } }] }), /kind/);
+  assert.equal(problemWith({ ...routine, steps: [{ title: "B", deadline: { at: "08:30", kind: "startBy" } }] }), null);
   assert.match(problemWith({ ...routine, steps: [{ title: "B", repeats: 0 }] }), /at least 1/);
   assert.match(problemWith({ ...routine, triggers: [{ when: { at: "07:00", weekdays: ["someday"] } }] }), /mon/);
   assert.match(problemWith({ ...routine, triggers: [{ when: { every: { minutes: 20 }, between: [9] } }] }), /at least 2/);

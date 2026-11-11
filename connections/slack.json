@@ -8,7 +8,8 @@
   "rules": [
     {
       "when": {
-        "contains": "Routine Run:"
+        "kind": "contains",
+        "text": "Routine Run:"
       },
       "in": "body",
       "does": "startNamed"
