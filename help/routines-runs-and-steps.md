@@ -16,13 +16,13 @@ The same marks appear everywhere, from lists to the Lock Screen and the watch.
 
 A routine and each of its steps has a page, and so does a run and each of its steps. Every page says what it is, in bold, under its name: **Routine**, **Run** or **Step**. A step's page says whose step it is on the row directly below, with that routine's or that run's own mark. Tap the name to see what the marks beside it mean.
 
-- **A run's page** opens with the step in hand and its buttons, and under them every step it is walking. Between the two is the run's own card: its mark, its name, what it is about, and two corners — **Add or see…** for everything this run holds of its own, and the gear for how it is set up. A routine's page is built the same way. An orange dot on a corner means something behind it is still this run's alone.
-- **A step's page** has no buttons. It says where the step stands, such as In hand, Done or Still to come, and whether the run is waiting on it. The row under that opens the run, or the routine, with this step's card showing. **Next**, **Again** and **Not now…** are on that card.
+- **A run's page** opens with its name and what it is for, a row to its routine, and the card of the step in hand with **Next**, **Not now…** and **Again**. Under that is every step it is walking. The tabs at the foot of the page switch to **Now**, the step in hand on the whole screen with its clock, big enough to read across the room, and to what the run holds and how it is set up. A routine's page is built the same way, with its steps and no step in hand.
+- **A step's page** says where the step stands, such as In hand, Done or Still to come. The rows under its name open the run, or the routine, at this step.
 - **Press and hold** any routine, run, step or row of More to see what it holds before opening it.
 
 ## Where they live
 
-Three tabs at the foot, either side of the plus. **Routines** is what you have written down. **Runs** is what is going, planned or finished. **Steps** is the step in hand of every going run in one list; **The steps coming up too**, at its foot, adds the rest. Tap a step to open its page, or press and hold it for **Next** and **Not now**. **More** holds Triggers, Data, History and the settings.
+Five places in the bar at the foot. **Routines** is what you have written down. **Runs** is what is going, planned or finished. **Steps** is the step in hand of every going run in one list; **The steps coming up too**, at its foot, adds the rest. Tap a step to open its page, or press and hold it for **Next** and **Not now**. **More** holds Triggers, Data, History and the settings. The app's mark in the middle is **In hand**: everything waiting on you, with a count on it while something does. The bar slides away while you scroll down a list and comes back when you scroll up; **More › Appearance** turns that off.
 
 Press **Steps** while a run is open and that run's step in hand is lit for a moment. Press **Routines** there and its routine opens.
 
@@ -45,7 +45,7 @@ The routine's **Settings** has **Allow several at once**.
 
 ## A run with no routine
 
-The plus on **Runs**, or the plus in the middle of the tab bar, then **Run something new…**, starts a run from just a name. Add steps as you go. At the end the band asks one question: whether it was worth keeping. **Keep it as a routine…** turns the run into a routine.
+The plus on **Runs**, then **Run something new…**, starts a run from just a name. Add steps as you go. At the end the band asks one question: whether it was worth keeping. **Keep it as a routine…** turns the run into a routine.
 
 ## When something goes wrong
 

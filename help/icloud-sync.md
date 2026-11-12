@@ -4,7 +4,7 @@ Routine Run can keep your routines, runs and entries in your own iCloud, so an i
 
 ## Turning it on
 
-In the app: **More › iCloud**, then **Use iCloud**. Do the same on each device.
+In the app: **More › iCloud and storage › iCloud**, then **Use iCloud**. Do the same on each device.
 
 The first time, a copy of everything on the device is kept on it, and what is already in iCloud is joined with what is here. Nothing is replaced.
 
@@ -52,6 +52,6 @@ Changes usually arrive by themselves. The app also asks iCloud every time you op
 
 **Something was deleted everywhere.** A delete travels like any other change. Deleted routines and runs wait in [Recently Deleted](recently-deleted.md) for 30 days.
 
-iCloud is not a backup. **More › Storage › Back up everything** is. See [Export](export.md).
+iCloud is not a backup. **More › iCloud and storage › Back up everything** is. See [Export](export.md).
 
 **Delete from iCloud…** takes this app's data out of iCloud. Every device keeps what it has.

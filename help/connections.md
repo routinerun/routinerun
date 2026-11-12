@@ -4,7 +4,7 @@ A connection is an address another system can send to — a pager, a queue, a sc
 
 ## Making one
 
-In the app: **More › Connections**, then **Add a connection…**, and **Any system** for a script or an automation, or **PagerDuty** for pages.
+In the app: **More › Events from elsewhere › Connections**, then **Add a connection…**, and **Any system** for a script or an automation, or **PagerDuty** for pages.
 
 The page that opens has the two things the other system needs:
 
@@ -39,7 +39,7 @@ Claude, ChatGPT or another assistant that speaks MCP can use your routines too.
 
 1. In the assistant, add a connector with the address `https://api.routinerun.com/mcp`. In Claude: **Settings › Connectors › Add custom connector**.
 2. Signing in opens a page with an eight-letter code.
-3. In Routine Run: **More › Connections › Add a connection… › An assistant**, and type the code. The page goes on by itself.
+3. In Routine Run: **More › Events from elsewhere › Connections › Add a connection… › An assistant**, and type the code. The page goes on by itself.
 
 It can then read your routines and runs when it asks, start and move runs, write notes and values, and suggest a change to a routine. A suggestion opens on the screen you would see for a pasted answer, and nothing is saved until you press Save. Each question it asks shows as a quiet notification. **Remove** on its connection signs it out.
 

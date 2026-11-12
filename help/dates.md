@@ -1,6 +1,6 @@
 # How do I count things from a trip, so moving it moves everything?
 
-Make the trip a date: **More → Data → … → Set up → Dates → New date…**, name it **Departure**, and pick the day. Then count things from it rather than typing their dates: packing three days before, the car the day before, a step done by seven the evening before. Change the date, and everything counted from it moves, cards and alarms included.
+Make the trip a date: **More → Dates → New date…**, name it **Departure**, and pick the day. Then count things from it rather than typing their dates: packing three days before, the car the day before, a step done by seven the evening before. Change the date, and everything counted from it moves, cards and alarms included.
 
 ## What can be counted from a date
 

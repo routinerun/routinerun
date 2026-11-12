@@ -18,7 +18,7 @@ A run is deleted the same way, once it has ended. In Runs, choose **Ended** the 
 
 ## Recently Deleted
 
-A **Recently Deleted** row appears when there is something in it: under the archived routines, under the ended runs, and in **More › Storage**.
+A **Recently Deleted** row appears when there is something in it: under the archived routines, under the ended runs, and in **More › iCloud and storage**.
 
 Each row says how long it has left, such as "12 days left" or "Goes today". On each:
 
@@ -44,4 +44,4 @@ Deleting, restoring and Delete Now reach every device. A routine taken for good 
 
 **There is no Recently Deleted row.** Nothing is in it.
 
-**I deleted everything by mistake.** A backup from **More › Storage** puts back what is missing. So do the daily copies listed there under **Copies on this phone**.
+**I deleted everything by mistake.** A backup from **More › iCloud and storage** puts back what is missing. So do the daily copies listed there under **Copies on this phone**.

@@ -12,7 +12,7 @@ Whatever a run collects of its own, such as a note, a value or a renamed step, g
 - Or tick several and open the menu at the top: **Keep the ticked**, or **The ticked are only for this run**.
 - **Sort these out…** asks an assistant, and shows its answers before anything changes. See [Describe it](describe-it.md).
 
-![Waiting on you, with a changed step swiped to Keep and Only here.](run-review)
+![Waiting on you: each step changed for this run, with Keep and Only here under it.](run-review)
 
 Finished runs can be answered too. Open the run from **Runs**.
 

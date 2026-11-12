@@ -6,7 +6,7 @@ Export turns one or more routines into a file, and usually a link too, that anyb
 
 - **One routine:** its page, the ellipsis, **Export**. Or hold its row in the list.
 - **Several:** in the Routines list, open the ellipsis, choose **Select**, tick them, and press **Export** in the bar at the foot. They travel together, so one routine that starts another arrives wired up.
-- **Every routine:** **More › Storage › Export the routines**.
+- **Every routine:** **More › iCloud and storage › Export the routines**.
 
 ## The Export page
 
@@ -40,4 +40,4 @@ On a Mac or an Android phone the link opens a web page that says to open it on t
 
 ## Everything, for yourself
 
-**More › Storage › Back up everything** makes one file with routines (the deleted ones too), every run with its history, entries, forms and tags. **Put back from a backup…** adds what is missing and never writes over anything newer. See also [iCloud sync](icloud-sync.md).
+**More › iCloud and storage › Back up everything** makes one file with routines (the deleted ones too), every run with its history, entries, forms and tags. **Put back from a backup…** adds what is missing and never writes over anything newer. See also [iCloud sync](icloud-sync.md).

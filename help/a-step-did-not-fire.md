@@ -17,7 +17,7 @@ iOS lets one app open another only when you ask. So a shortcut usually becomes a
 
 **Needs iOS 27.** A shortcut runs by itself only through the bridge: the Routine Run Bridge shortcut, plus an automation, **When I get a notification from Routine Run**, set to run immediately. See [Answers in the background](in-the-background.md). On iOS 26 a shortcut always waits for your press.
 
-A step calls a shortcut by name, so one renamed or deleted in Shortcuts no longer answers. In **More › Data**, the ellipsis, **Set up**, **Shortcuts** lists the ones the app knows, marking any "not on this phone" or "did not run last time".
+A step calls a shortcut by name, so one renamed or deleted in Shortcuts no longer answers. In **More**, the **Shortcuts** tile lists the ones the app knows, marking any "not on this phone" or "did not run last time".
 
 ## Nothing arrived at all
 
@@ -34,7 +34,7 @@ Even then, iOS lets no app act at an exact moment. The reminder arrives on time,
 
 ## With iCloud on
 
-Each automatic thing is done by one device. **More › iCloud › This device** says whether this one puts up cards at a routine's moments and notices where you are. A run's timers are kept by the device that last moved it. See [iCloud sync](icloud-sync.md).
+Each automatic thing is done by one device. **More › iCloud and storage › iCloud › This device** says whether this one puts up cards at a routine's moments and notices where you are. A run's timers are kept by the device that last moved it. See [iCloud sync](icloud-sync.md).
 
 ## Anything else
 

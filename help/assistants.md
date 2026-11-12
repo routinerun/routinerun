@@ -15,7 +15,7 @@ Routine Run is in Claude's connector directory: [claude.ai/directory/connectors/
 
 1. On claude.ai or in the Claude app, open **Customize › Connectors** (in some versions **Settings › Connectors**), find **Routine Run** and press **Connect**. Or open the link above.
 2. If it is not listed for you yet, add it by hand: **+**, **Add custom connector**, name it **Routine Run**, paste `https://api.routinerun.com/mcp`, leave everything else as it is and press **Add**, then **Connect**. A Routine Run page opens with an eight-character code.
-3. On your iPhone: **More › Connections**, **Add a connection…**, **An assistant**, type the code, and **Connect**. The page in Claude carries on by itself.
+3. On your iPhone: **More › Events from elsewhere › Connections**, **Add a connection…**, **An assistant**, type the code, and **Connect**. The page in Claude carries on by itself.
 
 A connector added on the web reaches the Claude app on your phone as well. On the Free plan Claude allows one custom connector. On Team and Enterprise an owner adds it for the organisation first.
 
@@ -71,7 +71,7 @@ A new routine or a change arrives as a notification, and waits under **Suggested
 
 **Ask before starting**, on the same page, makes every run it starts or plans wait in **In hand** for **Start**, and its notification opens In hand. Without it a run begins at once — Stop undoes it — but you can still say "ask me first" in the chat, and that one run waits.
 
-An assistant does not see a run's notes and values unless you turn on **Read notes and values** on its page in **More › Connections**.
+An assistant does not see a run's notes and values unless you turn on **Read notes and values** on its page in **More › Events from elsewhere › Connections**.
 
 ## Webhooks on runs it starts
 
@@ -81,17 +81,17 @@ A button can also say **Next presses it too**, on its page under **When it runs*
 
 Everything else still waits for you: a new address, a new secret, another method, a webhook that would go the moment the step is reached rather than when you press it, and anything another assistant or connection writes. The rule is for runs it starts, never for routines you keep, so keeping one of those runs as a routine asks once more.
 
-The rules are listed under **Webhooks it may send** on the assistant's page in **More › Connections**. Swipe one away to take it back: its buttons ask again, on the runs going now too. Removing the assistant takes all of them with it.
+The rules are listed under **Webhooks it may send** on the assistant's page in **More › Events from elsewhere › Connections**. Swipe one away to take it back: its buttons ask again, on the runs going now too. Removing the assistant takes all of them with it.
 
 A script that starts runs through an **Any system** address gets the same answer, under its own name. See [Connections](connections.md).
 
-To skip the review, turn on **Save without asking** on the assistant's page in **More › Connections**. New routines are then saved as they arrive and can be deleted like any other; a change keeps the routine as it was in **Earlier versions**. Starting, pausing, stopping and moving runs never ask either way.
+To skip the review, turn on **Save without asking** on the assistant's page in **More › Events from elsewhere › Connections**. New routines are then saved as they arrive and can be deleted like any other; a change keeps the routine as it was in **Earlier versions**. Starting, pausing, stopping and moving runs never ask either way.
 
 ## When it goes wrong
 
 - **The assistant says the phone did not answer.** Reading needs the phone reachable: on, online, and with notifications for Routine Run allowed.
 - **A run starts only when you tap the notification.** On iOS 26 that is how it is. On iOS 27, with the Routine Run bridge, it starts by itself.
-- **It worked, then stopped after you installed another build.** A new build of the app gets a new push address from Apple. Remove the connection in **More › Connections** and connect again.
-- **To sign it out**, remove it in **More › Connections**. Its token stops working at once.
+- **It worked, then stopped after you installed another build.** A new build of the app gets a new push address from Apple. Remove the connection in **More › Events from elsewhere › Connections** and connect again.
+- **To sign it out**, remove it in **More › Events from elsewhere › Connections**. Its token stops working at once.
 
 The menus above are each assistant's own and they move. If a name here does not match what you see, the address and the code are what matter.
