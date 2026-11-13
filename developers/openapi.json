@@ -120,22 +120,135 @@
     },
     "/runs": {
       "post": {
-        "summary": "Start a routine",
+        "summary": "Start a routine, start a run of steps you write, or plan a run",
         "requestBody": {
           "required": true,
           "content": {
             "application/json": {
               "schema": {
-                "type": "object",
-                "required": [
-                  "routine"
-                ],
-                "properties": {
-                  "routine": {
-                    "type": "string",
-                    "description": "The routine's name, in any case, or its id."
+                "oneOf": [
+                  {
+                    "title": "Start a routine",
+                    "type": "object",
+                    "required": [
+                      "routine"
+                    ],
+                    "properties": {
+                      "routine": {
+                        "type": "string",
+                        "maxLength": 120,
+                        "description": "The routine's name, in any case, or its id."
+                      },
+                      "name": {
+                        "type": "string",
+                        "maxLength": 80,
+                        "description": "What the run is called, so several going at once can be told apart."
+                      },
+                      "values": {
+                        "type": "object",
+                        "maxProperties": 20,
+                        "description": "Values the run starts with, key to value: the ones its name and steps quote. Strings, numbers and true or false; at most 20, 1,500 characters in all.",
+                        "additionalProperties": {
+                          "oneOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            },
+                            {
+                              "type": "boolean"
+                            }
+                          ]
+                        }
+                      },
+                      "restart": {
+                        "type": "boolean",
+                        "description": "End the run of it that is going and start again. Only for a routine that runs one at a time."
+                      },
+                      "askFirst": {
+                        "type": "boolean",
+                        "description": "Wait for the person's OK: the run waits in In hand with Start and Drop."
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  {
+                    "title": "Plan a run",
+                    "type": "object",
+                    "required": [
+                      "routine",
+                      "at"
+                    ],
+                    "properties": {
+                      "routine": {
+                        "type": "string",
+                        "maxLength": 120,
+                        "description": "The routine's name, in any case, or its id."
+                      },
+                      "at": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "An ISO 8601 moment still to come. The run shows as Planned and begins then."
+                      },
+                      "name": {
+                        "type": "string",
+                        "maxLength": 80,
+                        "description": "What the run is called, so several going at once can be told apart."
+                      },
+                      "values": {
+                        "type": "object",
+                        "maxProperties": 20,
+                        "description": "Values the run starts with, key to value: the ones its name and steps quote. Strings, numbers and true or false; at most 20, 1,500 characters in all.",
+                        "additionalProperties": {
+                          "oneOf": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            },
+                            {
+                              "type": "boolean"
+                            }
+                          ]
+                        }
+                      },
+                      "askFirst": {
+                        "type": "boolean",
+                        "description": "Wait for the person's OK: the run waits in In hand with Start and Drop."
+                      }
+                    },
+                    "additionalProperties": false
+                  },
+                  {
+                    "title": "Run steps you write",
+                    "type": "object",
+                    "required": [
+                      "written"
+                    ],
+                    "properties": {
+                      "written": {
+                        "description": "A routine in the written form, as an object or as its JSON text, at most 30,000 characters.",
+                        "oneOf": [
+                          {
+                            "type": "object",
+                            "description": "Checked against https://routinerun.com/schema/routine.v2.json (form 1 or 2)."
+                          },
+                          {
+                            "type": "string",
+                            "maxLength": 30000
+                          }
+                        ]
+                      },
+                      "askFirst": {
+                        "type": "boolean",
+                        "description": "Wait for the person's OK: the run waits in In hand with Start and Drop."
+                      }
+                    },
+                    "additionalProperties": false
                   }
-                }
+                ]
               }
             }
           }
@@ -169,7 +282,9 @@
           "429": {
             "$ref": "#/components/responses/Error"
           }
-        }
+        },
+        "description": "Three bodies share this path, told apart by what they carry. With `written`, a run of those steps starts, kept out of Routines unless the person keeps it. With `at`, a run of `routine` is planned for that moment and shows as Planned until then. Otherwise `routine` starts now. A routine that runs one at a time and is already going answers `alreadyGoing` unless `restart` is said.",
+        "operationId": "startRun"
       },
       "get": {
         "summary": "Runs going now",
