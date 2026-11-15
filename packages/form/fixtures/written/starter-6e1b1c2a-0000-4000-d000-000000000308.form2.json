@@ -5,6 +5,7 @@
   "routineRun" : 2,
   "steps" : [
     {
+      "readiness" : "confirm",
       "title" : "Windows and the hob"
     },
     {
@@ -17,6 +18,7 @@
       "title" : "Set the house to leave"
     },
     {
+      "readiness" : "confirm",
       "title" : "Keys, wallet, phone"
     }
   ],

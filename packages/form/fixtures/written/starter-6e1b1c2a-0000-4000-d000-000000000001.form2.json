@@ -12,6 +12,7 @@
     },
     {
       "description" : "Out loud, before touching anything. Half of these are a threshold nobody has revisited since the service got busier.",
+      "readiness" : "confirm",
       "title" : "Say whether it is real"
     },
     {

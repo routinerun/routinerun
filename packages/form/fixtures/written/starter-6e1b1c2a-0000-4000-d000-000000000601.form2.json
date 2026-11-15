@@ -8,9 +8,11 @@
     {
       "buttons" : [
         {
+          "actionButton" : true,
           "say" : "This is the Action button. You are on the first step."
         },
         {
+          "actionButton" : true,
           "run" : "next"
         }
       ],
@@ -21,6 +23,7 @@
     {
       "buttons" : [
         {
+          "actionButton" : true,
           "run" : "next"
         }
       ],
@@ -31,6 +34,7 @@
     {
       "buttons" : [
         {
+          "actionButton" : true,
           "count" : "presses"
         }
       ],
@@ -41,9 +45,11 @@
     {
       "buttons" : [
         {
+          "actionButton" : true,
           "copy" : "Pressed without looking at the phone."
         },
         {
+          "actionButton" : true,
           "run" : "next"
         }
       ],

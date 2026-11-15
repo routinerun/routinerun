@@ -16,10 +16,18 @@ test("a link carries the routine, deflated, the way the app and the relay read i
   assert.ok(link.length <= MAXIMUM_LINK);
 });
 
-test("a link carries form 1 until form 2 is handed out, and says so", async () => {
+test("a link carries form 2, and form 1 as it came", async () => {
   const two = JSON.parse(readFileSync(new URL("../fixtures/upgrade/example-01.form2.json", import.meta.url), "utf8"));
-  const { problem } = await linkFor(two);
-  assert.match(problem, /form 1 until the app that reads form 2/);
+  const { link, problem } = await linkFor(two);
+  assert.equal(problem, undefined);
+  const d = link.split("d=")[1].replace(/-/g, "+").replace(/_/g, "/");
+  assert.deepEqual(JSON.parse(inflateRawSync(Buffer.from(d, "base64")).toString()), two);
+});
+
+test("a form newer than the one taught is no link, and says until when", async () => {
+  const { problem } = await linkFor({ ...one, routineRun: 3 });
+  assert.match(problem, /newest form taken here is 2\. Write it in form 2\./);
+  assert.match(problem, /A link carries form 2 until the app that reads form 3 is on the App Store\./);
 });
 
 test("every starter file is a form 2 routine with its place in the catalogue", () => {

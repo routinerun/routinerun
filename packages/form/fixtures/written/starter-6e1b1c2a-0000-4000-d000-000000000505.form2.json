@@ -1,5 +1,10 @@
 {
   "colour" : "#A2845E",
+  "comesRoundAgain" : {
+    "after" : {
+      "days" : 1
+    }
+  },
   "description" : "Comes back the next day, measured from the day you actually read.",
   "name" : "A chapter at a time",
   "routineRun" : 2,

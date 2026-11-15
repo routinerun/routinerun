@@ -71,6 +71,12 @@ A step with a time to be done by that has gone says **Overdue** on the run's pag
 
 In **In hand → Time passed**, swipe a row for **Change the time…** and **Take the time off**. A run with several late steps has one row of its own with **Move all…**. All of these change this run only, and the bar that comes up undoes them.
 
+## How long a run has
+
+A whole run can have a time too: today's list by nine, a hand-over within three days of starting. Set it on the run under **Settings → By a time of day**, or once for every run of a routine under the routine's **Settings → By a time of day**, where **So long after it starts** is a run's lifetime. Each new run starts with the routine's, and can change its own.
+
+**When it is up** says what happens then. **Ask in In hand**: the run is marked late, **In hand → Time passed** asks, and the count on In hand's mark includes it. **More time…** gives it an hour, a day or a week more, **Carry over** puts what is left into a fresh run and files this one, and **Stop** ends it with everything it gathered, with **Undo** on the bar. **End the run**: for a run worth doing until then and not after, such as two months of a new habit, it ends by itself and goes to History with everything it gathered, where **Reopen** brings it back.
+
 ## iOS 26
 
 All of this works on iOS 26.1. There, a Lock Screen button pressed after the system closed the app starts it first, which can take a few seconds.

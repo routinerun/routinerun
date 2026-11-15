@@ -16,14 +16,41 @@
         }
       ],
       "minutes" : 5,
+      "timeUp" : {
+        "advances" : true,
+        "reminds" : false
+      },
       "title" : "Walk to warm up"
     },
     {
       "minutes" : 1,
+      "timeUp" : {
+        "advances" : true,
+        "does" : [
+          {
+            "say" : "Walk"
+          }
+        ],
+        "reminds" : false
+      },
       "title" : "Run"
     },
     {
       "minutes" : 1.5,
+      "timeUp" : {
+        "advances" : true,
+        "does" : [
+          {
+            "pass" : "everyTimeButTheLast",
+            "say" : "Run"
+          },
+          {
+            "pass" : "lastTime",
+            "say" : "Cool down"
+          }
+        ],
+        "reminds" : false
+      },
       "title" : "Walk"
     },
     {

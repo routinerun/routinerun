@@ -23,6 +23,7 @@
     },
     {
       "description" : "One of the three, out loud. A review that ends in nothing is the one everybody is waiting on.",
+      "readiness" : "confirm",
       "title" : "Say yes, ask, or block"
     }
   ],

@@ -19,8 +19,9 @@ function read(file) {
 }
 
 // The starters are the app's own files here, which it bundles and reads, and they are
-// routines/ in the public repository.
+// routines/ in the public repository. An install from npm carries a copy (scripts/pack-starters.js).
 const shelves = [
+  new URL("../starters/", import.meta.url),
   new URL("../../RoutineKit/Sources/RoutineKit/Resources/Starters/", import.meta.url),
   new URL("../../../routines/", import.meta.url),
 ].filter((url) => existsSync(url));

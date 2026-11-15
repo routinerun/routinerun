@@ -2,11 +2,11 @@
 
 A routine leaves Routine Run in one shape: the **written form**. It is what an assistant writes when asked for a routine, what the MCP tools and `POST /runs` take, and what a share link, a published code and a file an organisation hosts carry.
 
-It is pinned by [`written-routine.v1.schema.json`](written-routine.v1.schema.json), a JSON Schema (draft 2020-12), published at `https://routinerun.com/developers/written-routine.v1.schema.json`. The app writes that file from its own reader's tables, and a test fails while the committed copy differs, so the schema cannot describe a form the app does not read.
+It is pinned by JSON Schemas (draft 2020-12): form 2, the one written now, by [`written-routine.v2.schema.json`](written-routine.v2.schema.json), and form 1 by [`written-routine.v1.schema.json`](written-routine.v1.schema.json), both published under `https://routinerun.com/developers/`. The app writes those files from its own reader's tables, and a test fails while a committed copy differs, so a schema cannot describe a form the app does not read.
 
 ## Versions
 
-Every routine says its form in `"routineRun"`. The app reads forms **1** and **2**, and still writes form 1.
+Every routine says its form in `"routineRun"`. The app reads forms **1** and **2**, and teaches and hands out form 2.
 
 Form 2, pinned by [`written-routine.v2.schema.json`](written-routine.v2.schema.json) (`$id`: `https://routinerun.com/schema/routine.v2.json`), says the same routine in the app's own words:
 - `description` for `about`;
@@ -25,7 +25,7 @@ And it says every setting a starter carries, because the starters are form 2 fil
 - `{"note": {"text": "…", "kind": "written"}}` for a note the step writes itself rather than asks for, and `{"count": {"key": "reps", "on": "step"}}` for a count kept on the step rather than the run;
 - the routine's `comesRoundAgain`: `"atOnce"`, `{"after": {"days": 1}}` or `{"spaced": "days"}`, with `"from": "started"` or `"firstStep"` where the gap is not counted from the run finishing.
 
-None of these is ever written into form 1. Form 1 is read for ever and turned into form 2 by one table, the app's and `@routinerun/form`'s alike. Links, codes and the request to an assistant stay form 1 until a build that reads form 2 is on the App Store.
+None of these is ever written into form 1. Form 1 is read for ever and turned into form 2 by one table, the app's and `@routinerun/form`'s alike. Links, codes and hosted files carry form 2, which every build since 1.3 reads; a link still says `w=1`, because 1.3 refuses a higher number there, and a reader goes by `routineRun` inside. The request to an assistant has taught form 2 since 15 November 2026, and the relay's tools ask for it; an answer in form 1 is still read.
 
 - A reader takes every form up to the newest it knows, and refuses a newer one with a sentence naming both numbers. The relay that carries routines to the phone does the same.
 - A form changes number only when something already valid would be read differently. Adding an optional field, an action word or a colour does not.

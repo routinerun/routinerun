@@ -24,6 +24,7 @@
       "title" : "Tell one person you are going"
     },
     {
+      "readiness" : "confirm",
       "title" : "Windows, door, keys"
     }
   ],

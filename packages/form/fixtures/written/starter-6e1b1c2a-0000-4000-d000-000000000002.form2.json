@@ -16,6 +16,7 @@
       "title" : "Name anything you silenced"
     },
     {
+      "readiness" : "confirm",
       "title" : "Confirm they have it"
     }
   ],

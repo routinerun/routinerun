@@ -2,7 +2,20 @@
   "name": "@routinerun/form",
   "version": "0.1.0",
   "description": "Check and upgrade routines written for Routine Run, in form 1 or form 2.",
-  "private": true,
+  "keywords": [
+    "routine-run",
+    "routines",
+    "checklist",
+    "json-schema"
+  ],
+  "license": "MIT",
+  "homepage": "https://routinerun.com/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/routinerun/routinerun.git",
+    "directory": "packages/form"
+  },
+  "bugs": "https://github.com/routinerun/routinerun/issues",
   "type": "module",
   "exports": {
     ".": "./src/index.js",
@@ -12,7 +25,21 @@
   "bin": {
     "routinerun": "./bin/routinerun.js"
   },
+  "files": [
+    "bin",
+    "src",
+    "schema",
+    "starters",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "prepack": "node scripts/pack-starters.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

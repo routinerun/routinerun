@@ -11,6 +11,7 @@
     },
     {
       "description" : "Then rest until your breathing is back. Press Again for the next one.",
+      "keepsScreenAwake" : true,
       "repeats" : 5,
       "title" : "A set"
     },

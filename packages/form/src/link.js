@@ -2,7 +2,8 @@
 // routine's JSON deflated raw and written in base64url. The same link the relay's
 // routine_link makes, with the same longest length.
 //
-// A link is read on any phone, so it carries only the form the app hands out (TAUGHT_FORM).
+// A link is read on any phone, so it carries no form newer than the one an assistant is taught
+// (TAUGHT_FORM), which is the one the app hands out too.
 import { problems, TAUGHT_FORM } from "./index.js";
 
 export const SITE = "https://routinerun.com";

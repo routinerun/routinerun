@@ -13,11 +13,12 @@ import { upgrade, NEWEST_FORM } from "./upgrade.js";
 export { upgrade, NEWEST_FORM, problemsAgainst };
 
 /**
- * The form the app writes and teaches, and so the one a routine is asked for in. It stays 1
- * until a build that reads form 2 is on the App Store (WrittenRoutine.form in the app): a
- * link or a prompt is read on whatever phone it reaches.
+ * The form an assistant is taught, and so the one a routine is asked for in and the newest a
+ * link takes (WrittenRoutine.teachesForm in the app). Form 2 since 15 November 2026: it waited
+ * until a build that reads it was on the App Store, because a link or a prompt is read on
+ * whatever phone it reaches. Form 1 is still taken everywhere.
  */
-export const TAUGHT_FORM = 1;
+export const TAUGHT_FORM = 2;
 
 /** Each form's schema, by its number. */
 export const SCHEMAS = { 1: v1, 2: v2 };

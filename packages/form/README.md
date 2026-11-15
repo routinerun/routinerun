@@ -5,8 +5,9 @@ the relay makes before it hands a routine to a phone, and the same upgrade the a
 it reads form 1.
 
 ```bash
-node bin/routinerun.js check morning.json
-node bin/routinerun.js upgrade morning.json
+npx @routinerun/form check morning.json
+npx @routinerun/form upgrade morning.json
+npx @routinerun/form new morning
 ```
 
 ```js
@@ -28,9 +29,9 @@ upgrade(routine);    // form 2, from form 1; form 2 comes back as it is
 **Form 1** is still read for good, and `upgrade` turns it into form 2 by the same table the app
 uses.
 
-Until a build that reads form 2 is on the App Store, the app writes and teaches form 1
-(`TAUGHT_FORM`), and a link takes only form 1. A link or a prompt is read on whatever phone it
-reaches.
+The app hands out form 2 and, since 15 November 2026, teaches it (`TAUGHT_FORM`): every build
+since 1.3 reads it, and a link or a prompt is read on whatever phone it reaches. A link takes
+form 1 or 2 and nothing newer.
 
 ## Where things come from
 
@@ -44,9 +45,10 @@ reaches.
 - The starters are not in this folder. They are the app's own files, which it bundles and
   reads: every routine it ships, in form 2, with where it sits in the catalogue. In the
   public repository they are `routines/<starters|on-call>/<slug>.json`, and `routinerun new`
-  reads them from there.
+  reads them from there. The package on npm carries a copy, made as it is packed
+  (`scripts/pack-starters.js`).
 - `skins/`: the three skins of the row design, as data (`schema/skin.v1.schema.json`). A skin
   changes how rows look and nothing about what they say.
 
 The schemas and the pairs are written by the app, and the starters are the app's; all of
-them are edited there, never here. Not published to npm yet (`"private": true`).
+them are edited there, never here. Published to npm from the public repository.

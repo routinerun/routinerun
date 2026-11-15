@@ -6,6 +6,7 @@
   "steps" : [
     {
       "description" : "Both batteries, both cards. This is the only step that cannot be done later.",
+      "readiness" : "confirm",
       "title" : "Charge and format"
     },
     {
@@ -20,6 +21,7 @@
     },
     {
       "description" : "Once is not a backup. Doing it here rather than at home is the difference between a bad day and a lost one.",
+      "readiness" : "confirm",
       "title" : "Back it up twice before you leave"
     },
     {

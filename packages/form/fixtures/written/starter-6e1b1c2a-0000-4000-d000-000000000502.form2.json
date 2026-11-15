@@ -1,5 +1,8 @@
 {
   "colour" : "purple",
+  "comesRoundAgain" : {
+    "spaced" : "days"
+  },
   "description" : "Comes back a day later, then three, then a week, then three weeks.",
   "name" : "Something worth remembering",
   "routineRun" : 2,

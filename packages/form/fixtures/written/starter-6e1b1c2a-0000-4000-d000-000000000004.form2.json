@@ -14,6 +14,7 @@
       "title" : "Check who else is shipping"
     },
     {
+      "readiness" : "confirm",
       "title" : "Send it"
     },
     {

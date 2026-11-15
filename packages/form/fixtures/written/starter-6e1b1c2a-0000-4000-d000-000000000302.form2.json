@@ -18,6 +18,7 @@
       "title" : "Hang it before it creases"
     },
     {
+      "readiness" : "confirm",
       "title" : "Put it away"
     }
   ],

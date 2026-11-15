@@ -19,6 +19,7 @@
     },
     {
       "description" : "Every note here goes somewhere — a step, another routine, or away. That is what this waits for.",
+      "readiness" : "nothingLeftUnplaced",
       "title" : "Put it where you will find it"
     }
   ],

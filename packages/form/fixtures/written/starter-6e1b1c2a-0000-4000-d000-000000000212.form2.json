@@ -47,6 +47,7 @@
     },
     {
       "description" : "Invest, pass, or one more question with a date on it. Written, with the reason.",
+      "readiness" : "confirm",
       "title" : "Decide"
     },
     {

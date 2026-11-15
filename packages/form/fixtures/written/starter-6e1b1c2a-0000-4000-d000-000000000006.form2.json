@@ -10,6 +10,7 @@
     },
     {
       "description" : "This is where it stops and asks. On a real page, nothing past here happens until somebody has said so.",
+      "readiness" : "confirm",
       "title" : "Say whether it is real"
     },
     {

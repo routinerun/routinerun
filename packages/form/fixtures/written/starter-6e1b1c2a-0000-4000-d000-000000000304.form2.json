@@ -18,6 +18,7 @@
     },
     {
       "description" : "One or the other, now. \"Decide later\" is the answer that charges you.",
+      "readiness" : "confirm",
       "title" : "Cancel it, or write down what it is worth to you"
     },
     {

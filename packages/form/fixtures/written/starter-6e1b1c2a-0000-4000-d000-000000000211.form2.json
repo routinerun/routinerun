@@ -1,11 +1,17 @@
 {
   "colour" : "#2E7D4F",
+  "comesRoundAgain" : {
+    "after" : {
+      "days" : 7
+    }
+  },
   "description" : "Comes round a week after the last one you did, not a week after the one you meant to.",
   "name" : "The week, looked at",
   "routineRun" : 2,
   "steps" : [
     {
       "description" : "Every note here goes somewhere: a step, another routine, or away. This waits until none are left.",
+      "readiness" : "nothingLeftUnplaced",
       "title" : "Empty everything you wrote down"
     },
     {
