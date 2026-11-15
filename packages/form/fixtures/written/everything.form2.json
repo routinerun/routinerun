@@ -1,0 +1,223 @@
+{
+  "colour" : "#5856D6",
+  "description" : "A routine that says all form 2 can.",
+  "name" : "Everything",
+  "notes" : [
+    "The oven runs hot.",
+    "Flour first."
+  ],
+  "places" : [
+    "Kitchen"
+  ],
+  "reactions" : [
+    {
+      "does" : [
+        {
+          "note" : "How did it rise?"
+        }
+      ],
+      "on" : "finish"
+    },
+    {
+      "does" : [
+        {
+          "say" : "Knead"
+        }
+      ],
+      "on" : {
+        "step" : 2
+      }
+    },
+    {
+      "does" : [
+        {
+          "count" : "late"
+        }
+      ],
+      "on" : {
+        "deadline" : 1
+      }
+    },
+    {
+      "does" : [
+        {
+          "copy" : "Done"
+        }
+      ],
+      "on" : "lastStep"
+    }
+  ],
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Warm water.",
+      "minutes" : 10,
+      "notes" : [
+        "Warm, not hot."
+      ],
+      "repeats" : 2,
+      "tags" : [
+        "Home",
+        "Work"
+      ],
+      "title" : "Mix",
+      "triggers" : [
+        {
+          "answers" : [
+            "next",
+            "pause"
+          ],
+          "question" : "Still mixing?",
+          "when" : {
+            "between" : [
+              9,
+              18
+            ],
+            "every" : {
+              "minutes" : 20
+            }
+          }
+        },
+        {
+          "question" : "Ready?",
+          "when" : {
+            "at" : "07:15",
+            "on" : "2026-12-01"
+          }
+        }
+      ]
+    },
+    {
+      "minutes" : 5,
+      "title" : "Knead"
+    },
+    {
+      "notes" : [
+        "Two hundred and twenty degrees."
+      ],
+      "title" : "Bake"
+    }
+  ],
+  "symbol" : "star",
+  "tags" : [
+    "Work"
+  ],
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "07:00",
+        "weekdays" : [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ]
+      }
+    },
+    {
+      "name" : "Weekend",
+      "tellMe" : "alarm",
+      "when" : {
+        "at" : "09:30",
+        "weekdays" : [
+          "sat",
+          "sun"
+        ]
+      }
+    },
+    {
+      "tellMe" : "reminders",
+      "when" : {
+        "at" : "10:00",
+        "dayOfMonth" : "last"
+      }
+    },
+    {
+      "when" : {
+        "at" : "08:00",
+        "dayOfMonth" : 14,
+        "month" : 11
+      }
+    },
+    {
+      "when" : {
+        "at" : "18:00",
+        "nth" : 2,
+        "weekdays" : [
+          "tue"
+        ]
+      }
+    },
+    {
+      "does" : "start",
+      "tellMe" : "calendar",
+      "when" : {
+        "at" : "07:15",
+        "on" : "2026-12-01"
+      }
+    },
+    {
+      "when" : {
+        "between" : [
+          9,
+          18
+        ],
+        "every" : {
+          "hours" : 2
+        }
+      }
+    },
+    {
+      "does" : "start",
+      "when" : {
+        "arrive" : "Kitchen"
+      }
+    },
+    {
+      "does" : "stop",
+      "when" : {
+        "leave" : "Kitchen"
+      }
+    },
+    {
+      "when" : {
+        "settle" : "Kitchen"
+      }
+    },
+    {
+      "does" : "finish",
+      "when" : {
+        "workoutEnds" : true
+      }
+    },
+    {
+      "does" : "start",
+      "when" : {
+        "focus" : "on"
+      }
+    },
+    {
+      "does" : "pause",
+      "when" : {
+        "focus" : "off"
+      }
+    },
+    {
+      "does" : "resume",
+      "when" : {
+        "eventAlert" : "Standup"
+      }
+    },
+    {
+      "does" : "next",
+      "when" : {
+        "reminderAlert" : "Pills"
+      }
+    }
+  ],
+  "values" : {
+    "year" : "2026"
+  }
+}

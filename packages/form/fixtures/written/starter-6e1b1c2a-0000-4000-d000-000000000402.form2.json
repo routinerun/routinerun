@@ -1,0 +1,35 @@
+{
+  "colour" : "green",
+  "description" : "The first week of coming back to it: a minute running, ninety seconds walking, eight times. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Run and walk",
+  "rounds" : {
+    "from" : 2,
+    "repeats" : 8,
+    "through" : 3
+  },
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "does" : [
+        {
+          "say" : "Start running"
+        }
+      ],
+      "minutes" : 5,
+      "title" : "Walk to warm up"
+    },
+    {
+      "minutes" : 1,
+      "title" : "Run"
+    },
+    {
+      "minutes" : 1.5,
+      "title" : "Walk"
+    },
+    {
+      "minutes" : 5,
+      "title" : "Walk until your breathing is back"
+    }
+  ],
+  "symbol" : "figure.run"
+}

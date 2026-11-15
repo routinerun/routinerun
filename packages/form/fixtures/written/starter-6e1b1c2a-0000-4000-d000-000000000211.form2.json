@@ -1,0 +1,23 @@
+{
+  "colour" : "#2E7D4F",
+  "description" : "Comes round a week after the last one you did, not a week after the one you meant to.",
+  "name" : "The week, looked at",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "Every note here goes somewhere: a step, another routine, or away. This waits until none are left.",
+      "title" : "Empty everything you wrote down"
+    },
+    {
+      "title" : "What actually moved"
+    },
+    {
+      "description" : "Some of it does not. Saying so is the point of looking.",
+      "title" : "What did not, and whether it matters"
+    },
+    {
+      "title" : "The one thing next week is about"
+    }
+  ],
+  "symbol" : "calendar.badge.checkmark"
+}

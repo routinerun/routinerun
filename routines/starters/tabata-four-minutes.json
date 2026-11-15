@@ -6,6 +6,8 @@
     "firstShelf" : true,
     "group" : "body",
     "licence" : "CC-BY-4.0",
+    "number" : 1,
+    "order" : 1,
     "release" : 3,
     "shortcuts" : [
 
@@ -30,11 +32,36 @@
       "title" : "Warm up"
     },
     {
+      "keepsScreenAwake" : true,
       "minutes" : 0.3333333333333333,
+      "timeUp" : {
+        "advances" : true,
+        "does" : [
+          {
+            "say" : "Rest"
+          }
+        ],
+        "reminds" : false
+      },
       "title" : "Go"
     },
     {
+      "keepsScreenAwake" : true,
       "minutes" : 0.16666666666666666,
+      "timeUp" : {
+        "advances" : true,
+        "does" : [
+          {
+            "pass" : "everyTimeButTheLast",
+            "say" : "Go"
+          },
+          {
+            "pass" : "lastTime",
+            "say" : "Done"
+          }
+        ],
+        "reminds" : false
+      },
       "title" : "Rest"
     },
     {

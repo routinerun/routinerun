@@ -1,0 +1,23 @@
+{
+  "colour" : "#64D2FF",
+  "name" : "Work until you drift",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "No timer on this one. The clock is the thing being tested.",
+      "title" : "Write what you are starting"
+    },
+    {
+      "description" : "Then stop. Noticing is the skill; the timer was standing in for it.",
+      "title" : "Work until you notice you have stopped"
+    },
+    {
+      "description" : "After a week of these you will know your own number, and it will not be twenty-five minutes.",
+      "title" : "Write down where you got to and how long it was"
+    },
+    {
+      "title" : "Break, about a fifth of that"
+    }
+  ],
+  "symbol" : "wave.3.right"
+}

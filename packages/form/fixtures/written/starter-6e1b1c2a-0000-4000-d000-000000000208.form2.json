@@ -1,0 +1,19 @@
+{
+  "colour" : "indigo",
+  "description" : "Goes round for as long as you want it to. Stop it when you are done. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Fifty-two and seventeen",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "One thing. The number comes from watching people who get a lot done, not from a theory.",
+      "minutes" : 52,
+      "title" : "Fifty-two minutes"
+    },
+    {
+      "description" : "Away, not a different screen. This is the half people skip and then wonder why the second hour was worse.",
+      "minutes" : 17,
+      "title" : "Seventeen minutes away from it"
+    }
+  ],
+  "symbol" : "hourglass"
+}

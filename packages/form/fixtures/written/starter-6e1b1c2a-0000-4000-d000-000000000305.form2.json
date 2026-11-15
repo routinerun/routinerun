@@ -1,0 +1,31 @@
+{
+  "colour" : "pink",
+  "name" : "Leaving it empty for a week",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "The bin included. A week is long enough for all of it and you will not be here to notice.",
+      "title" : "Empty what will go off"
+    },
+    {
+      "description" : "Decide which. Half-deciding is how plants die.",
+      "title" : "Water, or ask somebody to"
+    },
+    {
+      "description" : "A full letterbox is a sign, and not one you want on the door.",
+      "title" : "Deal with the post"
+    },
+    {
+      "description" : "Not the fridge, not the freezer, not anything holding the heating above freezing.",
+      "title" : "Turn off what does not need to be on"
+    },
+    {
+      "description" : "With when you are back. Somebody should know the difference between empty and wrong.",
+      "title" : "Tell one person you are going"
+    },
+    {
+      "title" : "Windows, door, keys"
+    }
+  ],
+  "symbol" : "suitcase"
+}

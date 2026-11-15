@@ -1,0 +1,29 @@
+{
+  "colour" : "purple",
+  "name" : "Before a trial charges you",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "The plus on this run, then Value. Put the date the free part stops — the one in the confirmation email, not the one you signed up on.",
+      "title" : "Write down when it ends, as a value called Trial ends"
+    },
+    {
+      "description" : "The run's ellipsis, then Come back to it. Choose Before or after, measure from Trial ends, and set two days before. It comes back on its own, and if the trial is extended the moment follows the date rather than needing to be reset.",
+      "title" : "Put this down until two days before that"
+    },
+    {
+      "description" : "Not whether you meant to. Two days is enough to use it once on purpose and find out.",
+      "title" : "Did you actually use it?"
+    },
+    {
+      "description" : "One or the other, now. \"Decide later\" is the answer that charges you.",
+      "title" : "Cancel it, or write down what it is worth to you"
+    },
+    {
+      "description" : "The confirmation, not the button. This is the step that catches the cancellation that needed a second page.",
+      "title" : "Check it actually cancelled"
+    }
+  ],
+  "symbol" : "creditcard"
+}

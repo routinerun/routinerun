@@ -6,6 +6,8 @@
     "firstShelf" : false,
     "group" : "handsFree",
     "licence" : "CC-BY-4.0",
+    "number" : 1,
+    "order" : 1,
     "release" : 6,
     "shortcuts" : [
 
@@ -22,9 +24,11 @@
     {
       "buttons" : [
         {
+          "actionButton" : true,
           "say" : "This is the Action button. You are on the first step."
         },
         {
+          "actionButton" : true,
           "run" : "next"
         }
       ],
@@ -35,6 +39,14 @@
     {
       "buttons" : [
         {
+          "actionButton" : true,
+          "note" : {
+            "kind" : "written",
+            "text" : "Written by a press of the Action button."
+          }
+        },
+        {
+          "actionButton" : true,
           "run" : "next"
         }
       ],
@@ -45,7 +57,11 @@
     {
       "buttons" : [
         {
-          "count" : "presses"
+          "actionButton" : true,
+          "count" : {
+            "key" : "presses",
+            "on" : "step"
+          }
         }
       ],
       "description" : "This one does not move you on. Press it four or five times and each press adds one to a value called presses — that is the set, the lap, the glass of water, counted without looking. When you have had enough, press Next here on the screen.",
@@ -55,9 +71,11 @@
     {
       "buttons" : [
         {
+          "actionButton" : true,
           "copy" : "Pressed without looking at the phone."
         },
         {
+          "actionButton" : true,
           "run" : "next"
         }
       ],

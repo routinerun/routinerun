@@ -1,0 +1,20 @@
+{
+  "colour" : "indigo",
+  "name" : "Awake at three",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "On paper or here. It stops being a loop once it is somewhere that is not your head.",
+      "title" : "Write down the thing you are chewing on"
+    },
+    {
+      "description" : "It is. Nothing decided at three has ever survived contact with nine.",
+      "title" : "Decide it is tomorrow's"
+    },
+    {
+      "description" : "Lying there awake teaches you that bed is where you lie awake. Somewhere dim, something dull, back when you are heavy.",
+      "title" : "Get up if it has been twenty minutes"
+    }
+  ],
+  "symbol" : "moon.stars"
+}

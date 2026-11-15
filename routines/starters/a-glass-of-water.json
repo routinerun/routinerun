@@ -7,6 +7,8 @@
     "firstShelf" : true,
     "group" : "body",
     "licence" : "CC-BY-4.0",
+    "number" : 5,
+    "order" : 5,
     "release" : 3,
     "shortcuts" : [
 

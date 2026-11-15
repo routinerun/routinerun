@@ -1,0 +1,33 @@
+{
+  "colour" : "pink",
+  "description" : "Twenty-five minutes, five off, four times, then a long one. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Pomodoro, four rounds",
+  "rounds" : {
+    "from" : 2,
+    "repeats" : 4,
+    "through" : 3
+  },
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "One line. The rounds are cheap; deciding what they are for is the part that gets skipped.",
+      "title" : "Write what the four rounds are for"
+    },
+    {
+      "description" : "Twenty-five minutes on that one thing. Anything else that comes up gets written down, not done.",
+      "minutes" : 25,
+      "title" : "Focus"
+    },
+    {
+      "description" : "Away from it. The round after a break you skipped is the round that goes badly.",
+      "minutes" : 5,
+      "title" : "Five off"
+    },
+    {
+      "description" : "Fifteen minutes, and away from the desk for them.",
+      "minutes" : 15,
+      "title" : "The long one"
+    }
+  ],
+  "symbol" : "timer"
+}

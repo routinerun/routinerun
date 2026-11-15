@@ -6,6 +6,8 @@
     "firstShelf" : false,
     "group" : "home",
     "licence" : "CC-BY-4.0",
+    "number" : 9,
+    "order" : 9,
     "release" : 3,
     "shortcuts" : [
 
@@ -34,5 +36,13 @@
       "title" : "One change, not five"
     }
   ],
-  "symbol" : "creditcard"
+  "symbol" : "creditcard",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "19:00",
+        "dayOfMonth" : 1
+      }
+    }
+  ]
 }

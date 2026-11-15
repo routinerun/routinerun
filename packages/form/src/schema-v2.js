@@ -97,7 +97,30 @@ export default {
           "description" : "asks me to write a note, with this as the prompt",
           "properties" : {
             "note" : {
-              "type" : "string"
+              "anyOf" : [
+                {
+                  "type" : "string"
+                },
+                {
+                  "additionalProperties" : false,
+                  "properties" : {
+                    "kind" : {
+                      "description" : "Asked for with these words as the prompt, or written with them. Left out, asked.",
+                      "enum" : [
+                        "asked",
+                        "written"
+                      ]
+                    },
+                    "text" : {
+                      "type" : "string"
+                    }
+                  },
+                  "required" : [
+                    "text"
+                  ],
+                  "type" : "object"
+                }
+              ]
             }
           },
           "required" : [
@@ -109,7 +132,30 @@ export default {
           "description" : "adds one to a number value",
           "properties" : {
             "count" : {
-              "type" : "string"
+              "anyOf" : [
+                {
+                  "type" : "string"
+                },
+                {
+                  "additionalProperties" : false,
+                  "properties" : {
+                    "key" : {
+                      "type" : "string"
+                    },
+                    "on" : {
+                      "description" : "A value of the run, or of the step in hand. Left out, the run.",
+                      "enum" : [
+                        "run",
+                        "step"
+                      ]
+                    }
+                  },
+                  "required" : [
+                    "key"
+                  ],
+                  "type" : "object"
+                }
+              ]
             }
           },
           "required" : [
@@ -155,6 +201,179 @@ export default {
           },
           "required" : [
             "run"
+          ],
+          "type" : "object"
+        },
+        {
+          "description" : "puts this step aside and brings it back then, while the run goes on — \"followUp\" is the step's own followUp, a name is one of my own Not now answers, an object is a followUp said here",
+          "properties" : {
+            "putAside" : {
+              "anyOf" : [
+                {
+                  "description" : "\"followUp\" for the step's own followUp, or the name of one of my own Not now answers.",
+                  "type" : "string"
+                },
+                {
+                  "properties" : {
+                    "alarm" : {
+                      "type" : "boolean"
+                    },
+                    "at" : {
+                      "pattern" : "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+                      "type" : "string"
+                    },
+                    "days" : {
+                      "type" : "integer"
+                    },
+                    "hours" : {
+                      "type" : "number"
+                    },
+                    "name" : {
+                      "type" : "string"
+                    },
+                    "soonerIf" : {
+                      "type" : "string"
+                    },
+                    "wholeRun" : {
+                      "type" : "boolean"
+                    },
+                    "workdays" : {
+                      "type" : "boolean"
+                    }
+                  },
+                  "type" : "object"
+                }
+              ]
+            }
+          },
+          "required" : [
+            "putAside"
+          ],
+          "type" : "object"
+        },
+        {
+          "description" : "gives this step a deadline counted from the press: \"hours\" from now, or \"at\" the next time it is that time (\"days\" on); \"kind\" is by or startBy, \"late\" skip, keep or ask, \"tellMe\" as for a step",
+          "properties" : {
+            "deadline" : {
+              "properties" : {
+                "at" : {
+                  "pattern" : "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+                  "type" : "string"
+                },
+                "days" : {
+                  "type" : "integer"
+                },
+                "hours" : {
+                  "type" : "number"
+                },
+                "kind" : {
+                  "enum" : [
+                    "by",
+                    "startBy"
+                  ]
+                },
+                "late" : {
+                  "enum" : [
+                    "skip",
+                    "keep",
+                    "ask"
+                  ]
+                },
+                "tellMe" : {
+                  "enum" : [
+                    "alarm",
+                    "notification",
+                    "calendar",
+                    "reminders"
+                  ]
+                },
+                "workdays" : {
+                  "type" : "boolean"
+                }
+              },
+              "type" : "object"
+            }
+          },
+          "required" : [
+            "deadline"
+          ],
+          "type" : "object"
+        },
+        {
+          "description" : "asks a question about this step, or the run with \"about\": \"run\", once (\"hours\" or \"at\") or \"every\" so many minutes, hours or days until it is answered; meanwhile the step goes to the end or the run pauses unless \"meanwhile\" is false; \"answers\" are now, later, last or skip for a step and resume, pause, next, finish or stop for a run",
+          "properties" : {
+            "checkIn" : {
+              "properties" : {
+                "about" : {
+                  "enum" : [
+                    "step",
+                    "run"
+                  ]
+                },
+                "answers" : {
+                  "items" : {
+                    "enum" : [
+                      "now",
+                      "later",
+                      "last",
+                      "skip",
+                      "resume",
+                      "pause",
+                      "next",
+                      "finish",
+                      "stop"
+                    ]
+                  },
+                  "type" : "array"
+                },
+                "at" : {
+                  "pattern" : "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+                  "type" : "string"
+                },
+                "days" : {
+                  "type" : "integer"
+                },
+                "every" : {
+                  "additionalProperties" : false,
+                  "description" : "One unit and how many.",
+                  "minProperties" : 1,
+                  "properties" : {
+                    "days" : {
+                      "minimum" : 1,
+                      "type" : "integer"
+                    },
+                    "hours" : {
+                      "minimum" : 1,
+                      "type" : "integer"
+                    },
+                    "minutes" : {
+                      "minimum" : 1,
+                      "type" : "integer"
+                    }
+                  },
+                  "type" : "object"
+                },
+                "hours" : {
+                  "type" : "number"
+                },
+                "meanwhile" : {
+                  "type" : "boolean"
+                },
+                "question" : {
+                  "type" : "string"
+                },
+                "quietly" : {
+                  "type" : "boolean"
+                },
+                "workdays" : {
+                  "type" : "boolean"
+                }
+              },
+              "type" : "object"
+            }
+          },
+          "required" : [
+            "checkIn"
           ],
           "type" : "object"
         },
@@ -952,6 +1171,21 @@ export default {
               },
               {
                 "required" : [
+                  "putAside"
+                ]
+              },
+              {
+                "required" : [
+                  "deadline"
+                ]
+              },
+              {
+                "required" : [
+                  "checkIn"
+                ]
+              },
+              {
+                "required" : [
                   "set"
                 ]
               },
@@ -1094,11 +1328,18 @@ export default {
         },
         {
           "properties" : {
+            "actionButton" : {
+              "description" : "The Action button may press it too, with nobody looking.",
+              "type" : "boolean"
+            },
             "label" : {
               "type" : "string"
             },
             "onNext" : {
               "type" : "boolean"
+            },
+            "pass" : {
+              "$ref" : "#/$defs/pass"
             },
             "title" : {
               "type" : "string"
@@ -1228,6 +1469,54 @@ export default {
       },
       "type" : "object"
     },
+    "doing" : {
+      "allOf" : [
+        {
+          "$ref" : "#/$defs/action"
+        },
+        {
+          "properties" : {
+            "pass" : {
+              "$ref" : "#/$defs/pass"
+            }
+          }
+        }
+      ]
+    },
+    "pass" : {
+      "anyOf" : [
+        {
+          "enum" : [
+            "everyTime",
+            "firstTime",
+            "afterTheFirst",
+            "lastTime",
+            "everyTimeButTheLast"
+          ]
+        },
+        {
+          "additionalProperties" : false,
+          "properties" : {
+            "kind" : {
+              "enum" : [
+                "onlyOn",
+                "everyOther"
+              ]
+            },
+            "value" : {
+              "minimum" : 1,
+              "type" : "integer"
+            }
+          },
+          "required" : [
+            "kind",
+            "value"
+          ],
+          "type" : "object"
+        }
+      ],
+      "description" : "Which times through the step it happens on. Left out, every time."
+    },
     "reaction" : {
       "properties" : {
         "does" : {
@@ -1285,6 +1574,70 @@ export default {
       ],
       "type" : "object"
     },
+    "readiness" : {
+      "anyOf" : [
+        {
+          "enum" : [
+            "confirm",
+            "confirmSaying",
+            "nothingLeftUnplaced",
+            "whileFocusIsOn"
+          ]
+        },
+        {
+          "additionalProperties" : false,
+          "properties" : {
+            "notBefore" : {
+              "pattern" : "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+              "type" : "string"
+            }
+          },
+          "required" : [
+            "notBefore"
+          ],
+          "type" : "object"
+        },
+        {
+          "additionalProperties" : false,
+          "properties" : {
+            "after" : {
+              "additionalProperties" : false,
+              "minProperties" : 1,
+              "properties" : {
+                "days" : {
+                  "type" : "number"
+                },
+                "hours" : {
+                  "type" : "number"
+                },
+                "minutes" : {
+                  "type" : "number"
+                }
+              },
+              "type" : "object"
+            }
+          },
+          "required" : [
+            "after"
+          ],
+          "type" : "object"
+        },
+        {
+          "additionalProperties" : false,
+          "properties" : {
+            "waitsFor" : {
+              "pattern" : "\\S",
+              "type" : "string"
+            }
+          },
+          "required" : [
+            "waitsFor"
+          ],
+          "type" : "object"
+        }
+      ],
+      "description" : "What Next waits for before it moves on."
+    },
     "step" : {
       "properties" : {
         "buttons" : {
@@ -1328,7 +1681,7 @@ export default {
         "does" : {
           "description" : "What happens on arriving at the step.",
           "items" : {
-            "$ref" : "#/$defs/action"
+            "$ref" : "#/$defs/doing"
           },
           "type" : "array"
         },
@@ -1362,6 +1715,10 @@ export default {
           },
           "type" : "object"
         },
+        "keepsScreenAwake" : {
+          "description" : "The screen stays on while the step is in hand.",
+          "type" : "boolean"
+        },
         "links" : {
           "items" : {
             "properties" : {
@@ -1394,6 +1751,9 @@ export default {
           },
           "type" : "array"
         },
+        "readiness" : {
+          "$ref" : "#/$defs/readiness"
+        },
         "repeats" : {
           "description" : "How many times it is done in all.",
           "minimum" : 1,
@@ -1409,6 +1769,9 @@ export default {
             "type" : "string"
           },
           "type" : "array"
+        },
+        "timeUp" : {
+          "$ref" : "#/$defs/timeUp"
         },
         "title" : {
           "description" : "What to do, as an instruction.",
@@ -1441,6 +1804,35 @@ export default {
       "required" : [
         "title"
       ],
+      "type" : "object"
+    },
+    "timeUp" : {
+      "additionalProperties" : false,
+      "description" : "What happens when the step's minutes run out. Left out, it says so and stays.",
+      "properties" : {
+        "advances" : {
+          "description" : "The run moves on by itself.",
+          "type" : "boolean"
+        },
+        "does" : {
+          "items" : {
+            "$ref" : "#/$defs/doing"
+          },
+          "type" : "array"
+        },
+        "reminds" : {
+          "description" : "It says so. Left out, it does.",
+          "type" : "boolean"
+        },
+        "tellMe" : {
+          "enum" : [
+            "alarm",
+            "notification",
+            "calendar",
+            "reminders"
+          ]
+        }
+      },
       "type" : "object"
     },
     "trigger" : {
@@ -1775,6 +2167,55 @@ export default {
           "type" : "string"
         }
       ]
+    },
+    "comesRoundAgain" : {
+      "anyOf" : [
+        {
+          "const" : "atOnce"
+        },
+        {
+          "additionalProperties" : false,
+          "minProperties" : 1,
+          "properties" : {
+            "after" : {
+              "additionalProperties" : false,
+              "minProperties" : 1,
+              "properties" : {
+                "days" : {
+                  "type" : "number"
+                },
+                "hours" : {
+                  "type" : "number"
+                },
+                "minutes" : {
+                  "type" : "number"
+                }
+              },
+              "type" : "object"
+            },
+            "atOnce" : {
+              "type" : "boolean"
+            },
+            "from" : {
+              "description" : "What the gap counts from. Left out, the run finishing.",
+              "enum" : [
+                "finished",
+                "started",
+                "firstStep"
+              ]
+            },
+            "spaced" : {
+              "description" : "1, 3, 7, 21 then 60 days, or 1, 2, 4, 8 then 16 weeks.",
+              "enum" : [
+                "days",
+                "weeks"
+              ]
+            }
+          },
+          "type" : "object"
+        }
+      ],
+      "description" : "Whether a run of this is offered again after it, and how soon."
     },
     "dates" : {
       "items" : {

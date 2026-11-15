@@ -159,6 +159,179 @@ export default {
           "type" : "object"
         },
         {
+          "description" : "puts this step aside and brings it back then, while the run goes on — \"followUp\" is the step's own followUp, a name is one of my own Not now answers, an object is a followUp said here",
+          "properties" : {
+            "putAside" : {
+              "anyOf" : [
+                {
+                  "description" : "\"followUp\" for the step's own followUp, or the name of one of my own Not now answers.",
+                  "type" : "string"
+                },
+                {
+                  "properties" : {
+                    "alarm" : {
+                      "type" : "boolean"
+                    },
+                    "at" : {
+                      "pattern" : "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+                      "type" : "string"
+                    },
+                    "days" : {
+                      "type" : "integer"
+                    },
+                    "hours" : {
+                      "type" : "number"
+                    },
+                    "name" : {
+                      "type" : "string"
+                    },
+                    "soonerIf" : {
+                      "type" : "string"
+                    },
+                    "wholeRun" : {
+                      "type" : "boolean"
+                    },
+                    "workdays" : {
+                      "type" : "boolean"
+                    }
+                  },
+                  "type" : "object"
+                }
+              ]
+            }
+          },
+          "required" : [
+            "putAside"
+          ],
+          "type" : "object"
+        },
+        {
+          "description" : "gives this step a deadline counted from the press: \"hours\" from now, or \"at\" the next time it is that time (\"days\" on); \"kind\" is by or startBy, \"late\" skip, keep or ask, \"tellMe\" as for a step",
+          "properties" : {
+            "deadline" : {
+              "properties" : {
+                "at" : {
+                  "pattern" : "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+                  "type" : "string"
+                },
+                "days" : {
+                  "type" : "integer"
+                },
+                "hours" : {
+                  "type" : "number"
+                },
+                "kind" : {
+                  "enum" : [
+                    "by",
+                    "startBy"
+                  ]
+                },
+                "late" : {
+                  "enum" : [
+                    "skip",
+                    "keep",
+                    "ask"
+                  ]
+                },
+                "tellMe" : {
+                  "enum" : [
+                    "alarm",
+                    "notification",
+                    "calendar",
+                    "reminders"
+                  ]
+                },
+                "workdays" : {
+                  "type" : "boolean"
+                }
+              },
+              "type" : "object"
+            }
+          },
+          "required" : [
+            "deadline"
+          ],
+          "type" : "object"
+        },
+        {
+          "description" : "asks a question about this step, or the run with \"about\": \"run\", once (\"hours\" or \"at\") or \"every\" so many minutes, hours or days until it is answered; meanwhile the step goes to the end or the run pauses unless \"meanwhile\" is false; \"answers\" are now, later, last or skip for a step and resume, pause, next, finish or stop for a run",
+          "properties" : {
+            "checkIn" : {
+              "properties" : {
+                "about" : {
+                  "enum" : [
+                    "step",
+                    "run"
+                  ]
+                },
+                "answers" : {
+                  "items" : {
+                    "enum" : [
+                      "now",
+                      "later",
+                      "last",
+                      "skip",
+                      "resume",
+                      "pause",
+                      "next",
+                      "finish",
+                      "stop"
+                    ]
+                  },
+                  "type" : "array"
+                },
+                "at" : {
+                  "pattern" : "^([01]?[0-9]|2[0-3]):[0-5][0-9]$",
+                  "type" : "string"
+                },
+                "days" : {
+                  "type" : "integer"
+                },
+                "every" : {
+                  "additionalProperties" : false,
+                  "description" : "One unit and how many.",
+                  "minProperties" : 1,
+                  "properties" : {
+                    "days" : {
+                      "minimum" : 1,
+                      "type" : "integer"
+                    },
+                    "hours" : {
+                      "minimum" : 1,
+                      "type" : "integer"
+                    },
+                    "minutes" : {
+                      "minimum" : 1,
+                      "type" : "integer"
+                    }
+                  },
+                  "type" : "object"
+                },
+                "hours" : {
+                  "type" : "number"
+                },
+                "meanwhile" : {
+                  "type" : "boolean"
+                },
+                "question" : {
+                  "type" : "string"
+                },
+                "quietly" : {
+                  "type" : "boolean"
+                },
+                "workdays" : {
+                  "type" : "boolean"
+                }
+              },
+              "type" : "object"
+            }
+          },
+          "required" : [
+            "checkIn"
+          ],
+          "type" : "object"
+        },
+        {
           "description" : "sets a value",
           "properties" : {
             "set" : {
@@ -948,6 +1121,21 @@ export default {
               {
                 "required" : [
                   "run"
+                ]
+              },
+              {
+                "required" : [
+                  "putAside"
+                ]
+              },
+              {
+                "required" : [
+                  "deadline"
+                ]
+              },
+              {
+                "required" : [
+                  "checkIn"
                 ]
               },
               {

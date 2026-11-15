@@ -6,6 +6,8 @@
     "firstShelf" : false,
     "group" : "onCall",
     "licence" : "CC-BY-4.0",
+    "number" : 3,
+    "order" : 3,
     "release" : 1,
     "shortcuts" : [
 

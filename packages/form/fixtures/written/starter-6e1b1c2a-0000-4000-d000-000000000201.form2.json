@@ -1,0 +1,35 @@
+{
+  "colour" : "purple",
+  "description" : "The third step turns on Do Not Disturb with a free shortcut, Focus On via Routine Run, which the step offers to add in one tap. Give it the name of another Focus to turn that one on instead. Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "Into deep work",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "What will be true at the end of this that is not true now.",
+      "title" : "Write the one sentence"
+    },
+    {
+      "description" : "Tabs included. Especially tabs.",
+      "title" : "Close everything that is not it"
+    },
+    {
+      "buttons" : [
+        {
+          "shortcut" : "Focus On via Routine Run"
+        }
+      ],
+      "description" : "Hands off — this runs a shortcut.",
+      "title" : "Turn a Focus on"
+    },
+    {
+      "description" : "Not ninety. Ninety is a number people say and nobody does.",
+      "minutes" : 50,
+      "title" : "Fifty minutes"
+    },
+    {
+      "description" : "Mid-sentence is fine and is in fact better.",
+      "title" : "Write down where you stopped"
+    }
+  ],
+  "symbol" : "brain.head.profile"
+}

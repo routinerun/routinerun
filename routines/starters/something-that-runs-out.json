@@ -6,6 +6,8 @@
     "firstShelf" : false,
     "group" : "home",
     "licence" : "CC-BY-4.0",
+    "number" : 10,
+    "order" : 10,
     "release" : 3,
     "shortcuts" : [
 
@@ -32,6 +34,7 @@
     },
     {
       "description" : "Two months is the gap that makes this dull rather than expensive.",
+      "readiness" : "confirm",
       "title" : "Start it"
     }
   ],

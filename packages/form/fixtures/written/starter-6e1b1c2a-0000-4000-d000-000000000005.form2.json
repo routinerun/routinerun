@@ -1,0 +1,25 @@
+{
+  "colour" : "yellow",
+  "name" : "The alert that keeps coming back",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "The number is the argument. Nobody prioritises \"it fires a lot\".",
+      "title" : "Count how many times this month"
+    },
+    {
+      "description" : "If the answer is the same three commands, that is the fix and it is not the alert.",
+      "title" : "Say what you do each time"
+    },
+    {
+      "description" : "Three doors and they are all better than the fourth one, which is to keep answering it.",
+      "title" : "Decide: automate, retune, or delete"
+    },
+    {
+      "description" : "Not on the backlog. It comes back before the backlog does.",
+      "title" : "Do the one you chose now"
+    }
+  ],
+  "symbol" : "arrow.trianglehead.2.clockwise"
+}

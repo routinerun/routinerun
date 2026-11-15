@@ -7,6 +7,8 @@
     "firstShelf" : true,
     "group" : "onCall",
     "licence" : "CC-BY-4.0",
+    "number" : 1,
+    "order" : 1,
     "release" : 1,
     "shortcuts" : [
 
@@ -28,6 +30,7 @@
     },
     {
       "description" : "Out loud, before touching anything. Half of these are a threshold nobody has revisited since the service got busier.",
+      "readiness" : "confirm",
       "title" : "Say whether it is real"
     },
     {

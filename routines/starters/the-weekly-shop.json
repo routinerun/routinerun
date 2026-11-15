@@ -6,6 +6,8 @@
     "firstShelf" : true,
     "group" : "home",
     "licence" : "CC-BY-4.0",
+    "number" : 1,
+    "order" : 1,
     "release" : 1,
     "shortcuts" : [
 

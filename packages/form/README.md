@@ -41,10 +41,12 @@ reaches.
 - `fixtures/upgrade/`: every example the app shows an assistant and every starter, as form 1
   beside the form 2 the app makes of it, plus one file using every key form 2 renames. The
   app's tests write them; `test/form.test.js` asks this package for the same form 2 from each.
-- `starters/`: every routine the app ships, in form 2, with where it sits in the catalogue.
-  The same files are `routines/` in the public repository.
+- The starters are not in this folder. They are the app's own files, which it bundles and
+  reads: every routine it ships, in form 2, with where it sits in the catalogue. In the
+  public repository they are `routines/<starters|on-call>/<slug>.json`, and `routinerun new`
+  reads them from there.
 - `skins/`: the three skins of the row design, as data (`schema/skin.v1.schema.json`). A skin
   changes how rows look and nothing about what they say.
 
-The schemas, the pairs and the starters are written by the app and are edited there, never
-here. Not published to npm yet (`"private": true`).
+The schemas and the pairs are written by the app, and the starters are the app's; all of
+them are edited there, never here. Not published to npm yet (`"private": true`).

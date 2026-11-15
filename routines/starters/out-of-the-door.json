@@ -6,6 +6,8 @@
     "firstShelf" : true,
     "group" : "dayEnds",
     "licence" : "CC-BY-4.0",
+    "number" : 3,
+    "order" : 3,
     "release" : 1,
     "shortcuts" : [
 
@@ -19,6 +21,7 @@
   "routineRun" : 2,
   "steps" : [
     {
+      "readiness" : "confirm",
       "title" : "Keys, wallet, phone"
     },
     {
@@ -26,6 +29,7 @@
     },
     {
       "description" : "The two you will think about on the train otherwise.",
+      "readiness" : "confirm",
       "title" : "Windows and the hob"
     }
   ],

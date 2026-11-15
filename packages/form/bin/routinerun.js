@@ -18,8 +18,12 @@ function read(file) {
   return Array.isArray(said) ? said : [said];
 }
 
-// The starters sit beside the package here, and in routines/ in the public repository.
-const shelves = [new URL("../starters/", import.meta.url), new URL("../../../routines/", import.meta.url)].filter((url) => existsSync(url));
+// The starters are the app's own files here, which it bundles and reads, and they are
+// routines/ in the public repository.
+const shelves = [
+  new URL("../../RoutineKit/Sources/RoutineKit/Resources/Starters/", import.meta.url),
+  new URL("../../../routines/", import.meta.url),
+].filter((url) => existsSync(url));
 function starters() {
   const seen = new Set();
   return shelves.flatMap((shelf) => readdirSync(shelf).flatMap((group) => {

@@ -1,0 +1,18 @@
+{
+  "colour" : "green",
+  "name" : "Out of the door",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "title" : "Keys, wallet, phone"
+    },
+    {
+      "title" : "Anything you promised to bring"
+    },
+    {
+      "description" : "The two you will think about on the train otherwise.",
+      "title" : "Windows and the hob"
+    }
+  ],
+  "symbol" : "figure.walk.departure"
+}

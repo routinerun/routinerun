@@ -2,7 +2,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { inflateRawSync } from "node:zlib";
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { linkFor, MAXIMUM_LINK } from "../src/link.js";
 import { problems } from "../src/index.js";
 
@@ -23,7 +23,11 @@ test("a link carries form 1 until form 2 is handed out, and says so", async () =
 });
 
 test("every starter file is a form 2 routine with its place in the catalogue", () => {
-  const shelf = new URL("../starters/", import.meta.url);
+  // The app's own files here, routines/ in the public repository.
+  const shelf = [
+    new URL("../../RoutineKit/Sources/RoutineKit/Resources/Starters/", import.meta.url),
+    new URL("../../../routines/", import.meta.url),
+  ].find((url) => existsSync(url));
   const files = readdirSync(shelf).flatMap((group) => readdirSync(new URL(`${group}/`, shelf)).map((name) => new URL(`${group}/${name}`, shelf)));
   assert.ok(files.length > 40, `${files.length} starters`);
   for (const file of files) {

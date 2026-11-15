@@ -6,6 +6,8 @@
     "firstShelf" : true,
     "group" : "dayEnds",
     "licence" : "CC-BY-4.0",
+    "number" : 2,
+    "order" : 2,
     "release" : 1,
     "shortcuts" : [
 
@@ -40,7 +42,16 @@
   "triggers" : [
     {
       "when" : {
-        "at" : "22:00"
+        "at" : "22:00",
+        "weekdays" : [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri",
+          "sat",
+          "sun"
+        ]
       }
     }
   ]

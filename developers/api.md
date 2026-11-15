@@ -30,7 +30,7 @@ There is no account and no API key for the whole service: an address reaches the
 | `POST /runs/{run}/later`, `/last` | `expectsStep` if you know it | Puts the step in hand one place down, or at the end |
 | `POST /runs/{run}/notes` | `text` | Writes a note on the run, at the step it is on |
 | `PUT /runs/{run}/values/{key}` | `value` | Sets a value on the run |
-| `POST /routines/{routine}/steps` | `title`, and `detail` | Adds a step to a list that stays open |
+| `POST /routines/{routine}/steps` | `title`, and `description` | Adds a step to a list that stays open |
 | `POST /pagerduty` | a PagerDuty Webhooks V3 delivery, as sent | Reads the incident as an event |
 | `POST /alertmanager`, `/grafana` | an Alertmanager or Grafana webhook notification, as sent | Reads a firing group as one event; a cleared one is heard and not passed on |
 | `POST /v2/enqueue`, `/enqueue` | an Events API v2 event, as sent, with the secret as `routing_key` | Reads a trigger as an event; acknowledge and resolve are heard and not passed on |
@@ -39,8 +39,8 @@ There is no account and no API key for the whole service: an address reaches the
 
 | Request | What comes back |
 |---|---|
-| `GET /routines`, `?match=` part of a name | Each routine's id, name, step count and whether it stays open as a list |
-| `GET /routines/{routine}` | Its steps, its version and its written form |
+| `GET /routines`, `?match=` part of a name | Each routine's id, name, step count, whether it stays open as a list (`staysOpen`), whether several runs of it can go at once (`severalAtOnce`), and the values a run of it needs (`startsWith`) |
+| `GET /routines/{routine}` | Its `description`, its steps with theirs, its version and its written form |
 | `GET /runs` | The runs going, and the step each is on |
 | `GET /runs/{run}` | One run's steps, each done, in hand or ahead — never its notes or values |
 | `GET /history`, `?days=` up to 92 and `?routine=` | Runs finished, stopped and going per routine, and the steps most often skipped or put off |
@@ -48,6 +48,8 @@ There is no account and no API key for the whole service: an address reaches the
 A read is answered by the phone, so it needs the phone reachable; one that does not answer in about 20 seconds is `504 phone_did_not_answer`.
 
 A routine is found by its id, or by its name in any case. Two routines with the same name are neither.
+
+What is read is said in the words of the written form 2 ([schema](https://routinerun.com/developers/written-routine.v2.schema.json)): a routine's and a step's words about themselves are `description`, as in the form. They were `detail`, and `detail` is said beside `description` until the first relay deploy after 15 December 2026, so a script that reads it has that long to move; `POST /routines/{routine}/steps` reads either. `written`, the routine whole, is in the form the phone itself reads, and a change is sent back in it as it came.
 
 For example:
 
@@ -124,9 +126,10 @@ The same connection, for an assistant: `https://api.routinerun.com/mcp`, Streama
 
 | Tool | What it does |
 |---|---|
-| `list_routines`, `get_routine` | Names and step counts; one routine's steps, its version and its written form |
+| `list_routines`, `get_routine` | Names and step counts; one routine's description and steps, its version and its written form, in the same words as the reads above |
 | `list_runs`, `get_run` | The runs going, and where each stands |
 | `start_run`, `next_step`, `pause_run`, `resume_run`, `stop_run`, `put_off_step`, `add_note`, `set_value`, `add_step` | The requests above, waiting up to 15 seconds for the phone's answer |
+| `add_step_button` | Puts one button that waits on a going run's step: put it aside, a deadline, or a check-in, in the written form's words. The run's own, until the person keeps it |
 | `get_history` | How the last few days went: runs finished, stopped and going for each routine, the steps most often skipped or put off — never notes or values |
 | `propose_routine_change` | A routine whole in its written form, shown on the phone to be saved or dropped |
 | `plan_run` | Plans a run of a routine for a moment to come; it shows as Planned and begins then |
@@ -147,7 +150,7 @@ Reads are answered by the phone, so they need it reachable; a phone that does no
 |---|---|
 | `how_to_write_a_routine` | The form the app reads, the same text as [llms-routine.txt](https://routinerun.com/llms-routine.txt) |
 | `routine_link` | Checks a routine in that form and returns a `routinerun.com/w?d=…` link that opens it on the app's review screen |
-| `find_starter_routine` | The routines the app ships, found by words, each with its steps and a link that adds it |
+| `find_starter_routine` | The routines the app ships, found by words, each with its `description`, its steps and a link that adds it |
 
 The routine sent to `routine_link` is turned into a link and not kept. 60 calls a minute from one address.
 

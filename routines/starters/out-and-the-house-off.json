@@ -6,6 +6,8 @@
     "firstShelf" : false,
     "group" : "home",
     "licence" : "CC-BY-4.0",
+    "number" : 8,
+    "order" : 8,
     "release" : 3,
     "shortcuts" : [
 
@@ -20,6 +22,7 @@
   "routineRun" : 2,
   "steps" : [
     {
+      "readiness" : "confirm",
       "title" : "Windows and the hob"
     },
     {
@@ -32,6 +35,7 @@
       "title" : "Set the house to leave"
     },
     {
+      "readiness" : "confirm",
       "title" : "Keys, wallet, phone"
     }
   ],

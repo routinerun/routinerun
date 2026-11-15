@@ -62,6 +62,9 @@ THE ACTIONS, and these are the only ones — each is one word and what it is abo
 - {"now": "startedAt"} — sets a value to the current moment
 - {"howLong": "plankTime"} — keeps how long this step took
 - {"run": "next"} — moves the run on: next, pause, finish or stop
+- {"putAside": "followUp"} or {"putAside": {"days": 2, "at": "10:00", "workdays": true}} — puts this step aside and brings it back then, while the run goes on — "followUp" is the step's own followUp, a name is one of my own Not now answers, an object is a followUp said here
+- {"deadline": {"at": "17:00", "kind": "startBy"}} — gives this step a deadline counted from the press: "hours" from now, or "at" the next time it is that time ("days" on); "kind" is by or startBy, "late" skip, keep or ask, "tellMe" as for a step
+- {"checkIn": {"every": {"days": 3}, "at": "10:00", "question": "Has it arrived?"}} — asks a question about this step, or the run with "about": "run", once ("hours" or "at") or "every" so many minutes, hours or days until it is answered; meanwhile the step goes to the end or the run pauses unless "meanwhile" is false; "answers" are now, later, last or skip for a step and resume, pause, next, finish or stop for a run
 - {"webhook": {"url": "https://example.com/hook", "method": "POST", "headers": {"Authorization": "Bearer {secret:example}"}, "body": {"run": "{instance}", "step": "{step}"}}} — sends a request to a server; method is GET, POST, PUT or DELETE, POST if left out
 - {"event": {"title": "Focus", "in": 0, "minutes": 50}} — puts an event in my calendar, starting in so many minutes and lasting so many
 - {"reminder": {"title": "Send the invoice", "in": 60, "list": "Work"}} — adds a reminder to Reminders, due in so many minutes
@@ -235,6 +238,6 @@ Read before you write, and ask in the chat — one message, with choices where t
 
 **Writing a routine.** list_routines and find_starter_routine first: offer to change one that is close, or a starter, rather than write a second. Ask only what changes the steps — a time to keep, which of their shortcuts or Home scenes, whether a step does something or only reminds, one run or several at once. Never invent tags, scenes, shortcuts or links. Then propose_new_routine.
 
-**Changing a routine.** get_routine, whole. Name steps by number and title from it. Ask only if the change reads two ways ("after step 3, or at the end?"). One step on a list: add_step. Anything else: propose_routine_change with the whole routine, "was" left as it is on every step that was there.
+**Changing a routine.** get_routine, whole: `description` is what the routine and each step say about themselves, and `written` is the routine to edit and send back. Name steps by number and title from it. Ask only if the change reads two ways ("after step 3, or at the end?"). One step on a list: add_step. Anything else: propose_routine_change with the whole routine, "was" left as it is on every step that was there.
 
 **After a run.** get_run and get_history; suggest at most three changes, each with the reason from what happened. Change nothing without proposing it.

@@ -14,7 +14,18 @@ Form 2, pinned by [`written-routine.v2.schema.json`](written-routine.v2.schema.j
 - one `deadline` object for a step's ten deadline keys;
 - `triggers` for a routine's `times`.
 
-It also says what form 1 could not: notes, places, a step's tags and check-ins, other triggers, reactions, and a value's kind where reading it plainly would be wrong. Form 1 is read for ever and turned into form 2 by one table, the app's and `@routinerun/form`'s alike. Links, codes and the request to an assistant stay form 1 until a build that reads form 2 is on the App Store.
+It also says what form 1 could not: notes, places, a step's tags and check-ins, other triggers, reactions, and a value's kind where reading it plainly would be wrong.
+
+And it says every setting a starter carries, because the starters are form 2 files and nothing else (`routines/` in the public repository):
+- a step's `readiness`, what Next waits for: `"confirm"`, `"confirmSaying"`, `"nothingLeftUnplaced"`, `"whileFocusIsOn"`, `{"notBefore": "09:00"}`, `{"after": {"minutes": 20}}` or `{"waitsFor": "the courier"}`;
+- a step's `keepsScreenAwake`;
+- a step's `timeUp`, what happens when its minutes run out: `{"advances": true, "reminds": false, "does": [{"say": "Walk"}]}`, with `tellMe` as in `deadline`. Left out, it says so and stays;
+- `pass` beside an action in `does`, `timeUp.does` or `buttons`, for which times through the step it happens on: `"firstTime"`, `"afterTheFirst"`, `"lastTime"`, `"everyTimeButTheLast"`, or `{"kind": "onlyOn", "value": 3}` and `{"kind": "everyOther", "value": 1}`. Left out, every time;
+- `actionButton: true` on a button the Action button may press too;
+- `{"note": {"text": "…", "kind": "written"}}` for a note the step writes itself rather than asks for, and `{"count": {"key": "reps", "on": "step"}}` for a count kept on the step rather than the run;
+- the routine's `comesRoundAgain`: `"atOnce"`, `{"after": {"days": 1}}` or `{"spaced": "days"}`, with `"from": "started"` or `"firstStep"` where the gap is not counted from the run finishing.
+
+None of these is ever written into form 1. Form 1 is read for ever and turned into form 2 by one table, the app's and `@routinerun/form`'s alike. Links, codes and the request to an assistant stay form 1 until a build that reads form 2 is on the App Store.
 
 - A reader takes every form up to the newest it knows, and refuses a newer one with a sentence naming both numbers. The relay that carries routines to the phone does the same.
 - A form changes number only when something already valid would be read differently. Adding an optional field, an action word or a colour does not.

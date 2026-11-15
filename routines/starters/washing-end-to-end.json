@@ -6,6 +6,8 @@
     "firstShelf" : true,
     "group" : "home",
     "licence" : "CC-BY-4.0",
+    "number" : 2,
+    "order" : 2,
     "release" : 1,
     "shortcuts" : [
 
@@ -33,6 +35,7 @@
       "title" : "Hang it before it creases"
     },
     {
+      "readiness" : "confirm",
       "title" : "Put it away"
     }
   ],

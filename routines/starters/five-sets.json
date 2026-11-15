@@ -6,6 +6,8 @@
     "firstShelf" : true,
     "group" : "body",
     "licence" : "CC-BY-4.0",
+    "number" : 3,
+    "order" : 3,
     "release" : 3,
     "shortcuts" : [
 
@@ -26,6 +28,7 @@
     },
     {
       "description" : "Then rest until your breathing is back. Press Again for the next one.",
+      "keepsScreenAwake" : true,
       "repeats" : 5,
       "title" : "A set"
     },

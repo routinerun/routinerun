@@ -6,6 +6,8 @@
     "firstShelf" : false,
     "group" : "dayEnds",
     "licence" : "CC-BY-4.0",
+    "number" : 4,
+    "order" : 4,
     "release" : 2,
     "shortcuts" : [
 
@@ -24,10 +26,16 @@
     },
     {
       "description" : "It is. Nothing decided at three has ever survived contact with nine.",
+      "readiness" : "confirm",
       "title" : "Decide it is tomorrow's"
     },
     {
       "description" : "Lying there awake teaches you that bed is where you lie awake. Somewhere dim, something dull, back when you are heavy.",
+      "readiness" : {
+        "after" : {
+          "minutes" : 20
+        }
+      },
       "title" : "Get up if it has been twenty minutes"
     }
   ],

@@ -6,6 +6,8 @@
     "firstShelf" : false,
     "group" : "handsFree",
     "licence" : "CC-BY-4.0",
+    "number" : 2,
+    "order" : 2,
     "release" : 6,
     "shortcuts" : [
 
@@ -22,7 +24,11 @@
     {
       "buttons" : [
         {
-          "count" : "count"
+          "actionButton" : true,
+          "count" : {
+            "key" : "count",
+            "on" : "step"
+          }
         }
       ],
       "description" : "Nothing else is on the button while this run is pinned, so it cannot go wrong in a pocket. The count is a value called count on this step: open the run to read it, change it by hand if you miscounted, and press Next when the day is done.",

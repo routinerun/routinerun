@@ -1,0 +1,30 @@
+{
+  "colour" : "pink",
+  "name" : "A shoot, shot by shot",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Both batteries, both cards. This is the only step that cannot be done later.",
+      "title" : "Charge and format"
+    },
+    {
+      "description" : "Write each one in as a step while you are standing here. They belong to today's shoot, and at the end you decide whether any of them belong to the routine.",
+      "title" : "Add the shots you want"
+    },
+    {
+      "title" : "Light and sound, one frame to check"
+    },
+    {
+      "title" : "Shoot it"
+    },
+    {
+      "description" : "Once is not a backup. Doing it here rather than at home is the difference between a bad day and a lost one.",
+      "title" : "Back it up twice before you leave"
+    },
+    {
+      "title" : "Label the cards"
+    }
+  ],
+  "symbol" : "camera"
+}

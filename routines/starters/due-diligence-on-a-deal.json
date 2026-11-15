@@ -6,6 +6,8 @@
     "firstShelf" : false,
     "group" : "work",
     "licence" : "CC-BY-4.0",
+    "number" : 12,
+    "order" : 12,
     "release" : 7,
     "shortcuts" : [
 
@@ -61,6 +63,7 @@
     },
     {
       "description" : "Invest, pass, or one more question with a date on it. Written, with the reason.",
+      "readiness" : "confirm",
       "title" : "Decide"
     },
     {

@@ -1,0 +1,23 @@
+{
+  "colour" : "orange",
+  "name" : "Handing the pager over",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "Including the ones that fixed themselves. Those are the ones that come back.",
+      "title" : "List what fired this shift"
+    },
+    {
+      "description" : "With where you got to, not just that it is open.",
+      "title" : "Say what is still open"
+    },
+    {
+      "description" : "A silence nobody knows about is an outage nobody sees.",
+      "title" : "Name anything you silenced"
+    },
+    {
+      "title" : "Confirm they have it"
+    }
+  ],
+  "symbol" : "arrow.left.arrow.right"
+}

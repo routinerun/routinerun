@@ -26,11 +26,17 @@ Press an answer on the card, or in In hand. **Not yet** is always there too — 
 
 Once answered, it stops asking and says what it was answered. **Ask again** starts it over.
 
+Doing the step answers it too: **Next** or **Skip** on a step stops its check-in. Go **Back** onto that step, or undo the Next, and the question asks again as it was. An answer you pressed yourself stays answered.
+
 **Decide later**, on the Lock Screen card or under **Not now…**, is a quick one: the step stays where it is, the run moves on past it, and the question waits in In hand, with no card. Its answers are **Now** and **Skip**. Leave it unanswered and nothing is lost: at the end the run comes back for it, after everything you have done. See [Pause, Later and Last](pause-later-last.md).
 
 ## Every run of a routine
 
 On the routine's page, tap the step on the line at the top and press **Not now…** on its card, or open the step and choose **Not now…** in its menu. Then choose **Check in on it…** under "Every run of it, from now on". Each run gets its own question when it reaches that step, counted from that moment.
+
+## In one press
+
+A step can carry a button that sets its check-in: "Has it arrived?", every three days. Add an action to the step: **Control**, **This run**, **Check in on it**, and choose what it is about, how often it asks, and what it asks. Pressed again, it changes the question already asking rather than adding a second. See [Pause, Later and Last](pause-later-last.md).
 
 ## Good to know
 

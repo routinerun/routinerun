@@ -33,6 +33,21 @@ test("the schemas are the ones the docs publish", () => {
   assert.equal(SCHEMAS[2].$id, "https://routinerun.com/schema/routine.v2.json");
 });
 
+// Form 2 as the app writes it from its own routines: every starter and one routine that
+// says all form 2 can. Written by the app (WrittenFormCarriesTests).
+const written = new URL("../fixtures/written/", import.meta.url);
+const writtenNames = readdirSync(written).filter((name) => name.endsWith(".form2.json"));
+
+test("every form 2 the app writes is one the schema takes, and upgrading it changes nothing", () => {
+  assert.ok(writtenNames.length > 50, `only ${writtenNames.length} written`);
+  for (const name of writtenNames) {
+    const two = JSON.parse(readFileSync(new URL(name, written), "utf8"));
+    assert.deepEqual(problems(two), [], name);
+    assert.equal(problemWith(two), null, name);
+    assert.deepEqual(upgrade(two), two, name);
+  }
+});
+
 test("upgrading form 2 changes nothing, and nothing is lost on the way up", () => {
   const two = read("every-key-that-moved.form2.json");
   assert.deepEqual(upgrade(two), two);

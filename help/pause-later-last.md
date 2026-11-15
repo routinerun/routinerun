@@ -55,6 +55,16 @@ A follow-up puts aside only the step it is pressed on: the letter goes to the en
 
 A step can carry its own follow-up, usually written by an assistant. Both kinds are under **More → Wait presets**, where you change or remove them. On the watch, a step's own follow-up is the first answer in **Come back to it**.
 
+## A button for it
+
+When a step is put off the same way every time — "check the reply has come", and most days it has not — give the step a button that does it in one press. On the step, add an action: **Control**, **This run**, and under **Does what**:
+
+- **Put this step aside**, until a moment, until one of your own answers says, or as its follow-up says. The run goes on, and the step comes back then.
+- **Give this step a deadline**: done by, or begun by, so long after the press.
+- **Check in on it**: a question about the step or the run, once or every so often. See [Check-ins](check-ins.md).
+
+The button is on the step's card, on the Lock Screen and on the watch. A deadline it gives is today's alone: the band does not ask you to keep it. An assistant can write these buttons too.
+
 ## When a time has passed
 
 A step with a time to be done by that has gone says **Overdue** on the run's page. Tap that line for **Time passed**: **Do it now**, **Change the time…** or **Take the time off**. Where several steps of the run are late, **From tomorrow**, **From next week** or **Choose when the first is due…** moves all of them and keeps the gaps between them. **Count them from a date…** counts them from a date instead, so the next slip is one date moved. See [Dates](dates.md).

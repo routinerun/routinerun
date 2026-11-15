@@ -529,9 +529,9 @@
                     "type": "string",
                     "description": "The step, or a link."
                   },
-                  "detail": {
+                  "description": {
                     "type": "string",
-                    "description": "A line under it."
+                    "description": "A line under it. `detail`, the word before it, is read too until the first relay deploy after 15 December 2026."
                   }
                 }
               }
@@ -1288,7 +1288,22 @@
         "operationId": "listRoutines",
         "responses": {
           "200": {
-            "description": "The phone's answer"
+            "description": "The phone's answer",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "routines": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/RoutineLine"
+                      }
+                    }
+                  }
+                }
+              }
+            }
           },
           "504": {
             "description": "The phone did not answer in time"
@@ -1313,7 +1328,14 @@
         "operationId": "getRoutine",
         "responses": {
           "200": {
-            "description": "The phone's answer"
+            "description": "The phone's answer",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Routine"
+                }
+              }
+            }
           },
           "504": {
             "description": "The phone did not answer in time"
@@ -1418,6 +1440,125 @@
         "properties": {
           "error": {
             "type": "string"
+          }
+        }
+      },
+      "RoutineLine": {
+        "type": "object",
+        "description": "One routine in a list, in the words of the written form 2.",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "description": "The routine's name."
+          },
+          "steps": {
+            "type": "integer",
+            "description": "How many steps it has."
+          },
+          "staysOpen": {
+            "type": "boolean",
+            "description": "It stays open as a list, such as Inbox or To read."
+          },
+          "severalAtOnce": {
+            "type": "boolean",
+            "description": "A second start makes a second run, rather than carrying on the one going."
+          },
+          "startsWith": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The values a run of it needs at Start: the keys its name and steps quote as {param:key} and it keeps no value for. Left out when there are none."
+          }
+        }
+      },
+      "RoutineStep": {
+        "type": "object",
+        "properties": {
+          "number": {
+            "type": "integer",
+            "description": "Its place in the routine, from 1."
+          },
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "title": {
+            "type": "string",
+            "description": "What to do."
+          },
+          "description": {
+            "type": "string",
+            "description": "Its words about itself, in Markdown. Left out when it has none."
+          },
+          "detail": {
+            "type": "string",
+            "deprecated": true,
+            "description": "The same as `description`, said until the first relay deploy after 15 December 2026."
+          },
+          "minutes": {
+            "type": "integer",
+            "description": "How long it runs, where it runs on a clock."
+          },
+          "off": {
+            "type": "boolean",
+            "description": "Switched off: runs pass it by."
+          }
+        }
+      },
+      "Routine": {
+        "type": "object",
+        "description": "One routine, in the words of the written form 2.",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "description": "The routine's name."
+          },
+          "description": {
+            "type": "string",
+            "description": "What it is for, in Markdown. Empty when it says nothing."
+          },
+          "detail": {
+            "type": "string",
+            "deprecated": true,
+            "description": "The same as `description`, said until the first relay deploy after 15 December 2026."
+          },
+          "version": {
+            "type": "string",
+            "description": "Its fingerprint. A change proposed against an older one is shown against the routine as it is now."
+          },
+          "written": {
+            "type": "string",
+            "description": "The routine whole, as JSON text in the written form the phone reads; a change is sent back in it, with its `from` kept."
+          },
+          "staysOpen": {
+            "type": "boolean",
+            "description": "It stays open as a list."
+          },
+          "severalAtOnce": {
+            "type": "boolean",
+            "description": "A second start makes a second run."
+          },
+          "startsWith": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The values a run of it needs at Start."
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RoutineStep"
+            }
           }
         }
       }

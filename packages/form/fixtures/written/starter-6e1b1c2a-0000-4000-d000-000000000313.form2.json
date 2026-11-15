@@ -1,0 +1,26 @@
+{
+  "colour" : "#30B0C7",
+  "description" : "Started by the Apple Pay connection for a payment over the sum you set, and named after the merchant. On its own it is a list you run after anything you are not sure of.",
+  "name" : "Check a purchase",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "If not, call the number on the back of the card now, before anything else on this list.",
+      "title" : "Was it you?"
+    },
+    {
+      "description" : "Decided today, while the return window is open and the box is still in one piece.",
+      "title" : "Keep it or send it back"
+    },
+    {
+      "description" : "A photo of it as a note on this run, so it is found by the merchant's name later.",
+      "title" : "Keep the receipt"
+    },
+    {
+      "description" : "The category it goes under in your budget, written as a value if you keep one.",
+      "title" : "File it"
+    }
+  ],
+  "symbol" : "creditcard"
+}

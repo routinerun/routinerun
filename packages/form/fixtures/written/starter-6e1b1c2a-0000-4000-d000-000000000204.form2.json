@@ -1,0 +1,30 @@
+{
+  "colour" : "orange",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "name" : "A meeting you called",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "As a question with a yes or a no in it. A meeting without one is a meeting that ends in another meeting.",
+      "title" : "Write the decision you need"
+    },
+    {
+      "description" : "And that nobody there only needs to hear it. Those people get the notes.",
+      "title" : "Check everyone there can answer it"
+    },
+    {
+      "description" : "Now, not in the invite three minutes before. Reading it in the room is the meeting.",
+      "title" : "Send what they need to read"
+    },
+    {
+      "minutes" : 30,
+      "title" : "Run it"
+    },
+    {
+      "description" : "Same day. A decision nobody wrote down was a discussion.",
+      "title" : "Send the decision and who owns what"
+    }
+  ],
+  "symbol" : "person.2"
+}

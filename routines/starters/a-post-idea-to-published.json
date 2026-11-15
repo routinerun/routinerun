@@ -6,6 +6,8 @@
     "firstShelf" : true,
     "group" : "making",
     "licence" : "CC-BY-4.0",
+    "number" : 3,
+    "order" : 3,
     "release" : 3,
     "shortcuts" : [
 
@@ -28,6 +30,9 @@
     },
     {
       "description" : "Nothing to do. Come back tomorrow and the bad half will be obvious.",
+      "readiness" : {
+        "notBefore" : "09:00"
+      },
       "title" : "Sleep on it"
     },
     {
@@ -36,6 +41,7 @@
     },
     {
       "description" : "The one step here with no way back, which is why it asks.",
+      "readiness" : "confirm",
       "title" : "Publish it"
     },
     {
