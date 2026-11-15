@@ -36,7 +36,9 @@ test("every starter file is a form 2 routine with its place in the catalogue", (
     new URL("../../RoutineKit/Sources/RoutineKit/Resources/Starters/", import.meta.url),
     new URL("../../../routines/", import.meta.url),
   ].find((url) => existsSync(url));
-  const files = readdirSync(shelf).flatMap((group) => readdirSync(new URL(`${group}/`, shelf)).map((name) => new URL(`${group}/${name}`, shelf)));
+  // Folders only: routines/ in the public repository has a README beside the shelves.
+  const groups = readdirSync(shelf, { withFileTypes: true }).filter((entry) => entry.isDirectory()).map((entry) => entry.name);
+  const files = groups.flatMap((group) => readdirSync(new URL(`${group}/`, shelf)).filter((name) => name.endsWith(".json")).map((name) => new URL(`${group}/${name}`, shelf)));
   assert.ok(files.length > 40, `${files.length} starters`);
   for (const file of files) {
     const starter = JSON.parse(readFileSync(file, "utf8"));
