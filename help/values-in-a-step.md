@@ -38,6 +38,16 @@ A value can be set:
 - by a step's own action, **Change a value**;
 - by another app through a connection. See [Connections](connections.md).
 
+## A value kept across runs
+
+A value on the routine, or on one of its steps, can belong to every run at once: a total of posts, the last time it was done, whose turn it is. Open the value on the routine's page, or on the routine's step's page, and turn on **Kept across runs**.
+
+From then on, whatever a run does to it is written on the routine: the plus on its row, its page, **Change a value**, **Set Value** in Shortcuts, an assistant. It carries on from where the last run left it, every run going reads the new one, and nothing about it waits for **Keep**. It works for words, moments and yes or no as well as numbers.
+
+For a number, **Count each finished run** adds one each time a run is completed. It is a reaction on the routine, **Completed** then **Count it** on the routine, listed with its other reactions.
+
+A value the run's own name quotes, such as **Post {param:Posts}**, stays that run's: it is the run's number, fixed when it started.
+
 ## What you see while you write
 
 With the caret in the name, you see the words as written, with the value as a chip. With the caret out, you see them filled in.
