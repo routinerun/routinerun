@@ -47,6 +47,19 @@ The routine's **Settings** has **Allow several at once**.
 
 The plus on **Runs**, then **Run something new…**, starts a run from just a name. Add steps as you go. At the end the band asks one question: whether it was worth keeping. **Keep it as a routine…** turns the run into a routine.
 
+## What In hand offers to start
+
+Under **Start** in In hand, a routine is offered only for a reason, and the row says which:
+
+- a start of it is due within the hour
+- what you said in its **Suggest when** holds
+- a moment it is counted from has just happened, such as **Back from the walk**
+- you are at the place it is filed under or starts at, when **Know when I am at one** is on under **Places**
+- a Focus that names it is on
+- you have started it around this time on this day of the week before
+
+**Suggest when** is in the routine's **Settings**: some days, between two times, at a place, while a Focus is on, or for a while after a moment. Everything you turn on there must hold. When nothing is offered, the section is not shown; **Start a routine…** under the runs in In hand opens the whole list.
+
 ## When something goes wrong
 
 - **A run shows the old wording after you edited the routine.** That step was changed in the run itself, and the run's own version wins. Keep it, or change it back.
