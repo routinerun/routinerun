@@ -44,6 +44,17 @@ Anything else that happens can mark it through Shortcuts: make an automation for
 
 If the phone hears of it late, for example a place reached with no helper shortcut and the app opened an hour later, it is marked at the time it really happened. What was counted after it and has already gone by is asked about in In hand rather than done late.
 
+## A date counted from another
+
+Some dates are only ever a distance from another: the return is a week after the departure, the pick-up is half an hour before the landing. On the date, turn on **Count it from another date**, pick the date under **From**, then **Before** or **After** and how far. Its day and time are then worked out from the other date, and **Comes** says when that is.
+
+- **Moving the other date moves this one,** and everything counted from this one moves too. A chain is fine: the laundry the day after the return moves when the departure does.
+- **While the other date has no day, this one has none either.** Only the other one asks for its day, and setting it arms everything counted from both.
+- **If the other date happens, this one happens too, each time, so long after it.** **Done stretching**, 20 minutes after **Back from the walk**, comes 20 minutes after each walk, and nothing marks it by itself.
+- A date cannot be counted from itself or from a date counted from it, so neither is offered.
+
+On **Dates** its row says when it falls and what it is counted from. Turn **Count it from another date** off to keep the day it has now and set it by hand from then on.
+
 ## On Apple Watch
 
 The moment often comes with the phone in a bag or at home. On the watch, **In hand** lists your moments under **Moments** and the dates still without a day under **No day yet**. Swipe a moment for **Now**, or open it for **Now**, **10 minutes ago**, or a time ahead, such as **In 40 min** when you know you will be back in forty minutes. Open a date with no day to set it to **Now**, a time ahead, or **Other…**, chosen with the crown.

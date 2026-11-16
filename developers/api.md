@@ -90,6 +90,9 @@ GET /v1/in/<connection id>/commands/<command id>
 | `alreadyDone` | The same command, again |
 | `notFound` | No such routine or run on the phone |
 | `alreadyGoing` | A start of a routine that runs one at a time, with a run of it going: nothing started or ended, and `run` is the one going |
+| `daySet` | A date that had no day was given one, and everything counted from it is armed (`set_date`, below) |
+| `linked` | A date linked to an event in the person's calendar or to a reminder, which moves only there, or one counted from another date, which moves only with it: nothing changed |
+| `wrongKind` | A day given to a moment that happens, or a moment marked on a date that is a day: nothing changed |
 
 ## How long a command waits
 
@@ -99,7 +102,7 @@ A command is not done if the phone gets it after this long:
 |---|---|
 | Next | 15 minutes |
 | Start | 1 hour |
-| Events, notes, values, steps | 24 hours |
+| Events, notes, values, steps, a date's day, a moment | 24 hours |
 
 On iOS 27 with the Routine Run bridge, a command is carried out within seconds, with the phone locked. On iOS 26, or without the bridge, it is carried out when the person taps the notification or opens the app.
 
@@ -136,11 +139,16 @@ The same connection, for an assistant: `https://api.routinerun.com/mcp`, Streama
 | `how_to_write_a_routine`, `routine_link`, `find_starter_routine` | The public tools below, here too, so one connector is enough |
 | `start_new_run` | A run of steps the assistant writes, begun at once and kept out of Routines unless the person keeps it |
 | `propose_new_routine` | A new routine in the written form, with no `from`, shown on the phone to be saved or dropped |
+| `list_dates` | *Coming soon.* The person's named dates and moments that happen, which routines count from: each one's `kind` (`day`, `time` or `happens`), its day or moment (`on`), or `noDayYet`, when a moment last happened, whether it is `linked` to an event, a reminder or another `date` (then `countedFrom` says how: `7 days after Departure`), and the routines counting from it |
+| `set_date` | *Coming soon.* Gives a named date its day: `on` is `2026-11-15` for a whole day, or a moment with its offset for a date with a time. What counts from it moves, or is armed if it had no day (`daySet`). A moment that happens and a linked date are left alone |
+| `mark_moment` | *Coming soon.* Says a moment that happens has happened, now or `at` a moment up to a day ahead or a month back. Only a time later than the last one counts |
 | `command_status` | What became of a command |
 
 `start_run`, `start_new_run` and `plan_run` take `ask_first`: the run then waits in In hand for the person's Start, and the receipt is `asked` until they answer — `done` or `refused`. A connection set to **Ask before starting** does this for every run. `get_run` carries the run's notes and values only where the person has turned on **Read notes and values** for that assistant. The server also offers prompts — `review_my_week`, `plan_tomorrow`, `checklist_now`, `tidy_a_routine`, `where_am_i` — which clients show as commands.
 
 Reads are answered by the phone, so they need it reachable; a phone that does not answer in about 20 seconds is said to have not answered.
+
+`list_dates`, `set_date` and `mark_moment` are not on the server yet: they arrive with its next update, and this page says so when they do. They need a version of the app that knows dates. To a phone known to have an older one they say so and send nothing; a phone the relay has not heard from since is tried, and if it stays silent the answer says it may be too old.
 
 ### Writing a routine, with no sign-in
 
