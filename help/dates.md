@@ -1,6 +1,6 @@
 # How do I count things from a trip, so moving it moves everything?
 
-Make the trip a date: **More → Dates → New date…**, name it **Departure**, and pick the day. Then count things from it rather than typing their dates: packing three days before, the car the day before, a step done by seven the evening before. Change the date, and everything counted from it moves, cards and alarms included.
+Make the trip a date: **More → Dates → New date…**, name it **Departure**, and pick the day. Under the name, a line says what it is, such as **The flight to Lisbon, not the train**, when the name alone may not say it. Then count things from it rather than typing their dates: packing three days before, the car the day before, a step done by seven the evening before. Change the date, and everything counted from it moves, cards and alarms included.
 
 ## What can be counted from a date
 
@@ -28,6 +28,8 @@ A run can wait on a date of its own too: a step's time counted from a value such
 ## A moment that happens
 
 Some moments cannot be looked up, only noticed: back from the walk, out of the door, off the train. Choose **Happens** under the name. The date then has no day to set and never asks for one. Each time the moment happens, the date becomes that moment, and everything counted after it, such as **20 minutes after**, comes for that time. If it happens twice a day, it comes twice. Nothing can be counted before it, so a moment that happens offers **When it happens** and **After** only.
+
+The line under its name says how you can tell it has happened, such as **The tag on the front door**. It shows where you mark it, on the phone and in the watch's list, and Shortcuts shows it under the name too.
 
 What marks it is listed on the date under **What marks it**, and **Add what marks it…** makes one:
 
