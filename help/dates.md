@@ -46,6 +46,15 @@ Anything else that happens can mark it through Shortcuts: make an automation for
 
 If the phone hears of it late, for example a place reached with no helper shortcut and the app opened an hour later, it is marked at the time it really happened. What was counted after it and has already gone by is asked about in In hand rather than done late.
 
+## A button that sets a date
+
+The action **Mark a date** gives a date its day, as well as marking a moment. Put it on a step, as a button on a step, or on a trigger, and pick the date. Under **When**:
+
+- **Now** gives the date its day, or marks the moment, when the action runs.
+- **So long after** puts it that many minutes, hours, days, weeks or months later. Servicing the car can set **Next service** to 6 months from now, and everything counted from it moves. On a moment, **40 minutes** marks it as expected then.
+
+A date linked to Calendar or counted from another date is not offered: its day comes from there.
+
 ## A date counted from another
 
 Some dates are only ever a distance from another: the return is a week after the departure, the pick-up is half an hour before the landing. On the date, turn on **Count it from another date**, pick the date under **From**, then **Before** or **After** and how far. Its day and time are then worked out from the other date, and **Comes** says when that is.
