@@ -1,0 +1,42 @@
+{
+  "about" : "A support between sessions, run by the person being coached, with the steps they agreed on. It comes at 8:30, asks at 12:30 whether the first task is started, and reaches you again at 19:00, all with cards.",
+  "colour" : "indigo",
+  "name" : "Between sessions",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Only those. If a fourth comes to mind, write it down for the next session and leave it there.",
+      "title" : "Read the 2 or 3 steps you agreed"
+    },
+    {
+      "about" : "Two minutes counts as started. At midday it asks whether you have: Next means yes, Not yet asks again in a while.",
+      "title" : "Start the first one"
+    },
+    {
+      "about" : "Say what got in the way, and leave out whose fault it was. \"Nothing\" is a good answer.",
+      "by" : "19:00",
+      "title" : "One line on what got in the way"
+    },
+    {
+      "about" : "One task, from your agreed steps, small enough to start in the first ten minutes.",
+      "title" : "Choose tomorrow's first task"
+    },
+    {
+      "about" : "Any other day, press Not now and then Skip. The question can be about anything you would like to bring.",
+      "title" : "On a Friday, write one question for the next session"
+    }
+  ],
+  "symbol" : "text.bubble",
+  "times" : [
+    {
+      "at" : "08:30",
+      "days" : [
+        "mon",
+        "tue",
+        "wed",
+        "thu",
+        "fri"
+      ]
+    }
+  ]
+}

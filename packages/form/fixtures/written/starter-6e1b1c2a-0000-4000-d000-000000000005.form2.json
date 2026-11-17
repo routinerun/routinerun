@@ -1,12 +1,13 @@
 {
   "colour" : "yellow",
+  "description" : "Needs nothing but this phone. Add up the minutes in the run's values, and a run a month later shows whether the fix worked.",
   "name" : "The alert that keeps coming back",
   "routineRun" : 2,
   "severalAtOnce" : true,
   "steps" : [
     {
-      "description" : "The number is the argument. Nobody prioritises \"it fires a lot\".",
-      "title" : "Count how many times this month"
+      "description" : "How many times it fired, and how many minutes each one took you. Put the total in minutes spent. The number is the argument. Nobody prioritises \"it fires a lot\".",
+      "title" : "Count the pages this week"
     },
     {
       "description" : "If the answer is the same three commands, that is the fix and it is not the alert.",
@@ -21,5 +22,8 @@
       "title" : "Do the one you chose now"
     }
   ],
-  "symbol" : "arrow.trianglehead.2.clockwise"
+  "symbol" : "arrow.trianglehead.2.clockwise",
+  "values" : {
+    "minutes spent" : 0
+  }
 }

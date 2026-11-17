@@ -19,9 +19,9 @@ Filmed on a real phone and watch. The videos, and what each needs: [scenarios](s
 
 ## What it does
 
-| Describe it | On the Lock Screen | In hand | Connections | On the wrist |
+| Describe it | On the Lock Screen | A run | In hand | On the wrist |
 |---|---|---|---|---|
-| <img src="media/screens/describe.webp" width="150" alt="Ask an AI to write it: one sentence, written by Apple's cloud, with Start it and Keep it"> | <img src="media/screens/lock-screen.webp" width="150" alt="The runbook's step on the Lock Screen, with Next on the card"> | <img src="media/screens/in-hand.webp" width="150" alt="In hand: a step whose time passed and a routine Claude suggested, with Drop, Save and Run"> | <img src="media/screens/connections.webp" width="150" alt="Settings, Connections: Claude, PagerDuty and Home Assistant"> | <img src="media/screens/watch.webp" width="150" alt="The step and its controls on Apple Watch"> |
+| <img src="media/screens/describe.webp" width="150" alt="Ask an AI to write it: one sentence, written by Apple's cloud, with Start it and Keep it"> | <img src="media/screens/lock-screen.webp" width="150" alt="The runbook's step on the Lock Screen, with Next on the card"> | <img src="media/screens/run.webp" width="150" alt="A run's page: the step in hand with Next and Not now, its steps under it, and the run's own buttons over the tab bar"> | <img src="media/screens/in-hand.webp" width="150" alt="In hand, raised from the app's mark in the middle of the tab bar: a step whose time passed and a routine Claude suggested, with Drop, Save and Run"> | <img src="media/screens/watch.webp" width="150" alt="The step and its controls on Apple Watch"> |
 
 **Say it, paste it, or just start.** Describe what you do in a sentence, or paste a list. Apple's cloud model on iOS 27, the phone's own model, or the assistant you already use writes the routine, and a run of it starts at once, its first step on the Lock Screen. If it worked, **Keep it as a routine**; if not, it leaves nothing behind. [How it works](https://routinerun.com/help/describe-it)
 

@@ -13,6 +13,10 @@
       "title" : "Make coffee"
     },
     {
+      "deadline" : {
+        "at" : "08:35",
+        "tellMe" : "notification"
+      },
       "description" : "Lunch, water bottle, homework folder.",
       "links" : [
         {

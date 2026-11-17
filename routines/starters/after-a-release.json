@@ -1,0 +1,81 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "number" : 13,
+    "order" : 13,
+    "release" : 9,
+    "shortcuts" : [
+
+    ],
+    "slug" : "after-a-release",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?w=1&d=jVXBbiM3DP0VYi69TA0kWWCD6cnYYoE9dAtkDz0UPdAa2iNYlmYlTSaDIP_eR8mOs_HBOVmmKJLv8ZHz3JjgwhSbrsnCrmmbXpKJdsw2eBi_hkjsiceRgqc8CK1x_JFDlBV9F-nT2UBfgvdiMs02D7T27JZsTVrRuu-JqecsZNg56elBnHDCIYcSNE7-t0SP7CZJLRL2JGwGMoOYPZlwkKSeS5i0CpsTgi0tbWM40I3e3N6rJRFvs8S2FsBIFvs_KEnGK1G3mfdSothtSTsOejFb52gjtGUj1IfZr0CD54MA_1oDIlSsBeMihilbLw8T6LltmySPEtmt89_e4EGOk8CYZUxN9-_zOzavEWHTL0yA4QCj36E6F2ZKmSOwTz5bBxZo4FTCLVpwttlpxT94KdhgVp8ZPsfi--al1Yq4dwDQdM-NEqi_yl3T3bRNyYsgD68vXt4r4qLd7dtW_xNtriSWIkzkNFBUwNpUNaWB8TZsaZQwOrA_BJBxENoweq0eXp5yQQV2snjNCw-Pl-Cg4CWoMs-BHAJ32kwABXc-ZA0QpaUEpxTIQrpqruldCHviHcOKkBrn7i1zf8Jw09WaITh9AZ_fVSLxVMgVCu8-ROED3pPqZgHWGcEfrcyKdnQLleKENP5pOvA_FdkqC-zTLLFIQ1FpszkXvIVdZbJqJs_WyHt8d90x3XHMVNmaFZl04q7A-_wheF95clBFlJ_QMA4m-O2UcNdqrX4PmXwJEHGd8dFCBK990qujt3aUMb0e1GMwdRHRyDupgFXXkzcoIlYkVQIB83qU3iA8Iv-JjUBb-_Sejs8dVBJzpW4aRz0fWKfL6wMsxlJfujY5nz5EzNovtZjSS1Cxw-BvxPCUkB5bbhP6heaonQUjO8Gwn7TQqkXLnEPsFWddYBJT2Yg0iBtB7Let0liSHBNczsKK_lKIhcbqlF4fgUIkKNszCRpXh-ZiSj51Z5HaE98ayYUdaIun9a2mSmgBeW0D3d5_iMdv_vKj01IY0fnzxlBNpNGpLDJtlIEpGmyLBMWYoS2fh8PIducVxl4Ns2yKwk5rTCGe9eexqixQ1UC0F-z44xID76BSNa0Nwzi92W28i1L3e9l8bWlFPoobFbiLGb29784L51x68_IfvizLYRMcHMFtzCulcTWNOYrvV08LP1lI9X8"
+  },
+  "colour" : "teal",
+  "description" : "For an app on the App Store. Needs App Store Connect with Analytics. Add a date called Released to the run's values, and each check comes to you on its day, from 1 to 28 days after, with a card; set one to wake you if the phone will be face down.",
+  "name" : "After a release",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Add a date called Released to this run's values. Nothing below starts until it has a day.",
+      "title" : "Say the day it was released"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 1,
+          "value" : "Released"
+        }
+      },
+      "description" : "App Store Connect, Analytics. Write down the crash rate and the share of people who came back the next day. Retention can show a day or two late: if it is not there, say so in a note and look again on day 3.",
+      "title" : "Day 1: crashes and day-one retention"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 3,
+          "value" : "Released"
+        }
+      },
+      "description" : "Read every new review. Reply in one line to the ones you can answer. Note any that say the same thing twice.",
+      "title" : "Day 3: reviews, and a reply to each"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 7,
+          "value" : "Released"
+        }
+      },
+      "description" : "Fault, request, confusion, thanks. Count each pile in a note. Confusion is a sentence or a page that was unclear, and it is often the cheapest thing to fix.",
+      "title" : "Day 7: sort the support mail into four piles"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 14,
+          "value" : "Released"
+        }
+      },
+      "description" : "Anything you changed because somebody wrote in gets one line, in the words of the person it helps. If nothing changed, say so in a note. Mail that changes nothing is worth a second look.",
+      "title" : "Day 14: one line in the changelog for each change mail caused"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 28,
+          "value" : "Released"
+        }
+      },
+      "description" : "In App Store Connect, open Retention and split it by source: search, a campaign link, a web page. Write one sentence on which source keeps people. It counts only people who agreed to share, so it is a sample.",
+      "title" : "Day 28: retention by source"
+    }
+  ],
+  "symbol" : "chart.line.uptrend.xyaxis"
+}

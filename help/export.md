@@ -1,6 +1,6 @@
 # Export: sending a routine to somebody
 
-Export turns one or more routines into a file, and usually a link too, that anybody with Routine Run can open. Nothing is uploaded. Runs, their notes and the log stay on your phone: export sends routines, and a backup is what keeps everything.
+Export turns one or more routines into a file, and usually a link too, that anybody with Routine Run can open. Nothing is uploaded. Export sends routines, not runs: a run's notes and the log stay on your phone unless you send how one run went from its ⋯, and a backup is what keeps everything.
 
 ## Where to find it
 

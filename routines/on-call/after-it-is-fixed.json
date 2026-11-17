@@ -14,7 +14,7 @@
     ],
     "slug" : "after-it-is-fixed",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bZGxbsMwDER_hdBseOiYLWOnAG2ADkUH2qItwbJoSFQcI8i_l3JRFGiyiSLFe3e6mZ4Dl2QOZilpCWQaE3EmrY-DUAIv4DMM_kpWW4mL-EhvJZrDS2MyXShhOMop9vpEUiG9FFqyOXzejKXcJ7-IZx03p0iQKQrpbAuvQ10tOFEGcYmogY0LOLwQyMqwJO4CzblVVfESKtGHQ4Eu8UTm3vxff4wWHK8QOI6Av-xZMAnZFs717YhLdSNONZzXuZWTuOpOiwcl4WAr1BOxs25wGAaoAWwd2w0CKXoGDQhQUf4akcg-2qhmJXmySqKl9RYiSwWanpmD3lE_NYAQy9xRqifrh4GSJroHmJ3itvDOM_14qwo9RsBeCoawwcg72ayZP-CsXNTsnn6PZXSyh8ccKZn7l37qNnccdFroKu2MY_TDpipjwJzN_Rs"
+    "web" : "https://routinerun.com/r?w=1&d=bZOxbtwwDIZfhdDsGoe2022HTp0CtAE6NB1oi7aEk0VDos4xgnv3UnaatL3bJEokv_-n9GJ6DlySOZq5pDmQaUzEiXR_GoQSeAGfYfDPZPUocREf6VuJ5vixMZkulDCc5CH2miKpkAaF5myOP1-MpdwnP4tnvW4eIkGmKKR3W_g61NKCZ8ogLhE1sHIBhxcCWRjmxF2gKbfaVbyESvTDoUCX-Ezm2vxf_hQtOF4gcBwB_7BnwSRkW3isuSPOVY047eG83ls4iavqdHPTSTjYCnWn2aNWcBgGqAasHdsVAil6BjUIUFHeDyKRvZVRxUryZJVEt9ZbiCwV6HxPHPSO-nMDCLFMHaW6sn4YKKmjm4HZKW4L33miXVvt0GME7KVgCCuMvJFN6vkNzsJFxW7u91hGJ5t5zJHSHZwvJYv2SbkBIZwmFMobES8xS9KQTjpdfB306ZUY_PA-Ya17hM8HmHwse25Xjft0OMBMrM-whSdTpUDRQvnJaGk1tzrUc4nyLz_DQKESN5vAgdPbS7gDr--w2SohBJ9FLcMVFi2ytfD7-LoaorgXnMtmhwYS7eOaFYojLD4EVUp6WoUOHAIvH8qsB_qsIkP9Sir29RehxrP7m73-ibesZk_TkamNalhtrZ7iaq6_9FutU8dBc4SepZ1wjH5Ydc5jwJzN9Tc"
   },
   "colour" : "purple",
   "name" : "After it is fixed",
@@ -36,6 +36,14 @@
     {
       "description" : "A check, a number, a different threshold. Something you can actually go and make.",
       "title" : "What would have caught it sooner"
+    },
+    {
+      "description" : "Customers, teammates, a downstream service. A number if you have one: 40 minutes, about 300 people. \"Some users\" does not count.",
+      "title" : "Who felt it, and for how long"
+    },
+    {
+      "description" : "One, not a list. Say who does it and by when, and put it where that person will see it. A follow-up with no name on it is a wish.",
+      "title" : "One follow-up, with an owner and a day"
     }
   ],
   "symbol" : "text.magnifyingglass"

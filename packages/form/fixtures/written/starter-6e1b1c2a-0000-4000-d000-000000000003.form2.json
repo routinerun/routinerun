@@ -19,6 +19,14 @@
     {
       "description" : "A check, a number, a different threshold. Something you can actually go and make.",
       "title" : "What would have caught it sooner"
+    },
+    {
+      "description" : "Customers, teammates, a downstream service. A number if you have one: 40 minutes, about 300 people. \"Some users\" does not count.",
+      "title" : "Who felt it, and for how long"
+    },
+    {
+      "description" : "One, not a list. Say who does it and by when, and put it where that person will see it. A follow-up with no name on it is a wish.",
+      "title" : "One follow-up, with an owner and a day"
     }
   ],
   "symbol" : "text.magnifyingglass"

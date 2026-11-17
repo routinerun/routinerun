@@ -1,0 +1,51 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "work",
+    "licence" : "CC-BY-4.0",
+    "number" : 15,
+    "order" : 15,
+    "release" : 9,
+    "shortcuts" : [
+
+    ],
+    "slug" : "a-managers-daily-round",
+    "startsByItself" : false,
+    "web" : "https://routinerun.com/r?w=1&d=bVPBbtUwEPyVVS5cwjsgcSknQAIOiFYUqUKUwybePJvneCPbIYqq_jtju0WP0kPkJN7dmZ3ZvetG9brG7qI7RpHQ9Z2RNEa3ZKcBfz9opKSzDGp22qySFzaJmLLwTNlyJqOS8CaUeBbaNJ5IfkvcyfB-oC8iiA-arQtHGtaMUJdosRrkQN-QZldjPA6uZd0ssQeSGy1F4dGi-K4rbS5b3I8czRtKkgn5lJU2PkkNcFMlUQsj2nsahCYeBQS3cEBnAfzQ0luaOfBR4osEis7vFHUNBgE4swvydUXnr_ouZVlSd_Hj7okm15mDQTc9cW6YvsBsVqLU76qBSwf6LqgRoUMPqvXYimLo34UWWSXSqm5yORWaswtrFgC_7rvssi-cP6k3NaGJ1d33T0kVJaskOKs3IwfoVDRSED2yCwnIGVZxPEo-0DXv-Cb0TBgBA7kmjU3LxMXsvbB5ZPBZ9fTYb8EJ6zxIfIbIR622_CuG5WWRkPoyCOW6XERZNILHDWd4XWouTqCjTi1nijpTAtuaIcGc07lhf2raRx0lpWeIXLnxVMtOLrhkxaBbmWt_xpnKZLSqSR46t3CVyoOZQyakYQzRmUtZmn2lwlRG5pzQ-5pU4LAGy7MWvdupjGCP5NgiFxnd5EZqywGovVA70C1UVEO_dLjt2n5VtsDM55hXkV1qdiwSE0D-B70M0lRn8i492F4WuXQKl0Lf3iLEKT3_NW5vS1RGyP2DelkkVe91e7ku_cNiBsKSSay1uGx-d_8TG7TPg3rkDC7ouHqOMOoP"
+  },
+  "colour" : "green",
+  "description" : "For somebody who leads a team that does the same work every day. Needs nothing but this phone. The huddle has a timer, which reaches you with a card; set one to wake you if the phone will be face down.",
+  "name" : "A manager's daily round",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "Standing, at the place where the work is. Yesterday, today, what is in the way. Nobody sits.",
+      "minutes" : 5,
+      "title" : "Hold the huddle"
+    },
+    {
+      "description" : "The one the team can see too, against its target. Say it out loud before you say why.",
+      "title" : "Look at the one number"
+    },
+    {
+      "description" : "Go to where the work happens, not to the report. Watch one piece of work from start to end.",
+      "title" : "Walk the process"
+    },
+    {
+      "description" : "Pick one finished item you did not choose beforehand and check it all the way. Note what you found.",
+      "title" : "Check one sample"
+    },
+    {
+      "description" : "By name, for one specific thing they did. \"Good job\" does not count.",
+      "title" : "Praise one person"
+    },
+    {
+      "description" : "One, not a list. Say who and when, and write it where they will see it.",
+      "title" : "One follow-up, with an owner and a day"
+    }
+  ],
+  "symbol" : "binoculars"
+}

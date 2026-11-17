@@ -1,0 +1,34 @@
+{
+  "about" : "For somebody who leads a team that does the same work every day. Needs nothing but this phone. The huddle has a timer, which reaches you with a card; set one to wake you if the phone will be face down.",
+  "colour" : "green",
+  "name" : "A manager's daily round",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Standing, at the place where the work is. Yesterday, today, what is in the way. Nobody sits.",
+      "minutes" : 5,
+      "title" : "Hold the huddle"
+    },
+    {
+      "about" : "The one the team can see too, against its target. Say it out loud before you say why.",
+      "title" : "Look at the one number"
+    },
+    {
+      "about" : "Go to where the work happens, not to the report. Watch one piece of work from start to end.",
+      "title" : "Walk the process"
+    },
+    {
+      "about" : "Pick one finished item you did not choose beforehand and check it all the way. Note what you found.",
+      "title" : "Check one sample"
+    },
+    {
+      "about" : "By name, for one specific thing they did. \"Good job\" does not count.",
+      "title" : "Praise one person"
+    },
+    {
+      "about" : "One, not a list. Say who and when, and write it where they will see it.",
+      "title" : "One follow-up, with an owner and a day"
+    }
+  ],
+  "symbol" : "binoculars"
+}

@@ -1,6 +1,6 @@
 ---
 name: routine-run
-description: Write a routine for the Routine Run iPhone app, in the JSON form the app reads, when somebody asks for a routine, checklist or runbook "for Routine Run" or to paste into it.
+description: Write a routine for the Routine Run iPhone and Apple Watch app, in the JSON form the app reads. Use it when somebody asks for a routine, checklist or runbook for Routine Run or to paste into it, and when they want steps to walk through one at a time on their iPhone, Lock Screen or Apple Watch, even without naming the app.
 ---
 
 # Writing a routine for Routine Run
@@ -28,7 +28,7 @@ THE FORM (version 2):
 - A step's "title" and "description" may name one of the routine's "values" as {param:name}, for what is only known on the day — "Go to window {param:window}" reads "Go to window 7" once the run is told 7, and "…" until then. Give the value in the routine's "values", empty if nobody knows it yet.
 - "links" on a step: things worth opening while doing it — a how-to video, a recipe, a map — as [{"title": "Fixing a dripping tap", "url": "https://…"}]. Only links you are sure exist. For a video, a YouTube search link (https://www.youtube.com/results?search_query=…) is better than a video you cannot check.
 - "deadline" on a step: {"at": "09:00"} if it has to be FINISHED by then — being somewhere, a call, a deadline. Give that step its "minutes" too: it begins at its "at" less its minutes, whatever I am doing, and an alarm tells me. Anything still in front of it is skipped unless the deadline's "late" says otherwise.
-- WHEN I GIVE A TIME THE WHOLE ROUTINE HAS TO BE DONE BY — "finish by 11:30", "out of the door at nine" — give EVERY step a "deadline", not only the last: the last step's "at" is that time, and each one before it is the next step's "at" less the next step's "minutes". With 20 minutes of breakfast and 15 of getting ready for work done by 11:30, breakfast is {"at": "11:15"} and getting ready {"at": "11:30"}. Otherwise only the last step knows the clock, and the rest run late without a word.
+- WHEN I GIVE A TIME THE WHOLE ROUTINE HAS TO BE DONE BY — "finish by 11:30", "out of the door at nine" — give every step up to that time a "deadline", not only the one that meets it: that step's "at" is my time, and each one before it is the next step's "at" less the next step's "minutes". Only the step that meets my time rings an alarm: give each one before it "tellMe": "notification". With 20 minutes of breakfast and 15 of getting ready for work done by 11:30, breakfast is {"at": "11:15", "tellMe": "notification"} and getting ready {"at": "11:30"}. Otherwise only one step knows the clock, and the rest run late without a word.
 - "kind": "startBy" in a deadline — {"at": "08:30", "kind": "startBy"} — if the step is only worth doing when begun by then, like coffee before leaving. After that time it is skipped. Left out, the step is done by its "at".
 - "at" can also be a whole date, "2026-10-03 13:00", for a deadline on another day — a report due Friday. A routine with a date in it is for once, so say so after the block: I will start it rather than keep it.
 - "day" in a deadline: 2 means its "at" is on the second day of the run, for a routine that takes more than a day — the tap washer on the second evening. Counted from the day I start it, so it works every time.
@@ -108,11 +108,13 @@ A webhook's body can use the same placeholders as anything else a step says: {in
 
 MAKE IT WORTH HAVING. On a step somebody could get stuck on, put the one tip that matters in its "description" and a link to a how-to — a video search for the exact job is better than a guess. LEAVE "minutes" OUT unless I give a length or the step is timed by its nature — a plank, tea steeping, a focus block — or it has a "deadline". A step with minutes runs a timer and rings when it ends, which on "pack the bag" is only noise; most steps have none. If I mention a time, a deadline or an appointment, it goes on the step as its "deadline". If what I describe is a list I keep adding to — reading, watching, things to deal with — make it "staysOpen".
 
-KEEP IT SMALL. Steps are instructions a person reads while doing them: short titles, one idea each. Most routines are four to eight steps.
+KEEP IT SMALL. Steps are instructions a person reads while doing them: short titles, one idea each, said as what to do rather than what to stop — "Phone face down on the desk", not "No phone". Most routines are four to eight steps; for a habit I am only starting, the first version is the two or three steps that matter, and it grows once I keep it. Where one thing gives way to another — screens off, out of the door — the step before says what is coming, or the step's "deadline" warns ahead with "warn": {"minutes": 5}. On a step people often miss, its "description" says what to do when it cannot be done today: "No time: the ten-minute version."
 
 GIVE EVERY STEP A "symbol", an SF Symbols name that fits what the step is — "cup.and.saucer" for tea, "shower" for a shower, "figure.walk" for a walk. A step's mark is how it is recognised at a glance on the lock screen and the watch.
 
 WRITE IN MY LANGUAGE: the name, every description, title, tip and note, in the language of what I wrote below — not in the language of these instructions.
+
+IF WHAT I PASTE IS A WRITTEN PROCEDURE — an SOP, a runbook, a checklist from work — keep its steps and their order, and give its other parts the form's places: its purpose is the routine's "description"; its preparation — what to have ready, who to tell — is the first step; each item of its checklist is a true or false value on the step it belongs to, like "values": {"Guard fitted": false}, or a step of its own where checking it is the whole job; who owns it, its version and when it is reviewed go in the routine's "notes", with the question for that review, "Is this still the best way?". Its revision history and sign-offs are not steps.
 
 EXAMPLES, two from routines the app ships with and one against the clock:
 
@@ -211,6 +213,10 @@ EXAMPLES, two from routines the app ships with and one against the clock:
       "title" : "Make coffee"
     },
     {
+      "deadline" : {
+        "at" : "08:35",
+        "tellMe" : "notification"
+      },
       "description" : "Lunch, water bottle, homework folder.",
       "links" : [
         {
@@ -250,3 +256,7 @@ Read before you write, and ask in the chat — one message, with choices where t
 **Changing a routine.** get_routine, whole: `description` is what the routine and each step say about themselves, and `written` is the routine to edit and send back. Name steps by number and title from it. Ask only if the change reads two ways ("after step 3, or at the end?"). One step on a list: add_step. Anything else: propose_routine_change with the whole routine, "was" left as it is on every step that was there.
 
 **After a run.** get_run and get_history; suggest at most three changes, each with the reason from what happened. Change nothing without proposing it.
+
+## If you can run commands
+
+Save the routine as routine.json and run `npx @routinerun/form check routine.json` before you answer. It is the check the app makes when the routine is pasted: fix whatever it names, and answer once it says the routine is fine.

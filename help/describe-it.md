@@ -20,8 +20,10 @@ They all open the same page.
 
 ## The page
 
-1. **Say what it is for.** One sentence is enough: "A morning: water, ten minutes of
-   stretching, a shower".
+1. **Say what it is for,** any time you have to keep, and anything you already have, like
+   a shortcut or a Home scene. Those change the steps. The model decides the rest and tells
+   you what it assumed. One sentence is enough: "Out by 8:40: coffee, pack the bag,
+   25 minutes to school".
 2. **Write it.** The name beside the button is who writes it. Tap the name to choose
    another. See [Who writes it](who-writes-it.md) for what it starts on.
 3. **Or continue with an assistant.** Sends the request to Claude, the ChatGPT app or any
@@ -49,7 +51,9 @@ The answer is never shown as code. You see what it made:
 
 If the answer cannot be read, the page says why in a sentence. **Try again** sends the model
 the reason and what it wrote. **Copy this for your assistant** is for an answer from a chat,
-so you can paste the reason back to it.
+so you can paste the reason back to it. If the second answer cannot be read either, the page
+says writing it there is not working, **Try again** goes, and **Continue with an assistant**
+comes first.
 
 ## What an assistant can and cannot put on a step
 

@@ -15,7 +15,9 @@ and set it to run immediately. **Cancel** takes the question back.
 
 **The answer came back but shows an orange sentence.**
 The model wrote something the app cannot read. Tap **Try again**, and the app sends the model what was wrong and what it wrote. If the answer came from a chat, tap **Copy this for your assistant**, paste
-it back to the assistant, and paste its new answer.
+it back to the assistant, and paste its new answer. When the second answer from the page's
+own writer cannot be read either, **Try again** goes and **Continue with an assistant** is
+offered first: a model that misses the form twice running rarely hits it on a third try.
 
 **On this phone is not in the list.**
 Apple Intelligence is off, still downloading, or not available on this iPhone or in this

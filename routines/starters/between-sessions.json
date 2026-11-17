@@ -1,0 +1,71 @@
+{
+  "catalogue" : {
+    "dependsOn" : [
+      "Notifications"
+    ],
+    "firstShelf" : false,
+    "group" : "dayEnds",
+    "licence" : "CC-BY-4.0",
+    "number" : 8,
+    "order" : 8,
+    "release" : 9,
+    "shortcuts" : [
+
+    ],
+    "slug" : "between-sessions",
+    "startsByItself" : true,
+    "web" : "https://routinerun.com/r?w=1&d=bVTLbtswEPyVBS-9CEaaXFpfirRFgV4SIMmtyYEy1xJhievyUVUI_O-dpe3WcX0xKO5rZnboV7OSQUo0S-OD852YxjhOq-i32UvA9S2lst1KzNRynpgDJU4JsdRQLIHamXLPtOWYBF_sQ0crsaueXUOTz30Np8zbpKeZbBeZHUlY0PeM1JET2UwfljdXDdm0qV_vr_FJU88oibXD2seUKSOBfEI_G7NOsMFRZB2XaJaC7taH2uHj8kobDsMexcpGlxagF-zI4PX5jA0iUUr2gR8KeF83pmI2yx-vZ4rch0E5S2IwWJOlNQTUCZVKFhohJbhHn5l8JidTQM6eRuDf-Tizgh_Y_qppypQVYPZ5UIQPbF2tuSYU3xw03JNUCc2uOYf2NNXpJQPISkrIEPOvWAu6zYg6Z2edV6U-KqxdewBZ0p0CHNkGjGLs-E4yDof0vboqMCr98Abuo045WZUE1mj0XQdvVB1_Fk4HpF-9q0PTWZUu-BPqAAxpr8ZmJFc3mN3uZc_YugFr-hfVTUOMMy0eQXPq4YQODABZZ0x2bk5Ux76RgkXS2pYhqyqTTQt6NmDdw8nPRs1m0UIc6tLE8ZTyfWBSKOB6adSFBWmFUmxoHWVUBeLxQdT1NpRGtSwHKV2vZtoLdGh60Ai2PWz5FM2XXpRKllFilOldOpH0ApTbMJPU5TtVZRthyrrtIFPVCLFAjxu_XdATZh-Xh5ek75xsq_LZMFel6jInKQO09RtFQW3E_Vu5IOW36Ou8_fOASf41vvRGzO4FL3EeWxnQISOyaEvbDv95641hrvTfRF3EvME0zTAjmqGmcL13eu4LftfRmxf11h8"
+  },
+  "colour" : "indigo",
+  "description" : "A support between sessions, run by the person being coached, with the steps they agreed on. It comes at 8:30, asks at 12:30 whether the first task is started, and reaches you again at 19:00, all with cards.",
+  "name" : "Between sessions",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "Only those. If a fourth comes to mind, write it down for the next session and leave it there.",
+      "title" : "Read the 2 or 3 steps you agreed"
+    },
+    {
+      "description" : "Two minutes counts as started. At midday it asks whether you have: Next means yes, Not yet asks again in a while.",
+      "title" : "Start the first one",
+      "triggers" : [
+        {
+          "question" : "Did you start the first task?",
+          "when" : {
+            "at" : "12:30"
+          }
+        }
+      ]
+    },
+    {
+      "deadline" : {
+        "at" : "19:00"
+      },
+      "description" : "Say what got in the way, and leave out whose fault it was. \"Nothing\" is a good answer.",
+      "title" : "One line on what got in the way"
+    },
+    {
+      "description" : "One task, from your agreed steps, small enough to start in the first ten minutes.",
+      "title" : "Choose tomorrow's first task"
+    },
+    {
+      "description" : "Any other day, press Not now and then Skip. The question can be about anything you would like to bring.",
+      "title" : "On a Friday, write one question for the next session"
+    }
+  ],
+  "symbol" : "text.bubble",
+  "triggers" : [
+    {
+      "when" : {
+        "at" : "08:30",
+        "weekdays" : [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ]
+      }
+    }
+  ]
+}

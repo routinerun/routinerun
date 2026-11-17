@@ -1,0 +1,33 @@
+{
+  "about" : "For somebody leaving a shift and somebody arriving: a front desk, a kitchen, a ward, a shop. Needs nothing but this phone, and the other person in front of you.",
+  "colour" : "orange",
+  "name" : "Handing the shift over",
+  "routineRun" : 1,
+  "steps" : [
+    {
+      "about" : "Each thing, with where you got to, not only that it is open.",
+      "title" : "Say what is still open"
+    },
+    {
+      "about" : "Anything that is not the way it was at the start: a person, a machine, an order, a rule.",
+      "title" : "Say what changed this shift"
+    },
+    {
+      "about" : "What you chose not to do or not to say yet. If you do not say why, they cannot tell whether to carry on.",
+      "title" : "Say what you held back, and why"
+    },
+    {
+      "about" : "The one thing you tripped on, or nearly did.",
+      "title" : "Say what will surprise them"
+    },
+    {
+      "about" : "Ask them to say it back in their own words. Confirm only once they have.",
+      "title" : "Read it back"
+    },
+    {
+      "about" : "One, written down in a line. If it keeps coming back, it is the next thing to fix.",
+      "title" : "Note one snag from this shift"
+    }
+  ],
+  "symbol" : "person.line.dotted.person"
+}

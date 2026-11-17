@@ -1,0 +1,29 @@
+{
+  "colour" : "purple",
+  "description" : "For a coach, to run at the start of a session with a client. Needs nothing but this phone. What you write in each step's notes stays with the run.",
+  "name" : "Session agenda",
+  "routineRun" : 2,
+  "steps" : [
+    {
+      "description" : "One at a time, in the client's words. Do not comment yet.",
+      "title" : "Last actions: what was done, and what was not"
+    },
+    {
+      "description" : "Ask for it before the rest. Specific beats big: what did you do, on which day?",
+      "title" : "What went well"
+    },
+    {
+      "description" : "The thing itself, not the reason it is understandable. Note it.",
+      "title" : "What got in the way"
+    },
+    {
+      "description" : "Say each one back. If the client cannot say it in a sentence, it is too big.",
+      "title" : "Next actions: two or three, in the client's words"
+    },
+    {
+      "description" : "Between now and next time. Name a person, or say you will check back in a week.",
+      "title" : "Support needed, and from whom"
+    }
+  ],
+  "symbol" : "list.bullet.clipboard"
+}

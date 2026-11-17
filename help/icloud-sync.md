@@ -18,7 +18,7 @@ On a new device, the first screen offers **Already use it on another device? Bri
 - Wordings you changed, and your preferences, such as hints and how lists are sorted.
 - Photos in notes, by their name in iCloud Photos, not the picture itself.
 
-**What stays on each device:** shortcut links and icons, events written to your calendar, alarms, where you are and your Focus, and backups.
+**What stays on each device:** shortcut links and icons, events written to your calendar, alarms, where you are and your Focus, runs somebody sent you, and backups.
 
 The watch gets everything from its iPhone, not from iCloud.
 

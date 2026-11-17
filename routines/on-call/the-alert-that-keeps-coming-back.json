@@ -14,16 +14,17 @@
     ],
     "slug" : "the-alert-that-keeps-coming-back",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bZIxb9wwDIX_CqHZ8JDxtiJdsiRAmy3JIEu8M3GSeKCoukZw_72UfUCSIpssk-99j9S7C5y4iTu4FVPixQ2u-Iz2_Twj-ISioLNXOCNeKgTOVE4w-XC2SuGmVPBXK-5wN7iKf1B8-qFPJZiCSkO7VOtzh5d3F7EGoYsSl5t8aXlCAapmYWZyahmLjvDIE8cVLkIspFSxwqsjhSOJHT0k1lc3GoCSps56z60ozLxA9mUFpYxd04QzF53ddfjf_uG4e5a6fBBUS24HQexBTSrWYU9_KzjSX2uJQNtNYd1F-pQ-4_z2Kyy9beUGkQF9mDeob0CeN7vILHWTNsHVRtFVE0yoaniGUHZ_W5XOwAUHMyBT7WC8LeeWpa-HvtD8xEARD-CbcvZqrYLaugQLREyo33E9WjjeXfu2E59GeNA-FxttvzG4Iwt-rrAYWL9Y8_bbeLdRhJmrbd1e2fXNXsaaJ05W5UV4GVXIl1PCGX0c78aQOJwX2727_gM"
+    "web" : "https://routinerun.com/r?w=1&d=bVM7b9wwDP4rhJYuhlFk9Ba0Q7NcizZb00Fn8WzBsmhIVFzjcP-9pHyH5oIshkzx8T2os-kpUEmmMxuGQKtpjMPcJ7-wpyjhA6LLEIlHHwc4FgY5ZVhGitjCo3NQFgkhzD4Wxgw-1t9U4qcMrzYUzA3Y6MBqTL4zRR4hWMYEeaQ1wzqilKRad_J_YaU0oWsFS7QzCohnubABkw63DBPikqGnuUKy_SSZiQr7iD-LgH5oTMZXTDY88vfYSwdOBSXIUme63-d3HL_RCrONG7CflQELioRuhz3eLm8E0fYjCHtgogk2Ki38qLJohG1QBW65ecHILSj-WOajcBTtNNOmocz17kBHchssyVPy7LNUvZgrhCxyBeIXo1qw56BifKES93GLHTDvfqyIk7k075k9nfZpMa__Z2cRVQ4JUTUUbk4cqsJeE9QDpe5rRLzfm6gBb4H8sptYJ2WiATjahVEJPwDyXMc5opRra2m4iQjaNcARmav9dt-dk2wkV40bGeClqwKj6vuVizrv79B8xd477MAWplmWq4GEXLQFJXAYkD_CdRBytE_VRQo0tPDEqosoqxEBd6KEbzOEBua70VSvdSdUin6kLH7LY7r8kaXb5iMFybIp0dpy8jYOAUe0rn1o-0D9tIrr0m5_LKY7m7v1Md3ny-Uf"
   },
   "colour" : "yellow",
+  "description" : "Needs nothing but this phone. Add up the minutes in the run's values, and a run a month later shows whether the fix worked.",
   "name" : "The alert that keeps coming back",
   "routineRun" : 2,
   "severalAtOnce" : true,
   "steps" : [
     {
-      "description" : "The number is the argument. Nobody prioritises \"it fires a lot\".",
-      "title" : "Count how many times this month"
+      "description" : "How many times it fired, and how many minutes each one took you. Put the total in minutes spent. The number is the argument. Nobody prioritises \"it fires a lot\".",
+      "title" : "Count the pages this week"
     },
     {
       "description" : "If the answer is the same three commands, that is the fix and it is not the alert.",
@@ -38,5 +39,8 @@
       "title" : "Do the one you chose now"
     }
   ],
-  "symbol" : "arrow.trianglehead.2.clockwise"
+  "symbol" : "arrow.trianglehead.2.clockwise",
+  "values" : {
+    "minutes spent" : 0
+  }
 }

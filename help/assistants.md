@@ -63,9 +63,9 @@ Each opens the same sign-in page with a code the first time it is used.
 - "How did my week go? Which steps do I keep skipping?"
 - "Pause my run" or "Put this step last."
 - "Plan Morning for tomorrow at seven."
-
-Claude and ChatGPT also list ready-made requests from Routine Run — **Review my week**, **Plan tomorrow**, **A checklist for right now**, **Tidy a routine**, **Where am I?** — in the menu where they keep prompts.
 - "Look at my evening routine and suggest a shorter version."
+
+Claude and ChatGPT also list ready-made requests from Routine Run — **Write me a routine**, **Review my week**, **Plan tomorrow**, **A checklist for right now**, **Tidy a routine**, **Where am I?** — in the menu where they keep prompts. **Write me a routine** asks what it is for, looks for one of yours or a ready one that is close, asks at most three questions about a time you have to keep or what you already have, and sends the routine to your phone to look over. The public address offers it too, and there it ends with a link that opens the routine in the app.
 
 A new routine or a change arrives as a notification, and waits under **Suggested** in **In hand** until you answer it. Tap either and the app shows it the way it would be saved; nothing is written until you press **Save**, and **Drop** in In hand lets it go.
 

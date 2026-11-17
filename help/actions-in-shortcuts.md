@@ -50,6 +50,7 @@ Every action here works on iOS 26. **Needs iOS 27.** A Shortcuts automation that
 
 ## When it goes wrong
 
-**"Nothing is running."** No run is going, or the only one is planned for later.
+**"Nothing is running."** No run is going, or the only one is planned for later. An action
+that needed one going adds what to say to start something: "Start something in Routine Run".
 
 **It moved the wrong run.** The empty field took the newest. Choose the run in the action.

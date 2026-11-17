@@ -11,6 +11,7 @@
     },
     {
       "about" : "Lunch, water bottle, homework folder.",
+      "by" : "08:35",
       "links" : [
         {
           "title" : "Packing list",
@@ -18,6 +19,7 @@
         }
       ],
       "minutes" : 10,
+      "tellMe" : "notification",
       "title" : "Pack the bag"
     },
     {

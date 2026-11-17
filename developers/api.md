@@ -144,7 +144,7 @@ The same connection, for an assistant: `https://api.routinerun.com/mcp`, Streama
 | `mark_moment` | *Coming soon.* Says a moment that happens has happened, now or `at` a moment up to a day ahead or a month back. Only a time later than the last one counts |
 | `command_status` | What became of a command |
 
-`start_run`, `start_new_run` and `plan_run` take `ask_first`: the run then waits in In hand for the person's Start, and the receipt is `asked` until they answer — `done` or `refused`. A connection set to **Ask before starting** does this for every run. `get_run` carries the run's notes and values only where the person has turned on **Read notes and values** for that assistant. The server also offers prompts — `review_my_week`, `plan_tomorrow`, `checklist_now`, `tidy_a_routine`, `where_am_i` — which clients show as commands.
+`start_run`, `start_new_run` and `plan_run` take `ask_first`: the run then waits in In hand for the person's Start, and the receipt is `asked` until they answer — `done` or `refused`. A connection set to **Ask before starting** does this for every run. `get_run` carries the run's notes and values only where the person has turned on **Read notes and values** for that assistant. The server also offers prompts — `write_a_routine`, `review_my_week`, `plan_tomorrow`, `checklist_now`, `tidy_a_routine`, `where_am_i` — which clients show as commands. Every tool declares an `outputSchema`: a command answers `{command, status, run}`, with `status` one of the receipt's words, and a tool that reads says the shape of what it reads. The three that take a routine — `start_new_run`, `propose_new_routine`, `propose_routine_change` — take `written` as one JSON object, or as JSON text.
 
 Reads are answered by the phone, so they need it reachable; a phone that does not answer in about 20 seconds is said to have not answered.
 
@@ -156,11 +156,11 @@ Reads are answered by the phone, so they need it reachable; a phone that does no
 
 | Tool | What it does |
 |---|---|
-| `how_to_write_a_routine` | The form the app reads, the same text as [llms-routine.txt](https://routinerun.com/llms-routine.txt) |
+| `how_to_write_a_routine` | The form the app reads, from [llms-routine.txt](https://routinerun.com/llms-routine.txt): its fields and actions, and what a routine that works in the app has. With `part: "examples"`, three routines in the form and the shortcuts the app adds in one tap |
 | `routine_link` | Checks a routine in that form and returns a `routinerun.com/w?d=…` link that opens it on the app's review screen |
 | `find_starter_routine` | The routines the app ships, found by words, each with its `description`, its steps and a link that adds it |
 
-The routine sent to `routine_link` is turned into a link and not kept. 60 calls a minute from one address.
+The routine sent to `routine_link` is turned into a link and not kept. 60 calls a minute from one address. Its one prompt, `write_a_routine`, is the signed-in server's, ending with `routine_link` rather than a suggestion on the phone.
 
 ## PagerDuty
 

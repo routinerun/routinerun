@@ -1,0 +1,64 @@
+{
+  "colour" : "teal",
+  "description" : "For an app on the App Store. Needs App Store Connect with Analytics. Add a date called Released to the run's values, and each check comes to you on its day, from 1 to 28 days after, with a card; set one to wake you if the phone will be face down.",
+  "name" : "After a release",
+  "routineRun" : 2,
+  "severalAtOnce" : true,
+  "steps" : [
+    {
+      "description" : "Add a date called Released to this run's values. Nothing below starts until it has a day.",
+      "title" : "Say the day it was released"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 1,
+          "value" : "Released"
+        }
+      },
+      "description" : "App Store Connect, Analytics. Write down the crash rate and the share of people who came back the next day. Retention can show a day or two late: if it is not there, say so in a note and look again on day 3.",
+      "title" : "Day 1: crashes and day-one retention"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 3,
+          "value" : "Released"
+        }
+      },
+      "description" : "Read every new review. Reply in one line to the ones you can answer. Note any that say the same thing twice.",
+      "title" : "Day 3: reviews, and a reply to each"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 7,
+          "value" : "Released"
+        }
+      },
+      "description" : "Fault, request, confusion, thanks. Count each pile in a note. Confusion is a sentence or a page that was unclear, and it is often the cheapest thing to fix.",
+      "title" : "Day 7: sort the support mail into four piles"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 14,
+          "value" : "Released"
+        }
+      },
+      "description" : "Anything you changed because somebody wrote in gets one line, in the words of the person it helps. If nothing changed, say so in a note. Mail that changes nothing is worth a second look.",
+      "title" : "Day 14: one line in the changelog for each change mail caused"
+    },
+    {
+      "deadline" : {
+        "from" : {
+          "days" : 28,
+          "value" : "Released"
+        }
+      },
+      "description" : "In App Store Connect, open Retention and split it by source: search, a campaign link, a web page. Write one sentence on which source keeps people. It counts only people who agreed to share, so it is a sample.",
+      "title" : "Day 28: retention by source"
+    }
+  ],
+  "symbol" : "chart.line.uptrend.xyaxis"
+}
