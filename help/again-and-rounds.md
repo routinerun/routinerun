@@ -12,6 +12,8 @@ To give a step a count, open it, then **Settings → How many times**, and set *
 
 To take Again off the Lock Screen card, turn off **Repeat** in the routine's **Settings → Live Activity**.
 
+!video[Again on a step: one more set.](again-step)
+
 ## Again on a finished run
 
 A finished run's page has **Reopen**, **Again** and **Delete**. Again starts a new run from the first step, and the old one stays as it was. **Again later…** plans one for **In an hour**, **This evening**, **Tomorrow** or **Next week**.
@@ -27,6 +29,8 @@ A finished run's page has **Reopen**, **Again** and **Delete**. Again starts a n
 When a run starts, it writes the rounds out as separate steps, named like "Stretch · round 2 of 4". Each round keeps its own notes and values. With **Until I stop**, the run writes one round. For another, open the run's list of steps, press the plus, then **Another round**.
 
 Change a step on the routine, and every round made from it follows. Change one round inside a run, say 26 minutes instead of 25, and the band counts it. **Keep** writes it into the step the rounds come from. See [Keep or Only here](keep-or-only-here.md).
+
+!video[Five sets, counted for you.](five-sets)
 
 ## When something goes wrong
 

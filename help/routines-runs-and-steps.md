@@ -12,6 +12,8 @@ The same marks appear everywhere, from lists to the Lock Screen and the watch.
 | Ring | A run under way. The ring fills as it goes. |
 | Plain disc | A run that has stopped, finished or not. |
 
+!video[A routine, a run of it, and the step in hand.](three-shapes)
+
 ## Which page you are on
 
 A routine and each of its steps has a page, and so does a run and each of its steps. Every page says what it is, in bold, under its name: **Routine**, **Run** or **Step**. A step's page says whose step it is on the row directly below, with that routine's or that run's own mark. Tap the name to see what the marks beside it mean.
@@ -59,6 +61,8 @@ Under **Start** in In hand, a routine is offered only for a reason, and the row 
 - you have started it around this time on this day of the week before
 
 **Suggest when** is in the routine's **Settings**: some days, between two times, at a place, while a Focus is on, or for a while after a moment. Everything you turn on there must hold. When nothing is offered, the section is not shown; **Start a routine…** under the runs in In hand opens the whole list.
+
+!video[In hand: what is due, what comes back, what to keep.](in-hand)
 
 ## When something goes wrong
 

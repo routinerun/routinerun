@@ -20,6 +20,8 @@ A routine's name can hold a value too. Press the name on the routine's page, pre
 
 A run's own name takes a value the same way. Name one run "Incident" with the value **id**, and it reads "Incident …" until the number arrives, then "Incident 4812".
 
+!video[One run per deal, named by its value.](due-diligence)
+
 ## Where the value comes from
 
 The nearest one wins:

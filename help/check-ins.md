@@ -18,6 +18,8 @@ The sheet has four parts:
 
 Press **Check in**.
 
+!video[Decide later, and the question it asks again.](check-in)
+
 ## Answering
 
 Press an answer on the card, or in In hand. **Not yet** is always there too — a button on the card, and in In hand behind the ⋯ beside the question. Wherever you press it, the question hides and comes back after the whole interval, counted from that press. With **Only between**, it comes back at the first time inside those hours after that.
@@ -33,6 +35,8 @@ Doing the step answers it too: **Next** or **Skip** on a step stops its check-in
 ## Every run of a routine
 
 On the routine's page, tap the step on the line at the top and press **Not now…** on its card, or open the step and choose **Not now…** in its menu. Then choose **Check in on it…** under "Every run of it, from now on". Each run gets its own question when it reaches that step, counted from that moment.
+
+!video[Physio three times a day, each one by the clock.](physio-moments)
 
 ## In one press
 

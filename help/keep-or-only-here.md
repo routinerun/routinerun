@@ -16,6 +16,8 @@ Whatever a run collects of its own, such as a note, a value or a renamed step, g
 
 Finished runs can be answered too. Open the run from **Runs**.
 
+!video[A step that took longer, kept for next time.](keep-only)
+
 ## What Keep does
 
 - **A value or a note** moves onto the routine. The next run reads it from there.

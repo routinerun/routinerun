@@ -88,6 +88,8 @@ The search field at the top of **Dates** finds one by name. The filter beside it
 
 A trigger comes once for each date. If it has already come and you then move the date, it does not come again. If the move puts it in the past before it came, it does not start late by itself: **In hand** shows it under **A date moved**, with **Start** and a swipe to **Skip**.
 
+!video[Steps counted back from the day you leave.](leaving-dates)
+
 ## A run that is already going
 
 A run counted from the date moves with it: its steps' times, a step put off and the moment it comes back. A time that had already passed and that the move puts ahead again is owed again, alarm and all.

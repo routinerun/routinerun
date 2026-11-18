@@ -21,6 +21,8 @@ A notification is quiet under a Focus and the silent switch. An alarm rings thro
 
 The reminder is on time. **Move on by itself** happens the next time the app is awake: iOS lets no app run at a chosen moment.
 
+!video[A step done by ten, and the minutes to spare.](done-by)
+
 ## Times and dates
 
 A trigger's **Reaches you** offers all four ways. **More → Scheduling** sets what a trigger uses when it says nothing.
@@ -33,6 +35,8 @@ A trigger's **Reaches you** offers all four ways. **More → Scheduling** sets w
 | Wake me | An alarm. For a time, not a place. |
 
 ![A time trigger on a routine, with the days and how it reaches you.](trigger-editor)
+
+!video[Standup on weekdays at 9:45.](standup-moment)
 
 ## Focus
 

@@ -27,3 +27,5 @@ Choose **A value of the run**, **of the step** or **of the routine**. A date or 
 ## A new step
 
 When you add a link as a step, the step opens it, as it always has. Under **Pressing it** you can choose the search instead, or **Nothing to press**.
+
+!video[Links shared from Safari, each one a step.](to-read)

@@ -23,9 +23,13 @@ Also **Skip, ask me at the end**. About the run: **Pause**, **Come back to it…
 
 **Later**, **At the end**, **Decide later**, **Skip** and **Not in this run** each put up a bar with **Undo** for a few seconds. Undo puts the run back as it was: the order, the step it was on, and no question left behind.
 
+!video[Not now: later, last, a day, or decide later.](not-now)
+
 ## Pause
 
 **Pause**, at the top of the run's page, does it in one tap and says **Paused** until you press it again. While a run is paused, no clock runs, nothing moves, and the Lock Screen card shows **Resume**.
+
+!video[Blocked holds the run until you resume it.](blocked)
 
 ## Other places to put a step off
 
@@ -46,6 +50,8 @@ You do not have to answer. When the run reaches its end with steps left for late
 Pick **In an hour**, **This evening**, **Tomorrow**, **Next week**, or your own moment or place. Choose **Next** or **Now** for where it returns, then press **Put it off**.
 
 A time brings it back then, or the next time the app is awake. A place needs **Know when I am at one** (More → Places) and Always access to your location, and is noticed once you have stayed a while. See [Place and Focus](place-and-focus.md).
+
+!video[A routine put off with Don't start until.](held-routine)
 
 ## Your own answers
 
@@ -70,6 +76,8 @@ The button is on the step's card, on the Lock Screen and on the watch. A deadlin
 A step with a time to be done by that has gone says **Overdue** on the run's page. Tap that line for **Time passed**: **Do it now**, **Change the time…** or **Take the time off**. Where several steps of the run are late, **From tomorrow**, **From next week** or **Choose when the first is due…** moves all of them and keeps the gaps between them. **Count them from a date…** counts them from a date instead, so the next slip is one date moved. See [Dates](dates.md).
 
 In **In hand → Time passed**, swipe a row for **Change the time…** and **Take the time off**. A run with several late steps has one row of its own with **Move all…**. All of these change this run only, and the bar that comes up undoes them.
+
+!video[A step that is late, in deep orange.](late-step)
 
 ## How long a run has
 

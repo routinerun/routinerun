@@ -12,6 +12,7 @@ The watch opens on the run that is going. On it:
 
 - **The step you are on**, its timer or how far through you are, and a row of beads.
 - **Next** (the forward arrow), and **Again** where going round the step again means something.
+- **The pencil**, for a note written against the run without leaving the step.
 - **The ellipsis**, for everything else.
 - **The step's own buttons** underneath, such as a shortcut to run. One that has to leave the app says **Finishes on the phone**, and it runs there.
 

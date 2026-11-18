@@ -35,6 +35,8 @@ The first time a run finishes, a screen says what you did and how long it took. 
 
 See [Routines, runs and steps](routines-runs-and-steps.md).
 
+!video[A routine with no time, started with one press.](by-hand)
+
 ## When something goes wrong
 
 - **Next is greyed out.** The run is paused. Press **Paused** at the top of the run's page.
