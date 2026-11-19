@@ -18,14 +18,6 @@ its identity in the app is made from and never changes, its `order` on the shelf
 and `web`, a link that opens it in the app, where nothing is saved until you press Add. A routine
 pasted or opened anywhere else with a `catalogue` block is read and the block ignored.
 
-**Read whole by the release after 1.3.** These files say a few things form 2 learned in
-November 2026: when a step is ready, what happens when its time is up, a button that counts
-only on some passes, a step that keeps the screen awake. Version 1.3 opens most of them
-without those parts, and refuses two outright:
-[`the-button-one-press-at-a-time`](starters/the-button-one-press-at-a-time.json) and
-[`count-it-without-looking`](starters/count-it-without-looking.json). The release after it
-reads every one whole. The link in `web` opens the app's own copy, and works in 1.3 too.
-
 A routine is English on purpose: once it is added it is that person's routine, in the words
 it was written in.
 
