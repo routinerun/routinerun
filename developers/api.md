@@ -139,16 +139,18 @@ The same connection, for an assistant: `https://api.routinerun.com/mcp`, Streama
 | `how_to_write_a_routine`, `routine_link`, `find_starter_routine` | The public tools below, here too, so one connector is enough |
 | `start_new_run` | A run of steps the assistant writes, begun at once and kept out of Routines unless the person keeps it |
 | `propose_new_routine` | A new routine in the written form, with no `from`, shown on the phone to be saved or dropped |
-| `list_dates` | *Coming soon.* The person's named dates and moments that happen, which routines count from: each one's `description` where it has one (what it is, or how anybody can tell it has happened), its `kind` (`day`, `time` or `happens`), its day or moment (`on`), or `noDayYet`, when a moment last happened, whether it is `linked` to an event, a reminder or another `date` (then `countedFrom` says how: `7 days after Departure`), and the routines counting from it |
-| `set_date` | *Coming soon.* Gives a named date its day: `on` is `2026-11-15` for a whole day, or a moment with its offset for a date with a time. What counts from it moves, or is armed if it had no day (`daySet`). A moment that happens and a linked date are left alone |
-| `mark_moment` | *Coming soon.* Says a moment that happens has happened, now or `at` a moment up to a day ahead or a month back. Only a time later than the last one counts |
+| `list_dates` | The person's named dates and moments that happen, which routines count from: each one's `description` where it has one (what it is, or how anybody can tell it has happened), its `kind` (`day`, `time` or `happens`), its day or moment (`on`), or `noDayYet`, when a moment last happened, whether it is `linked` to an event, a reminder or another `date` (then `countedFrom` says how: `7 days after Departure`), and the routines counting from it |
+| `set_date` | Gives a named date its day: `on` is `2026-11-15` for a whole day, or a moment with its offset for a date with a time. What counts from it moves, or is armed if it had no day (`daySet`). A moment that happens and a linked date are left alone |
+| `mark_moment` | Says a moment that happens has happened, now or `at` a moment up to a day ahead or a month back. Only a time later than the last one counts |
+| `publish_routine` | Publishes a routine at `routinerun.com/c/<code>`: the steps only, cut as a phone's Publish cuts them, straight away with nothing asked on the phone; `code` replaces one this connection published |
+| `unpublish_routine` | Takes a code this connection published down, for everybody |
 | `command_status` | What became of a command |
 
 `start_run`, `start_new_run` and `plan_run` take `ask_first`: the run then waits in In hand for the person's Start, and the receipt is `asked` until they answer — `done` or `refused`. A connection set to **Ask before starting** does this for every run. `get_run` carries the run's notes and values only where the person has turned on **Read notes and values** for that assistant. The server also offers prompts — `write_a_routine`, `review_my_week`, `plan_tomorrow`, `checklist_now`, `tidy_a_routine`, `where_am_i` — which clients show as commands. Every tool declares an `outputSchema`: a command answers `{command, status, run}`, with `status` one of the receipt's words, and a tool that reads says the shape of what it reads. The three that take a routine — `start_new_run`, `propose_new_routine`, `propose_routine_change` — take `written` as one JSON object, or as JSON text.
 
 Reads are answered by the phone, so they need it reachable; a phone that does not answer in about 20 seconds is said to have not answered.
 
-`list_dates`, `set_date` and `mark_moment` are not on the server yet: they arrive with its next update, and this page says so when they do. They need a version of the app that knows dates. To a phone known to have an older one they say so and send nothing; a phone the relay has not heard from since is tried, and if it stays silent the answer says it may be too old.
+`list_dates`, `set_date` and `mark_moment` need a version of the app that knows dates. To a phone known to have an older one they say so and send nothing; a phone the relay has not heard from since is tried, and if it stays silent the answer says it may be too old.
 
 ### Writing a routine, with no sign-in
 
@@ -229,6 +231,6 @@ curl https://api.routinerun.com/v1/in/<connection id>/events \
 
 ## What the relay keeps
 
-The connection's address and name, when it was last used, a token for reaching the phone, and a fingerprint of the secret. Not the body of anything you send: it is passed to the phone and not kept, and Apple holds it until the phone is reachable, a day at most. A command too long for one push waits on the relay sealed under a key that goes only to the phone, until the phone takes it or the command expires: an hour for a run, a day for anything else. The phone's answer, one word, is kept for about an hour. The [privacy page](https://routinerun.com/privacy) says the rest.
+The connection's address and name, when it was last used, a token for reaching the phone, and a fingerprint of the secret. Not the body of anything you send: it is passed to the phone and not kept, and Apple holds it until the phone is reachable, a day at most. A command too long for one push waits on the relay sealed under a key that goes only to the phone, until the phone takes it or the command expires: an hour for a run, a day for anything else. The phone's answer, one word, is kept for about an hour. For a routine published with `publish_routine`, the code, the connection that published it, and when; the routine is in iCloud's public database, not on the relay. The [privacy page](https://routinerun.com/privacy) says the rest.
 
 The whole of it in OpenAPI: [openapi.json](https://routinerun.com/developers/openapi.json).

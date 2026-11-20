@@ -1,6 +1,6 @@
 # Connect Claude, ChatGPT and others
 
-An assistant that speaks MCP can read your routines and runs, start and move runs, and suggest new routines and changes that you look over on the phone before anything is saved. There is no account: signing in shows a code, and you type it on your phone. What that looks like in practice is on [With your assistant](https://routinerun.com/assistants).
+An assistant that speaks MCP can read your routines and runs, start and move runs, suggest new routines and changes that you look over on the phone before anything is saved, and publish a routine under a short code when you ask. There is no account: signing in shows a code, and you type it on your phone. What that looks like in practice is on [With your assistant](https://routinerun.com/assistants).
 
 ## Two addresses
 
@@ -68,6 +68,8 @@ Each opens the same sign-in page with a code the first time it is used.
 Claude and ChatGPT also list ready-made requests from Routine Run — **Write me a routine**, **Review my week**, **Plan tomorrow**, **A checklist for right now**, **Tidy a routine**, **Where am I?** — in the menu where they keep prompts. **Write me a routine** asks what it is for, looks for one of yours or a ready one that is close, asks at most three questions about a time you have to keep or what you already have, and sends the routine to your phone to look over. The public address offers it too, and there it ends with a link that opens the routine in the app.
 
 A new routine or a change arrives as a notification, and waits under **Suggested** in **In hand** until you answer it. Tap either and the app shows it the way it would be saved; nothing is written until you press **Save**, and **Drop** in In hand lets it go.
+
+Publishing is the exception: a routine an assistant publishes goes straight to `routinerun.com/c/<code>`, with nothing to press on your phone, and only the assistant's answer has the code. Ask it to take the code down, or write to support with it.
 
 **Ask before starting**, on the same page, makes every run it starts or plans wait in **In hand** for **Start**, and its notification opens In hand. Without it a run begins at once — Stop undoes it — but you can still say "ask me first" in the chat, and that one run waits.
 
