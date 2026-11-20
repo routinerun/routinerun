@@ -13,6 +13,22 @@ const UNDERSTOOD = new Set([
   "properties", "required", "additionalProperties", "items", "anyOf", "allOf", "not",
 ]);
 
+// What each pattern the schemas use asks for, in words. "Is not written the way it should be"
+// alone left a model guessing: an assistant that put an obsidian:// address in a step's
+// `links` was refused, tried again, and never learned that a link there is a web address.
+// A pattern not listed says its own `description` where it has one, and nothing more where not.
+const SHAPES = {
+  "^https?://": "it is a web address, starting with https://; another kind of address goes in an \"open\" button",
+  "^https://": "it is a web address, starting with https://",
+  "^[A-Za-z][A-Za-z0-9+.-]*:": "it is an address with its scheme, like https://… or shortcuts://…, written out rather than named by a value",
+  "^([01]?[0-9]|2[0-3]):[0-5][0-9]$": "it is a time of day, like \"09:00\"",
+  "^(([01]?[0-9]|2[0-3]):[0-5][0-9]|[0-9]{4}-[0-9]{2}-[0-9]{2}([ T][0-9]{2}:[0-9]{2}(:[0-9]{2})?)?)$": "it is a time of day, \"09:00\", or a date with one, \"2026-10-03 13:00\"",
+  "^[0-9]{4}-[0-9]{2}-[0-9]{2}([ T][0-9]{2}:[0-9]{2}(:[0-9]{2})?)?$": "it is a date, \"2026-10-03\", or a date with a time, \"2026-10-03 13:00\"",
+  "^#[0-9A-Fa-f]{6}$": "it is a colour by name, or a hex like \"#2E7D4F\"",
+  "\\S": "it cannot be empty",
+  "^[a-z0-9]+(-[a-z0-9]+)*$": "it is lowercase words joined by hyphens",
+};
+
 /** Every problem with `value` against `schema`, one sentence each, the first most useful. */
 export function problemsAgainst(value, schema) {
   return check(value, schema, schema, "");
@@ -35,7 +51,10 @@ function check(value, schema, root, path) {
   if ("const" in schema && value !== schema.const) found.push(`${where(path)} should be ${JSON.stringify(schema.const)}.`);
   if (schema.enum && !schema.enum.includes(value)) found.push(`${where(path)} should be one of ${schema.enum.join(", ")}.`);
   if (typeof value === "string") {
-    if (schema.pattern && !new RegExp(schema.pattern, "u").test(value)) found.push(`${where(path)} is not written the way it should be: "${value.slice(0, 60)}".`);
+    if (schema.pattern && !new RegExp(schema.pattern, "u").test(value)) {
+      const wanted = SHAPES[schema.pattern] ?? schema.description;
+      found.push(`${where(path)} is not written the way it should be: "${value.slice(0, 60)}"${wanted ? ` — ${wanted}` : ""}.`);
+    }
     if (schema.minLength !== undefined && [...value].length < schema.minLength) found.push(`${where(path)} is too short.`);
   }
   if (typeof value === "number") {
