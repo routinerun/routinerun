@@ -142,7 +142,7 @@ The same connection, for an assistant: `https://api.routinerun.com/mcp`, Streama
 | `list_dates` | The person's named dates and moments that happen, which routines count from: each one's `description` where it has one (what it is, or how anybody can tell it has happened), its `kind` (`day`, `time` or `happens`), its day or moment (`on`), or `noDayYet`, when a moment last happened, whether it is `linked` to an event, a reminder or another `date` (then `countedFrom` says how: `7 days after Departure`), and the routines counting from it |
 | `set_date` | Gives a named date its day: `on` is `2026-11-15` for a whole day, or a moment with its offset for a date with a time. What counts from it moves, or is armed if it had no day (`daySet`). A moment that happens and a linked date are left alone |
 | `mark_moment` | Says a moment that happens has happened, now or `at` a moment up to a day ahead or a month back. Only a time later than the last one counts |
-| `publish_routine` | Publishes a routine at `routinerun.com/c/<code>`: the steps only, cut as a phone's Publish cuts them, straight away with nothing asked on the phone; `code` replaces one this connection published |
+| `publish_routine` | Publishes a routine at `routinerun.com/c/<code>`: the steps only, cut as a phone's Publish cuts them, straight away with nothing asked on the phone, the assistant told to show the person what will be public and wait for their yes; `code` replaces one this connection published |
 | `unpublish_routine` | Takes a code this connection published down, for everybody |
 | `command_status` | What became of a command |
 

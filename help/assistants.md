@@ -69,7 +69,7 @@ Claude and ChatGPT also list ready-made requests from Routine Run — **Write me
 
 A new routine or a change arrives as a notification, and waits under **Suggested** in **In hand** until you answer it. Tap either and the app shows it the way it would be saved; nothing is written until you press **Save**, and **Drop** in In hand lets it go.
 
-Publishing is the exception: a routine an assistant publishes goes straight to `routinerun.com/c/<code>`, with nothing to press on your phone, and only the assistant's answer has the code. Ask it to take the code down, or write to support with it.
+Publishing is the exception: a routine an assistant publishes goes straight to `routinerun.com/c/<code>`, with nothing to press on your phone, and only the assistant's answer has the code. It is told to show you what will be public first, names, numbers, addresses and words to copy included, and to publish only after you say yes. Ask it to take the code down, or write to support with it.
 
 **Ask before starting**, on the same page, makes every run it starts or plans wait in **In hand** for **Start**, and its notification opens In hand. Without it a run begins at once — Stop undoes it — but you can still say "ask me first" in the chat, and that one run waits.
 
