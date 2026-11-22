@@ -1,6 +1,6 @@
 # What Pro adds
 
-More routines. That is the whole difference: Pro holds as many as you like, and every feature is the same in both.
+More routines. Pro holds as many as you like, and every feature is the same in both. From version 1.5 there is one more thing: sharing a routine with the people who run it with you, which takes Pro on your side only. They join, run it and comment for free.
 
 ## The price
 

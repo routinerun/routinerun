@@ -69,7 +69,11 @@ Claude and ChatGPT also list ready-made requests from Routine Run — **Write me
 
 A new routine or a change arrives as a notification, and waits under **Suggested** in **In hand** until you answer it. Tap either and the app shows it the way it would be saved; nothing is written until you press **Save**, and **Drop** in In hand lets it go.
 
-Publishing is the exception: a routine an assistant publishes goes straight to `routinerun.com/c/<code>`, with nothing to press on your phone, and only the assistant's answer has the code. It is told to show you what will be public first, names, numbers, addresses and words to copy included, and to publish only after you say yes. Ask it to take the code down, or write to support with it.
+A routine an assistant wants to publish at `routinerun.com/c/<code>` asks you first, whatever the assistant was told (from 1.5). It waits under **Suggested** in **In hand**; **Publish…** opens exactly what would be public: the name and description, each step's name, words and minutes, and every button's link, number, address or words to copy. If it would replace a code the assistant published before, it says which. Nothing goes up until you press **Publish** there, and **Drop** says no. The assistant then has the code. Ask it to take the code down, or write to support with it.
+
+An assistant can leave a note on a step of a run that has not come up yet (from 1.5): ask it to check the forecast each morning and say so on **Get ready for the walk**, and you are told on the Lock Screen when the run gets to that step, not when it wrote it. The note stays on the step, with the assistant's name, like any note.
+
+An assistant can also leave a **comment** on a routine you share with people, on one of its steps or on a run of it (from 1.5), when you ask it to say something to them. It is signed with your name and marked with the assistant's name as your Connections page shows it, so nobody takes its words for yours. It waits under **Suggested** for **Post** unless you turned on **Save without asking** for that assistant. It cannot read comments: what the people you share with write in comments never reaches an assistant.
 
 **Ask before starting**, on the same page, makes every run it starts or plans wait in **In hand** for **Start**, and its notification opens In hand. Without it a run begins at once — Stop undoes it — but you can still say "ask me first" in the chat, and that one run waits.
 
@@ -87,7 +91,7 @@ The rules are listed under **Webhooks it may send** on the assistant's page in *
 
 A script that starts runs through an **Any system** address gets the same answer, under its own name. See [Connections](connections.md).
 
-To skip the review, turn on **Save without asking** on the assistant's page in **More › Events from elsewhere › Connections**. New routines are then saved as they arrive and can be deleted like any other; a change keeps the routine as it was in **Earlier versions**. Starting, pausing, stopping and moving runs never ask either way.
+To skip the review, turn on **Save without asking** on the assistant's page in **More › Events from elsewhere › Connections**. New routines are then saved as they arrive and can be deleted like any other; a change keeps the routine as it was in **Earlier versions**; and a comment it writes on a routine you share is posted at once, for everybody in it to read, which you can take back but not unread. Starting, pausing, stopping and moving runs never ask either way, and publishing always does.
 
 ## When it goes wrong
 
