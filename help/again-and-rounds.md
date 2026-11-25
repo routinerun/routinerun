@@ -6,7 +6,9 @@
 
 Again sits between **Not now…** and **Next** on the step's card, and is also on the Lock Screen card and the watch.
 
-It appears only where doing the step again changes something: the step has a count, a timer, or something it does when it is reached or when its time runs out.
+It appears by itself where the step is done more than once: it has a count, it counts over the whole run, or it does something every time it is reached.
+
+A step with only a timer, or something it does when its time runs out, has no Again until you ask for it. Open the step, then **Settings**, and turn on **Again on this timer**. For every timed step of a routine, turn on **Repeat on timed steps too** in the routine's **Settings → Live Activity**.
 
 To give a step a count, open it, then **Settings → How many times**, and set **Do it**. **Counts** decides what happens when the run leaves the step and comes back: **Each visit** starts again, **The whole run** carries on. Again goes away when the count is used up; **Next** never does.
 
@@ -34,6 +36,6 @@ Change a step on the routine, and every round made from it follows. Change one r
 
 ## When something goes wrong
 
-- **There is no Again.** The step has nothing to do again, or its count is used up. Give it a count or a timer.
+- **There is no Again.** The step has nothing to do again, or its count is used up. Give it a count. On a step with a timer, turn on **Again on this timer** in its **Settings**.
 - **Rounds is missing from the plus.** The routine has rounds already. The **Rounds** row on its list of steps changes them.
 - **A going run has no rounds.** They are written when a run starts.

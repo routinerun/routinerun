@@ -18,7 +18,7 @@ Tap anywhere else and the app opens on that run. Press and hold the Dynamic Isla
 | Button | When it is there |
 |---|---|
 | Next or Finish | Always, unless switched off for the routine or the step |
-| Again | Where going round the step again means something |
+| Again | Where the step is done more than once: a count, or something it does each time it is reached. On a timed step, when you turn on **Again on this timer** |
 | Decide later | While the run is going |
 | Resume | On a paused run, in place of Next, with Again and Decide later gone |
 | Again, as a new run | On the card a finished run leaves for a few minutes |
