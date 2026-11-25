@@ -53,6 +53,16 @@ In VS Code, `.vscode/mcp.json`:
 
 Each opens the same sign-in page with a code the first time it is used.
 
+## Somebody helping you with one routine
+
+A friend, a coach or we can help with a routine without seeing anything else of yours. Their assistant reads that one routine and suggests changes to it. Each change waits on your phone until you look it over and save it.
+
+1. They add `https://api.routinerun.com/mcp` to their own assistant, as above, and sign in. The page shows a code. They send you the code.
+2. On your iPhone: **More › Events from elsewhere › Connections**, **Add a connection…**, **Somebody helping you**. Choose the routine, say who it is, type the code, and **Connect**.
+3. They ask their assistant for the change. It arrives as a notification under their name and waits in **In hand**, where **Save** writes it and **Drop** lets it go.
+
+They cannot read your other routines, your runs or your notes, and cannot start or move a run, publish or comment. Your phone refuses all of that whatever their assistant asks. A change they suggest is never saved without you, even if you set your own assistant to save without asking. Remove the connection and they are signed out at once. To let them help with a second routine, connect them again and choose it.
+
 ## What to ask it
 
 - "What is on my phone in Routine Run?"

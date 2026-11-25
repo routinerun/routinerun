@@ -45,6 +45,8 @@ It can then read your routines and runs when it asks, start and move runs, write
 
 No iPhone with Routine Run to hand? The sign-in page has **Try with a demo library**, which connects the assistant to a small made-up library instead.
 
+Somebody else's assistant can help with one routine instead: **Add a connection… › Somebody helping you**, choose the routine, and type the code they send you. It reads that routine and suggests changes to it, which wait for you, and nothing else. [Connect Claude, ChatGPT and others](https://routinerun.com/help/assistants) says more, under Somebody helping you with one routine.
+
 ## When the run starts
 
 - **iOS 27 with the bridge:** by itself. The notification arrives, the bridge takes it, and the run's card is on the Lock Screen a few seconds later, phone locked or not.

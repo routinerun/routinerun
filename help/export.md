@@ -36,6 +36,12 @@ A link carries the steps, what they say and do, their buttons and times, and whe
 
 Tap the link or the file on an iPhone with Routine Run. The **Import** page shows what came, what it would reach, and which shortcuts you will need. A link always arrives as a routine of its own. Where a file is a routine you already have from an earlier copy, choose **Replace mine** or **Keep both**. A different routine with the same name gets a new name instead. Then **Add it** (or **Replace it**). Nothing is written before that.
 
+## When a routine comes back changed
+
+You can send a routine to somebody who helps you with it, and get it back changed. Open the file they send, and on the Import page press **Apply the changes…** under your routine. It shows every difference first: a step renamed, added, moved or taken away, a new description, a different time. **Apply** writes them onto your routine and keeps it as it was in **Earlier versions**, with an undo bar for a few seconds.
+
+Only what that list shows is taken from the file, and a button in it that reaches past your phone, such as a webhook, an event or an alarm, arrives switched off until you press **Allow** on its step. Everything else stays as it is on your phone: who the routine is shared with, a time you switched off, and whatever a step carries that the list does not show. **Replace mine** takes the whole file instead.
+
 On a Mac or an Android phone the link opens a web page that says to open it on the iPhone.
 
 ## Everything, for yourself
