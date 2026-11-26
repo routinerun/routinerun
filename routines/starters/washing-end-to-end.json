@@ -14,10 +14,10 @@
     ],
     "slug" : "washing-end-to-end",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bVHfSwMxDP5XQn09hgwRnE-CDAVBkcEexIesl1uDd83R5nYbY_-76Y2JiFBoSfL9yNej89LKkNzCXd3ePM6XS1e5mrJP3CtLtPqzZlDuKGVIhD7AQQYYWQMgeEz1PWRSkEigAiN-0TTADWgg6ENpjNy2sCFo0BPUMsaZqUTsyOjXmAPHbQUU68JglzWTDMqR3gdzMK9cph0lbB_0NXoDaRrIikp9douPo1PWtnC9CNbA6k7V8c8SK_NS5oH2nG2hLJO9SPuzdUyJd5RnsAqcwU7pjkFaKktniVMB-x4CXuIoS3QcByVzcXdd_dhYIys0kiZMZ5HZJv94WluGfCYO9gUVGMKAJo4WqRfLY7RwisyF-QnjtsxsyOipvHyxZwYKvT1rk8pmx741Npy6X9i3QQsARzy406fFd-g20lqjiFByp28"
+    "web" : "https://routinerun.com/r?w=1&d=bVJda9tAEPwry_VVmBJKoe5ToYQEWlpKwA-lD-vTOrdUuhV3qyjG-L93To5LKH3Rfe3MzszqFKINNpewDW_ev_t8c3sbutBLjUUnV8u4v_dKrqOUSkU4JjraTIt6IqbIpf9IVZwsC7nRwr9lLdADeRKaUntYdBhoL3TgKNTbkjf0tRWq40SjFdleASM6KCBaQUl3NgpZocQV3Wqy4nH2jqbZGxgVX4z7tuXcr_jqMuHDpanGeeGaNvCUeRSY2eGo-bEjafXWFjwWmx1Nf8zwe9OFKk9SePjk33IEyMssuARxDdufp-DqQ-N6aR3O3emfyB6uQuRZK4RUW7Vkeb4ExaXok9QNPST41BelyQZpEVfYahc8TavxS_jNxKh5doGKD2-7vzJ2DPsHhPQqvv9o2mFieiFOGHjXYgVQ12AlGvK4ZnVlvuP82Gr2Avp1WrHJg4BGj22PVhVy8BPlg5bxFfb7ZUK88DGcfyG-47i3AQ-tiZRw_gM"
   },
   "colour" : "#64D2FF",
-  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down. Make it do more: if the machine is on Home or has a shortcut, put it on Load it and the step starts the wash.",
   "name" : "Washing, end to end",
   "routineRun" : 2,
   "severalAtOnce" : true,

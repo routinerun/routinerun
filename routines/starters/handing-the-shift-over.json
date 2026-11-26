@@ -14,10 +14,10 @@
     ],
     "slug" : "handing-the-shift-over",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bVPBitwwDP0VkXPIoce5lbKlvWxhW-hh6cETayZmEinIymTDsv9eyZ6h2yWQg2NJT09Pz69NzyMv0hwalkBnbNomYu4lzZqY7PorC2Se8MhxgxHDNdEZAuQhnRQCxX_BIJI8erDwSZgUDOnS2t8laT8g-XENEttSz3MHj4gxA7EOjnpcFOyUYR6YsC3oOiBYGAVmlMwEiW7gfIKNl84IU5jQmH6zfIfxkkqPrygWF140ET4tNs-ntsmKc24Oz68fJn0I_QCFSQtr0gFWa4veBM5szLh1psA0bpYWFJJ9GXhGchaadHQaP8NmlaHEsqZxLBnNW_ux32fa6tx6y3Z0J78agmGvIUOoN1mDqOtaRXABJ2ObqkrAElH8UpYRd7n0gy83VnmLODuEfnumj9sPnLHSYYhs-PefbIAbagffi_oe9EgufbbWyW7QByrpaLObhmV7VtubQTaTb5eggw04RjiG_lJXb4A7JH-5IQjrokqZWnC22VwXZ4pBbEMxxd1Gq28kLzJLyo6C095q8qWE7iPbNpyXm8-ukwCvBKvJnjv4wnRKMlVfMPVYRRjCtaxCMJgrMZvj7K2V1He0nix6R9_h8cMXvEpSRTKt12L_AKMBlhVY5QXNzdDzVF5QEa_60n1D-KI3pWySU3p5L8kja5UyUzj7o5r-s8cfeynbdOTRUqvtutI3srGJXb1q3v4C"
+    "web" : "https://routinerun.com/r?w=1&d=bVTBittADP0V4UtbMD70mFspLe1ht7At9FB6mNhyPMQeGc04XrPsv_dpJukui2_xSHp6ek_KU9XKKItWh0rUhRNXddVxbNXPyUvA81dRijLxUbqNRnYXH07kKA6-T-RC9xJ0qt6iB4R7lZAISOcaX2ef2oGD_VyddnWul7mhe-YuUpA0GOpxSYRfkeZBAtcZPQ1MCLPSzBolkA9XcOlpk6WhO3dm8mgmNInygS5uXDhSD-Lr4JJloXp0LVMrS0iR3htq8uNYZ_xefXfCA0_o4dKiHD9grBwL_Jiuw8bkFMXoPlloeiE4ueBOrO8wyjIdwRU8nY2TJDRQNLiJIeU35NucVlIg5cKKuMqSfOCHBYJ_rKuYeI7V4c_TGyu-uHagLFVNq08DxmNlm49OAumkNinRfNyQhsmhCtSUmTOL5NNoNH66rQiDWDQVckb1XL_t9ylsxZh0zTZ0I78CAdiri-TKS9bGjC8umcMT2PpiI4l2rPaoy8i7XNrBtq8r_mdxdgj9vtqJbIlc6IgZD6uvHxGAG6eGvuf1sKBFYu6zZb83al3I6YzZoWFeL9S22OCNZF8sAxt47Ojo2nOxHoA7JH_ZxgYuRuWyhOCM2UwXY8pO4VDnu91GqzkSF53VR86LtmdNPOfQbWS4YbzsOvDssYFroBWyx4Y-S-i9TmUvJLRcRBjcJVuh7LCVHLFx-DPIqa9oPSB6Q9_h8cMMXtWnxAFar_k-HY0AzBag8szYZlzelE88i1f28v95XZdMqPePryW5l1SkjDiv2929rMdfXMo2HWVEalm7JvftBGy6pjxVz_8A"
   },
   "colour" : "orange",
-  "description" : "For somebody leaving a shift and somebody arriving: a front desk, a kitchen, a ward, a shop. Needs nothing but this phone, and the other person in front of you.",
+  "description" : "For somebody leaving a shift and somebody arriving: a front desk, a kitchen, a ward, a shop. Needs nothing but this phone, and the other person in front of you. Make it do more: values for what your place counts (the till, the fridge temperatures) so the next shift starts from them, and the manager's number on a button.",
   "name" : "Handing the shift over",
   "routineRun" : 2,
   "steps" : [

@@ -14,9 +14,10 @@
     ],
     "slug" : "leaving-it-empty-for-a-week",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bVK9btwwDH4VQrN7Q8fbAqRAh6JDGyBD0EG2aIuwjjQkOq4b3LuXklP0mmYTJer7I1_cIEnW7M5uIZ5d59hf0Kov6J-JJyAFvCy6wygZPGyItSnLqsT4bWV3_ti5orgUd356cQHLkGlREntxDxGhJwbiIa0BwwnuGgJQgSSGjizrFA_slEDGyuc5wC4rbGRXLAo9QsSMoFJLGvBkEpQ0VaGfmrotej0-TGIwo7t2b8Xc40ABrZOGeILPPo0fQr1qLgtE2WBJnrVAoH8YHr1i7qBqLDMUuWAvYTc175DcwbiaiIRqf3r5WZE9FJq4a76qHWE8_BmZFaCWUhDJt5z36JP50dheFyn6DtlXA6vPY6YwYdfAjxrxV5VcLzzvGqvHKKl5rR0Rvdaz7-X5td_KWwEPa-Ya5JFsECwNjRFDnYONxCT8L-mxSt4icnPobWi9H-YTfP-TWomypgAzW9zNOI2jzZYH60S15eDXfatpbVneqMK6JZbfgrnIX5JJTH6Tk9GbSyy2jrbaPFK-3I6SOMhWupZ3BzPuxV1_2ALvl16SNZSVdPAF3fU3"
+    "web" : "https://routinerun.com/r?w=1&d=jVRLb9QwEP4ro0jlFFaoHJBW4lBREEjAASr1gDg48SSx4ngi22kaqv53vvF2YVn1wGHt2JnH95jsQ9WKlyVW-2p2YazqynJqo5uzk4DLL2Zkcpms0CSR9zQvmTYk0NVqNkotByYJdLPEQNJ1tA5GozlRkEyB2VIWajSoJhOsFnMJEYe8PDClzPOOrqwlQ9ZkptZ4j7zPbO5c6EtW7-64BM-ScrkpB29CTvroIlK3hEYdYKJJTUn0xUatTKwYgJocOrqJd-AZzMQgeGwCWDzNeSPkA8fKrGJEWbIL_G2BFpd1pUhTtf_xcKbSDbA0qO1C6xfLFmxKBWXqBdU5yNIPh9reQyjtpywU1OpwpWpBpYFjAYujawvO7LJXoO8LuiJvSehF9a4e63Mw19w6y4h07bCjj8Z3L61eFZaJBlmPuln3T4dbaB9rUoxphHwTN2I3oHmmyRV1C0B4zshp5F4rG0quf3JZ6ajFhR-aHb22IvG05zUbDz55-GPuM82-opi-7qKzPdel-OHM_Esh64UJWx6U4yC-cNWIgU0uI9TI3VM8jqcA_mdwC6RmyVnCwX2ZWXGlKe1fqEZvP11cvpkuLl8ZfBTY4LMe8NMp2GF_J4u32KEH1pF51oCAhTfGKvoIxFgHWRJfvP5wCpLvC-Opevx5_oXeqnjrwKFobTA-jWnHHX0_-pcG7U1jgPHFAtd1mLLQIpIzAIanyVff1ihn-rDOK5ycOSb526QXCFmEiWygNydIgz-T0Lk4nQ6VC1bWVBfnaxp5S4VE2qZGvIq4uNyaxNXjbw"
   },
   "colour" : "pink",
+  "description" : "Make it do more: put your Away scene on Turn off what does not need to be on, and it is done on the step. Add a date called Leaving and give the post and the plants their days before it, so they come to you in time.",
   "name" : "Leaving it empty for a week",
   "routineRun" : 2,
   "steps" : [
@@ -37,6 +38,12 @@
       "title" : "Turn off what does not need to be on"
     },
     {
+      "buttons" : [
+        {
+          "open" : "sms:&body=I%27m%20away%20for%20a%20week.%20Could%20you%20keep%20an%20eye%20on%20the%20house%3F",
+          "title" : "Text them"
+        }
+      ],
       "description" : "With when you are back. Somebody should know the difference between empty and wrong.",
       "title" : "Tell one person you are going"
     },

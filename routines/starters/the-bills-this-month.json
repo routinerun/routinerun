@@ -14,10 +14,10 @@
     ],
     "slug" : "the-bills-this-month",
     "startsByItself" : true,
-    "web" : "https://routinerun.com/r?w=1&d=bVJLS-0wEP4rQ9yWg4ognp2gggsRRHAhLtJk2gRzMjWZWsuh_92ZFsF7cZd5fI-ZydE4SjQWszcn57eXNxd3pjEeqytx4EhZ8vcMjg5YodCYPVCGyBVoyvJ0CBYOlDk0MIXogtTAWS2lGTxpMiFk4thFZ5Wxgi2CSokm9DtRy_aAIvMcENqYUgUOsW6kUhVRjhmfRrFy3pjKOFSzfz0ajpwU9xIsw4SZQToFK9FMI_joVRbwa0DHZmmO_42lepQRPkasmtqgg50rdFR0RkzdDmR6cZPxE4vyhZh7Nf2jfp3nNQcu2NLrQ8WVwMJW0LgyDQN6GKtkVi__uBcBP8r0KDgUmCwMv3h1R53GFf8Y4C5-osrmXm4jFBba0ffIYrMlP8M7yqp28CgsazXYVo7TzvBgiwu_h9CWjahZd9YJs1neZNvzoaUkHa6gj-xs8Qorse-xbGeYAoqZo7EsbWdX-9NT_UB2fuwe1gvuz5blbfkG"
+    "web" : "https://routinerun.com/r?w=1&d=bVLNa90wDP9XhHfYJTzaUhjLbbAWeiiFMthh9ODYSmKeY2W28tLwyP8-yWGwjd2sj9-HJF-No0hLNq35cPfw6ev9o2mMx-JymDlQkvwTg6MJC2RakgdKELgArUmeDsHCRInHBtYxuFFq4KyW4gaeNBkREnHog7PKWMBmQcVIK_oTPNszKkh6J8rYCl-3MJNSAI8IfciFoTDOEloGmlE4NvEMnU3nBqyYQivSXYjxYwG_IHjLoiFScLFRYuH6ruBQyyeZMdkJZbhvoqC4IuRSrKNIVUblkPB1kQXcNUbVi2l_XA0HjoqrbCsm8bPwYUwsgQ9ehwV8n9Gx2ZvrP8tUPUoIPxcsmjqgs90K9JR1sxj7EzxVqwkvmJVvDGlQ07_Vv6St5sCNNg_6UHElsHAUNC5M84weliKZ6uUv98cuoEPBYV11wneu7qjXuOB_BngMF1TZNMiPCKWeyw_IYrMjv8EZZVUneBGWWh1tJ9ftNjl0duOfQ2jLQdTUnfXCbPY32fY2dRSlw2X0gZ3NXmE5DAPm4wzriGLmaixL2-3n9uZGv63dXvrnesH2dt_f9l8"
   },
   "colour" : "#2E7D4F",
-  "description" : "It comes round on its own once a month, which it can only do while notifications are allowed.",
+  "description" : "It comes round on its own once a month, which it can only do while notifications are allowed. Make it do more: a button on the first step that opens your bank, and each bill's due date as a value on What is due.",
   "name" : "The bills this month",
   "routineRun" : 2,
   "steps" : [

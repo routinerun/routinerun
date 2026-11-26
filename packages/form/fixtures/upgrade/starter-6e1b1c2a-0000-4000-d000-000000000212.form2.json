@@ -1,6 +1,6 @@
 {
   "colour" : "blue",
-  "description" : "One run per deal, as many at once as you have in the pipe. Notes, links and answers stay on that deal's run; what you change about the process, kept, is how the next deal starts.",
+  "description" : "One run per deal, as many at once as you have in the pipe. Notes, links and answers stay on that deal's run; what you change about the process, kept, is how the next deal starts. Make it do more: a date called Decide by on the run, the data room as a link on Send the request list, and Decide due a day before.",
   "name" : "Due diligence on a deal",
   "routineRun" : 2,
   "severalAtOnce" : true,

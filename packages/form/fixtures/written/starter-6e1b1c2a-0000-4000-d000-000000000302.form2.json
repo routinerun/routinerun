@@ -1,6 +1,6 @@
 {
   "colour" : "#64D2FF",
-  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down. Make it do more: if the machine is on Home or has a shortcut, put it on Load it and the step starts the wash.",
   "name" : "Washing, end to end",
   "routineRun" : 2,
   "severalAtOnce" : true,

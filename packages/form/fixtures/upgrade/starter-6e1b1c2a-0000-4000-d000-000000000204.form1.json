@@ -1,5 +1,5 @@
 {
-  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "about" : "Its timers reach you with a card; set one to wake you if the phone will be face down. Make it do more: on Send the decision and who owns what, a button to your team's channel, or a webhook that posts it there.",
   "colour" : "orange",
   "name" : "A meeting you called",
   "routineRun" : 1,

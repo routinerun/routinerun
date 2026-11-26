@@ -14,10 +14,10 @@
     ],
     "slug" : "check-a-purchase",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bVLNbtRADH4VKxy4RFUFB6Re0FKEhDgUARIHxMGZOJtRJ3Y042mIqr479nShVdvTzjq2vz_fdkGS1NxddK_enn84v3zX9d1IJeS4ahS2-nfFrDTCsIPOBId1TQRfcYcgzBS8CybJgLDivhAryA3l1lvqArtUKKQ9II_AuNgmnPTUsFAOM7KewRVD1AKy-S_EYutSLNrGc-XTDPKuc-RjK2MmYFFDsYdMZ8bc9xvly5nCtROqvr6QfclSNTJ9qybpTd8VMo6YDnrFwSY0V7Ki0lq6i1-3Txz4PDlODwFTarS5LoOxMeH-b0ADk6m9A2ZTKVsPA5kp9MCYUqH7CRPn0pyvRk1O-CcWl22q3nd3_VP8jxTiaL6pjLj3sM3REnC0TFozwxZ5lM1Nk5W4Gd14yR-vFY1GO7KBE6yRAj1G_kK0OrQFWMgG7el6XmBxgHUWFVdqTegJmSsPmiylHoqc4puk8v-b-Rfz69IuABJamM9Y3CsKZIgvwP9o7iodJe-OcRQqYBiWg2kz5zIMdTz6pW05qroRzvEGUyWIUzuZa8cxHx5jf3I3o0H-tgvYl0GSFUOmMaqn2d39BQ"
+    "web" : "https://routinerun.com/r?w=1&d=dZJBb9QwEIX_yigcuESrCg5IvaClCAlxKAIkDoiD40w2VhNPZI8boqr_nTfeVbu05bTeicfvvW_mrvEySUnNZfPq7cWHi6t3Tdv0nH0KiwaJqH9Xl5R76jbSkWm_LBPTV7eRlxjZ2y0aJJGjxW0zRyW55VTv5jLTJoUya0su9hTdjJfcoKcLMyc_uqg7uo4UNJOs9ksh47kpZK3tqcRTj4ubjiEeatklpigKFRxk2NHnwXoPwpk6529aWor-I_M6U2ItKWZ4PaAp0hfmxboQIDMc4mi95MxBV1Ql7oDEjIPF1cj2DQ_bg5nxJUnREPlbAas3bZMZ4d201-vo0aGpMIrKS24uf909QQvDCNCSd9NUjcYyd4gJX_avGpGhnr1LwCdrSx2DNj-i4CnzsQPUjJn51aCTGf6JHKFSfN_ct0_1P7IPPQai0rutpXUMGK2pHSnRGmIvq01DFo51gtWX_LFa1gDbIUKcaQns-Vz5P2BfcLGnZRQVS4pLFTyoPGbC-FvKctqLQUp8WMazwdqEaHLYkmcujok8Q_EF-R-VrvJB0vawP9DAHJAN5BL2oD_YCq8pqBoI83jrpsIUhrqLN6YDDufan4xmgORvbMA2dzKh6BP3QW2azf1f"
   },
   "colour" : "#30B0C7",
-  "description" : "Started by the Apple Pay connection for a payment over the sum you set, and named after the merchant. On its own it is a list you run after anything you are not sure of.",
+  "description" : "Started by the Apple Pay connection for a payment over the sum you set, and named after the merchant. On its own it is a list you run after anything you are not sure of. If it goes back, put the merchant's returns page on Keep it or send it back as a button.",
   "name" : "Check a purchase",
   "routineRun" : 2,
   "severalAtOnce" : true,

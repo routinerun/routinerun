@@ -1,6 +1,6 @@
 {
   "colour" : "orange",
-  "description" : "For somebody leaving a shift and somebody arriving: a front desk, a kitchen, a ward, a shop. Needs nothing but this phone, and the other person in front of you.",
+  "description" : "For somebody leaving a shift and somebody arriving: a front desk, a kitchen, a ward, a shop. Needs nothing but this phone, and the other person in front of you. Make it do more: values for what your place counts (the till, the fridge temperatures) so the next shift starts from them, and the manager's number on a button.",
   "name" : "Handing the shift over",
   "routineRun" : 2,
   "steps" : [

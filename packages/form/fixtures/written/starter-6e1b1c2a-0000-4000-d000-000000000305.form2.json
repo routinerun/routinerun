@@ -1,5 +1,6 @@
 {
   "colour" : "pink",
+  "description" : "Make it do more: put your Away scene on Turn off what does not need to be on, and it is done on the step. Add a date called Leaving and give the post and the plants their days before it, so they come to you in time.",
   "name" : "Leaving it empty for a week",
   "routineRun" : 2,
   "steps" : [
@@ -20,6 +21,12 @@
       "title" : "Turn off what does not need to be on"
     },
     {
+      "buttons" : [
+        {
+          "open" : "sms:&body=I%27m%20away%20for%20a%20week.%20Could%20you%20keep%20an%20eye%20on%20the%20house%3F",
+          "title" : "Text them"
+        }
+      ],
       "description" : "With when you are back. Somebody should know the difference between empty and wrong.",
       "title" : "Tell one person you are going"
     },

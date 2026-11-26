@@ -1,22 +1,36 @@
 {
+  "about" : "One run per document, named after it: a passport, a licence, a visa, a policy. Add a date called Expires to the run's values and the steps come to you two months before. Change the date and they move with it.",
   "colour" : "#C77700",
   "name" : "Something that runs out",
   "routineRun" : 1,
   "severalAtOnce" : true,
   "steps" : [
     {
-      "about" : "Write the date down as a value called Expires. A passport, a licence, a visa, an insurance policy — the ones that are fine until they are not.",
-      "title" : "When it expires"
+      "about" : "Add a date called Expires to this run's values. A passport, a licence, a visa, an insurance policy: the ones that are fine until they are not. Nothing below comes round until it has a day.",
+      "title" : "Say when it expires"
     },
     {
-      "about" : "Come back to it from the value rather than from a date you picked: change the date and the reminder moves with it.",
-      "title" : "Put this down until two months before that"
+      "about" : "The government's or the insurer's own page for renewing this one, not a forum. Add it to the run as a link, and next time it is already here.",
+      "byValue" : {
+        "days" : -60,
+        "value" : "Expires"
+      },
+      "title" : "Find the official page"
     },
     {
+      "about" : "What to bring, how long it takes now, whether it needs an appointment.",
+      "byValue" : {
+        "days" : -60,
+        "value" : "Expires"
+      },
       "title" : "Find out what renewing actually needs"
     },
     {
       "about" : "Two months is the gap that makes this dull rather than expensive.",
+      "byValue" : {
+        "days" : -53,
+        "value" : "Expires"
+      },
       "title" : "Start it"
     }
   ],

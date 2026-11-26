@@ -14,9 +14,10 @@
     ],
     "slug" : "when-something-breaks",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bZJBb9swDIX_CqGzkcOO2WlAUezSbWgL9FDswEh0LEQWPYqKahT976OcFQiGHAzZ8uPjxye9O8-Jq7i9OwqtbnAZZ7Kvl4kyFJ5Jp5iPcBDCU7HfwlVjpsea3f7L4AqdSTB905_ZW5lKJdtUWorbv767QMVLXDSyyd0PbgMcaGQhwLweOKygXP1EBaLu4HmK9lJAJwLOZCsqBPLRbKwAYi5V0BqBTxjnneFo1NRxf02sfBRcJnNyH8P_rV9QSYDHcYCF2-crwqH6E1nr-_jWx_Q2cIHUxV-hLDZ06NvG1DqL56Lluu2T8mIN4UiqXdhYCt1o_8CB0gCFJKKtrYdrZSgSzxR28B3TaEh98mLZWD5FY0pQczBWhGZKzLpC5i21xHyiAHW5hrmPOVw4zTr2xAJM3IBTuIH0hKuJo5967mQxj1jTVpfieZslag8T7LjsqQIzZ50uttoHEFoS-i0f7efZcL3GudsObg9jfBv-aWkAMzN_-nS_AfbMwYw2qD-VKm0ACCpouoWkcO6UM6HdBgshZmhEpwtYURQtl4BXriCGdw31gCfa7pdHi9eMN6zLjRPL2n38tvu7zgdOpm5C2QIy450RUgv9uEzzFw"
+    "web" : "https://routinerun.com/r?w=1&d=fVPBbtswDP0Vwmcjhx2z04Ch2KXr0BboYdiBtulYiCx6EhXXKPrve1LaLeuKHRLIIvn4-B711PTqNcdm3xyibE3bDJL66BZzGnB5E4RiDrRIJJtcOOCfjbqoR2kp8CwD8WiIOtvRNR8FBxqUZo2ypzU6E5QIvgfxxGGgJNExjolO7LMk0kBXDoG1IKPapZo36Urqh5aSVoSVY-RgWw2Wi569p4lPtcHc1vslW42FPHcgpSNQVU44ju4RvRBLUjpWqr9RQIapy2YadtCgzIXhHyYJ6D7LefIuCh8TwlGzuSC3GQp9aJtU8Nl_spvQo8xiFlyaLKnZf396I-hXXVvqZIQ8ILx1OmxkmnvwqhLeTxjfVaKgKWe5B-kdYFBALqQMGXoQ9-zmwtac-UL326Smh8jLBKTmuX3b-oGtSjK2tOj6eixz90dB6yv3WMbsMXAiX5I_Ulow9FCuwaka1GuydNn2znQpth3ErCSuGpO80_66bED7Yn8LMIiLMrjqTjLs6Av7sRh2toihTzIHb3IYwJX_-B-0quYVOzhQXi7J_GeRkHVeuGb_1NR1RH5T7CuEyvn5X9J3vAHO9VNxRmDEyNlXZO9OdVpnRW6CofjliEUPNqXXJQ0UZfHcVwWtOL7ydkn4c7V2X9azfcnFwwIY8OUV_R0173UAUCX1M0uWSoDJIiMPrzVhx8FyFsa-QCYXaBU5nokl42jpbMGmmSLoXZL6-3EAuNI672SEG83zD-i2zZ0W3dYoAQIBeAeGsg7FUOT8Ag"
   },
   "colour" : "grey",
+  "description" : "One run per thing that broke, named after it. Make it do more: write the model and serial as values on Find what it is and how old, so the warranty and the call have them, and put the number of whoever fixes these on Make the call as a button.",
   "name" : "When something breaks",
   "routineRun" : 2,
   "severalAtOnce" : true,
@@ -31,7 +32,11 @@
     },
     {
       "description" : "Model, serial, when it arrived. Half of these are still under a warranty nobody looked up.",
-      "title" : "Find what it is and how old"
+      "title" : "Find what it is and how old",
+      "values" : {
+        "model" : "",
+        "serial" : ""
+      }
     },
     {
       "description" : "Say which. The default is living with it for four months and then replacing it anyway.",

@@ -1,4 +1,5 @@
 {
+  "about" : "Make it do more: on Windows and the hob, a Home scene such as Leave Home turns off what can be turned off, and a trigger on leaving home brings this up at the door rather than on the train.",
   "colour" : "green",
   "name" : "Out of the door",
   "routineRun" : 1,

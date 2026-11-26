@@ -14,25 +14,45 @@
     ],
     "slug" : "something-that-runs-out",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bVLNihsxDH4V4V5DWHoJ5LYs7bVlt7CHsgfFVhITjzTI8swOS6AP0Sfsk1Qz09K09GRZv9_3SW8hSpGmYR_ePex2u7u7sAmMHbnjSTqyc-YT2BkNtHEFaeYJ6k9memwc9u83odJAiuXePnH0QtNG7jTqa9h_fQuJatTcWxZPD8-ajbwjQUI3kowMWAFhwNIIIpZCCT689lmpbuEeeqy1F7WN55QcyWfM5pAr-suQuTZF90IvHp_gx7fvS39hqit0VIKjA4bGlsscnBYfi22djmUrM-HnM3k7A1qHh-vmX_APLgkcMF7AZM48qnTLrBW8ots6z-Q1hCvJSRr0OV4o7SF68HQjAHJaPkpd5uTVnQyOe8x29gm38D4388xcV81-URnFC9jOFQ50FKWF8IL8d9lHbzvvDcZli8Q0zjvFaM21noCJ0v-4fvnTOtcF4gn7Vc8OL4u0M5ZWyl-8XTzimgeaoSthct2rH4IfGh-zdjeEngzVnGS4vvi9TN1BinuTxO0B04m2sUi8hOtP"
+    "web" : "https://routinerun.com/r?w=1&d=rVRNa9wwEP0rg3roxV1CSxvYWwjpsYE20EPpYdYer0VkjdHHOmbZ_94nOSFpetgcepIZzcd7b558NK06zcFszbvry8vLiwvTmE5iG-yUrHrEb71QyJ4mCdRpm0fxqSHPo3TEfULUpi0xTRzjpAF3TM624lspnwcbuZyTIrhs6KpDGXWchFp2Dk1uHiYbJFJSSkOd9T7SgV1GjH1XgzHJFKnVUUraopnSrDSqT0OknfQaZEPXA_u91Pza_7F4Qd5BaLZpANQNCBbwYPYD7dJg_R5ZnMrgSJoTEgIO6-V7hgAfGxPlIIHdVboFKbNNIQuCBZLZ_jq-0usMQRv_YghBzijnyfqYAyP6KOK2UlRfWhbgHIR6wKXsk3Ur5RLzmjb0TVeKO3E6VwUBQDOkWbNtooFjRbwUbZJNrorDC82D-JIgKwFzagpZ7hyGme3R9EHHcqIUSnz4ctGYygrlN08lp9d-ugP2PRYSfHEShNBQ-VSWEkpghtsYm8RaKYiXed0RpAPppvACXlzmcfUTID6bhyobQLxvqgO8PODawjlIQwt2ARQWGgSeeUH4q330mva9bS27iuH_cP5Z1gSIuwAmDQ3YhFNwKsD5HhvxOjdFbswv7wmgpSvuJ54mtT4Vqf4BC5Oipjj3SSNuU4bnlrX-HPbPn96C_e75odlYBdrztBpvrNjrYrrsHAWu-HHni2fER3uoGhfFgSFiKn44vrdhfGm1xAGrSeb0G89qGXfqEMW_ZrPjbi-b1ml7b05_AA"
   },
   "colour" : "#C77700",
+  "description" : "One run per document, named after it: a passport, a licence, a visa, a policy. Add a date called Expires to the run's values and the steps come to you two months before. Change the date and they move with it.",
   "name" : "Something that runs out",
   "routineRun" : 2,
   "severalAtOnce" : true,
   "steps" : [
     {
-      "description" : "Write the date down as a value called Expires. A passport, a licence, a visa, an insurance policy — the ones that are fine until they are not.",
-      "title" : "When it expires"
+      "description" : "Add a date called Expires to this run's values. A passport, a licence, a visa, an insurance policy: the ones that are fine until they are not. Nothing below comes round until it has a day.",
+      "title" : "Say when it expires"
     },
     {
-      "description" : "Come back to it from the value rather than from a date you picked: change the date and the reminder moves with it.",
-      "title" : "Put this down until two months before that"
+      "deadline" : {
+        "from" : {
+          "days" : -60,
+          "value" : "Expires"
+        }
+      },
+      "description" : "The government's or the insurer's own page for renewing this one, not a forum. Add it to the run as a link, and next time it is already here.",
+      "title" : "Find the official page"
     },
     {
+      "deadline" : {
+        "from" : {
+          "days" : -60,
+          "value" : "Expires"
+        }
+      },
+      "description" : "What to bring, how long it takes now, whether it needs an appointment.",
       "title" : "Find out what renewing actually needs"
     },
     {
+      "deadline" : {
+        "from" : {
+          "days" : -53,
+          "value" : "Expires"
+        }
+      },
       "description" : "Two months is the gap that makes this dull rather than expensive.",
       "readiness" : "confirm",
       "title" : "Start it"

@@ -14,10 +14,10 @@
     ],
     "slug" : "a-meeting-you-called",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bVJNb9swDP0rhM5BMHS37BTstMsGtAN2GHZQpJdYqCx6olzDKPLfRypNu6252SIf3wf57AJnnqvbOa6-nOA2LkJCTVNLXPT5SxNqaUQVqvBhoJVnWlIbyFPwNX4iQSMuoMa0-Ef0hnSkNoCmwQpLypkOoKMPoMhL2SpL8SN0_J5GoKVy6rDgc0bUauVZH3E_q4S7jRM8ofq8b99KUFSrM_SxYRK3-_n8n-K9qLTfM8T-r1JXCHHVj8KUCqW2pTdq61HC7iIZ-lpog2-EEsUwvrB6qteimWipZXPxo6aG7jgiJDFes1OgZs6bdwJLvEwufOC4Gq5CyfPaEWJJDvC1q_w-sGiQ4CmDThq1sagSyN8CPg8Ij2QprX0VfWLwJloW2KQbOr7ysrFRZs6mpvJ0sVEBGlOZlUT3duSKLd3DR4skvbZX5tHisu8bmTxobrSYTW24ODNjekSXTF4I3O7jhzeQLvy21gc9F4p-tbW9ZvyS31I1jn5YeoC2vpgkzGIt7wT9syPfFTIpUrpUd_6ld7WOB84KmPTodcSdO_8B"
+    "web" : "https://routinerun.com/r?w=1&d=fVM9b9swEP0rBy1dBKNIN3cyOnVoAyQBMhQdaOpsEaZ4KnmKIAT-731HxUnbGN1E3sf74NNz4yXKlJttI9mlIzdt03HxOYwaJOH6qxbSMHAulNn5nhaZaA7akyPvcveZCitJYlKh2Z24NoQDac809laYQ4y0Zzo4z9TJnDb0zRqD4kSDZN5iAd1z6upUxz4UoJPDxdwLYaTgw2kL0P2kihrQAJRJ2Q0fCvnepcSxJcnomXnfi5ywzSmNUqABYNideQOFyQ0MaTsamDWkY6XsXYzcoZplwiXfTZB_0zaFnzi7uNPb5DGleWJcKo-l2f54_setXQH6r4mLnS82LVxWWkkoJDDZ0Bu09QCwOhhs-lKo3GFJsRmXxNhfiiZCg0ZT8ZiD8t--mZzEEHNu3xGsHmNzkr10y-oJwONSJ4r52rPLleVDLwWPyDJGpiNXBzGoXP4k8KVnfyJzaakxqBu9M9JlZtt0hcd3mVtbZeJsa0hPq4zMTENIE0CQmQPCsaE7dp1ZEl7bs8hgdtn3FU9qlCww1rAqM2EI8OrJC0Cz_fTxbQgPfp3rPeJCnVvs2V49fvFvzrCjhhrht-frQvFTsZZ3hP6f7eb8E7lahr1EDIz44bDipjn_Bg"
   },
   "colour" : "orange",
-  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down.",
+  "description" : "Its timers reach you with a card; set one to wake you if the phone will be face down. Make it do more: on Send the decision and who owns what, a button to your team's channel, or a webhook that posts it there.",
   "name" : "A meeting you called",
   "routineRun" : 2,
   "severalAtOnce" : true,

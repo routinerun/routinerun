@@ -1,6 +1,6 @@
 {
   "colour" : "#2E7D4F",
-  "description" : "It comes round on its own once a month, which it can only do while notifications are allowed.",
+  "description" : "It comes round on its own once a month, which it can only do while notifications are allowed. Make it do more: a button on the first step that opens your bank, and each bill's due date as a value on What is due.",
   "name" : "The bills this month",
   "routineRun" : 2,
   "steps" : [

@@ -14,31 +14,59 @@
     ],
     "slug" : "before-a-trial-charges-you",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=bVOxjtswDP0VQksXI0PHW4o2t3TpFUXQDr0Ois0kwsmiIVHnBocD-hH9wn5JHxX3ziiyGDIlku89Pj65XqLU7G7cVPMU2XUu-ZHx_4EPkpk8aQ4-Un_y-ciFzlLxJkvVkPhLTe7mbecKP3L28b3epR65misjqDwVd_P9yQ1c-hwmDYLnbndimmItJIn0FArlmjqcONFXHytv6HNV-6fBK7fDITNyfFYqKlOhP79-t7gkppDasZd0CHn01oR49CF2lERfngE3lXBMPFCdENmAhQaNRvVbDmg0yJxoNhhBidNQOvIF_B8NFPU-RuTumhh26567a8xA5k0hjjFMJZSF11ZGpr3vH0gF1Te0PYkUpkVjyeQPyrmjkX2p2QjLuOoFJGmgwqAzC2Q5F9q31A19VFAfMZhWXgw8lJ3TJSUcmgCXEUJq_qmoBx4WHZGXlA4So8zlVfHsccz494kS8xDS0XDvccPAsFbuMikUbuLVpCH-D9Hq6BWxPmE4ULu1suGAOsCobGj3r4ABTlKPJ2tfoRcGI3CY0TS7moTG8hDwgSPXyG7D0Mr6XitGd17y311BcpfaCJpTDI4ZZ97QvbvlPgxMEaLke2dw7I1PZb7Io-utsOaZPdTiAtu7xZArSFsP7BiDdtZuXpsOpcANDWbJ2ujanl132Nrprx7fV1W4mnY2jQWpbeCC02t_4ku0bzDiZVParQ0ZnvBwGIoP2LQjr7XcnhjeAsAXMZcaPLjnH9j087iXaJwz3KK9z4j_BQ"
+    "web" : "https://routinerun.com/r?w=1&d=rZRLbxMxFIX_ypU3bIaJ6DIsUKFrKkEkFpSFM3OTsfDYIz86iqr-d861J9M0SMCCTR5-XJ_z3WM_qc5bn4PaqimHybJqVM-xC2ZKxjsM3zumkB1NHCgFo21DTo_ckz4kDJnU0m2Pf9TrxNRpazG3k4XEro-UPKWhlHgT6VHbzJG068ug1THhR2CmmHiK1PmRZcfJZ_JO1piAwqe4pTT78ov2fPCBcTB1gw5Hjs1aD_NVViNFuoG7ny19GrQ78jIPicviE43-kWk2aRAT8C22YPhjra-r2_MhIglrgs_JOP6SgeamUZEfOWh7m-5dh70pZMagWFHb709XJP-OycRXnLYvok2BAT7uYMKopSLxqI10w6cy59Eo4RbN0aF2njDS0mePsu4IatbPhS_O8BkMskvGCsZBx6LrJBCSSVYofAXKeWAnC0Sgem6u_exwqB5RKxWmA-p7wHcNHYIfi6YIpFVnS_du7ZHI7LkzPTdSH7YHDrx0XBBcKvkWDAD0fnYQpJNsmI09NwYLKyy1fVJTMNIGpZ6rWt1bNEtmRJF8S4LU9u3NsktcrD2QXVcWQU8oQFUookfWcJt8S7tzHCGenc_HQVqYYwmmRxrEjVwpH2vkDgYfSM-ltTvTl7K6SxmJOC37PxTY-5ySdzVIfmKRM6Q0xe1mo6cptviw3KKjG9110oVNzPtVfLzs5eV4pQzV04DEqOcfzf8AJa-EDzWHQktiObf0oO5Km3HTcSsflNCSNdrFWd4T6efFBQNWTFbjJJ7r6le-LsTTJA04lHNDacGtMHmP8qcl9abcM7aR5xIxbO00ulOGvaQbQJCsBSEqHlk6FIAERCIYqOXSXQD9VEpgcyOm598DimNmH9KwvGXqz3F894-Qd1cvwMvdr8gEn4lnxvIMLYR1wltYRxf39QUps465l-ecIqN4vyJYzcozKqbWlK4ES3riadx7K5wC9yZ1OmD8Fw"
   },
   "colour" : "purple",
+  "description" : "One run per trial, named after it. Add a date called Trial ends to the run's values and the last three steps come to you on their days: two days before it charges, and the day after, to check. Change the date and they move with it.",
   "name" : "Before a trial charges you",
   "routineRun" : 2,
   "severalAtOnce" : true,
   "steps" : [
     {
-      "description" : "The plus on this run, then Value. Put the date the free part stops — the one in the confirmation email, not the one you signed up on.",
-      "title" : "Write down when it ends, as a value called Trial ends"
+      "description" : "Add a date called Trial ends to this run's values: the date in the confirmation email, not the one you signed up on. Nothing below comes round until it has a day.",
+      "title" : "Say when it ends"
     },
     {
-      "description" : "The run's ellipsis, then Come back to it. Choose Before or after, measure from Trial ends, and set two days before. It comes back on its own, and if the trial is extended the moment follows the date rather than needing to be reset.",
-      "title" : "Put this down until two days before that"
+      "description" : "The amount and how often, from the same email. On the day you decide, it is here on the run.",
+      "title" : "Write down what it will charge",
+      "values" : {
+        "price" : ""
+      }
     },
     {
+      "deadline" : {
+        "from" : {
+          "days" : -2,
+          "value" : "Trial ends"
+        }
+      },
       "description" : "Not whether you meant to. Two days is enough to use it once on purpose and find out.",
       "title" : "Did you actually use it?"
     },
     {
-      "description" : "One or the other, now. \"Decide later\" is the answer that charges you.",
+      "buttons" : [
+        {
+          "open" : "https://apps.apple.com/account/subscriptions",
+          "title" : "Subscriptions on this phone"
+        }
+      ],
+      "deadline" : {
+        "from" : {
+          "days" : -2,
+          "value" : "Trial ends"
+        }
+      },
+      "description" : "One or the other, now. \"Decide later\" is the answer that charges you. The button opens the subscriptions this phone pays for through Apple; anything billed elsewhere is cancelled on its own account page.",
       "readiness" : "confirm",
       "title" : "Cancel it, or write down what it is worth to you"
     },
     {
+      "deadline" : {
+        "from" : {
+          "days" : 1,
+          "value" : "Trial ends"
+        }
+      },
       "description" : "The confirmation, not the button. This is the step that catches the cancellation that needed a second page.",
       "title" : "Check it actually cancelled"
     }

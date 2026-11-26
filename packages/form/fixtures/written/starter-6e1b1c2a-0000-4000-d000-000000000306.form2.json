@@ -1,5 +1,6 @@
 {
   "colour" : "grey",
+  "description" : "One run per thing that broke, named after it. Make it do more: write the model and serial as values on Find what it is and how old, so the warranty and the call have them, and put the number of whoever fixes these on Make the call as a button.",
   "name" : "When something breaks",
   "routineRun" : 2,
   "severalAtOnce" : true,
@@ -14,7 +15,11 @@
     },
     {
       "description" : "Model, serial, when it arrived. Half of these are still under a warranty nobody looked up.",
-      "title" : "Find what it is and how old"
+      "title" : "Find what it is and how old",
+      "values" : {
+        "model" : "",
+        "serial" : ""
+      }
     },
     {
       "description" : "Say which. The default is living with it for four months and then replacing it anyway.",

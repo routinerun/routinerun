@@ -14,9 +14,10 @@
     ],
     "slug" : "out-of-the-door",
     "startsByItself" : false,
-    "web" : "https://routinerun.com/r?w=1&d=fY-xboYwDIRfxfKMGDqyde5QqarUoeoQ_hiI_mAjx1GEEO9ew9CxWy53Pn8-8CFZquKAsxIxdshhJZfv1UAmsIUgiqgbKtUS00dlHF46LEZbweH7QKUQ3SiuvI6npKvHLVm-it5oLx20kDNZB9siTHh2x5__yrstiWfYpcKmsqZCEUxgVP-9o5HKQ9NmSXw1fjqSNbnzLeUM1_gTwigXMt_IpiExiD-1eV9_4f9L-ZU4SisQON4Fi4x4_viV-zpK9sCU5qrU-x3PPtIW1Fzi-Qs"
+    "web" : "https://routinerun.com/r?w=1&d=fZFPS8QwEMW_ypBz2YPHvXkTVAQRPIiHtJltw6YzZZJYyrLf3ZddWBTES5jMnzfvl5zcoEmrub0bjVlc5wLnweJSogqyz_7IFAsFpVmN96RC71GCrpm8BCoT06R9R54edGbKAwvOOkzkMz2x_-JroVSTTHo40Dr5QoMX6q9ZDi3dXeQ8FYvjyNb2JExHGaGP-d4QZuyLmepCkGirg6qReYSGOzQx1vLFfJQdaMTPDIyXWrDkNoKCaS1R-LWC8q5zufCS3f7j5Ix9QCHjhseRQ7QZ7SWW1IQeecsdrT4lLh0tkwq7c3e61e9lg0WY3rTSYjrHDL6iV_-X1t8P_NbcrnrpX2NKjVCO5Httln_QkDbKFXqN63-Xf_yQO3-Ccpt7TWg4xLEa78Bx3AVevOEjAPIN"
   },
   "colour" : "green",
+  "description" : "Make it do more: on Windows and the hob, a Home scene such as Leave Home turns off what can be turned off, and a trigger on leaving home brings this up at the door rather than on the train.",
   "name" : "Out of the door",
   "routineRun" : 2,
   "steps" : [

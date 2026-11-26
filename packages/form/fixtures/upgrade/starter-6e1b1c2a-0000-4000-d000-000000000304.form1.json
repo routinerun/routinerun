@@ -1,27 +1,49 @@
 {
+  "about" : "One run per trial, named after it. Add a date called Trial ends to the run's values and the last three steps come to you on their days: two days before it charges, and the day after, to check. Change the date and they move with it.",
   "colour" : "purple",
   "name" : "Before a trial charges you",
   "routineRun" : 1,
   "severalAtOnce" : true,
   "steps" : [
     {
-      "about" : "The plus on this run, then Value. Put the date the free part stops — the one in the confirmation email, not the one you signed up on.",
-      "title" : "Write down when it ends, as a value called Trial ends"
+      "about" : "Add a date called Trial ends to this run's values: the date in the confirmation email, not the one you signed up on. Nothing below comes round until it has a day.",
+      "title" : "Say when it ends"
     },
     {
-      "about" : "The run's ellipsis, then Come back to it. Choose Before or after, measure from Trial ends, and set two days before. It comes back on its own, and if the trial is extended the moment follows the date rather than needing to be reset.",
-      "title" : "Put this down until two days before that"
+      "about" : "The amount and how often, from the same email. On the day you decide, it is here on the run.",
+      "title" : "Write down what it will charge",
+      "values" : {
+        "price" : ""
+      }
     },
     {
       "about" : "Not whether you meant to. Two days is enough to use it once on purpose and find out.",
+      "byValue" : {
+        "days" : -2,
+        "value" : "Trial ends"
+      },
       "title" : "Did you actually use it?"
     },
     {
-      "about" : "One or the other, now. \"Decide later\" is the answer that charges you.",
+      "about" : "One or the other, now. \"Decide later\" is the answer that charges you. The button opens the subscriptions this phone pays for through Apple; anything billed elsewhere is cancelled on its own account page.",
+      "buttons" : [
+        {
+          "open" : "https://apps.apple.com/account/subscriptions",
+          "title" : "Subscriptions on this phone"
+        }
+      ],
+      "byValue" : {
+        "days" : -2,
+        "value" : "Trial ends"
+      },
       "title" : "Cancel it, or write down what it is worth to you"
     },
     {
       "about" : "The confirmation, not the button. This is the step that catches the cancellation that needed a second page.",
+      "byValue" : {
+        "days" : 1,
+        "value" : "Trial ends"
+      },
       "title" : "Check it actually cancelled"
     }
   ],
